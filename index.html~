@@ -46,7 +46,7 @@ p {
 <li><a href="http://www.graveslab.org">the GravesLab website</a>, my current employer;</li>
 <li>or <a href="http://www.curtislab.org">the CurtisLab website</a>, my previous employer</li>
 </p>
-<iframe width="853" height="480" src="//www.youtube.com/embed/o_1lPekb2lY" frameborder="0" allowfullscreen></iframe>
+<iframe width="650" src="//www.youtube.com/embed/o_1lPekb2lY" frameborder="0" allowfullscreen></iframe>
 
 <div class="footer"><p>Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a><br />
 		&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2014 - 
