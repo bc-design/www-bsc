@@ -31,7 +31,7 @@ h1 {
 </head>
 
 <body>
-<h1>BC's Website</h1>
+<h1>BrandonCurtis.com</h1>
 <p>Welcome to my hub page!</p>
 <p>I have a bunch of web properties, all under intermittent construction:
 <ul>
@@ -44,7 +44,7 @@ h1 {
 </p>
 <iframe width="853" height="480" src="//www.youtube.com/embed/o_1lPekb2lY" frameborder="0" allowfullscreen></iframe>
 
-<div class="footer"><p>Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a> -
+<div class="footer"><p>Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a><br />
 		&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2014 - 
 		this work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
 		Creative Commons Attribution-ShareAlike 3.0 License</a></p></div>
