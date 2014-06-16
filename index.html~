@@ -3,12 +3,19 @@
 
 <head>
 <style type="text/css">
+body {
+    width: 810px;
+    font-family: Verdana, sans-serif;
+    font-size: 100%
+}
+
 h1 {
     background-color: AliceBlue;
     border: solid 2px #DDDDFF;
     padding: 2px 10px 2px 10px;
     border-radius: 0px 15px 15px 0px / 0px 15px 15px 0px;
     font-size: 2.0em;
+}
 
 .footer {
     background-color: #FFFFCC;
@@ -19,7 +26,6 @@ h1 {
     margin: 10px auto 0px auto;
     padding: 0px 0px 0px 0px;
     border-radius: 55px 55px 15px 15px;
-}
 }
 </style>
 </head>
