@@ -53,6 +53,7 @@ p {
 <li>or <a href="http://www.curtislab.org">the CurtisLab website</a>, my previous employer</li>
 </p>
 <iframe width="650" height="360" src="//www.youtube.com/embed/o_1lPekb2lY" frameborder="0" allowfullscreen></iframe>
+<div></div>
 
 <div class="footer"><p>Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a><br />
 		&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2014 - 
