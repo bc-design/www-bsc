@@ -2,7 +2,10 @@
 <html>
 
 <head>
+<title>BC Cluster</title>
+<link href='favicon.ico' rel='icon' type='image/x-icon'/>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="javascript/ganalytics.js"></script>
 
 <style type="text/css">
 body {
@@ -86,10 +89,10 @@ a.linkBox:hover,a.linkBox:active {
 
 <iframe width="650" height="360" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
 
-<div class="footer"><p>Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a><br />
-		&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2014 - 
+<div class="footer"><p>&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2014 - 
 		this work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
-		Creative Commons Attribution-ShareAlike 3.0 License</a></p></div>
+		Creative Commons Attribution-ShareAlike 3.0 License</a><br />
+		Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a></p></div>
 </body>
 
 </html>
