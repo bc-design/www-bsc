@@ -97,9 +97,6 @@ a.linkBox:hover,a.linkBox:active {
 		<input type="password" name="page">
 		<input type="submit" value="Go">
 		<noscript>
-			<div style="display:inline;color:#ff0000;
-			background-color:#ffff66; font:normal 11px tahoma,sans-serif;">
-			<br>Sorry bro. No can do.</div>
 			</noscript>
 		</div>
 	</form>
