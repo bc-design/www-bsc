@@ -37,7 +37,7 @@ def main(dir,text):
 	statusclear(file_status)
 	journal_info = open(file_info,'w')	
 
-	if text=None:
+	if text==None:
 		journal_list = open(file_list,'r')
 	else:
 		journal_list = split(text,(','))
@@ -64,7 +64,7 @@ def main(dir,text):
 				journal_info.write('failed - multiple results - ' + journal_name.rstrip() + '\n')
 				statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n')
 
-	if text=None:
+	if text==None:
 		journal_list.close()
 	journal_info.close()
 	print 'Lookup Complete!'
