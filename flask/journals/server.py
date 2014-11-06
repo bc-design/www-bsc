@@ -10,7 +10,6 @@ dir = '/var/www2/www-bsc/flask/journals/'
 @app.route('/')
 def hello_world():
 	return render_template('template.html')
-	#return 'Hello Worlds!'
 
 @app.route('/my-link/')
 def my_link():
@@ -20,7 +19,6 @@ def my_link():
 @app.route('/journals/')
 def my_app():
 	print 'app started!'
-	#return 'Hello Worlds.'
 	try:
 		journal_lookup.main(dir)
 	except:
@@ -41,6 +39,7 @@ def my_form_post():
 	print 'form submitted!'
     text = request.form['text']
     processed_text = text.upper()
+	# return the text, but upper case!
     return processed_text
 
 if __name__ == '__main__':

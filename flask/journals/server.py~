@@ -1,4 +1,4 @@
-from flask import Flask, render_template, make_response
+from flask import Flask, render_template, make_response, request
 app = Flask(__name__)
 
 import sys
@@ -38,6 +38,7 @@ def my_app():
 
 @app.route('/', methods=['POST'])
 def my_form_post():
+	print 'form submitted!'
     text = request.form['text']
     processed_text = text.upper()
     return processed_text
