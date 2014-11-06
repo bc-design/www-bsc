@@ -17,7 +17,7 @@ except ImportError:
 def statusclear(file):
 	open(file,'w').close()
 
-def statuswrite(file,text=None):
+def statuswrite(file,text):
 	statusdoc = open(file,'a')
 	statusdoc.write(text)
 	statusdoc.close()
@@ -29,7 +29,7 @@ def split(txt, seps):
         txt = txt.replace(sep, default_sep)
     return [i.strip() for i in txt.split(default_sep)]
 
-def main(dir,text):
+def main(dir,text=None):
 	file_status = dir+'temp/status_info.txt'
 	file_info   = dir+'temp/journal_info.csv'
 	file_list   = dir+'temp/journal_list.txt'
