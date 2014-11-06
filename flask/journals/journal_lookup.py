@@ -8,21 +8,23 @@ import os
 # https://docs.python.org/2/library/xml.etree.elementtree.html
 # http://eli.thegreenplace.net/2012/03/15/processing-xml-in-python-with-elementtree/
 # http://www.w3schools.com/xml/default.asp
-
 try:
 	import xml.etree.cElementTree as ET
 except ImportError:
 	import xml.etree.ElementTree as ET
 
 def statusclear(file):
+	"""takes a filename; clears this file, returning nothing"""
 	open(file,'w').close()
 
 def statuswrite(file,text):
+	"""takes a file and text; writes the text, closes the file; returns nothing"""
 	statusdoc = open(file,'a')
 	statusdoc.write(text)
 	statusdoc.close()
 
 def split(txt, seps):
+	"""takes string, list of separators; returns list"""
     default_sep = seps[0]
     # we skip seps[0] because that's the default seperator
     for sep in seps[1:]:

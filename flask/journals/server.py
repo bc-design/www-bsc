@@ -9,15 +9,18 @@ dir = '/var/www2/www-bsc/flask/journals/'
 
 @app.route('/')
 def hello_world():
+	# renders the homepage
 	return render_template('template.html')
 
 @app.route('/my-link/')
 def my_link():
+	# a test link to verify that Python, Apache, and WSGI are working
 	print 'I got clicked!'
 	return 'Click.'
 
 @app.route('/journals/')
 def my_app():
+	# starts the journal lookup app with a predefined input
 	print 'app started!'
 	try:
 		journal_lookup.main(dir)
@@ -36,6 +39,7 @@ def my_app():
 
 @app.route('/', methods=['POST'])
 def my_form_post():
+	# starts the journal lookup app with user-defined input
 	print 'app started with form!'
 	text = request.form['text']
 	try:
