@@ -34,13 +34,13 @@ def my_app():
 	response.headers["Content-Disposition"] = "attachment; filename=journal_info.csv"
 	return response
 
-#@app.route('/', methods=['POST'])
-#def my_form_post():
-#	print 'form submitted!'
-#    text = request.form['text']
-#    processed_text = text.upper()
-#	# return the text, but upper case!
-#    return processed_text
+@app.route('/', methods=['POST'])
+def my_form_post():
+	print 'form submitted!'
+	text = request.form['text']
+	processed_text = text.upper()
+	# return the text, but upper case!
+	return processed_text
 
 if __name__ == '__main__':
 	app.run(debug=True)
