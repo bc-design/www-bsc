@@ -43,6 +43,6 @@ Green Chemistry
 	</form>
 	
 	<!-- <p><a href="/journals/"><button>Use Default Journal List</button></a> - note that this will take a minute! -->
-	<p><a href="/my-link/"><button>Click me</button></a>
+	<p><a href="/my-link/"><button>Server Functionality Test</button></a>
 </body>
 
