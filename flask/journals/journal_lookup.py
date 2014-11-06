@@ -8,6 +8,7 @@ import os
 # https://docs.python.org/2/library/xml.etree.elementtree.html
 # http://eli.thegreenplace.net/2012/03/15/processing-xml-in-python-with-elementtree/
 # http://www.w3schools.com/xml/default.asp
+
 try:
 	import xml.etree.cElementTree as ET
 except ImportError:
@@ -28,7 +29,7 @@ def split(txt, seps):
     default_sep = seps[0]
     # we skip seps[0] because that's the default seperator
     for sep in seps[1:]:
-        txt = txt.replace(sep, default_sep)
+		txt = txt.replace(sep, default_sep)
     return [i.strip() for i in txt.split(default_sep)]
 
 def main(dir,text=None):
