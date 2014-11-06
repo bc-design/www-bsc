@@ -30,11 +30,5 @@
 <body>
 	<p><a href="/my-link/"><button>Click me</button></a>
 	<p><a href="/journals/"><button>Journal List</button></a> - note that this will take a minute!
-
-	<form action="." method="POST">
-		<input type="text" name="text">
-		<input type="submit" name="my-form" value="Send">
-	</form
-	
 </body>
 
