@@ -29,14 +29,20 @@
 
 <body>
 	<h1>Journal Access Lookup</h1>
-	<p>Please enter a list of journal titles, separated by commas or one per line;
-		this app will return a CSV containing the journal titles and their OA status.</p>
+	<p>Please enter a list of journal titles, separated by commas or one per line; 
+		this app will return a CSV containing the journal titles and their OA status. 
+		Note that this will take a moment to process!</p>
 	<form action="." method="POST">
-		<textarea name="text" cols="40" rows="5"></textarea>
+		<textarea name="text" cols="40" rows="5">
+ChemBioChem
+Eukaryotic Cell
+Extremophiles
+Green Chemistry
+			</textarea>
 		<input type="submit" name="my-form" value="Send">
 	</form>
 	
-	<p><a href="/journals/"><button>Use Default Journal List</button></a> - note that this will take a minute!
-	<p><a href="/my-link/"><button>Click me</button></a>
+	<!-- <p><a href="/journals/"><button>Use Default Journal List</button></a> - note that this will take a minute! -->
+	<p><a href="/my-link/"><button>Server Functionality Test</button></a>
 </body>
 

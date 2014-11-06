@@ -16,7 +16,7 @@ def hello_world():
 def my_link():
 	# a test link to verify that Python, Apache, and WSGI are working
 	print 'I got clicked!'
-	return 'Click.'
+	return 'The server is working!'
 
 @app.route('/journals/')
 def my_app():
