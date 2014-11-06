@@ -26,11 +26,11 @@ def statuswrite(file,text):
 
 def split(txt, seps):
 	"""takes string, list of separators; returns list"""
-    default_sep = seps[0]
-    # we skip seps[0] because that's the default seperator
-    for sep in seps[1:]:
+	default_sep = seps[0]
+	# we skip seps[0] because that's the default seperator
+	for sep in seps[1:]:
 		txt = txt.replace(sep, default_sep)
-    return [i.strip() for i in txt.split(default_sep)]
+	return [i.strip() for i in txt.split(default_sep)]
 
 def main(dir,text=None):
 	file_status = dir+'temp/status_info.txt'
