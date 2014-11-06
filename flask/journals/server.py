@@ -16,7 +16,7 @@ def my_link():
 @app.route('/journals/')
 def my_app():
 	print 'app started!'
-	journal_lookup.main()
+	#journal_lookup.main() 
 	# We need to modify the response, so the first thing we 
 	# need to do is create a response out of the CSV string
 	csv = open('temp/journal_info.csv','r').read()
