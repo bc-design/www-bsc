@@ -1,5 +1,5 @@
 import sys
 
-sys.path.append('/var/www2/www-bsc/flask/journals/server')
+sys.path.append('/var/www2/www-bsc/flask/')
 
-from server import app as application
+from journals import app as application
