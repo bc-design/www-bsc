@@ -40,7 +40,7 @@ def main(dir,text=None):
 	if text==None:
 		journal_list = open(file_list,'r')
 	else:
-		journal_list = split(text,(','))
+		journal_list = split(text,(',','\n'))
 
 	for journal_name in journal_list:
 		url = 'http://www.sherpa.ac.uk/romeo/api29.php?ak=Ivc5b3cuZLk&jtitle=' + journal_name
