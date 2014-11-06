@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-	<title>Test</title> 
+	<title>Python via Flask</title> 
 	<meta charset=utf-8> 
 
 	<script>
@@ -29,8 +29,11 @@
 
 <body>
 	<p><a href="/my-link/"><button>Click me</button></a>
-	<p><a href="/journals/"><button>Journal List</button></a> - note that this will take a minute!
+	<p><a href="/journals/"><button>Use Default Journal List</button></a> - note that this will take a minute!
 
+	<h2>Journal Access Lookup</h2>
+	<p>Please enter a list of journal titles, separated by commas or one per line;
+		this app will return a CSV containing the journal titles and their OA status.</p>
 	<form action="." method="POST">
 		<textarea name="text" cols="40" rows="5"></textarea>
 		<input type="submit" name="my-form" value="Send">
