@@ -36,11 +36,22 @@ def my_app():
 
 @app.route('/', methods=['POST'])
 def my_form_post():
-	print 'form submitted!'
+	print 'app started with form!'
 	text = request.form['text']
-	processed_text = text.upper()
-	# return the text, but upper case!
-	return processed_text
+	try:
+		journal_lookup.main(dir,text)
+	except:
+		print "Unexpected error:", sys.exc_info()[0]
+		print traceback.format_exc()
+	# We need to modify the response, so the first thing we 
+	# need to do is create a response out of the CSV string
+	csv = open(dir+'temp/journal_info.csv','r').read()
+	response = make_response(csv)
+
+	# This is the key: Set the right header for the response
+	# to be downloaded, instead of just printed on the browser
+	response.headers["Content-Disposition"] = "attachment; filename=journal_info.csv"
+	return response
 
 if __name__ == '__main__':
 	app.run(debug=True)

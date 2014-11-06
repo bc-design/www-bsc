@@ -17,12 +17,19 @@ except ImportError:
 def statusclear(file):
 	open(file,'w').close()
 
-def statuswrite(file,text):
+def statuswrite(file,text=None):
 	statusdoc = open(file,'a')
 	statusdoc.write(text)
 	statusdoc.close()
 
-def main(dir):
+def split(txt, seps):
+    default_sep = seps[0]
+    # we skip seps[0] because that's the default seperator
+    for sep in seps[1:]:
+        txt = txt.replace(sep, default_sep)
+    return [i.strip() for i in txt.split(default_sep)]
+
+def main(dir,text):
 	file_status = dir+'temp/status_info.txt'
 	file_info   = dir+'temp/journal_info.csv'
 	file_list   = dir+'temp/journal_list.txt'
@@ -30,9 +37,10 @@ def main(dir):
 	statusclear(file_status)
 	journal_info = open(file_info,'w')	
 
-	#journal_list = [raw_input('What journal would you like to look up?: ')]
-	journal_list = open(file_list,'r')
-	
+	if text=None:
+		journal_list = open(file_list,'r')
+	else:
+		journal_list = split(text,(','))
 
 	for journal_name in journal_list:
 		url = 'http://www.sherpa.ac.uk/romeo/api29.php?ak=Ivc5b3cuZLk&jtitle=' + journal_name
@@ -56,7 +64,8 @@ def main(dir):
 				journal_info.write('failed - multiple results - ' + journal_name.rstrip() + '\n')
 				statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n')
 
-	journal_list.close()
+	if text=None:
+		journal_list.close()
 	journal_info.close()
 	print 'Lookup Complete!'
 
