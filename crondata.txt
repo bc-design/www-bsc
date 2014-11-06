@@ -1,1 +1,5 @@
-Here is the good stuff
+last updated: Thu Nov  6 10:45:01 PST 2014 <br />
+Disk quotas for user cs9h-cw (uid 34112): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+inst-fs:/vol/inst/cc/
+                 141772  2048000 2048000            4010  4294967295 4294967295        

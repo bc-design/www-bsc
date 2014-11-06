@@ -1,7 +1,11 @@
 from flask import Flask, render_template, make_response
 app = Flask(__name__)
 
+import sys
+import traceback
 import journal_lookup
+
+dir = '/var/www2/www-bsc/flask/journals/'
 
 @app.route('/')
 def hello_world():
@@ -16,10 +20,15 @@ def my_link():
 @app.route('/journals/')
 def my_app():
 	print 'app started!'
-	#journal_lookup.main() 
+	#return 'Hello Worlds.'
+	try:
+		journal_lookup.main(dir)
+	except:
+		print "Unexpected error:", sys.exc_info()[0]
+		print traceback.format_exc()
 	# We need to modify the response, so the first thing we 
 	# need to do is create a response out of the CSV string
-	csv = open('temp/journal_info.csv','r').read()
+	csv = open(dir+'temp/journal_info.csv','r').read()
 	response = make_response(csv)
 
 	# This is the key: Set the right header for the response

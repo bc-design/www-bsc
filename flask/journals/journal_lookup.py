@@ -2,6 +2,7 @@
 # https://docs.python.org/2/library/urllib.html
 
 import urllib
+import os
 
 ### Import the XML manipulation package ###
 # https://docs.python.org/2/library/xml.etree.elementtree.html
@@ -13,20 +14,24 @@ try:
 except ImportError:
 	import xml.etree.ElementTree as ET
 
-def statusclear():
-	open('temp/status_info.txt','w').close()
+def statusclear(file):
+	open(file,'w').close()
 
-def statuswrite(text):
-	statusdoc = open('temp/status_info.txt','a')
+def statuswrite(file,text):
+	statusdoc = open(file,'a')
 	statusdoc.write(text)
 	statusdoc.close()
 
-def main():
-	statusclear()
-	journal_info = open('temp/journal_info.csv','w')	
+def main(dir):
+	file_status = dir+'temp/status_info.txt'
+	file_info   = dir+'temp/journal_info.csv'
+	file_list   = dir+'temp/journal_list.txt'
+
+	statusclear(file_status)
+	journal_info = open(file_info,'w')	
 
 	#journal_list = [raw_input('What journal would you like to look up?: ')]
-	journal_list = open('temp/journal_list.txt','r')
+	journal_list = open(file_list,'r')
 	
 
 	for journal_name in journal_list:
@@ -41,15 +46,15 @@ def main():
 				for publisher in tree.iterfind('publishers/publisher'):
 					print 'processing - ' + journal.find('jtitle').text
 					journal_info.write('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text + '\n')
-					statuswrite('processing - ' + journal.find('jtitle').text + '\n')
+					statuswrite(file_status,'processing - ' + journal.find('jtitle').text + '\n')
 		elif tree.find('header/outcome').text == 'failed' or tree.find('header/outcome').text == 'notFound':
 			print 'failed - no results - ' + journal_name.rstrip()
 			journal_info.write('not found - ' + journal_name.rstrip() + '\n')
-			statuswrite('failed - no results - ' + journal_name.rstrip() + '\n')
+			statuswrite(file_status,'failed - no results - ' + journal_name.rstrip() + '\n')
 		else: 
 				print 'failed - multiple results - ' + journal_name.rstrip()
 				journal_info.write('failed - multiple results - ' + journal_name.rstrip() + '\n')
-				statuswrite('failed - multiple results - ' + journal_name.rstrip() + '\n')
+				statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n')
 
 	journal_list.close()
 	journal_info.close()
