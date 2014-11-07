@@ -30,6 +30,7 @@ def my_app():
 	# We need to modify the response, so the first thing we 
 	# need to do is create a response out of the CSV string
 	csv = open(dir+'temp/journal_info.csv','r').read()
+	print csv
 	response = make_response(csv)
 
 	# This is the key: Set the right header for the response
