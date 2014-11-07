@@ -1,4 +1,4 @@
-processing - Applied and Environmental Microbiology
-processing - Analytical Biochemistry
-processing - Archives of Biochemistry and Biophysics
-processing - Biochemical and Biophysical Research Communications
+processing - ChemBioChem
+processing - Eukaryotic Cell
+processing - Extremophiles
+processing - Green Chemistry
