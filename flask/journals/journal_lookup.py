@@ -45,6 +45,8 @@ def main(dir,text=None):
 	else:
 		journal_list = split(text,(',','\n'))
 
+	resultsvar = []
+
 	for journal_name in journal_list:
 		url = 'http://www.sherpa.ac.uk/romeo/api29.php?ak=Ivc5b3cuZLk&jtitle=' + journal_name
 		# example output: http://www.sherpa.ac.uk/romeo/api29.php?jtitle=modern%20language
@@ -58,19 +60,23 @@ def main(dir,text=None):
 					print 'processing - ' + journal.find('jtitle').text #testing
 					journal_info.write('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text + '\n')
 					statuswrite(file_status,'processing - ' + journal.find('jtitle').text + '\n') #testing
+					resultsvar.append('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text + '\n')
 		elif tree.find('header/outcome').text == 'failed' or tree.find('header/outcome').text == 'notFound':
 			print 'failed - no results - ' + journal_name.rstrip() #testing
 			journal_info.write('not found - ' + journal_name.rstrip() + '\n')
 			statuswrite(file_status,'failed - no results - ' + journal_name.rstrip() + '\n') #testing
+			resultsvar.append('not found - ' + journal_name.rstrip() + '\n')
 		else: 
-				print 'failed - multiple results - ' + journal_name.rstrip() #testing
-				journal_info.write('failed - multiple results - ' + journal_name.rstrip() + '\n')
-				statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n') #testing
+			print 'failed - multiple results - ' + journal_name.rstrip() #testing
+			journal_info.write('failed - multiple results - ' + journal_name.rstrip() + '\n')
+			statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n') #testing
+			resultsvar.append('failed - multiple results - ' + journal_name.rstrip() + '\n')
 
 	if text==None:
 		journal_list.close()
 	journal_info.close()
 	print 'Lookup Complete!'
+	return resultsvar
 
 if __name__ == "__main__":
    # stuff only to run when not called via 'import' here
