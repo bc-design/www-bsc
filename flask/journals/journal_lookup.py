@@ -15,16 +15,6 @@ try:
 except ImportError:
 	import xml.etree.ElementTree as ET
 
-def statusclear(file):
-	"""takes a filename; clears this file, returning nothing"""
-	open(file,'w').close()
-
-def statuswrite(file,text):
-	"""takes a file and text; writes the text, closes the file; returns nothing"""
-	statusdoc = open(file,'a')
-	statusdoc.write(text)
-	statusdoc.close()
-
 def split(txt, seps):
 	"""takes string, list of separators; returns list"""
 	default_sep = seps[0]
@@ -34,18 +24,7 @@ def split(txt, seps):
 	return [i.strip() for i in txt.split(default_sep)]
 
 def main(dir,text=None):
-	file_status = dir+'temp/status_info.txt'
-	file_info   = dir+'temp/journal_info.csv'
-	file_list   = dir+'temp/journal_list.txt'
-
-	statusclear(file_status)
-	journal_info = open(file_info,'w')	
-
-	if text==None:
-		journal_list = open(file_list,'r')
-	else:
-		journal_list = split(text,(',','\n'))
-
+	journal_list = split(text,(',','\n'))
 	resultsvar = []
 
 	for journal_name in journal_list:
@@ -59,24 +38,15 @@ def main(dir,text=None):
 			# searching with XPath: http://www.w3schools.com/xml/xml_xpath.asp
 				for publisher in tree.iterfind('publishers/publisher'):
 					print 'processing - ' + journal.find('jtitle').text #testing
-					journal_info.write('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text + '\n')
-					statuswrite(file_status,'processing - ' + journal.find('jtitle').text + '\n') #testing
 					resultsvar.append('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text + '\n')
 		elif tree.find('header/outcome').text == 'failed' or tree.find('header/outcome').text == 'notFound':
 			print 'failed - no results - ' + journal_name.rstrip() #testing
-			journal_info.write('not found - ' + journal_name.rstrip() + '\n')
-			statuswrite(file_status,'failed - no results - ' + journal_name.rstrip() + '\n') #testing
 			resultsvar.append('not found - ' + journal_name.rstrip() + '\n')
 		else: 
 			print 'failed - multiple results - ' + journal_name.rstrip() #testing
-			journal_info.write('failed - multiple results - ' + journal_name.rstrip() + '\n')
-			statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n') #testing
 			resultsvar.append('failed - multiple results - ' + journal_name.rstrip() + '\n')
 
-	if text==None:
-		journal_list.close()
-	journal_info.close()
-	print 'Lookup Complete!'
+	print 'Lookup Complete!' #testing
 	return string.join(resultsvar,"")
 
 if __name__ == "__main__":
