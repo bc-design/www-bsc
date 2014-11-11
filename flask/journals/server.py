@@ -33,7 +33,7 @@ def my_form_post():
 		print traceback.format_exc() #testing
 	# prepare the response for returning
 	response = make_response(results)
-	elif outstyle == 'csv':
+	if outstyle == 'csv':
 		response.headers["Content-Disposition"] = "attachment; filename=journal_info.csv"
 	return response
 
