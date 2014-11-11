@@ -24,7 +24,7 @@ def my_form_post():
 	print 'app started with form!' #testing
 	text = request.form['text']
 	outstyle = request.form['outstyle']
-	print 'Output Style: ', outstyle
+	print 'Output Style: ', outstyle #testing
 	try:
 		journal_lookup.main(dir,text)
 	except:
