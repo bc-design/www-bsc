@@ -18,10 +18,10 @@
           {
           if (xmlhttp.readyState==4 && xmlhttp.status==200)
                 {
-                document.getElementById("results").innerHTML="testing!";    //xmlhttp.responseText;
+                document.getElementById("results").innerHTML=xmlhttp.responseText;
                 }
           }
-        xmlhttp.open("GET","journal_info.txt",true);
+        xmlhttp.open("GET","http://www.brandoncurtis.com/flask/journals/temp/journal_info.txt",true);
         xmlhttp.send();
         }
 
