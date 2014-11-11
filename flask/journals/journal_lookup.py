@@ -55,17 +55,17 @@ def main(dir,text=None):
 			for journal in tree.iterfind('journals/journal'):
 			# searching with XPath: http://www.w3schools.com/xml/xml_xpath.asp
 				for publisher in tree.iterfind('publishers/publisher'):
-					print 'processing - ' + journal.find('jtitle').text
+					print 'processing - ' + journal.find('jtitle').text #testing
 					journal_info.write('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text + '\n')
-					statuswrite(file_status,'processing - ' + journal.find('jtitle').text + '\n')
+					statuswrite(file_status,'processing - ' + journal.find('jtitle').text + '\n') #testing
 		elif tree.find('header/outcome').text == 'failed' or tree.find('header/outcome').text == 'notFound':
-			print 'failed - no results - ' + journal_name.rstrip()
+			print 'failed - no results - ' + journal_name.rstrip() #testing
 			journal_info.write('not found - ' + journal_name.rstrip() + '\n')
-			statuswrite(file_status,'failed - no results - ' + journal_name.rstrip() + '\n')
+			statuswrite(file_status,'failed - no results - ' + journal_name.rstrip() + '\n') #testing
 		else: 
-				print 'failed - multiple results - ' + journal_name.rstrip()
+				print 'failed - multiple results - ' + journal_name.rstrip() #testing
 				journal_info.write('failed - multiple results - ' + journal_name.rstrip() + '\n')
-				statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n')
+				statuswrite(file_status,'failed - multiple results - ' + journal_name.rstrip() + '\n') #testing
 
 	if text==None:
 		journal_list.close()

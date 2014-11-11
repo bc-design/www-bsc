@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+        <title>Journal OA Results</title>
+        <meta charset=utf-8>
+
+        <script>
+        function loadXMLDoc()
+        {
+        if (window.XMLHttpRequest)
+          {// code for IE7+, Firefox, Chrome, Opera, Safari
+          xmlhttp=new XMLHttpRequest();
+          }
+        else
+          {// code for IE6, IE5
+          xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+          }
+        xmlhttp.onreadystatechange=function()
+          {
+          if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                document.getElementById("results").innerHTML=xmlhttp.responseText;
+                }
+          }
+        xmlhttp.open("GET","../temp/journal_info.txt",true);
+        xmlhttp.send();
+        }
+        </script>
+
+
+
+</head>
+
+<body>
+	<div id="results">
+		</div>
+	<script>loadXMLDoc()</script>
+</body>
+</html>
+
