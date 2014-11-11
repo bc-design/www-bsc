@@ -21,14 +21,15 @@ def my_link():
 @app.route('/', methods=['POST'])
 def my_form_post():
 	# starts the journal lookup app with user-defined input
-	print 'app started with form!'
+	print 'app started with form!' #testing
 	text = request.form['text']
 	outstyle = request.form['outstyle']
+	print 'Output Style: ', outstyle
 	try:
 		journal_lookup.main(dir,text)
 	except:
-		print "Unexpected error:", sys.exc_info()[0]
-		print traceback.format_exc()
+		print "Unexpected error:", sys.exc_info()[0] #testing
+		print traceback.format_exc() #testing
 
 	if outstyle == 'csv':
 		# We need to modify the response, so the first thing we 
