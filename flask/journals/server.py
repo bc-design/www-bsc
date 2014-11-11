@@ -26,12 +26,13 @@ def my_form_post():
 	outstyle = request.form['outstyle']
 	print 'Output Style: ', outstyle #testing
 	try:
-		journal_lookup.main(dir,text)
+		resultsvar = journal_lookup.main(dir,text)
+		results = string.join(resultsvar)
 	except:
 		print "Unexpected error:", sys.exc_info()[0] #testing
 		print traceback.format_exc() #testing
 
-	if outstyle == 'csv':
+	if outstyle == 'asd': #testing
 		# We need to modify the response, so the first thing we 
 		# need to do is create a response out of the CSV string
 		csv = open(dir+'temp/journal_info.csv','r').read()
@@ -39,6 +40,10 @@ def my_form_post():
 		print csv # testing		
 		# This is the key: Set the right header for the response
 		# to be downloaded, instead of just printed on the browser
+		response.headers["Content-Disposition"] = "attachment; filename=journal_info.csv"
+		return response
+	elif outstyle == 'csv':
+		response = make_response(results)
 		response.headers["Content-Disposition"] = "attachment; filename=journal_info.csv"
 		return response
 	else:
