@@ -24,6 +24,10 @@
         xmlhttp.open("GET","journal_info.txt",true);
         xmlhttp.send();
         }
+
+	function testLoad() {
+		document.getElementById("results").innerHTML="testing!";
+		}
         </script>
 
 
@@ -34,7 +38,7 @@
 	<h1>Journal Open Access Results</h1>
 	<div id="results">
 		</div>
-	<script>loadXMLDoc()</script>
+	<script>testLoad()</script>
 </body>
 </html>
 
