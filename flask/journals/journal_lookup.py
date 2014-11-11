@@ -1,6 +1,7 @@
 ### Import the URL data fetcher ###
 # https://docs.python.org/2/library/urllib.html
 
+import string
 import urllib
 import os
 
@@ -76,7 +77,7 @@ def main(dir,text=None):
 		journal_list.close()
 	journal_info.close()
 	print 'Lookup Complete!'
-	return resultsvar
+	return string.join(resultsvar,"")
 
 if __name__ == "__main__":
    # stuff only to run when not called via 'import' here

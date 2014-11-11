@@ -27,8 +27,7 @@ def my_form_post():
 	outstyle = request.form['outstyle']
 	print 'Output Style: ', outstyle #testing
 	try:
-		resultsvar = journal_lookup.main(dir,text)
-		results = string.join(resultsvar)
+		results = journal_lookup.main(dir,text)
 	except:
 		print "Unexpected error:", sys.exc_info()[0] #testing
 		print traceback.format_exc() #testing
