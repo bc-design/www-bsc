@@ -37,9 +37,12 @@ def main(dir,text=None):
 			for journal in tree.iterfind('journals/journal'):
 			# searching with XPath: http://www.w3schools.com/xml/xml_xpath.asp
 				for publisher in tree.iterfind('publishers/publisher'):
-					print 'processing - ' + journal.find('jtitle').text #testing
-					resultsvar.append(publisher.find('romeocolour').text + ', ' + journal.find('jtitle').text)
-					# resultsvar.append('[OA ' + publisher.find('romeocolour').text + '], ' + journal.find('jtitle').text)
+					if publisher.find('pdfversion/pdfarchiving').text == 'can':
+						resultsvar.append('gold, ' + journal.find('jtitle').text)
+					else:
+						print 'processing - ' + journal.find('jtitle').text #testing
+						resultsvar.append(publisher.find('romeocolour').text + ', ' + journal.find('jtitle').text)
+						# resultsvar.append('[OA ' + publisher.find('romeocolour').text + '], ' + journal.find('jtitle').text)
 		elif tree.find('header/outcome').text == 'failed' or tree.find('header/outcome').text == 'notFound':
 			print 'failed - no results - ' + journal_name.rstrip() #testing
 			resultsvar.append('not found - ' + journal_name.rstrip())
