@@ -29,7 +29,7 @@ def main(dir,text=None):
 
 	for journal_name in journal_list:
 		url = 'http://www.sherpa.ac.uk/romeo/api29.php?ak=Ivc5b3cuZLk&jtitle=' + journal_name
-		# example output: http://www.sherpa.ac.uk/romeo/api29.php?jtitle=modern%20language
+		# example output: http://www.sherpa.ac.uk/romeo/api29.php?jtitle=PLoS%20One
 		tree = ET.parse(urllib.urlopen(url))
 		root = tree.getroot()
 
