@@ -38,16 +38,16 @@ def main(dir,text=None):
 			# searching with XPath: http://www.w3schools.com/xml/xml_xpath.asp
 				for publisher in tree.iterfind('publishers/publisher'):
 					print 'processing - ' + journal.find('jtitle').text #testing
-					resultsvar.append('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text + '\n')
+					resultsvar.append('[OA ' + publisher.find('romeocolour').text + '] ' + journal.find('jtitle').text)
 		elif tree.find('header/outcome').text == 'failed' or tree.find('header/outcome').text == 'notFound':
 			print 'failed - no results - ' + journal_name.rstrip() #testing
-			resultsvar.append('not found - ' + journal_name.rstrip() + '\n')
+			resultsvar.append('not found - ' + journal_name.rstrip())
 		else: 
 			print 'failed - multiple results - ' + journal_name.rstrip() #testing
-			resultsvar.append('failed - multiple results - ' + journal_name.rstrip() + '\n')
+			resultsvar.append('failed - multiple results - ' + journal_name.rstrip())
 
 	print 'Lookup Complete!' #testing
-	return string.join(resultsvar,"")
+	return resultsvar
 
 if __name__ == "__main__":
    # stuff only to run when not called via 'import' here

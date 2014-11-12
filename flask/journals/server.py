@@ -32,9 +32,11 @@ def my_form_post():
 		print "Unexpected error:", sys.exc_info()[0] #testing
 		print traceback.format_exc() #testing
 	# prepare the response for returning
-	response = make_response(results)
 	if outstyle == 'csv':
+		response = make_response(string.join(results,"\n"))
 		response.headers["Content-Disposition"] = "attachment; filename=journal_info.csv"
+	elif outstyle == 'html':
+		response = make_response(string.join(results,"<br />"))
 	return response
 
 if __name__ == '__main__':
