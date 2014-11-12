@@ -36,7 +36,7 @@ def my_form_post():
 		response = make_response(string.join(results,"\n"))
 		response.headers["Content-Disposition"] = "attachment; filename=journal_info.csv"
 	elif outstyle == 'html':
-		response = make_response(string.join(results,"<br />")+'<br /><button onclick=\"goBack()\">Look up more journals</button>'+'<script>function goBack() {window.history.back()}</script>')
+		response = make_response(string.join(results,"<br />")+'<br /><br /><button onclick=\"goBack()\">Look up more journals</button>'+'<script>function goBack() {window.history.back()}</script>')
 	return response
 
 if __name__ == '__main__':
