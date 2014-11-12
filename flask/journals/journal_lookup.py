@@ -45,10 +45,10 @@ def main(dir,text=None):
 						# resultsvar.append('[OA ' + publisher.find('romeocolour').text + '], ' + journal.find('jtitle').text)
 		elif tree.find('header/outcome').text == 'failed' or tree.find('header/outcome').text == 'notFound':
 			print 'failed - no results - ' + journal_name.rstrip() #testing
-			resultsvar.append('not found - ' + journal_name.rstrip())
+			resultsvar.append('failed - not found, ' + journal_name.rstrip())
 		else: 
 			print 'failed - multiple results - ' + journal_name.rstrip() #testing
-			resultsvar.append('failed - multiple results - ' + journal_name.rstrip())
+			resultsvar.append('failed - multiple results, ' + journal_name.rstrip())
 
 	print 'Lookup Complete!' #testing
 	return resultsvar
