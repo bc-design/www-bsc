@@ -1,0 +1,64 @@
+body {
+    width: 810px;
+    font-family: Verdana, sans-serif;
+    font-size: 100%
+}
+
+h1 {
+    background-color: AliceBlue;
+    border: solid 2px #DDDDFF;
+    padding: 2px 10px 2px 10px;
+    border-radius: 0px 15px 15px 0px / 0px 15px 15px 0px;
+    font-size: 2.0em;
+}
+
+p,ul {
+    font-size: 0.9em;
+}
+
+iframe {
+    margin: 20px;
+}
+
+.footer {
+    background-color: #FFFFCC;
+    border: solid 2px #FFFFAA;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    border-radius: 55px 55px 15px 15px;
+}
+
+.social {
+    float: right;
+}
+
+/* Styling links: http://www.w3schools.com/css/css_link.asp */
+a {
+    text-decoration:none;
+}
+
+a:link,a:visited {
+    font-weight:bold;
+}
+
+a:visited {
+    color: #787878
+}
+
+a:hover,a:active {
+    text-decoration:underline;
+}
+
+a.linkBox {
+    display:block;
+    color:#000000;
+}
+
+a.linkBox:hover,a.linkBox:active {
+    background-color: #AAFFAA;
+    text-decoration:none;
+}
+

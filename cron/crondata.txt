@@ -1,0 +1,7 @@
+last updated: Fri Nov 14 13:30:01 PST 2014 <br />
+Disk quotas for cs9h-cw (uid 34112):
+Filesystem     usage  quota  limit    timeleft  files  quota  limit    timeleft
+/home/cc      141772 2048000 2048000               4010     -1     -1            
+/home/ff           0 26214400 26214400                  0     -1     -1            
+/home/aa           0 2097152 2097152                  0     -1     -1            
+/home/tmp          0 20971520 20971520                  0     -1     -1            

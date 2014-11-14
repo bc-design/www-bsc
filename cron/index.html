@@ -2,7 +2,7 @@
 <head>
 <script>
 var client = new XMLHttpRequest();
-client.open('GET', '/crondata.txt');
+client.open('GET', 'crondata.txt');
 
 client.onreadystatechange = function() {
   document.getElementById("crondata").innerHTML = client.responseText;
