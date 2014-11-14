@@ -1,20 +1,38 @@
 #!/usr/bin/env python
 
+import random
 import cgi
 form = cgi.FieldStorage()
+sentences=[
+	('VERB','ADJECTIVE','NOUN','Do not ',' the ',' ','!'),
+	('VERB','ADJECTIVE','NOUN','I hate to ',' the ',' ','!'),
+	('NOUN','VERB','NOUN','','s should not ',' the ','!'),
+	('ADJECTIVE','NOUN','NOUN','It is a little-known fact that ','',' love ','!'),
+	('ADJECTIVE','NOUN','ADJECTIVE','My ',' ', ' ate my ', ' homework!')
+	]
 
 print 'Content-Type: text/html'
 print
 
-if 'adjective1' not in form.keys():
-	print ('<form action="madlibs.cgi">'
-		'Enter an ADJECTIVE: <input type=text name=adjective1><br />'
-		'Enter a NOUN: <input type=text name=noun1><br />'
-	        'Enter a VERB: <input type=text name=verb1><br />'
-        	'<input type=submit value="Alright!">')
-else:
-	adj1 = form.getvalue('adjective1','adjective')
-	noun1 = form.getvalue('noun1','noun')
-	verb1 = form.getvalue('verb1','verb')
+if len(form.keys())==0:
+	random.seed()
+	sent = random.randint(0,len(sentences)-1)
 
-	print adj1, noun1, verb1
+	print '<form action="madlibs.cgi">'
+	print '<input type="hidden" name="sent" value="', sent, '">'
+	print 'Enter a ', sentences[sent][0], ': <input type=text name=input1><br />'
+	print 'Enter a ', sentences[sent][1], ': <input type=text name=input2><br />'
+	print 'Enter a ', sentences[sent][2], ': <input type=text name=input3><br />'
+        print '<input type=submit value="Alright!">'
+
+else:
+	sent = int(form.getvalue('sent'))
+	input1 = form.getvalue('input1',sentences[sent][0])
+	input2 = form.getvalue('input2',sentences[sent][1])
+	input3 = form.getvalue('input3',sentences[sent][2])
+
+	print sentences[sent][3], input1, sentences[sent][4], input2, sentences[sent][5], input3, sentences[sent][6]
+	print '<br /><br />'
+	print ('<form action="http://www.brandoncurtis.com/cgi/madlibs.cgi">'
+		'<input type="submit" value="Try another one!">'
+		'</form>')
