@@ -2,6 +2,8 @@
 
 import random
 import cgi
+from __future__ import print_function
+
 form = cgi.FieldStorage()
 sentences=[
 	('VERB','ADJECTIVE','NOUN','Do not ',' the ',' ','!'),
