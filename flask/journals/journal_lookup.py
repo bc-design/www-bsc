@@ -16,7 +16,9 @@ except ImportError:
 	import xml.etree.ElementTree as ET
 
 def split(txt, seps):
-	"""takes string, list of separators; returns list"""
+
+	"""takes (string, list of separators); returns list"""
+
 	default_sep = seps[0]
 	# we skip seps[0] because that's the default seperator
 	for sep in seps[1:]:
@@ -24,6 +26,9 @@ def split(txt, seps):
 	return [i.strip() for i in txt.split(default_sep)]
 
 def main(dir,text=None):
+
+	"""takes a list of journals; returns the journal OA from the SHERPA database"""
+
 	journal_list = split(text,(',','\n'))
 	resultsvar = []
 
