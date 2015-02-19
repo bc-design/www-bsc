@@ -35,6 +35,10 @@ iframe {
     float: right;
 }
 
+.header {
+   overflow: hidden;
+}
+
 /* Styling links: http://www.w3schools.com/css/css_link.asp */
 a {
     text-decoration:none;
