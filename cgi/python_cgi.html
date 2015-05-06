@@ -1,0 +1,21 @@
+<html><body><h1>Python CGI Demo</h1>
+<p>input strings of x's and o's; this script will return the best alignment and its 'score'.</p>
+
+<form action="/cgi-bin/match.py" method="post">
+        <p>
+                <label for="short_string">Short string:</label>
+                <input name="short_string" id="short_string" type="text"/></label>
+        </p>
+        <p>
+                <label for="long_string">Long string:</label>
+                <textarea name="long_string" id="long_string"></textarea>
+        </p>
+        <p>
+                <label for="ring">Treat long string as a ring:</label>
+                <input name="ring" id="ring" type="checkbox" value="true"/>
+                <input type="submit"/>
+        </p>
+</form>
+
+</body></html>
+
