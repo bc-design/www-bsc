@@ -128,166 +128,6 @@ p {margin: 5px; }
   </li> 
 -->
 
-	<li>
-		<h3><span class="title">Relocation Expenses</span></h3>
-		<h4>
-			<span class="format">Wiki</span>
-			&#x2014;
-			<span class="category">Finance</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://wiki.andhigherstill.com/w/Relocation_Expenses">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				a guide for writing off moving expenses on your taxes
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Payments and Transfers</span></h3>
-		<h4>
-			<span class="format">Google Drive</span>
-			&#x2014;
-			<span class="category">Finance</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="https://docs.google.com/document/d/1ug3fGzUXPDkCFBh6ZfUHBzY-pFrCCXt-aZscCPU-8Vw/edit#">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				a list of the electronic money management services that I use
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Academic Journal Open Access Status Lookup</span></h3>
-		<h4>
-			<span class="format">App</span>
-			&#x2014;
-			<span class="category">Education</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://oa.brandoncurtis.com/">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				a tool for looking up author rights for lists of journals
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Sage Math Computer Algebra Tutorial</span></h3>
-		<h4>
-			<span class="format">App</span>
-			&#x2014;
-			<span class="category">Education</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://sage.brandoncurtis.com/">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				learn and experiment with free open-source math software right in the browser
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">DIY NMR Spectroscopy</span></h3>
-		<h4>
-			<span class="format">Wiki</span>
-			&#x2014;
-			<span class="category">Science</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://wiki.brandoncurtis.com/w/DIY_NMR_Spectroscopy">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				build your own low-field NMR spectroscope with readily-available hardware
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Inserting Special Characters with Unicode</span></h3>
-		<h4>
-			<span class="format">Wiki</span>
-			&#x2014;
-			<span class="category">Technology</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://wiki.brandoncurtis.com/w/Inserting_Special_Characters_with_Unicode">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				quickly and easily insert special characters with keyboard shortcuts
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Flyback Driver Circuits</span></h3>
-		<h4>
-			<span class="format">Wiki</span>
-			&#x2014;
-			<span class="category">Technology</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://wiki.brandoncurtis.com/w/Flyback_Drivers">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				generate high voltages by feeding a flyback transformer with a high-frequency driver circuit
-			</span>
-		</p>
-	</li>
-
-  <li>
-    <h3><span class='title'>Happy New Years 2013!</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Technology</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/01/happy-new-years-2013.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Fun with Google Chrome</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Technology</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/01/fun-with-google-chrome.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
   <li>
     <h3><span class='title'>Alternative Energy</span></h3>
     <h4>
@@ -302,74 +142,6 @@ p {margin: 5px; }
     <p>
       <span class='description'>
         In 2010, the world generated on the order of 21 petawatt-hours of electricity. What would it cost to produce that energy from renewable sources?
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Fermentation - The Ginger Beer Plant</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Food</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/02/fermentation-ginger-beer-plant.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>The Moon</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Science</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/02/the-moon.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Configuring Gmail for Productivity</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Technology</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/02/configuring-gmail-for-productivity.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Space Rocks and You</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Science</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/02/space-rocks-and-you.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
       </span>
     </p>
   </li>
@@ -391,74 +163,6 @@ p {margin: 5px; }
     </p>
   </li>
   <li>
-    <h3><span class='title'>Financial Risk (Or: You Can’t Afford Not To Invest)</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/02/financial-risk-or-you-cant-afford-not.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Tax-Advantaged Investing</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/02/tax-advantaged-investing.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Social Security</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/03/social-security.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Keeping Track of Your Finances</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/03/keeping-track-of-your-finances.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
     <h3><span class='title'>Invest Today with a Roth IRA</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -472,176 +176,6 @@ p {margin: 5px; }
     <p>
       <span class='description'>
         Compound interest and gigantic tax breaks compel you: open a Roth IRA today!
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Investment Glossary</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/03/investment-glossary.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Cashback Credit Cards</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/03/cashback-credit-cards.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Monitoring Your Credit</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/03/monitoring-your-credit.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Roth IRA Questions Answered</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/03/roth-ira-questions-answered.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Historical US Income Taxes</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/03/historical-us-income-taxes.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>History Lesson: Open Source Office Software</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Technology</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/04/history-lesson-open-source-office.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Historical US Estate Taxes</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/04/historical-us-estate-taxes.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Giving - Or Getting - The Gift of an IRA</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/04/giving-or-getting-gift-of-ira.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Non-QWERTY Keyboard Layouts</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Technology</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/04/non-qwerty-keyboard-layouts.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>IRA Contribution Deadline</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/04/ira-contribution-deadline.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
       </span>
     </p>
   </li>
@@ -680,40 +214,6 @@ p {margin: 5px; }
     </p>
   </li>
   <li>
-    <h3><span class='title'>Investing With $100</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/04/investing-with-100.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Simulating Historical Investment Returns</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/04/simulating-investment-returns.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
     <h3><span class='title'>Credit Card Debt</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -731,74 +231,6 @@ p {margin: 5px; }
     </p>
   </li>
   <li>
-    <h3><span class='title'>Choosing a 529 Plan</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/05/choosing-529-plan.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Effective Annualized Return</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/05/effective-annualized-return.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Notetaking with Google</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Technology</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/05/notetaking-with-google.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Mind Your Money Mustache</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/05/mind-your-money-mustache.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
-      </span>
-    </p>
-  </li>
-  <li>
     <h3><span class='title'>Durable Goods: Cast Iron</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -812,23 +244,6 @@ p {margin: 5px; }
     <p>
       <span class='description'>
         Cast iron is the most inexpensive, most durable, most environmentally-friendly, and most versatile of the food-heat intermediators.
-      </span>
-    </p>
-  </li>
-  <li>
-    <h3><span class='title'>Thrift Is Beautiful: The Gym</span></h3>
-    <h4>
-      <span class='format'>Blog</span>
-      &#x2014;
-      <span class='category'>Finance</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://www.andhigherstill.com/2013/05/thrift-is-beautiful-gym.html'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        
       </span>
     </p>
   </li>
@@ -867,7 +282,7 @@ p {margin: 5px; }
     </p>
   </li>
   <li>
-    <h3><span class='title'>Thrift Is Beautiful: Stuff You Already Own</span></h3>
+    <h3><span class='title'>Very occasionally, I stumble across something that I think everyone should read. Raptitude &#x2014; Getting Better At Being Human &#x2014; is one of those things.</span></h3>
     <h4>
       <span class='format'>Blog</span>
       &#x2014;
@@ -879,7 +294,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        Chances are, you weren’t always so careful about spending your hard-earned cash. Accumulating stuff you rarely use? Sell it, give it away, or put it back to work!
+        Chances are, you weren&apos;t always so careful about spending your hard-earned cash. Accumulating stuff you rarely use? Sell it, give it away, or put it back to work!
       </span>
     </p>
   </li>
@@ -913,7 +328,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        Don’t get caught out in the rain! A well-provisioned emergency fund, with the right amount saved in the right places, is an important buffer against the unexpected.
+        Don&apos;t get caught out in the rain! A well-provisioned emergency fund, with the right amount saved in the right places, is an important buffer against the unexpected.
       </span>
     </p>
   </li>
@@ -930,7 +345,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        Searching for something on Craigslist?  Spending lots of time browsing and hitting the refresh button?  There’s a better way!
+        Searching for something on Craigslist?  Spending lots of time browsing and hitting the refresh button?  There&apos;s a better way!
       </span>
     </p>
   </li>
@@ -947,7 +362,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        Your brain is terrible at gauging energy density. Unit prices, protein percentage, and calories per dollar — use this spreadsheet to see food costs in a different light!
+        Your brain is terrible at gauging energy density. Unit prices, protein percentage, and calories per dollar &#x2014; use this spreadsheet to see food costs in a different light!
       </span>
     </p>
   </li>
@@ -1219,7 +634,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        Looking to start investing? The Vanguard Group—a non-profit with the lowest fees in the industry—is the place to start
+        Looking to start investing? The Vanguard Group&#x2014;a non-profit with the lowest fees in the industry&#x2014;is the place to start
       </span>
     </p>
   </li>
@@ -1491,7 +906,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        When you mistakenly contribute too much, timely correction can save you a lot of money. Find out how to know when you’re in trouble, what forms to fill out, and what taxes to pay.
+        When you mistakenly contribute too much, timely correction can save you a lot of money. Find out how to know when you&apos;re in trouble, what forms to fill out, and what taxes to pay.
       </span>
     </p>
   </li>
@@ -1508,7 +923,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        I&apos;ve been investing on the Lending Club peer-to-peer lending platform for six months, and my current annualized rate of return is over 20%—things are going pretty well so far!
+        I&apos;ve been investing on the Lending Club peer-to-peer lending platform for six months, and my current annualized rate of return is over 20%&#x2014;things are going pretty well so far!
       </span>
     </p>
   </li>
@@ -1576,7 +991,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        Don&apos;t just pay to have everything done for you—investing in your own capabilities is JUST as important, it not moreso, as investing the money you save.
+        Don&apos;t just pay to have everything done for you&#x2014;investing in your own capabilities is JUST as important, it not moreso, as investing the money you save.
       </span>
     </p>
   </li>
@@ -2192,6 +1607,126 @@ p {margin: 5px; }
       </span>
     </p>
   </li>
+  <li>
+    <h3><span class='title'>Relocation Expenses</span></h3>
+    <h4>
+      <span class='format'>Wiki</span>
+      &#x2014;
+      <span class='category'>Finance</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://wiki.andhigherstill.com/w/Relocation_Expenses'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        a guide for writing off moving expenses on your taxes
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Payments and Transfers</span></h3>
+    <h4>
+      <span class='format'>Google Drive</span>
+      &#x2014;
+      <span class='category'>Finance</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='https://docs.google.com/document/d/1ug3fGzUXPDkCFBh6ZfUHBzY-pFrCCXt-aZscCPU-8Vw/edit#'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        a list of the electronic money management services that I use
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Academic Journal Open Access Status Lookup</span></h3>
+    <h4>
+      <span class='format'>App</span>
+      &#x2014;
+      <span class='category'>Education</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://oa.brandoncurtis.com/'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        a tool for looking up author rights for lists of journals
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Sage Math Computer Algebra Tutorial</span></h3>
+    <h4>
+      <span class='format'>App</span>
+      &#x2014;
+      <span class='category'>Education</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://sage.brandoncurtis.com/'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        learn and experiment with free open-source math software right in the browser
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>DIY NMR Spectroscopy</span></h3>
+    <h4>
+      <span class='format'>Wiki</span>
+      &#x2014;
+      <span class='category'>Science</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://wiki.brandoncurtis.com/w/DIY_NMR_Spectroscopy'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        build your own low-field NMR spectroscope with readily-available hardware
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Inserting Special Characters with Unicode</span></h3>
+    <h4>
+      <span class='format'>Wiki</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://wiki.brandoncurtis.com/w/Inserting_Special_Characters_with_Unicode'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        quickly and easily insert special characters with keyboard shortcuts
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Flyback Driver Circuits</span></h3>
+    <h4>
+      <span class='format'>Wiki</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://wiki.brandoncurtis.com/w/Flyback_Drivers'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        generate high voltages by feeding a flyback transformer with a high-frequency driver circuit
+      </span>
+    </p>
+  </li>
+
 </ul>
 
 </div> <!-- end list -->
