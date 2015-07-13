@@ -1,26 +1,45 @@
-<html>
+<html lang="en-US">
+<title>|BC| OMNIBOX</title>
+
+<link href='http://www.andhigherstill.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<meta name="description" content="Instantly search everything Brandon has ever done, ever">
+<meta name="author" content="Brandon Curtis">
+
+<meta content='1476420667' property='fb:admins'/>
+<meta content='|BC| OMNIBOX' property='og:site_name'/>
+<meta content='en_US' property='og:locale'/>
+<meta content='https://www.facebook.com/brandon.s.curtis' property='article:author'/>
+<!-- -->
 
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="list.js"></script>
 <style>
 ul {list-style-type: none; }
-li {border: 1px solid black; margin: 10px; padding: 0px 10px; }
-#container {width: 600px; }
+li {border: 1px solid black; margin: 10px; padding: 0px 30px 0px 0px; }
+#container {width: 600px; margin: 0; border: 5px solid black; padding: 15px;}
 h3,h4 {margin: 0px; }
 p {margin: 5px; }
+.description {font-style: italic; }
 </style>
 </head>
 
 <body>
 
 <div id="container">
-<h2>Brandon Curtis' Web Extravaganza</h2>
+<h2>|BC| OMNIBOX - Universal Content Search</h2>
+
+<p>
+	Instantly search everything that 
+	<a class='g-profile' href='https://plus.google.com/105858766264293200612' rel='author' title='author profile'>
+	<span itemprop='name'>Brandon Curtis</span></a>
+	has ever done, ever.  
+</p>
 
 <div id="content-list"> <!-- begin list -->
 <p>
 	Keyword Search:
-  <input class="search" size="35" placeholder="Search Brandon Curtis' content" />
+  <input class="search" size="35" placeholder="search everything" />
   <button class="filter" id="filter-all">
     Clear Filters
   </button>
@@ -2159,7 +2178,7 @@ p {margin: 5px; }
   <li>
     <h3><span class='title'>Improving accuracy of cell and chromophore concentration measurements using optical density</span></h3>
     <h4>
-      <span class='format'>Research</span>
+      <span class='format'>Literature</span>
       &#x2014;
       <span class='category'>Science</span>
       &#x2014;
