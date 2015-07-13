@@ -30,11 +30,11 @@ p {margin: 5px; }
   <button class="filter" id="filter-wiki">
     Wiki
   </button>
-  <button class="filter" id="filter-blog">
-    Blog
-  </button>
   <button class="filter" id="filter-drive">
     Google Drive
+  </button>
+  <button class="filter" id="filter-blog">
+    Blog
   </button>
   <button class="filter" id="filter-app">
     App

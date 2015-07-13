@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<script src="list.js"></script>
+<style>
+ul {list-style-type: none; }
+li {border: 1px solid black; margin: 10px; padding: 0px 10px; }
+#products {width: 400px; }
+</style>
+</head>
+
+<body>
+
+<div id="products">
+<h2>Sorting and Filtering with list.js</h2>
+  <input class="search" placeholder="Search the products" />
+  <button class="sort" data-sort="name">
+    Sort by name
+  </button>
+
+
+<ul class="list">
+	<li>
+		<h4>
+			<span class="name">
+				Tomato
+			</span>
+		</h4>
+		<p>
+			<span class="description">
+				a tasty red fruit
+			</span>
+		</p>
+	</li>
+
+	<li>
+		<h4>
+			<span class="name">
+				Potato
+			</span>
+		</h4>
+		<p>
+			<span class="description">
+				a starchy tuber
+			</span>
+		</p>
+	</li>
+
+	<li>
+		<h4>
+			<span class="name">
+				Banana
+			</span>
+		</h4>
+		<p>
+			<span class="description">
+				a starchy fruit
+			</span>
+		</p>
+	</li>
+
+	<li>
+		<h4>
+			<span class="name">
+				Raspberry
+			</span>
+		</h4>
+		<p>
+			<span class="description">
+				a red berry
+			</span>
+		</p>
+	</li>
+
+	<li>
+		<h4>
+			<span class="name">
+				Wheat
+			</span>
+		</h4>
+		<p>
+			<span class="description">
+				a starchy grain
+			</span>
+		</p>
+	</li>
+</ul>
+
+
+<script>
+var options = {
+  valueNames: [ 'name', 'description' ]
+};
+
+var userList = new List('products', options);
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
