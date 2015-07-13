@@ -142,3 +142,14 @@ $('#filter-science').click(function() {
   });
   return false;
 });
+
+$('#filter-fun').click(function() {
+  contentList.filter(function(item) {
+    if (item.values().category == "Fun") {
+      return true;
+    } else {
+      return false;
+    }
+  });
+  return false;
+});

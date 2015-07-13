@@ -43,23 +43,29 @@ p {margin: 5px; }
 
 <p>
 	Formats:
-  <button class="filter" id="filter-wiki">
-    Wiki
-  </button>
   <button class="filter" id="filter-blog">
     Blog
+  </button>
+  <button class="filter" id="filter-wiki">
+    Wiki
   </button>
   <button class="filter" id="filter-drive">
     Google Drive
   </button>
   <button class="filter" id="filter-literature">
-    Research Paper
+    Research
   </button>
   <button class="filter" id="filter-video">
     Video
   </button>
+  <button class="filter" id="filter-photo">
+    Photo
+  </button>
   <button class="filter" id="filter-app">
     App
+  </button>
+  <button class="filter" id="filter-review">
+    Review
   </button>
 </p>
 
