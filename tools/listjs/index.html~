@@ -52,6 +52,12 @@ p {margin: 5px; }
   <button class="filter" id="filter-drive">
     Google Drive
   </button>
+  <button class="filter" id="filter-literature">
+    Research Paper
+  </button>
+  <button class="filter" id="filter-video">
+    Video
+  </button>
   <button class="filter" id="filter-app">
     App
   </button>
@@ -147,78 +153,6 @@ p {margin: 5px; }
 		<p>
 			<span class="description">
 				a tool for looking up author rights for lists of journals
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Bash Terminal History Completion in Ubuntu Linux</span></h3>
-		<h4>
-			<span class="format">Blog</span>
-			&#x2014;
-			<span class="category">Technology</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://blog.brandoncurtis.com/2013/09/bash-terminal-history-completion-in.html">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				search and navigate through your command history with this .bashrc tweak
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Lithium Supplementation</span></h3>
-		<h4>
-			<span class="format">Blog</span>
-			&#x2014;
-			<span class="category">Science</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://blog.brandoncurtis.com/2014/09/lithium-supplementation.html">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				analysis of a proposal to supplement drinking water with lithium to improve human health
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Google Chrome Remote for Linux</span></h3>
-		<h4>
-			<span class="format">Blog</span>
-			&#x2014;
-			<span class="category">Technology</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://blog.brandoncurtis.com/2015/03/google-chrome-remote-for-linux.html">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				Google Chrome extension for easily accessing an Ubuntu machine from anywhere with an Internet connection
-			</span>
-		</p>
-	</li>
-
-	<li>
-		<h3><span class="title">Google Drive App for Linux (and Mac)</span></h3>
-		<h4>
-			<span class="format">Blog</span>
-			&#x2014;
-			<span class="category">Technology</span>
-			&#x2014;
-			<span class="link">
-				<a target="_blank" href="http://blog.brandoncurtis.com/2015/04/google-drive-app-for-linux.html">link</a>
-			</span>
-		</h4>
-		<p>
-			<span class="description">
-				a command line utility for push/pull synchronization of Google Drive files with the desktop
 			</span>
 		</p>
 	</li>
@@ -342,7 +276,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        In 2010, the world generated on the order of 21 petawatt-hours of electricity. What would it cost to produce that energy from renewable sources?
       </span>
     </p>
   </li>
@@ -427,7 +361,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        A surefire way to reduce the time you waste managing email, snail mail, and telephone calls is to reduce the number of low-value communications that you receive.
       </span>
     </p>
   </li>
@@ -512,7 +446,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Compound interest and gigantic tax breaks compel you: open a Roth IRA today!
       </span>
     </p>
   </li>
@@ -699,7 +633,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        When you invest in the total stock market, you necessarily invest in some companies with questionable track records. What&apos;s an ethically-concerned investor to do?  Consider Social Index mutual funds!
       </span>
     </p>
   </li>
@@ -716,7 +650,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Graduate students on fellowship usually lack &quot;earned income&quot; and are ineligible to make Roth IRA contributions. The solution? A 529 Plan!
       </span>
     </p>
   </li>
@@ -767,7 +701,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        If &quot;compound interest is the most powerful force in the world,&quot; as Einstein is rumored to have said, then the last thing you want is for compound interest to be working against you.
       </span>
     </p>
   </li>
@@ -852,7 +786,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Cast iron is the most inexpensive, most durable, most environmentally-friendly, and most versatile of the food-heat intermediators.
       </span>
     </p>
   </li>
@@ -886,7 +820,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        &quot;You cannot dream yourself into a character: you must hammer and forge yourself into one.&quot; - James Anthony Froude
       </span>
     </p>
   </li>
@@ -903,7 +837,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        With a little effort (and a bunch of neat tools), your site can join the 21st century. Twitter cards, snippet engineering, font selection, page load analysis, traffic monitoring, affiliate marketing, and more!
       </span>
     </p>
   </li>
@@ -920,7 +854,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Chances are, you weren’t always so careful about spending your hard-earned cash. Accumulating stuff you rarely use? Sell it, give it away, or put it back to work!
       </span>
     </p>
   </li>
@@ -937,7 +871,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Food fermentation: a delicious, healthy, cheap, safe, social way to live a better life. Homebrew, kimchi, sauerkraut, sourdough, yogurt - give it a shot!
       </span>
     </p>
   </li>
@@ -954,7 +888,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Don’t get caught out in the rain! A well-provisioned emergency fund, with the right amount saved in the right places, is an important buffer against the unexpected.
       </span>
     </p>
   </li>
@@ -971,7 +905,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Searching for something on Craigslist?  Spending lots of time browsing and hitting the refresh button?  There’s a better way!
       </span>
     </p>
   </li>
@@ -988,7 +922,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Your brain is terrible at gauging energy density. Unit prices, protein percentage, and calories per dollar — use this spreadsheet to see food costs in a different light!
       </span>
     </p>
   </li>
@@ -1005,7 +939,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        The Post-It note above my computer monitor reads &quot;CONTENT FIRST&quot;, but sometimes...
       </span>
     </p>
   </li>
@@ -1022,7 +956,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Servicemembers have two powerful tools for retirement preparation: the US Military Pension and the Thrift Savings Plan.
       </span>
     </p>
   </li>
@@ -1039,7 +973,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Email money to friends and family for free. Say goodbye to Paypal, Popmoney, Venmo, Amazon WebPay, and paper checks!
       </span>
     </p>
   </li>
@@ -1056,7 +990,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Deployed and receiving combat (HFP/IDP) pay? Check out the Savings Deposit Program (SDP): a savings account with a guaranteed 10% interest rate.
       </span>
     </p>
   </li>
@@ -1073,7 +1007,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Low-cost, passively-managed index mutual funds should be the cornerstone of every portfolio. Sometimes, though, you just want to try something a little different.
       </span>
     </p>
   </li>
@@ -1090,7 +1024,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Very occasionally, I stumble across something that I think everyone should read. Raptitude — Getting Better At Being Human — is one of those things.
       </span>
     </p>
   </li>
@@ -1107,7 +1041,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Copy and paste one line of code into your site template, learn two pieces of markup syntax, and you can add nicely typset LaTeX math to any page!
       </span>
     </p>
   </li>
@@ -1124,7 +1058,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Remember order of operations from algebra class? Stick to this personal finance order of operations to keep your financial improvement plan on-track.
       </span>
     </p>
   </li>
@@ -1141,7 +1075,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        In the face of a federal government shutdown, the markets may be in for a bumpy ride. Be prepared... to do nothing!
       </span>
     </p>
   </li>
@@ -1158,7 +1092,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        The debit card: all of the convenience of a credit card without any of the risks. But are there any downsides?
       </span>
     </p>
   </li>
@@ -1175,7 +1109,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        We spend far, far too much on phone service. If you currently pay $60+/month on a phone plan, this can be an easy place to add a couple percentage points to your savings rate.
       </span>
     </p>
   </li>
@@ -1192,7 +1126,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Your credit score decides what credit cards you can get, how large a loan you can take out, and what interest rates you pay. Learning your score usually costs $10-15... but these sites are free!
       </span>
     </p>
   </li>
@@ -1209,7 +1143,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Stock-picking and short-term trading to beat the market?  Don&apos;t bother!
       </span>
     </p>
   </li>
@@ -1226,7 +1160,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Nearly 25% of total household assets in the US are held in mutual funds, and many a college tuition and retirement has been financed entirely with money from mutual fund investing. Investing in index mutual funds will save you vast amounts of time, money, and stress!
       </span>
     </p>
   </li>
@@ -1243,7 +1177,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        In the financial world, the heroes looking out for the interests of the little guy are few and far between. John Bogle is one of those heroes.
       </span>
     </p>
   </li>
@@ -1260,7 +1194,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Looking to start investing? The Vanguard Group—a non-profit with the lowest fees in the industry—is the place to start
       </span>
     </p>
   </li>
@@ -1277,7 +1211,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Investing with Vanguard is your best bet. But what if you already have some investments at another company?
       </span>
     </p>
   </li>
@@ -1294,7 +1228,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        At this point, hopefully I&apos;ve convinced you that index mutual funds are a good idea, and maybe even that Vanguard is the place to start. But what, exactly, should you invest in?
       </span>
     </p>
   </li>
@@ -1311,7 +1245,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        If you&apos;re doing it right, your investments should require very little regular maintenance. Still, it&apos;s a good idea to check on your contribution rate and asset allocation every now and then.
       </span>
     </p>
   </li>
@@ -1328,7 +1262,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Switzerland considers writing everyone in the country a monthly check for $2800, no strings attached. Crazy... or brilliant?
       </span>
     </p>
   </li>
@@ -1345,7 +1279,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        With one extra piece of hardware, Google Voice can replace your landline!
       </span>
     </p>
   </li>
@@ -1362,7 +1296,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        I proudly present: the first case study!  In it, we discuss Mint, cash, debt, and a powerful spreadsheet for recording and splitting household expenses.
       </span>
     </p>
   </li>
@@ -1379,7 +1313,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Can money buy happiness? What spending strategies maximize the happiness that one can purchase with a given amount of money? We explore these questions (and more) in a review of the book &quot;Happy Money&quot;.
       </span>
     </p>
   </li>
@@ -1396,7 +1330,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Are you considering a consultation with a financial advisor? Protect yourself: learn about fiduciary duty and ask these tough questions.
       </span>
     </p>
   </li>
@@ -1413,7 +1347,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        The 529 Education Savings Plan is by far the best method for saving toward future education expenses. It&apos;s also a powerful estate planning tool.
       </span>
     </p>
   </li>
@@ -1430,7 +1364,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        The 529 Plan is the best way to save for future education expenses, but watch out: How 529 Plan assets and withdrawals affect the beneficiary&apos;s student financial aid eligibility depends on who owns the Plan.
       </span>
     </p>
   </li>
@@ -1447,7 +1381,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Back in the day, the UTMA account was the method of choice for gifting investments to a minor. That changed with the ascendance of the 529 Plan in 2001. What to do if you still have a UTMA?
       </span>
     </p>
   </li>
@@ -1464,7 +1398,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        How does the average American spend their money? The US Bureau of Labor Statistics surveyed 120,000 households to find out.
       </span>
     </p>
   </li>
@@ -1481,7 +1415,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        How do universities expect their graduate students to spend money?
       </span>
     </p>
   </li>
@@ -1498,7 +1432,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        I save and invest half of my graduate student stipend while living in one of the most expensive regions in the United States. This is how.
       </span>
     </p>
   </li>
@@ -1515,7 +1449,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        A raise or windfall is an opportunity to increase your savings rate without decreasing your expenses at all. Don&apos;t blow it!
       </span>
     </p>
   </li>
@@ -1532,7 +1466,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        When you mistakenly contribute too much, timely correction can save you a lot of money. Find out how to know when you’re in trouble, what forms to fill out, and what taxes to pay.
       </span>
     </p>
   </li>
@@ -1549,7 +1483,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        I&apos;ve been investing on the Lending Club peer-to-peer lending platform for six months, and my current annualized rate of return is over 20%—things are going pretty well so far!
       </span>
     </p>
   </li>
@@ -1566,7 +1500,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Want to invest in solar power installations and earn 5.5%+ interest over the next ten years? Mosaic is the place to do that.
       </span>
     </p>
   </li>
@@ -1583,7 +1517,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        I&apos;ve been telling you to do this and do that all month long... but what do I do with my own money?
       </span>
     </p>
   </li>
@@ -1600,7 +1534,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        For every hour I&apos;ve spent learning about and investing in the stock market, I&apos;ve probably spent 100 hours in a classroom. Education is a huge investment, and one worth taking seriously.
       </span>
     </p>
   </li>
@@ -1617,7 +1551,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Don&apos;t just pay to have everything done for you—investing in your own capabilities is JUST as important, it not moreso, as investing the money you save.
       </span>
     </p>
   </li>
@@ -1634,7 +1568,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        What strategies actually work for increasing your writing output? We explore this question and more in a review of the book &quot;How To Write A Lot&quot;.
       </span>
     </p>
   </li>
@@ -1651,7 +1585,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        The strategies proposed in &quot;How To Write A Lot&quot; sound good, but do they actually work? I put them to the test, and successfully published an article to this site every day in October.
       </span>
     </p>
   </li>
@@ -1668,7 +1602,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        I am done with advertising and affiliate linking. Here&apos;s why.
       </span>
     </p>
   </li>
@@ -1685,7 +1619,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        With 50,000 views and counting, the Project continues!
       </span>
     </p>
   </li>
@@ -1702,7 +1636,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Self-storage facilities appear to be popping up everywhere. How big is the self-storage trend, and what is it costing us?
       </span>
     </p>
   </li>
@@ -1719,7 +1653,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        An attorney has begun suing companies that only offer high-cost investments in their 401(k) plans. It&apos;s about time!
       </span>
     </p>
   </li>
@@ -1736,7 +1670,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        Pennsylvania Governor Tom Wolf proposes dumping the state pension system&apos;s high-cost active investments for efficient index mutual funds. You can do the same to get your fair share of market returns.
       </span>
     </p>
   </li>
@@ -1753,7 +1687,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        If your company&apos;s 401(k) doesn&apos;t offer low-cost index funds, the right strategy might encourage them to reconsider.
       </span>
     </p>
   </li>
@@ -1821,7 +1755,7 @@ p {margin: 5px; }
     </h4>
     <p>
       <span class='description'>
-        
+        I gave a lecture on personal finance basics to a class of college freshmen. Here&apos;s the presentation on YouTube!
       </span>
     </p>
   </li>
@@ -1859,7 +1793,312 @@ p {margin: 5px; }
       </span>
     </p>
   </li>
-
+  <li>
+    <h3><span class='title'>Task Management Systems</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://www.andhigherstill.com/2014/09/task-management-systems.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        I&apos;ve tried a dozen different methods for managing tasks... and all have eventually failed. What might the ideal system look like?
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>A Few Billion More Votes for Index Funds</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Finance</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://www.andhigherstill.com/2014/09/a-few-billion-more-votes-for-index-funds.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        The California Public Employees Retirement System manages $300 billion. They are getting out of actively-managed investments; you should too.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Hello World</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/07/hello-world.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Buttermilk pancakes and homemade lightning from scratch, and a hello. (Another blog?!)
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Looking Back, Moving Forward: July &amp; August 2013</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/08/looking-back-moving-forward-july-august.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        July was pretty cool; August will be one for the record books.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Strange Beautiful Music</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/08/strange-beautiful-music.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Can you evolve music from noise? Can a plasma arc play a tune?  If Wikipedia were a song, what would it sound like?
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>The New Lab</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/08/the-new-lab.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Volts, amps, arcs, sparks, and the high cost of standing still.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Microwave Beginnings</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/08/microwave-beginnings.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        In which I build a microwave resonator... and put it in the microwave. Hilarity ensues... briefly.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Water Lichtenberg Figures</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/09/water-lichtenberg-figures.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        In which I hit water with 20,000 volts.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Bash Terminal History Completion in Ubuntu Linux</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/09/bash-terminal-history-completion-in.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Cycle through previously-issued commands by typing the first part of the command and using the up and down arrow keys to navigate through commands in your history that begin with the fragment.  Enable this feature with a trivial addition to .bashrc.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Downloading, Modifying, Building and Installing From Source in Ubuntu</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2013/10/downloading-modifying-building-and.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Make use of that open source code: download, modify, build, and install software from source in Ubuntu!
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Police Militarization</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2014/08/police-militarization.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        The Federal 1033 Program has armed American police with all manner of military hardware. What did your local police request?
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Reviving a Wordpress Plugin (and Building Competency)</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2014/09/reviving-wordpress-plugin-and-building.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        I knock off a fun little side project, resurrecting a much-loved Wordpress plugin; mulling the hows of competency-building
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Lithium Supplementation</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Science</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2014/09/lithium-supplementation.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Should we spike the drinking water with lithium? Sounds crazy! The scientific evidence says: probably not a bad idea.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Upgrading RAM in a MacBook</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2015/02/upgrading-ram-in-macbook.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Are you memory-limited? Surprisingly, upgrading the RAM in MacBook Pro is as painless as upgrading the RAM in pretty much anything else.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>It&apos;s Not Pi Day</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Science</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2015/03/its-not-pi-day.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Americans write the date incorrectly. ISO-8601 and Python list comprehensions reveal the REAL Pi, Tau, and e Days.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Google Chrome Remote for Linux</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2015/03/google-chrome-remote-for-linux.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Remotely connect to any computer from any other computer or your phone, no software or network configuration required!
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Music in our Schools</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Education</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2015/03/music-in-our-schools.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        Celebrate National Auto Month.
+      </span>
+    </p>
+  </li>
+  <li>
+    <h3><span class='title'>Google Drive App for Linux</span></h3>
+    <h4>
+      <span class='format'>Blog</span>
+      &#x2014;
+      <span class='category'>Technology</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='http://blog.brandoncurtis.com/2015/04/google-drive-app-for-linux.html'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        I hate desktop-cloud synchronization applications. For Linux (and Mac!) and Google Drive, here&apos;s something better.
+      </span>
+    </p>
+  </li>
 </ul>
 
 </div> <!-- end list -->

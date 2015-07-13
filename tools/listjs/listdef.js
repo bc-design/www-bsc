@@ -53,6 +53,51 @@ $('#filter-app').click(function() {
   return false;
 });
 
+$('#filter-video').click(function() {
+  contentList.filter(function(item) {
+    if (item.values().format == "Video") {
+      return true;
+    } else {
+      return false;
+    }
+  });
+  return false;
+});
+
+$('#filter-photo').click(function() {
+  contentList.filter(function(item) {
+    if (item.values().format == "Photo") {
+      return true;
+    } else {
+      return false;
+    }
+  });
+  return false;
+});
+
+$('#filter-literature').click(function() {
+  contentList.filter(function(item) {
+    if (item.values().format == "Literature") {
+      return true;
+    } else {
+      return false;
+    }
+  });
+  return false;
+});
+
+$('#filter-review').click(function() {
+  contentList.filter(function(item) {
+    if (item.values().format == "Review") {
+      return true;
+    } else {
+      return false;
+    }
+  });
+  return false;
+});
+
+
 $('#filter-finance').click(function() {
   contentList.filter(function(item) {
     if (item.values().category == "Finance") {
