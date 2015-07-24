@@ -4,6 +4,8 @@
 <head>
 	<title>BC Cluster</title>
 	<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="javascript/list.js"></script>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<script type="text/javascript" src="javascript/ganalytics.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -14,8 +16,6 @@
 	<meta content='en_US' property='og:locale'/>
 	<meta content='https://www.facebook.com/brandon.s.curtis' property='article:author'/>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="javascript/list.js"></script>
 	<style>
 		ul {list-style-type: none; }
 		li {border: 1px solid black; margin: 10px; padding: 0px 30px 0px 0px; }
@@ -69,6 +69,23 @@
 <iframe width="650" height="360" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
 
 <iframe width="650" height="360" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
+
+<!-- Secret Pages -->
+<form name="secret_pages"
+	action="javascript:location.href = 'hidden/' + window.document.secret_pages.page.value + '.html'" 
+	style="margin:0;">
+	<div style="display:inline;">
+		<input type="password" name="page">
+		<input type="submit" value="Go">
+		<noscript>
+			</noscript>
+		</div>
+	</form>
+
+<div class="footer"><p>&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2013-<script>document.write(new Date().getFullYear())</script><noscript>2015</noscript> - 
+		this work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+		Creative Commons Attribution-ShareAlike 3.0 License</a><br />
+		Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a></p></div>
 
 <!-- BEGIN OMNIBOX -->
 
@@ -6079,24 +6096,7 @@
 </div> <!-- end list -->
 </div> <!-- end container -->
 
-<!-- Secret Pages -->
-<form name="secret_pages"
-	action="javascript:location.href = 'hidden/' + window.document.secret_pages.page.value + '.html'" 
-	style="margin:0;">
-	<div style="display:inline;">
-		<input type="password" name="page">
-		<input type="submit" value="Go">
-		<noscript>
-			</noscript>
-		</div>
-	</form>
-
-<div class="footer"><p>&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2013-<script>document.write(new Date().getFullYear())</script><noscript>2015</noscript> - 
-		this work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
-		Creative Commons Attribution-ShareAlike 3.0 License</a><br />
-		Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a></p></div>
-
-<script src="listdef.js"></script>
+<script src="javascript/listdef.js"></script>
 </body>
 
 </html>

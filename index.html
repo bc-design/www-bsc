@@ -17,8 +17,8 @@
 	<meta content='https://www.facebook.com/brandon.s.curtis' property='article:author'/>
 
 	<style>
-		ul {list-style-type: none; }
-		li {border: 1px solid black; margin: 10px; padding: 0px 30px 0px 0px; }
+		ul.list {list-style-type: none; }
+		li.omni {border: 1px solid black; margin: 10px; padding: 0px 30px 0px 0px; }
 		#container {width: 600px; margin: 0; border: 5px solid black; padding: 15px;}
 		h3,h4 {margin: 0px; }
 		p {margin: 5px; }
@@ -46,7 +46,7 @@
 		<li>my <a href="http://sage.brandoncurtis.com">Sage Math computer algebra tutorials</a>;</li>
 		<li>my <a href="http://oa.brandoncurtis.com">Open Access journal status lookup page</a>;</li>
 		<li>the <a href="http://openinnovationaward.github.io">State High Open Innovation Award</a>, a scholarship I'm starting up;
-<!--		<li>some <a href="https://cloud.sagemath.com/db688dd6-7168-4d3b-ac0d-5b3890336d3b/raw/audio/play.html">playing around</a> on <a href="http://cloud.sagemath.com/">SageMathCloud</a>; -->
+<!--		<li class="data">some <a href="https://cloud.sagemath.com/db688dd6-7168-4d3b-ac0d-5b3890336d3b/raw/audio/play.html">playing around</a> on <a href="http://cloud.sagemath.com/">SageMathCloud</a>; -->
 		<li>the Berkeley ChemE grad student organization's <a href="http://www.cbe-gsac.com/">site</a> and <a href="http://wiki.cbe-gsac.com/">wiki</a>;</li>
 		<li><a href="http://www.graveslab.org">GravesLab<a>, <a href="http://www.clarklab.org">ClarkLab</a>, and <a href="http://www.curtislab.org">CurtisLab</a>, current and past employers;</li>
 		<li>old:
@@ -69,6 +69,23 @@
 <iframe width="650" height="360" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
 
 <iframe width="650" height="360" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
+
+<!-- Secret Pages -->
+<form name="secret_pages"
+	action="javascript:location.href = 'hidden/' + window.document.secret_pages.page.value + '.html'" 
+	style="margin:0;">
+	<div style="display:inline;">
+		<input type="password" name="page">
+		<input type="submit" value="Go">
+		<noscript>
+			</noscript>
+		</div>
+	</form>
+
+<div class="footer"><p>&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2013-<script>document.write(new Date().getFullYear())</script><noscript>2015</noscript> - 
+		this work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+		Creative Commons Attribution-ShareAlike 3.0 License</a><br />
+		Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a></p></div>
 
 <!-- BEGIN OMNIBOX -->
 
@@ -136,7 +153,7 @@
 
 <ul class="list">
 
-<!--	<li>
+<!--	<li class="data">
 		<h3><span class="title">XXX</span></h3>
 		<h4>
 			<span class="format">XXX</span>
@@ -155,7 +172,7 @@
 	</li> -->
 
 <!--
-  <li>
+  <li class="data">
     <h3><span class="title">XXX</span></h3>
     <h4>
       <span class="format">XXX</span>
@@ -174,7 +191,7 @@
   </li> 
 -->
 
-  <li>
+  <li class="data">
     <h3><span class='title'>Happy New Years 2013!</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -191,7 +208,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Fun with Google Chrome</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -208,7 +225,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Academic Journal Open Access Status Lookup</span></h3>
     <h4>
       <span class='format'>App</span>
@@ -225,7 +242,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Fermentation - The Ginger Beer Plant</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -242,7 +259,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The Moon</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -259,7 +276,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Configuring Gmail for Productivity</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -276,7 +293,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Space Rocks and You</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -293,7 +310,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Sage Math Computer Algebra Tutorial</span></h3>
     <h4>
       <span class='format'>App</span>
@@ -310,7 +327,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Financial Risk (Or: You Can&apos;t Afford Not To Invest)</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -327,7 +344,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Tax-Advantaged Investing</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -344,7 +361,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Social Security</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -361,7 +378,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Keeping Track of Your Finances</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -378,7 +395,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Alternative Energy</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -395,7 +412,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Investment Glossary</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -412,7 +429,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Cashback Credit Cards</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -429,7 +446,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Monitoring Your Credit</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -446,7 +463,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Roth IRA Questions Answered</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -463,7 +480,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Historical US Income Taxes</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -480,7 +497,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>History Lesson: Open Source Office Software</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -497,7 +514,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Historical US Estate Taxes</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -514,7 +531,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Giving - Or Getting - The Gift of an IRA</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -531,7 +548,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Non-QWERTY Keyboard Layouts</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -548,7 +565,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>IRA Contribution Deadline</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -565,7 +582,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Reducing Spam, Noise, and Bacn</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -582,7 +599,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Invest Today with a Roth IRA</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -599,7 +616,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Investing With $100</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -616,7 +633,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Simulating Historical Investment Returns</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -633,7 +650,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Ethical Investing</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -650,7 +667,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Choosing a 529 Plan</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -667,7 +684,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Effective Annualized Return</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -684,7 +701,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Notetaking with Google</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -701,7 +718,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Mind Your Money Mustache</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -718,7 +735,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Graduate Students, Roth IRAs, and 529 Plans</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -735,7 +752,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Thrift Is Beautiful: The Gym</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -752,7 +769,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Credit Card Debt</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -769,7 +786,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Durable Goods: Cast Iron</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -786,7 +803,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>External Motivation</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -803,7 +820,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Blog Tools</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -820,7 +837,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Thrift Is Beautiful: Stuff You Already Own</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -837,7 +854,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Thrift is Beautiful: Fermentation</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -854,7 +871,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Emergency Funds</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -871,7 +888,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>High-Efficiency Procurement</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -888,7 +905,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Thrift Is Beautiful: Food</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -905,7 +922,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Site Infrastructure Updates</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -922,7 +939,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Want To Retire Early? Join the Military.</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -939,7 +956,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Free Money Transfers with Google Wallet</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -956,7 +973,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Saving While Deployed: The Savings Deposit Program</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -973,7 +990,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Nontraditional Investments</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -990,7 +1007,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Must-Read: Raptitude</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1007,7 +1024,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Beautiful Math On Your Website</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1024,7 +1041,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Financial Order of Operations</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1041,7 +1058,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The Sky Is Falling!</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1058,7 +1075,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The Debit Card Trap</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1075,7 +1092,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Google Voice: The $0 Phone Plan</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1092,7 +1109,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Free Credit Scores</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1109,7 +1126,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Index Investing: Speculation</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1126,7 +1143,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Index Investing: Index Funds</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1143,7 +1160,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Index Investing: John Bogle</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1160,7 +1177,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Index Investing: Vanguard</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1177,7 +1194,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Index Investing: Moving to Vanguard</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1194,7 +1211,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Index Investing: Asset Allocation</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1211,7 +1228,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Index Investing: Maintenance</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1228,7 +1245,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The Citizen's Dividend</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1245,7 +1262,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The $0 Landline</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1262,7 +1279,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Case Study 01: Dividing Household Expenses</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1279,7 +1296,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Book Review 01: Happy Money</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1296,7 +1313,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Financial Advisors and Fiduciary Duty</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1313,7 +1330,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>529 Plan: Taxes, Revocability, and The Estate</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1330,7 +1347,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>529 Plan: Ownership and Student Aid Impact</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1347,7 +1364,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>529 Plan: versus UTMA</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1364,7 +1381,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Budget Throwdown: The Average American</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1381,7 +1398,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Budget Throwdown: Typical Graduate Student</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1398,7 +1415,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Budget Throwdown: Advanced Graduate Student</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1415,7 +1432,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Hooray, A Raise! DON'T BLOW IT.</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1432,7 +1449,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Correcting Roth IRA Overcontributions</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1449,7 +1466,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>My Investments: Lending Club</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1466,7 +1483,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>My Investments: Mosaic</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1483,7 +1500,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>My Investments: Mutual Funds</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1500,7 +1517,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>My Investments: Education</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1517,7 +1534,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>My Investments: Skills</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1534,7 +1551,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Book Review 02: How To Write A Lot</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1551,7 +1568,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Experiment 01: Write Every Day</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1568,7 +1585,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>My Objectivity Is Not For Sale</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1585,7 +1602,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Ten Internet Points To You, Sir!</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1602,7 +1619,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Storage Units: An Unfortunate Trend</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1619,7 +1636,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Companies Sued for Offering Bad 401(k)s</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1636,7 +1653,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>PA Governor Tips Hat to Index Funds</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1653,7 +1670,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Petition Your Employer for a Better 401(k)</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1670,7 +1687,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Complete Expense Tracking with Mint and OneReceipt</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1687,7 +1704,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Alternative Electricity Pricing</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1704,7 +1721,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Save Your IRS Tax Transcripts</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1721,7 +1738,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Guest Lecture: Personal Finance 101</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1738,7 +1755,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Earn 5% on a Savings Account</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1755,7 +1772,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Stretch Your Emergency Fund with Puddle</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1772,7 +1789,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Task Management Systems</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1789,7 +1806,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>A Few Billion More Votes for Index Funds</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1806,7 +1823,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Hello World</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1823,7 +1840,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Looking Back, Moving Forward: July &amp; August 2013</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1840,7 +1857,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Strange Beautiful Music</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1857,7 +1874,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The New Lab</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1874,7 +1891,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Microwave Beginnings</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1891,7 +1908,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Water Lichtenberg Figures</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1908,7 +1925,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Bash Terminal History Completion in Ubuntu Linux</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1925,7 +1942,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Downloading, Modifying, Building and Installing From Source in Ubuntu</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1942,7 +1959,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Police Militarization</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1959,7 +1976,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Reviving a Wordpress Plugin (and Building Competency)</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1976,7 +1993,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Lithium Supplementation</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -1993,7 +2010,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Upgrading RAM in a MacBook</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -2010,7 +2027,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>It&apos;s Not Pi Day</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -2027,7 +2044,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Google Chrome Remote for Linux</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -2044,7 +2061,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Music in our Schools</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -2061,7 +2078,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Google Drive App for Linux</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -2078,7 +2095,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Payments and Transfers</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -2095,7 +2112,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Food Recipe Index</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -2112,7 +2129,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Grocery Shopping</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -2129,7 +2146,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Improving accuracy of cell and chromophore concentration measurements using optical density</span></h3>
     <h4>
       <span class='format'>Literature</span>
@@ -2146,7 +2163,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Air spark-like plasma source for antimicrobial NOx generation</span></h3>
     <h4>
       <span class='format'>Literature</span>
@@ -2163,7 +2180,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Advancing Rhodobacter sphaeroides as a platform for expression of functional membrane proteins</span></h3>
     <h4>
       <span class='format'>Literature</span>
@@ -2180,7 +2197,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Development of Rhodobacter for the Production of Functional Membrane Proteins</span></h3>
     <h4>
       <span class='format'>Literature</span>
@@ -2197,7 +2214,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Album: Yosemite Trip v3</span></h3>
     <h4>
       <span class='format'>Photo</span>
@@ -2214,7 +2231,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Album: ClarkLab Yosemite Trip</span></h3>
     <h4>
       <span class='format'>Photo</span>
@@ -2231,7 +2248,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Album: Washington and Victoria</span></h3>
     <h4>
       <span class='format'>Photo</span>
@@ -2248,7 +2265,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Album: WineBikeCamp 2015</span></h3>
     <h4>
       <span class='format'>Photo</span>
@@ -2265,7 +2282,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Album: Yosemite Valley</span></h3>
     <h4>
       <span class='format'>Photo</span>
@@ -2282,7 +2299,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Album: Yosemite High Sierras</span></h3>
     <h4>
       <span class='format'>Photo</span>
@@ -2299,7 +2316,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Album: Mr. Money Mustache at Heron's Head Park</span></h3>
     <h4>
       <span class='format'>Photo</span>
@@ -2316,7 +2333,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Review: The Art of Fermentation</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -2333,7 +2350,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Review: Ohio Stoneware Crock</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -2350,7 +2367,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Review: Real Food Fermentation</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -2367,7 +2384,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Review: Microplane Coarse Grater</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -2384,7 +2401,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Review: Microplane Extra Coarse Grater</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -2401,7 +2418,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Review: Victorinox 12"" Honing Steel</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -2418,7 +2435,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Review: Intermatic Outdoor Digital Timer</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -2435,7 +2452,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Paramagnetism of Manganese Salts</span></h3>
     <h4>
       <span class='format'>Video</span>
@@ -2452,7 +2469,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Atmospheric Plasma Research in GravesLab </span></h3>
     <h4>
       <span class='format'>Video</span>
@@ -2469,7 +2486,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Personal Finance 101 </span></h3>
     <h4>
       <span class='format'>Video</span>
@@ -2486,7 +2503,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY Plasma Speaker with 555-Driven Flyback Transformer </span></h3>
     <h4>
       <span class='format'>Video</span>
@@ -2503,7 +2520,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Lord Kelvin's Water Dropper Electrostatic Generator </span></h3>
     <h4>
       <span class='format'>Video</span>
@@ -2520,7 +2537,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY Lightbulb Plasma Ball with 555-Driven Ignition Coil </span></h3>
     <h4>
       <span class='format'>Video</span>
@@ -2537,7 +2554,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Relocation Expenses</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2554,7 +2571,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Investing for the Self-Employed</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2571,7 +2588,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>401(k)</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2588,7 +2605,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Nontraditional Investments</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2605,7 +2622,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Real Estate</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2622,7 +2639,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>MyRA Savings Account</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2639,7 +2656,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>R Bonds</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2656,7 +2673,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Health Savings Account (HSA)</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2673,7 +2690,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Precious Metals and Diamonds</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2690,7 +2707,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Bitcoin</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2707,7 +2724,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Hedge Funds</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2724,7 +2741,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Employee Stock Purchase Plan</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2741,7 +2758,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Tax Loss Harvesting</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2758,7 +2775,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Robo Investing</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2775,7 +2792,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>High Yield Savings Accounts</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2792,7 +2809,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Money Management for Travelers</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2809,7 +2826,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Contribution Limits</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2826,7 +2843,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Financing Early Retirement</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2843,7 +2860,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Employing Your Children</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2860,7 +2877,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY Annuity</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2877,7 +2894,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Social Security</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2894,7 +2911,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Investing Outside of Vanguard</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2911,7 +2928,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Become a Registered Investment Advisor</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2928,7 +2945,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Become a Certified Financial Planner</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2945,7 +2962,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Personal Finance Readings</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2962,7 +2979,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Social Saving and Borrowing</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2979,7 +2996,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Poverty</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -2996,7 +3013,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Finance Spreadsheets</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -3013,7 +3030,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Personal Finance in Schools</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3030,7 +3047,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Finance and Relationships</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3047,7 +3064,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Taxes</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3064,7 +3081,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Transportation Spending Account</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3081,7 +3098,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Tax Loopholes</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3098,7 +3115,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Philanthropy</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3115,7 +3132,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Homebrewing</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3132,7 +3149,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Fermentation Food Safety</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3149,7 +3166,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Caffeine</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3166,7 +3183,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Low-Meat Diet</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3183,7 +3200,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Foraging</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3200,7 +3217,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Fasting</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3217,7 +3234,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Propane Tanks</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3234,7 +3251,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Gardening</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3251,7 +3268,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Composting</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3268,7 +3285,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Lawn Care</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3285,7 +3302,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Permaculture</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3302,7 +3319,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Electronics Repair</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3319,7 +3336,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Homemade Kimchi</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3336,7 +3353,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Homemade Kefir</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3353,7 +3370,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Homemade Plant Milks</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3370,7 +3387,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Homemade Yogurt</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3387,7 +3404,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Homemade Cheese</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3404,7 +3421,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Food Fermentation</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3421,7 +3438,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY NMR Spectroscopy</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3438,7 +3455,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Inserting Special Characters with Unicode</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3455,7 +3472,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Flyback Driver Circuits</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3472,7 +3489,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY Laboratory Equipment</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3489,7 +3506,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY Microbial Fuel Cell</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3506,7 +3523,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Electronic Circuit Schematic Software</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3523,7 +3540,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Soldering, Brazing, and Welding</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3540,7 +3557,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Open Source Hardware</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3557,7 +3574,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Computer Interfacing</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3574,7 +3591,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Stepper Motors</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3591,7 +3608,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>555 and 556 Timer ICs</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3608,7 +3625,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Temperature Measurement</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3625,7 +3642,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Light Measurement</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3642,7 +3659,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Randomness</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3659,7 +3676,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Electronic Components</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3676,7 +3693,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY High Voltage Components</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3693,7 +3710,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY High Voltage Community</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3710,7 +3727,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>DIY Plasma Speaker</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3727,7 +3744,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Tesla Coil</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3744,7 +3761,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Microwave Experiments</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3761,7 +3778,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Open Access Academic Journals</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3778,7 +3795,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Open Notebook Science</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3795,7 +3812,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Common Environment</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3812,7 +3829,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Internet Competency for Academics</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3829,7 +3846,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Configuring Ubuntu 14.04 LTS</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3846,7 +3863,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Troubleshooting Ubuntu 14.04 LTS</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3863,7 +3880,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Create a Linux Multiboot USB Drive</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3880,7 +3897,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Bootloader Maintenance in Linux</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3897,7 +3914,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Lightweight Linux</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3914,7 +3931,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>File Sync Software</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3931,7 +3948,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Google Drive</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3948,7 +3965,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>LaTeX Typesetting</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3965,7 +3982,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Sage Math</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3982,7 +3999,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Python Development with Virtual Environments</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -3999,7 +4016,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>C in Python with Cython</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4016,7 +4033,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Open Source CRM Software</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4033,7 +4050,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Wordpress Configuration</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4050,7 +4067,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Bash Scripting in Ubuntu Linux</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4067,7 +4084,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Internet Anonymity with TOR</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4084,7 +4101,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Blogging with Ghost</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4101,7 +4118,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Bittorrent</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4118,7 +4135,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Encryption</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4135,7 +4152,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Open Source Router Firmware</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4152,7 +4169,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Websites with GitHub Pages</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4169,7 +4186,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>RSS and Feed Readers</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4186,7 +4203,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>EEVBlog</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4203,7 +4220,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Learn To Code</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4220,7 +4237,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Environmental Conservation</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4237,7 +4254,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Acid Mine Drainage</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4254,7 +4271,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Nuclear Power</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4271,7 +4288,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Employee-Owned Companies</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4288,7 +4305,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Building a Desktop Computer</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4305,7 +4322,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Amateur Radio</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4322,7 +4339,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Mesh Networks</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4339,7 +4356,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Food and Nutrition Information</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4356,7 +4373,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Penn State Alumni Association</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4373,7 +4390,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>GPS Logging</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4390,7 +4407,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Textbook Affordability</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4407,7 +4424,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Web Tools</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4424,7 +4441,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Computer Networking</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4441,7 +4458,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Electronic Cigarettes</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4458,7 +4475,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Image Processing</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4475,7 +4492,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Attention as a Resource</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4492,7 +4509,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Science in Schools</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4509,7 +4526,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Civil Forfeiture</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4526,7 +4543,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Campaign Finance Reform</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4543,7 +4560,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Things I Own</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4560,7 +4577,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Education</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4577,7 +4594,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Audio</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4594,7 +4611,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>YouTube</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4611,7 +4628,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Python on the Web</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4628,7 +4645,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Biological Buffer Solutions</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4645,7 +4662,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Light Sources</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4662,7 +4679,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Materials Compatibility</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4679,7 +4696,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Optical Windows</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4696,7 +4713,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Plastic Bonding</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4713,7 +4730,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Plasma Mathematics</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4730,7 +4747,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Dielectrics</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4747,7 +4764,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Bay Area Volunteering</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4764,7 +4781,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Bay Area Transportation</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4781,7 +4798,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Finances</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4798,7 +4815,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Angel Island</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -4815,7 +4832,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The Berkeley Footpaths</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -4832,7 +4849,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Neighborhoods Map</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -4849,7 +4866,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Fun in San Francisco</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4866,7 +4883,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Fun in the East Bay</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4883,7 +4900,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Cycling in Berkeley</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4900,7 +4917,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Information Technology</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4917,7 +4934,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Housing</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4934,7 +4951,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Shopping</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4951,7 +4968,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Entrepreneurship</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4968,7 +4985,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Research Training</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -4985,7 +5002,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Graduate School Finances</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5002,7 +5019,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Student and Community Resources</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5019,7 +5036,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Words of Wisdom</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5036,7 +5053,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Graduate Alumni Placement</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5053,7 +5070,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Berkeley Arrival Checklist</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5070,7 +5087,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Chemical Biology Graduate Program</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5087,7 +5104,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Preparing for Grad School Visit Weekends</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5104,7 +5121,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Graduate School Fellowships</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5121,7 +5138,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Alternative Bay Area Wikis</span></h3>
     <h4>
       <span class='format'>Wiki</span>
@@ -5138,7 +5155,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Fermentation Biology and Engineering</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5155,7 +5172,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Introduction to Financial Investment</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5172,7 +5189,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Keeping Up With The Literature With Feeds</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5189,7 +5206,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Sage Math</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5206,7 +5223,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Cycling</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5223,7 +5240,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Ladderanes</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5240,7 +5257,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Basic Science - Oxidation State</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5257,7 +5274,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Basic Science - Fatty Acid Biosynthesis</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5274,7 +5291,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Basic Science - Nitrogen Metabolism</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5291,7 +5308,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Wiki Markup</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5308,7 +5325,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Basic Science - Carbon Fixation</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5325,7 +5342,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Module: Biomolecular Engineering</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5342,7 +5359,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Basic Science - Nitrogen Metabolism II</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5359,7 +5376,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Module: Understanding Stochastics</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5376,7 +5393,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Module: Differential Equations and Numerical Methods</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5393,7 +5410,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Module: Enzyme Kinetics</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5410,7 +5427,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Module: SAGE MATH Computer Algebra</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5427,7 +5444,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The Science of ARPA-E: Isoprenoid Biosynthesis, Botryococcene, and Phototrophism</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5444,7 +5461,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Basic Science - Isoprenoids and Botryococcene</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5461,7 +5478,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>State High Open Innovation Scholarship</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5478,7 +5495,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Open Knowledge Farm</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5495,7 +5512,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Software-Defined Radio (SDR) in Linux</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5512,7 +5529,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Majickal Elixirs</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5529,7 +5546,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>A Tale of Two Antibiotics, Part Two</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5546,7 +5563,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>A Tale of Two Antibiotics, Part One</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5563,7 +5580,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>How To Set Up a Wiki</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5580,7 +5597,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>CMS for Web Design</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5597,7 +5614,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Laser Flash Photolysis</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5614,7 +5631,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Powerpoint Magic</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5631,7 +5648,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The World of Isoprenes</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5648,7 +5665,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Research Management</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5665,7 +5682,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>How To Set Up A Website</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5682,7 +5699,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Anatomy of an Exam</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5699,7 +5716,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Router Configuration, Part One</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5716,7 +5733,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Chemical Engineering Education, Part One</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5733,7 +5750,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Environmentalism Extrema</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5750,7 +5767,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Environmentalist's Dilemma</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5767,7 +5784,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Smell That?</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5784,7 +5801,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Analyzing the global psyche with Google</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5801,7 +5818,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>The Brewing Continues</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5818,7 +5835,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Let The Brewing Begin</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5835,7 +5852,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Laptop Overheating</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5852,7 +5869,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>This Should Not Be Up For Debate, Part II</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5869,7 +5886,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Wheels of Time</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5886,7 +5903,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>This Should Not Be Up For Debate, Part I</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5903,7 +5920,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Keyboard Layouts</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5920,7 +5937,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Chemical Engineering Education, Part Two</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5937,7 +5954,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Graduation and Utah</span></h3>
     <h4>
       <span class='format'>Blog</span>
@@ -5954,7 +5971,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Computer Water Cooling Basics Guide</span></h3>
     <h4>
       <span class='format'>Review</span>
@@ -5971,7 +5988,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Polyketide Synthase Engineering</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -5988,7 +6005,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Biosynthesis of Tropine in Saccharomyces cerevisiae</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -6005,7 +6022,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Electronics Notebook</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -6022,7 +6039,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>BC’s Guide to Switching to Linux</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -6039,7 +6056,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Personal Finance 101 - PSU Freshman Seminar Presentation</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -6056,7 +6073,7 @@
       </span>
     </p>
   </li>
-  <li>
+  <li class="data">
     <h3><span class='title'>Ubuntu Configuration and Bash Script Recipes</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
@@ -6078,23 +6095,6 @@
 
 </div> <!-- end list -->
 </div> <!-- end container -->
-
-<!-- Secret Pages -->
-<form name="secret_pages"
-	action="javascript:location.href = 'hidden/' + window.document.secret_pages.page.value + '.html'" 
-	style="margin:0;">
-	<div style="display:inline;">
-		<input type="password" name="page">
-		<input type="submit" value="Go">
-		<noscript>
-			</noscript>
-		</div>
-	</form>
-
-<div class="footer"><p>&copy <a href="mailto:brandon.curtis@gmail.com">Brandon Curtis</a>, 2013-<script>document.write(new Date().getFullYear())</script><noscript>2015</noscript> - 
-		this work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
-		Creative Commons Attribution-ShareAlike 3.0 License</a><br />
-		Built with <a href="http://www.andhigherstill.com/2014/06/save-money-with-open-source-software.html">free, open-source software</a></p></div>
 
 <script src="javascript/listdef.js"></script>
 </body>
