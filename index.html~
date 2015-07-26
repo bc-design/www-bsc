@@ -66,11 +66,13 @@
 <p style="text-align:center">
     
 	</p>
+
+<div class="container">
+	<iframe width="350" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
+	<iframe width="350" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
+</div>
+
 <!--
-<iframe width="650" height="360" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
-
-<iframe width="650" height="360" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
-
 <!- Secret Pages ->
 <form name="secret_pages"
 	action="javascript:location.href = 'hidden/' + window.document.secret_pages.page.value + '.html'" 
