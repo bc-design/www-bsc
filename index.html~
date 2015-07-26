@@ -19,10 +19,11 @@
 	<style>
 		ul.list {list-style-type: none; }
 		li.data {border: 1px solid black; margin: 10px; padding: 0px 30px 0px 0px; }
-		#container {width: 600px; margin: 0; border: 5px solid black; padding: 15px;}
+		#container {width: 600px; margin: 0 auto; border: 5px solid black; padding: 15px;}
 		h3,h4 {margin: 0px; }
 		p {margin: 5px; }
 		.description {font-style: italic; }
+		div.container {width:750px; border-radius:10px; background-color:#eaeaea; padding:15px; margin: 0px auto 10px 0px; overflow:auto;}
 	</style>
 </head>
 
