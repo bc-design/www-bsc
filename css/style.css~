@@ -17,7 +17,7 @@ p,ul {
 }
 
 iframe {
-    margin: 20px;
+    margin: 5px;
 }
 
 .footer {
