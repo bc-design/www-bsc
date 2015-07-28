@@ -210,19 +210,19 @@
     </p>
   </li>
   <li class='data'>
-    <h3><span class='title'>Module: Enzyme Kinetics</span></h3>
+    <h3><span class='title'>Sage Math Computer Algebra Tutorial</span></h3>
     <h4>
-      <span class='format'>Google Drive</span>
+      <span class='format'>App</span>
       &#x2014;
-      <span class='category'>Science</span>
+      <span class='category'>Education</span>
       &#x2014;
       <span class='link'>
-        <a target='_blank' href='https://docs.google.com/document/d/1IzxCzZ_H4fXZeBc5tmKz2vlrY8KDVbJ70kRqdELWWXQ/edit?hl=en_US'>link</a>
+        <a target='_blank' href='http://sage.brandoncurtis.com/'>link</a>
       </span>
     </h4>
     <p>
       <span class='description'>
-        learn about enzymes and the models used to predict the rates they catalyze reactions
+        learn and experiment with free, open source math software right in the browser
       </span>
     </p>
   </li>
@@ -308,6 +308,23 @@
     <p>
       <span class='description'>
         Compound interest and gigantic tax breaks compel you: open a Roth IRA today!
+      </span>
+    </p>
+  </li>
+  <li class='data'>
+    <h3><span class='title'>Module: Enzyme Kinetics</span></h3>
+    <h4>
+      <span class='format'>Google Drive</span>
+      &#x2014;
+      <span class='category'>Science</span>
+      &#x2014;
+      <span class='link'>
+        <a target='_blank' href='https://docs.google.com/document/d/1IzxCzZ_H4fXZeBc5tmKz2vlrY8KDVbJ70kRqdELWWXQ/edit?hl=en_US'>link</a>
+      </span>
+    </h4>
+    <p>
+      <span class='description'>
+        learn about enzymes and the models used to predict the rates they catalyze reactions
       </span>
     </p>
   </li>
@@ -784,23 +801,6 @@
     <p>
       <span class='description'>
         a tool for looking up author rights for lists of journals
-      </span>
-    </p>
-  </li>
-  <li class='data'>
-    <h3><span class='title'>Sage Math Computer Algebra Tutorial</span></h3>
-    <h4>
-      <span class='format'>App</span>
-      &#x2014;
-      <span class='category'>Education</span>
-      &#x2014;
-      <span class='link'>
-        <a target='_blank' href='http://sage.brandoncurtis.com/'>link</a>
-      </span>
-    </h4>
-    <p>
-      <span class='description'>
-        learn and experiment with free open-source math software right in the browser
       </span>
     </p>
   </li>
@@ -6194,7 +6194,7 @@
     </p>
   </li>
   <li class='data'>
-    <h3><span class='title'>BC’s Guide to Switching to Linux</span></h3>
+    <h3><span class='title'>BC&apos;s Guide to Switching to Linux</span></h3>
     <h4>
       <span class='format'>Google Drive</span>
       &#x2014;
@@ -6244,6 +6244,7 @@
       </span>
     </p>
   </li>
+
 </ul>
 
 </div> <!-- end list -->
