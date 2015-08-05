@@ -41,7 +41,7 @@
 
 	<div style=float:right;>
 
-		<img src="img/bc.png" style="width:215px;border:solid black 2px;" />
+		<img src="img/bc.png" style="width:215px;border:solid black 4px;margin:5px 0 0 0;" />
 
 		<br />
 
