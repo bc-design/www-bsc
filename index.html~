@@ -35,9 +35,7 @@
 
 	<div style=float:right;>
 
-		<a href="http://www.google.com/+brandonscottcurtis">
-			<img src="img/bc.png" style="width:215px;border:solid black 2px;" />
-		</a>
+		<img src="img/bc.png" style="width:215px;border:solid black 2px;" />
 
 		<br />
 
@@ -70,6 +68,23 @@
 		Warning: I have 100+ hobbies.
 	</p>
 
+	<a href="http://www.andhigherstill.com" title="personal finance blog and wiki" style="width:215px;border:solid black 2px;">
+		<img src="img/banner-ahs.jpg" />
+	</a><br />
+
+	<a href="http://www.curtislab.org" title="CurtisLab Biotech @ Penn State" style="width:215px;border:solid black 2px;">
+		<img src="img/banner-curtislab.jpg" />
+	</a>
+
+	<a href="http://www.clarklab.org" title="ClarkLab Biotech @ UC Berkeley" style="width:215px;border:solid black 2px;">
+		<img src="img/banner-clarklab.png" />
+	</a>
+
+	<a href="http://www.graveslab.org" title="GravesLab Plasma @ UC Berkeley" style="width:215px;border:solid black 2px;">
+		<img src="img/banner-graveslab.jpg" />
+	</a>
+
+
 	<ul>
 		<li><a href="http://www.andhigherstill.com">And Higher Still</a>, my finance blog and <a href="http://wiki.andhigherstill.com">wiki</a>;</li>
 		<li><a href="http://blog.brandoncurtis.com">Distracts Others</a>, my personal and tech blog and <a href="http://wiki.brandoncurtis.com">wiki</a>;</li>
@@ -85,11 +100,6 @@
 			<a href="http://www.psugarden.org/">Community Garden</a>;
 			</li>
 		<li>or my experimental <a href="http://flask.brandoncurtis.com">Flask</a> and <a href="http://ghost.brandoncurtis.com">Ghost</a> installs.</li>
-		<li><a href="http://www.linkedin.com/in/brandoncurtis">LinkedIn</a> --
-    			<a href="http://www.google.com/+brandonscottcurtis">Google Plus</a> --
-    			<a href="http://www.github.com/brandoncurtis">GitHub</a> --
-			<a href="http://www.facebook.com/brandon.s.curtis">Facebook</a>
-    			</li>
 		</ul>
 
 <p style="text-align:center">
