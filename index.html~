@@ -73,15 +73,15 @@
 	</a><br />
 
 	<a href="http://www.curtislab.org" title="CurtisLab Biotech @ Penn State">
-		<img src="img/banner-curtislab.png" style="width:170px;border:solid black 4px;float:center;" />
+		<img src="img/banner-curtislab.png" style="width:170px;border:solid black 4px;margin:5px;" />
 	</a>
 
 	<a href="http://www.clarklab.org" title="ClarkLab Biotech @ UC Berkeley">
-		<img src="img/banner-clarklab.png" style="width:170px;border:solid black 4px;float:center;" />
+		<img src="img/banner-clarklab.png" style="width:170px;border:solid black 4px;margin:5px;" />
 	</a>
 
 	<a href="http://www.graveslab.org" title="GravesLab Plasma @ UC Berkeley">
-		<img src="img/banner-graveslab.png" style="width:170px;border:solid black 4px;float:center;"/>
+		<img src="img/banner-graveslab.png" style="width:170px;border:solid black 4px;margin:5px;"/>
 	</a>
 
 <!--	<a href="openinnovationaward.github.io" title="Open Innovation Scholarship">
