@@ -1,0 +1,17 @@
+.linkBox {
+    display:inline-block;
+    color:#000000;
+    background-color: #CCFFCC;
+    border: solid 2px #AAFFAA;
+    font-size: 0.9em;
+    /*width: 80%;*/
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 0px 5px 0px 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.linkBox:hover,.linkBox:active {
+    background-color: #AAFFAA;
+    text-decoration:none;
+}
