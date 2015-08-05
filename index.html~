@@ -34,6 +34,11 @@
 		</h1>
 
 	<div style=float:right;>
+
+		<a href="http://www.google.com/+brandonscottcurtis">
+			<img src="img/bc.png" style="width:200px;float:right;border:solid black 2px;" />
+		</a>
+
 		<a href="http://www.google.com/+brandonscottcurtis">
 			<img src="img/icon-googleplus.png" />
 		</a>
@@ -57,6 +62,7 @@
 		<a href="http://www.facebook.com/brandon.s.curtis">
 			<img src="img/icon-facebook.png" />
 		</a>
+	</div>
 		
 	<p>
 		Warning: I have 100+ hobbies.
