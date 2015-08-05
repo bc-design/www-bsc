@@ -68,6 +68,8 @@
 		Warning: I have 100+ hobbies.
 	</p>
 
+<div style="background-color:#000000;">
+
 	<a href="http://www.andhigherstill.com" title="personal finance blog and wiki">
 		<img src="img/banner-ahs.png" style="width:550px;border:solid black 4px;margin:5px;"  />
 	</a><br />
@@ -83,6 +85,8 @@
 	<a href="http://www.graveslab.org" title="GravesLab Plasma @ UC Berkeley">
 		<img src="img/banner-graveslab.png" style="width:170px;border:solid black 4px;margin:5px;"/>
 	</a>
+
+</div>
 
 <!--	<a href="openinnovationaward.github.io" title="Open Innovation Scholarship">
 		<img src="img/banner-openinnovation.png" style="width:170px;border:solid black 2px;"/>
