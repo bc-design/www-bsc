@@ -6,7 +6,6 @@ var contentList = new List('content-list', options);
 
 $('#filter-all').click(function() {
   contentList.filter();
-  contentList.reset();
   return false;
 });
 
