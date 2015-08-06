@@ -4938,7 +4938,7 @@
 </div> <!-- end list -->
 </div> <!-- end container -->
 
-<script>function textClear() {document.getElementById("filter-reset").value = "";}</script>
+<script>function textClear() {document.getElementById("filter-reset").value = " ";}</script>
 <script src="javascript/listdef.js"></script>
 </body>
 
