@@ -4,9 +4,9 @@ var options = {
 
 var contentList = new List('content-list', options);
 
-$('#filter-all').click(function() {
+$('#filter-reset').click(function() {
+  document.getElementById("filter-reset").value = "";
   contentList.filter();
-  contentList.reset();
   return false;
 });
 
