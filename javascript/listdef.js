@@ -5,7 +5,6 @@ var options = {
 var contentList = new List('content-list', options);
 
 $('#filter-reset').click(function() {
-  $('#filter-reset').value = "";
   contentList.filter();
   return false;
 });
