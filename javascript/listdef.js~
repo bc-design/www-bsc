@@ -5,7 +5,7 @@ var options = {
 var contentList = new List('content-list', options);
 
 $('#filter-reset').click(function() {
-  document.getElementById("filter-reset").value = "";
+  $('#filter-reset').value = "";
   contentList.filter();
   return false;
 });

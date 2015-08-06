@@ -7,7 +7,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="javascript/list.js"></script>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
-	<script type="text/javascript" src="javascript/ganalytics.js"></script>
+	<script src="javascript/ganalytics.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="description" content="Instantly search everything Brandon has ever done, ever">
 	<meta name="author" content="Brandon Curtis">
@@ -177,7 +177,7 @@
 <p>
   <input class="search" size="35" id="omnisearch" placeholder="keyword search everything forever" />
 
-	<button class="filter" id="filter-reset">
+	<button class="filter" id="filter-reset" onClick="textClear();">
 		Reset Filters
 	</button>
 
@@ -4938,6 +4938,7 @@
 </div> <!-- end list -->
 </div> <!-- end container -->
 
+<script>function textClear() {document.getElementById("filter-reset").value = " ";}</script>
 <script src="javascript/listdef.js"></script>
 </body>
 
