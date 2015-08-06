@@ -182,7 +182,7 @@
 	</button>
 
 <p>
-	Categories:
+	Category:
   <button class="filter" id="filter-finance">
 		Finance
   </button>
@@ -198,7 +198,7 @@
 </p>
 
 <p>
-	Formats:
+	Format:
   <button class="filter" id="filter-blog">
     Blog
   </button>
