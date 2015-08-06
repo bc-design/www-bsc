@@ -82,6 +82,13 @@
 			}
 	</style>
 
+<script>
+function clearText() {
+     document.getElementById("filter-all").value = "";
+}
+</script>
+
+
 </head>
 
 <body>
@@ -175,7 +182,7 @@
 <div id="content-list"> <!-- begin list -->
 <form>
 <p>
-  <input class="search" size="35" />
+  <input class="search" size="35" placeholder="keyword search everything" />
 
 	<button class="filter" id="filter-all" onclick="clearText();">
 		Reset Search
@@ -4939,13 +4946,6 @@
 </div> <!-- end container -->
 
 <script src="javascript/listdef.js"></script>
-
-<script>
-function clearText() {
-     document.getElementById("filter-all").value = "";
-}
-</script>
-
 </body>
 
 </html>
