@@ -4942,7 +4942,7 @@
 
 <script>
 function clearText() {
-     textfield1.value = "";
+     document.getElementById("textfield1").value = "";
 }
 </script>
 </body>
