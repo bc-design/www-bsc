@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>|BC| Supercluster</title>
+	<title>|BC| SUPERCLUSTER</title>
 	<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="javascript/list.js"></script>
@@ -20,9 +20,10 @@
 		ul.list {list-style-type: none; }
 		li.data {border: 1px solid black; margin: 10px; padding: 0px 30px 0px 0px; }
 		#container {width: 750px; margin: 0 auto; border: 5px solid black; padding: 15px;}
-		h1 {font-size:2em; }
+		h1 {font-size:2.5em; }
 		h3,h4 {margin: 0px; }
-		p {margin: 5px; font-size:0.875em; }
+		h3 {color:#335589; }
+		p {margin: 5px; font-size:0.9em; }
 		.description {font-style: italic; }
 		div.container {width:800px; border-radius:10px; background-color:#eaeaea; padding:0px; margin:5px 0px; overflow:auto;}
 		body {padding: 0 0 400px 0; }
