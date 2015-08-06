@@ -29,7 +29,7 @@
 		body {padding: 0 0 400px 0; }
 		.search {font-size:2.0em; width:550px;}
 
-		button {
+		button #filter-all{
 			-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
 			-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
 			box-shadow:inset 0px 1px 0px 0px #54a3f7;
@@ -148,7 +148,7 @@
 <div id="content-list"> <!-- begin list -->
 <p>
   <input class="search" size="35" placeholder="keyword search everything" />
-  <button type="reset" class="filter" id="filter-all" />
+  <input type="reset" class="filter" id="filter-all" />
 
 <p>
 	Categories:
