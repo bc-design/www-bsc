@@ -37,7 +37,7 @@
 		Warning: I have 100+ hobbies.
 	</p>
 
-<div style="background-color:#000000;">
+<div style="background-color:#000000;margin:0px 0px 10px 0px;">
 
 	<div style=float:right;>
 
@@ -106,8 +106,8 @@
 		<img src="img/banner-cbegsac.png" style="width:170px;border:solid black 4px;margin:5px 5px 0px 5px;"/>
 	</a>
 
-	<iframe width="370" height="250" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
-	<iframe width="370" height="250" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
+	<iframe width="370" height="250" frameborder="0" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
+	<iframe width="370" height="250" frameborder="0" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
 
 </div>
 
