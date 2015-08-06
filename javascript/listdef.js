@@ -4,8 +4,10 @@ var options = {
 
 var contentList = new List('content-list', options);
 
-$('#filter-reset').click(function() {
+$('#search-reset').click(function() {
+  $('#search-field').val('');
   contentList.filter();
+  contentList.search();
   return false;
 });
 
