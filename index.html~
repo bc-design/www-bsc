@@ -90,24 +90,29 @@
 		<img src="img/banner-graveslab.png" style="width:170px;border:solid black 4px;margin:5px 5px 0px 5px;"/>
 	</a>
 
-</div>
-
-	<a href="openinnovationaward.github.io" title="Open Innovation Scholarship">
+	<a href="http://openinnovationaward.github.io" title="Open Innovation Scholarship">
 		<img src="img/banner-openinnovation.png" style="width:170px;border:solid black 4px;margin:5px 5px 0px 5px;"/>
 	</a>
+
+	<a href="http://sage.brandoncurtis.com" title="Open Source computer math software tutorials">
+		<img src="img/banner-openinnovation.png" style="width:170px;border:solid black 4px;margin:5px 5px 0px 5px;"/>
+	</a>
+
+
+</div>
+
+
 
 	<ul>
 		<li>my <a href="http://sage.brandoncurtis.com">Sage Math computer algebra tutorials</a>;</li>
 		<li>my <a href="http://oa.brandoncurtis.com">Open Access journal status lookup page</a>;</li>
-		<li>the <a href="http://openinnovationaward.github.io">State High Open Innovation Award</a>, a scholarship I'm starting up;
-<!--		<li class="data">some <a href="https://cloud.sagemath.com/db688dd6-7168-4d3b-ac0d-5b3890336d3b/raw/audio/play.html">playing around</a> on <a href="http://cloud.sagemath.com/">SageMathCloud</a>; -->
 		<li>the Berkeley ChemE grad student organization's <a href="http://www.cbe-gsac.com/">site</a> and <a href="http://wiki.cbe-gsac.com/">wiki</a>;</li>
 		<li>old:
 			<a href="http://www.cbaw.org">Cal Brewing</a>;
 			<a href="http://ufo.psu.edu/">Penn State Fellowships</a> and 
 			<a href="http://www.psugarden.org/">Community Garden</a>;
 			</li>
-		<li>or my experimental <a href="http://flask.brandoncurtis.com">Flask</a> and <a href="http://ghost.brandoncurtis.com">Ghost</a> installs.</li>
+		<li>my experimental <a href="http://flask.brandoncurtis.com">Flask</a> and <a href="http://ghost.brandoncurtis.com">Ghost</a> installs.</li>
 		</ul>
 
 <p style="text-align:center">
