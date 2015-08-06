@@ -176,7 +176,10 @@
 <form>
 <p>
   <input class="search" size="35" placeholder="keyword search everything" />
-  <input type="reset" class="filter" id="filter-all" />
+
+	<button class="filter" id="filter-all" onclick="clearText()">
+		Reset Search
+	</button>
 
 <p>
 	Categories:
@@ -4936,6 +4939,13 @@
 </div> <!-- end container -->
 
 <script src="javascript/listdef.js"></script>
+function clearFields() {
+     document.getElementById("filter-all").value = "";
+}
+<script>
+
+</script>
+
 </body>
 
 </html>
