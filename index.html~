@@ -55,7 +55,7 @@
 			text-shadow:0px 1px 0px #154682;
 		}
 
-		#filter-reset{
+		#search-reset{
 			-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
 			-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
 			box-shadow:inset 0px 1px 0px 0px #54a3f7;
@@ -175,10 +175,10 @@
 <div id="content-list"> <!-- begin list -->
 <form>
 <p>
-  <input class="search" size="35" id="omnisearch" placeholder="keyword search everything forever" />
+  <input class="search" size="35" id="search-text" placeholder="keyword search everything forever" />
 
-	<button class="filter" id="filter-reset" onClick="textClear();">
-		Reset Filters
+	<button class="filter" id="search-reset">
+		Reset Search
 	</button>
 
 <p>
@@ -4938,7 +4938,6 @@
 </div> <!-- end list -->
 </div> <!-- end container -->
 
-<script>function textClear() {document.getElementById("filter-reset").value = " ";}</script>
 <script src="javascript/listdef.js"></script>
 </body>
 
