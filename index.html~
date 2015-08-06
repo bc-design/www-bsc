@@ -175,7 +175,7 @@
 <div id="content-list"> <!-- begin list -->
 <form>
 <p>
-  <input class="search" size="35" id="search-text" placeholder="keyword search everything forever" />
+  <input class="search" size="35" id="search-field" placeholder="keyword search everything forever" />
 
 	<button class="filter" id="search-reset">
 		Reset Search
