@@ -6,8 +6,9 @@ body {
 
 h1 {
     background-color: AliceBlue;
-    border: solid 2px #DDDDFF;
-    padding: 2px 10px 2px 10px;
+    border: solid 2px #B1B1CC;
+    padding: 2px 10px 6px 10px;
+	margin: 20px 0px 20px 0px
     border-radius: 0px 15px 15px 0px / 0px 15px 15px 0px;
     font-size: 2.0em;
 }
@@ -17,7 +18,7 @@ p,ul {
 }
 
 iframe {
-    margin: 5px;
+    margin: 10px;
 }
 
 .footer {
