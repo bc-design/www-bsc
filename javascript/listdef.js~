@@ -4,8 +4,8 @@ var options = {
 
 var contentList = new List('content-list', options);
 
-$('#filter-all').click(function() {
-  document.getElementById("omnisearch").value = "";
+$('#filter-reset').click(function() {
+  document.getElementById("filter-reset").value = "";
   contentList.filter();
   return false;
 });
