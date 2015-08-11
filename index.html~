@@ -15,15 +15,6 @@
 	<meta content='|BC| Supercluster' property='og:site_name'/>
 	<meta content='en_US' property='og:locale'/>
 	<meta content='https://www.facebook.com/brandon.s.curtis' property='article:author'/>
-
-	<script>
-		var hideable = document.getElementById('hideable');
-		var open = document.getElementById('btn-open');
-		open.onclick = function () {
-		    hideable.style.display = "block";
-		};
-	</script>
-
 </head>
 
 <body>
@@ -4890,6 +4881,15 @@
 
 </div> <!-- end list -->
 </div> <!-- end container -->
+
+<script>
+	var hideable = document.getElementById('hideable');
+	var open = document.getElementById('btn-open');
+	open.onclick = function () {
+	    hideable.style.display = "none";
+	};
+</script>
+
 
 <script src="javascript/listdef.js"></script>
 </body>
