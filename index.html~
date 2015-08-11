@@ -17,10 +17,10 @@
 	<meta content='https://www.facebook.com/brandon.s.curtis' property='article:author'/>
 
 	<script>
-		var slides = document.getElementById('hideable');
-		var close = document.getElementById('btn-close');
+		var hideable = document.getElementById('hideable');
+		var close = document.getElementById('btn-open');
 		close.onclick = function () {
-		    openable.style.display = "block";
+		    hideable.style.display = "block";
 		};
 	</script>
 
