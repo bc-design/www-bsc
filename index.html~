@@ -4,17 +4,21 @@
 <head>
 	<title>|BC| Supercluster</title>
 	<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="javascript/list.js"></script>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<script src="javascript/ganalytics.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="description" content="Instantly search everything Brandon has ever done, ever">
-	<meta name="author" content="Brandon Curtis">
-	<meta content='1476420667' property='fb:admins'/>
-	<meta content='|BC| Supercluster' property='og:site_name'/>
-	<meta content='en_US' property='og:locale'/>
-	<meta content='https://www.facebook.com/brandon.s.curtis' property='article:author'/>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="|BC| SUPERCLUSTER" />
+	<meta property="og:image" content="http://www.brandoncurtis.com/img/bc.png" />
+	<meta property="og:url" content="http://www.brandoncurtis.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:description" content="Instantly search everything Brandon has ever done, ever" />
+
+	<meta property="author" content="Brandon Curtis">
+	<meta property="fb:admins" content="1476420667" />
 </head>
 
 <body>
