@@ -4886,7 +4886,12 @@
 	var hideable = document.getElementById('hideable');
 	var open = document.getElementById('btn-open');
 	open.onclick = function () {
-	    hideable.style.display = "block";
+		if (hideable.style.display == "none") {
+		    hideable.style.display = "block";
+		}
+		else {
+			hideable.style.display = "none";
+		}
 	};
 </script>
 
