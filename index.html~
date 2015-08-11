@@ -18,8 +18,8 @@
 
 	<script>
 		var hideable = document.getElementById('hideable');
-		var close = document.getElementById('btn-open');
-		close.onclick = function () {
+		var open = document.getElementById('btn-open');
+		open.onclick = function () {
 		    hideable.style.display = "block";
 		};
 	</script>
@@ -109,7 +109,7 @@
 		<img src="img/banner-videos.png"  style="border:solid black 4px;margin:5px 5px 0px 5px;"/>
 	</div>
 
-	<div id="hideable" style="display: none">
+	<div id="hideable">
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/hl2fcr3iRUo" allowfullscreen></iframe>
