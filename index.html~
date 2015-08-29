@@ -27,37 +27,41 @@
 
 <div style="background-color:#000000;margin:0px 0px 10px 0px;">
 
+<!-- BEGIN PROFILEBOX -->
+
 	<div style=float:right;>
-		<a href="contact.html">
+		<a href="..">
 			<img src="img/bc-contact.png" style="border:solid black 4px;margin:5px 0 0 0;" />
 		</a>
 
 		<br />
 
-		<a class="g-profile" rel="author" title="author profile" href="http://www.google.com/+brandonscottcurtis">
+		<a target="_blank" class="g-profile" rel="author" title="author profile" href="http://www.google.com/+brandonscottcurtis">
 			<img src="img/icon-googleplus.png" />
 		</a>
 
-		<a href="http://www.linkedin.com/in/brandoncurtis">
+		<a target="_blank" href="http://www.linkedin.com/in/brandoncurtis">
 			<img src="img/icon-linkedin.png" />
 		</a>
 
-    	<a href="http://www.github.com/brandoncurtis">
+    	<a target="_blank" href="http://www.github.com/brandoncurtis">
 			<img src="img/icon-github.png" />
 		</a>
 
-		<a href="https://www.youtube.com/user/BCurt9000">
+		<a target="_blank" href="https://www.youtube.com/user/BCurt9000">
 			<img src="img/icon-youtube.png" />
 		</a>
 
-		<a href="https://twitter.com/bc_cheme">
+		<a target="_blank" href="https://twitter.com/bc_cheme">
 			<img src="img/icon-twitter.png" />
 		</a>
 
-		<a href="http://www.about.me/brandoncurtis">
+		<a target="_blank" href="http://www.about.me/brandoncurtis">
 			<img src="img/icon-aboutme.png" style="width:32px;" />
 		</a>
 	</div>
+
+<!-- END PROFILEBOX -->
 
 	<a href="http://www.andhigherstill.com" title="personal finance blog and wiki">
 		<img src="img/banner-ahs.png" style="width:550px;border:solid black 4px;margin:5px 5px 0px 5px;"  />
