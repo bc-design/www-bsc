@@ -12,7 +12,7 @@
 
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="|BC| SUPERCLUSTER" />
-	<meta property="og:image" content="http://www.brandoncurtis.com/img/bc-contact.png" />
+	<meta property="og:image" content="http://www.brandoncurtis.com/img/bc.png" />
 	<meta property="og:url" content="http://www.brandoncurtis.com/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:description" content="Instantly search everything I've ever done, ever." />
@@ -29,7 +29,7 @@
 
 	<div style=float:right;>
 		<a href="contact.html">
-			<img src="img/bc.png" style="border:solid black 4px;margin:5px 0 0 0;" />
+			<img src="img/bc-contact.png" style="border:solid black 4px;margin:5px 0 0 0;" />
 		</a>
 
 		<br />
