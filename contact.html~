@@ -80,7 +80,9 @@
 		</p>
 	</div>
 
-	<div style="width:200px; background-color:#B2B2B2; padding:7px; margin:30px 12px; border-radius:7px; display:inline-block;">
+	<div style="white-space:nowrap; background-color:#B2B2B2; padding:7px; margin:30px 12px; border-radius:7px; display:inline-block;">
+		test test test
+	</div>
 
 <div>
 	<iframe src="https://docs.google.com/forms/d/1FOVcpHPecplt9cC2sWmMCQKVdAeEcDrKHqTmCnF9tNc/viewform?embedded=true" width="780" height="500" frameborder="0" marginheight="0" marginwidth="0">
