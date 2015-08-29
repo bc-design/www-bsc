@@ -82,7 +82,7 @@
 
 	<div style="width:540px; text-align:center;">
 	<div style="background-color:#22A301; padding:7px; margin:0 auto; border-radius:7px; display:inline-block;">
-		$ <a target="_blank" href="http://cash.me/bsc">contribute</a> $
+		<a target="_blank" href="http://cash.me/bsc" alt="contribute"><img src="img/cashme.png" style="border-radius:10px;" /></a>
 	</div>
 	</div>
 
