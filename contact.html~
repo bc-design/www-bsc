@@ -11,9 +11,9 @@
 	<script src="javascript/ganalytics.js"></script>
 
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="|BC| SUPERCLUSTER" />
-	<meta property="og:image" content="http://www.brandoncurtis.com/img/bc.png" />
-	<meta property="og:url" content="http://www.brandoncurtis.com/" />
+	<meta property="og:title" content="|BC| CONTACT" />
+	<meta property="og:image" content="http://www.brandoncurtis.com/img/bc-contact.png" />
+	<meta property="og:url" content="http://www.brandoncurtis.com/contact.html" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:description" content="Instantly search everything I've ever done, ever." />
 
@@ -31,32 +31,32 @@
 
 	<div style=float:right;>
 		<a href="..">
-			<img src="img/bc.png" style="border:solid black 4px;margin:5px 0 0 0;" />
+			<img src="img/bc-back.png" style="border:solid black 4px;margin:5px 0 0 0;" />
 		</a>
 
 		<br />
 
-		<a class="g-profile" rel="author" title="author profile" href="http://www.google.com/+brandonscottcurtis">
+		<a target="_blank" class="g-profile" rel="author" title="author profile" href="http://www.google.com/+brandonscottcurtis">
 			<img src="img/icon-googleplus.png" />
 		</a>
 
-		<a href="http://www.linkedin.com/in/brandoncurtis">
+		<a target="_blank" href="http://www.linkedin.com/in/brandoncurtis">
 			<img src="img/icon-linkedin.png" />
 		</a>
 
-    	<a href="http://www.github.com/brandoncurtis">
+    	<a target="_blank" href="http://www.github.com/brandoncurtis">
 			<img src="img/icon-github.png" />
 		</a>
 
-		<a href="https://www.youtube.com/user/BCurt9000">
+		<a target="_blank" href="https://www.youtube.com/user/BCurt9000">
 			<img src="img/icon-youtube.png" />
 		</a>
 
-		<a href="https://twitter.com/bc_cheme">
+		<a target="_blank" href="https://twitter.com/bc_cheme">
 			<img src="img/icon-twitter.png" />
 		</a>
 
-		<a href="http://www.about.me/brandoncurtis">
+		<a target="_blank" href="http://www.about.me/brandoncurtis">
 			<img src="img/icon-aboutme.png" style="width:32px;" />
 		</a>
 	</div>
@@ -70,8 +70,8 @@
 
 		<p>
 			Do you have a problem, concept, idea, or recommendation that you'd like to see analyzed on
-			<span style="font-weight:bold;"><a href="http://www.andhigherstill.com/">And Higher Still</a></span> or 
-			<span style="font-weight:bold;"><a href="http://blog.brandoncurtis.com/">Distracts Others</a></span>?
+			<span style="font-weight:bold;"><a target="_blank" href="http://www.andhigherstill.com/">And Higher Still</a></span> or 
+			<span style="font-weight:bold;"><a target="_blank" href="http://blog.brandoncurtis.com/">Distracts Others</a></span>?
 			I'll do my best to answer your questions and point you toward other helpful resources.
 		</p>
 
