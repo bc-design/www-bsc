@@ -29,7 +29,7 @@
 
 <!-- BEGIN PROFILEBOX -->
 
-	<div style=float:right;>
+	<div style="float:right; display:inline-block;">
 		<a href="..">
 			<img src="img/bc-back.png" style="border:solid black 4px;margin:5px 0 0 0;" />
 		</a>
@@ -79,6 +79,8 @@
 			I offer technical consulting services for larger projects.
 		</p>
 	</div>
+
+	<div style="width:200px; background-color:#B2B2B2; padding:7px; margin:30px 12px; border-radius:7px; display:inline-block;">
 
 <div>
 	<iframe src="https://docs.google.com/forms/d/1FOVcpHPecplt9cC2sWmMCQKVdAeEcDrKHqTmCnF9tNc/viewform?embedded=true" width="780" height="500" frameborder="0" marginheight="0" marginwidth="0">
