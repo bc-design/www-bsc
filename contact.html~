@@ -65,7 +65,7 @@
 
 
 
-	<p style="width:570px; background-color:#B2B2B2; padding:7px; margin:5px; border-radius:7px; display:block;">
+	<p style="width:550px; background-color:#B2B2B2; padding:7px; margin:10px; border-radius:7px; display:inline-block;">
 		<span style="font-weight:bold;">Get in touch.</span><br /><br />
 		Do you have a problem, concept, idea, or recommendation that you'd like to see analyzed on
 		<span style="font-weight:bold;"><a href="http://www.andhigherstill.com/">And Higher Still</a></span> or 
