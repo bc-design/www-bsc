@@ -63,18 +63,20 @@
 
 <!-- END PROFILEBOX -->
 
-	<h3>
-		<span style="font-weight:bold;">Get in touch.</span></br>
+
+
+	<p style="background-color:#B2B2B2; padding:5px; margin:5px; border-radius:5px;">
+		<span style="font-weight:bold;">Get in touch.</span><br /><br />
 		Do you have a problem, concept, idea, or recommendation that you'd like to see analyzed on
 		<span style="font-weight:bold;"><a href="http://www.andhigherstill.com/">And Higher Still</a></span> or 
-		<span style="font-weight:bold;"><a href="http://blog.brandoncurtis.com/">Distracts</a></span>?
+		<span style="font-weight:bold;"><a href="http://blog.brandoncurtis.com/">Distracts Others</a></span>?
 		I'll do my best to answer your questions and point you toward other helpful resources.
 		I offer technical consulting services for larger projects.
 		(I'll never do anything evil with your contact information)
-	</h3>
+	</p>
 
 <div>
-	<iframe src="https://docs.google.com/forms/d/1FOVcpHPecplt9cC2sWmMCQKVdAeEcDrKHqTmCnF9tNc/viewform?embedded=true" width="7680" height="500" frameborder="0" marginheight="0" marginwidth="0">
+	<iframe src="https://docs.google.com/forms/d/1FOVcpHPecplt9cC2sWmMCQKVdAeEcDrKHqTmCnF9tNc/viewform?embedded=true" width="780" height="500" frameborder="0" marginheight="0" marginwidth="0">
 		Form Loading...
 	</iframe>
 
