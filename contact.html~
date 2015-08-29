@@ -63,7 +63,7 @@
 
 <!-- END PROFILEBOX -->
 
-	<div style="width:540px; background-color:#B2B2B2; padding:7px; margin:30px 12px 0px 12px; border-radius:7px; display:inline-block;">
+	<div style="width:540px; background-color:#B2B2B2; padding:7px; margin:30px 12px 10px 12px; border-radius:7px; display:inline-block;">
 		<h2>
 			Get in touch!
 		</h2>
@@ -81,7 +81,7 @@
 	</div>
 
 	<div style="width:540px; text-align:center;">
-		<a target="_blank" href="http://cash.me/bsc" title="contribute!"><img src="img/cashme.png" style="border-radius:10px;" /></a>
+		<a target="_blank" href="http://cash.me/bsc" title="contribute!"><img src="img/cashme.png" style="border-radius:15px;" /></a>
 	</div>
 
 <div>
