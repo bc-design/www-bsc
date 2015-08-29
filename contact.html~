@@ -82,7 +82,7 @@
 
 	<div style="width:540px; text-align:center;">
 	<div style="background-color:#00CC00; padding:7px; margin:0 auto; border-radius:7px; display:inline-block;">
-		$ make a donation $
+		$ <a target="_blank" href="http://cash.me/bsc">make a donation</a> $
 	</div>
 	</div>
 
