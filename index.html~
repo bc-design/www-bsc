@@ -6,9 +6,9 @@
 	<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="javascript/list.js"></script>
+	<script src="js/list.js"></script>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
-	<script src="javascript/ganalytics.js"></script>
+	<script src="js/ganalytics.js"></script>
 
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="|BC| SUPERCLUSTER" />
@@ -30,7 +30,7 @@
 <!-- BEGIN PROFILEBOX -->
 
 	<div style="float:right; display:inline-block;">
-		<a href="contact.html">
+		<a href="contact">
 			<img src="img/bc-contact.png" title="contact me!" style="border:solid black 4px;margin:5px 0 0 0;" />
 		</a>
 
@@ -59,6 +59,13 @@
 		<a target="_blank" href="http://www.about.me/brandoncurtis">
 			<img src="img/icon-aboutme.png" title="about.me!" style="width:32px;" />
 		</a>
+
+		<br />
+		<div style="text-align:center;font-size:small;">
+		<a href="brandoncurtis-resume-2015-09.pdf" style="color:white;" title="appraise me!">
+			fairly generic resume
+		</a>
+		</div>
 	</div>
 
 <!-- END PROFILEBOX -->
@@ -108,13 +115,16 @@
 		<img src="img/banner-videos.png"  style="border:solid black 4px;margin:5px 5px 0px 5px;"/>
 	</div>
 
+
+https://www.youtube.com/watch?v=
+
 <!-- BEGIN VIDEO BLOCK -->
 	<div id="hideable" style="display:none;">
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/BkmZPRz8B3Q" allowfullscreen></iframe>
+		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/T2RAK9Noubs" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/rHfVr7ohois" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/7F2OqmqJBCw" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/o_1lPekb2lY" allowfullscreen></iframe>
-		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/hl2fcr3iRUo" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/QcNL00-8cmw" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/mJh8zD0As-k" allowfullscreen></iframe>
 		<iframe width="380" height="250" frameborder="0" src="//www.youtube.com/embed/lz1_kvZCqOw" allowfullscreen></iframe>
@@ -4907,7 +4917,7 @@
 	};
 </script>
 
-<script src="javascript/listdef.js"></script>
+<script src="js/listdef.js"></script>
 </body>
 
 </html>
