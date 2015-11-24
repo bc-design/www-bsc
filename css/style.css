@@ -1,6 +1,6 @@
 body {
     width: 810px;
-    font-family: Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 100%;
 	padding: 0 0 400px 0;
 	margin:0 auto 0 auto;
@@ -75,7 +75,7 @@ ul.list {list-style-type: none; padding:0px 0px 0px 20px;}
 li.data {border: 1px solid black; margin: 10px; padding: 4px 20px 0px 4px; }
 #container {width: 750px; margin: 0 auto; border: 5px solid black; padding: 15px;}
 h2 {margin: 10px; }
-h3,h4 {margin: 0px; }
+h3,h4 {margin: 0px; font-family: Verdana, sans-serif;}
 h3 {color:#335589; }
 .description {font-style: italic; }
 div.container {width:800px; border-radius:10px; background-color:#eaeaea; padding:0px; margin:5px 0px; overflow:auto;}
