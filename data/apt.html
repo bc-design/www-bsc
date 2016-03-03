@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>gps_all (1)</title>
+		<base target="_top"></base>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta name="geo.position" content="36.89435; -96.74655" />
+		<meta name="ICBM" content="36.89435, -96.74655" />
+	</head>
+	<body style="margin:0px;">
+		<script type="text/javascript">
+			var google_api_key = ''; // Your project's Google Maps API key goes here (https://code.google.com/apis/console)
+			document.writeln('<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&amp;libraries=geometry&amp;'+((self.google_api_key&&document.location.toString().indexOf('file://')!=0)?'key='+google_api_key:'')+'"><'+'/script>');
+		</script>
+		
+		<!--
+			If you want to transplant this map into another Web page, by far the best method is to
+			simply include it in a IFRAME tag (see http://www.gpsvisualizer.com/faq.html#google_html).
+			But, if you must paste the code into another page, be sure to include all of these parts:
+			   1. The "div" tags that contain the map and its widgets, below
+			   2. Three sections of JavaScript code:
+			      a. The Google code (maps.google.com or googleapis.com) code, above
+			      b. "gv_options" and the code that calls a .js file on maps.gpsvisualizer.com
+			      c. The "GV_Map" function, which contains all the geographic info for the map
+		-->
+		<div style="margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px;">
+			<div id="gmap_div" style="width:700px; height:414px; margin:0px; margin-right:12px; background-color:#f0f0f0; float:left; overflow:hidden;">
+				<p align="center" style="font:10px Arial;">This map was created using <a target="_blank" href="http://www.gpsvisualizer.com/">GPS Visualizer</a>'s do-it-yourself geographic utilities.<br /><br />Please wait while the map data loads...</p>
+			</div>
+				
+			<div id="gv_infobox" class="gv_infobox" style="font:11px Arial; border:solid #666666 1px; background-color:#ffffff; padding:4px; overflow:auto; display:none; ">
+				<div id="gv_legend_header" style="padding-bottom:2px;"><b>name</b></div>
+				<div class="gv_legend_item"><span style="color:#e60000;">&#9608; A</span></div>
+				<div class="gv_legend_item"><span style="color:#4de600;">&#9608; B</span></div>
+				<div class="gv_legend_item"><span style="color:#0098e6;">&#9608; C</span></div>
+				<div class="gv_legend_item"><span style="color:#e600e6;">&#9608; N</span></div>
+			</div>
+
+
+
+			<div id="gv_marker_list" class="gv_marker_list" style="background-color:#ffffff; overflow:auto; display:none;"><!-- --></div>
+
+			<div id="gv_clear_margins" style="height:0px; clear:both;"><!-- clear the "float" --></div>
+		</div>
+
+		
+		<!-- begin GPS Visualizer setup script (must come after maps.google.com code) -->
+		<script type="text/javascript">
+			/* Global variables used by the GPS Visualizer functions (20160303142751): */
+			gv_options = {};
+			
+			// basic map parameters:
+			gv_options.center = [36.89435,-96.74655];  // [latitude,longitude] - be sure to keep the square brackets
+			gv_options.zoom = 4;  // higher number means closer view; can also be 'auto' for automatic zoom/center based on map elements
+			gv_options.map_type = 'GV_HYBRID';  // popular map_type choices are 'GV_STREET', 'GV_SATELLITE', 'GV_HYBRID', 'GV_TERRAIN', 'GV_TOPO_US', 'GV_TOPO_WORLD', 'GV_OSM' (http://www.gpsvisualizer.com/misc/google_map_types.html)
+			gv_options.map_opacity = 1.00;  // number from 0 to 1
+			gv_options.full_screen = true;  // true|false: should the map fill the entire page (or frame)?
+			gv_options.width = 700;  // width of the map, in pixels
+			gv_options.height = 414;  // height of the map, in pixels
+			
+			gv_options.map_div = 'gmap_div';  // the name of the HTML "div" tag containing the map itself; usually 'gmap_div'
+			gv_options.doubleclick_zoom = true;  // true|false: zoom in when mouse is double-clicked?
+			gv_options.doubleclick_center = true;  // true|false: re-center the map on the point that was double-clicked?
+			gv_options.mousewheel_zoom = true; // true|false; or 'reverse' for down=in and up=out
+			gv_options.autozoom_adjustment = 0;
+			gv_options.centering_options = { 'open_info_window':true, 'partial_match':true, 'center_key':'center', 'default_zoom':null } // URL-based centering (e.g., ?center=name_of_marker&zoom=14)
+			gv_options.tilt = false; // true|false: allow Google to show 45-degree tilted aerial imagery?
+			gv_options.street_view = false; // true|false: allow Google Street View on the map
+			gv_options.animated_zoom = false; // true|false: may or may not work properly
+			gv_options.disable_google_pois = false;  // true|false: if you disable clickable POIs, you also lose the labels on parks, airports, etc.
+				
+			// widgets on the map:
+			gv_options.zoom_control = 'large'; // 'large'|'small'|'none'
+			gv_options.recenter_button = true; // true|false: is there a 'double-click to recenter' option in the zoom control?
+			gv_options.scale_control = true; // true|false
+			gv_options.center_coordinates = true;  // true|false: show a "center coordinates" box and crosshair?
+			gv_options.mouse_coordinates = false;  // true|false: show a "mouse coordinates" box?
+			gv_options.measurement_tools = 'separate';  // true|false|'separate' ('separate' to put a ruler outside the utilities menu)
+			gv_options.measurement_options = { visible:false, distance_color:'', area_color:'' };
+			gv_options.crosshair_hidden = true;  // true|false: hide the crosshair initially?
+			gv_options.map_opacity_control = true;  // true|false|'separate' ('separate' to put a control outside the utilities menu)
+			gv_options.map_type_control = {};  // widget to change the background map
+			  gv_options.map_type_control.style = 'menu';  // 'menu'|'none'
+			  gv_options.map_type_control.filter = false;  // true|false: when map loads, are irrelevant maps ignored?
+			  gv_options.map_type_control.excluded = [];  // comma-separated list of quoted map IDs that will never show in the list ('included' also works)
+			gv_options.infobox_options = {}; // options for a floating info box (id="gv_infobox"), which can contain anything
+			  gv_options.infobox_options.enabled = true;  // true|false: enable or disable the info box altogether
+			  gv_options.infobox_options.position = ['LEFT_BOTTOM',60,50];  // [Google anchor name, relative x, relative y]
+			  gv_options.infobox_options.draggable = true;  // true|false: can it be moved around the screen?
+			  gv_options.infobox_options.collapsible = true;  // true|false: can it be collapsed by double-clicking its top bar?
+			gv_options.utilities_menu = true;  // true|false
+			gv_options.allow_export = false;  // true|false
+
+
+			// marker-related options:
+			gv_options.default_marker = { color:'red',icon:'googlemini',scale:1 }; // icon can be a URL, but be sure to also include size:[w,h] and optionally anchor:[x,y]
+			gv_options.marker_tooltips = true; // do the names of the markers show up when you mouse-over them?
+			gv_options.marker_shadows = true; // true|false: do the standard markers have "shadows" behind them?
+			gv_options.marker_link_target = '_blank'; // the name of the window or frame into which markers' URLs will load
+			gv_options.info_window_width = 0;  // in pixels, the width of the markers' pop-up info "bubbles" (can be overridden by 'window_width' in individual markers)
+			gv_options.thumbnail_width = 0;  // in pixels, the width of the markers' thumbnails (can be overridden by 'thumbnail_width' in individual markers)
+			gv_options.photo_size = [0,0];  // in pixels, the size of the photos in info windows (can be overridden by 'photo_width' or 'photo_size' in individual markers)
+			gv_options.hide_labels = false;  // true|false: hide labels when map first loads?
+			gv_options.labels_behind_markers = false; // true|false: are the labels behind other markers (true) or in front of them (false)?
+			gv_options.label_offset = [0,0];  // [x,y]: shift all markers' labels (positive numbers are right and down)
+			gv_options.label_centered = false;  // true|false: center labels with respect to their markers?  (label_left is also a valid option.)
+			gv_options.driving_directions = false;  // put a small "driving directions" form in each marker's pop-up window? (override with dd:true or dd:false in a marker's options)
+			gv_options.garmin_icon_set = 'gpsmap'; // 'gpsmap' are the small 16x16 icons; change it to '24x24' for larger icons
+			gv_options.marker_list_options = {};  // options for a dynamically-created list of markers
+			  gv_options.marker_list_options.enabled = true;  // true|false: enable or disable the marker list altogether
+			  gv_options.marker_list_options.floating = true;  // is the list a floating box inside the map itself?
+			  gv_options.marker_list_options.position = ['RIGHT_BOTTOM',6,38];  // floating list only: position within map
+			  gv_options.marker_list_options.min_width = 160; // minimum width, in pixels, of the floating list
+			  gv_options.marker_list_options.max_width = 160;  // maximum width
+			  gv_options.marker_list_options.min_height = 0;  // minimum height, in pixels, of the floating list
+			  gv_options.marker_list_options.max_height = 167;  // maximum height
+			  gv_options.marker_list_options.draggable = true;  // true|false, floating list only: can it be moved around the screen?
+			  gv_options.marker_list_options.collapsible = true;  // true|false, floating list only: can it be collapsed by double-clicking its top bar?
+			  gv_options.marker_list_options.include_tickmarks = false;  // true|false: are distance/time tickmarks included in the list?
+			  gv_options.marker_list_options.include_trackpoints = false;  // true|false: are "trackpoint" markers included in the list?
+			  gv_options.marker_list_options.dividers = false;  // true|false: will a thin line be drawn between each item in the list?
+			  gv_options.marker_list_options.desc = false;  // true|false: will the markers' descriptions be shown below their names in the list?
+			  gv_options.marker_list_options.icons = true;  // true|false: should the markers' icons appear to the left of their names in the list?
+			  gv_options.marker_list_options.thumbnails = false;  // true|false: should markers' thumbnails be shown in the list?
+			  gv_options.marker_list_options.folders_collapsed = false;  // true|false: do folders in the list start out in a collapsed state?
+			  gv_options.marker_list_options.folders_hidden = false;  // true|false: do folders in the list start out in a hidden state?
+			  gv_options.marker_list_options.collapsed_folders = []; // an array of folder names
+			  gv_options.marker_list_options.hidden_folders = []; // an array of folder names
+			  gv_options.marker_list_options.count_folder_items = false;  // true|false: list the number of items in each folder?
+			  gv_options.marker_list_options.wrap_names = true;  // true|false: should marker's names be allowed to wrap onto more than one line?
+			  gv_options.marker_list_options.unnamed = '[unnamed]';  // what 'name' should be assigned to  unnamed markers in the list?
+			  gv_options.marker_list_options.colors = false;  // true|false: should the names/descs of the points in the list be colorized the same as their markers?
+			  gv_options.marker_list_options.default_color = '';  // default HTML color code for the names/descs in the list
+			  gv_options.marker_list_options.limit = 0;  // how many markers to show in the list; 0 for no limit
+			  gv_options.marker_list_options.center = false;  // true|false: does the map center upon a marker when you click its name in the list?
+			  gv_options.marker_list_options.zoom = false;  // true|false: does the map zoom to a certain level when you click on a marker's name in the list?
+			  gv_options.marker_list_options.zoom_level = 11;  // if 'zoom' is true, what level should the map zoom to?
+			  gv_options.marker_list_options.info_window = true;  // true|false: do info windows pop up when the markers' names are clicked in the list?
+			  gv_options.marker_list_options.url_links = false;  // true|false: do the names in the list become instant links to the markers' URLs?
+			  gv_options.marker_list_options.toggle = false;  // true|false: does a marker disappear if you click on its name in the list?
+			  gv_options.marker_list_options.help_tooltips = false;  // true|false: do "tooltips" appear on marker names that tell you what happens when you click?
+			  gv_options.marker_list_options.id = 'gv_marker_list';  // id of a DIV tag that holds the list
+			  gv_options.marker_list_options.header = ''; // HTML code; be sure to put backslashes in front of any single quotes, and don't include any line breaks
+			  gv_options.marker_list_options.footer = ''; // HTML code
+			gv_options.marker_filter_options = {};  // options for removing waypoints that are out of the current view
+			  gv_options.marker_filter_options.enabled = false;  // true|false: should out-of-range markers be removed?
+			  gv_options.marker_filter_options.movement_threshold = 8;  // in pixels, how far the map has to move to trigger filtering
+			  gv_options.marker_filter_options.limit = 0;  // maximum number of markers to display on the map; 0 for no limit
+			  gv_options.marker_filter_options.update_list = true;  // true|false: should the marker list be updated with only the filtered markers?
+			  gv_options.marker_filter_options.sort_list_by_distance = false;  // true|false: should the marker list be sorted by distance from the center of the map?
+			  gv_options.marker_filter_options.min_zoom = 0;  // below this zoom level, don't show any markers at all
+			  gv_options.marker_filter_options.zoom_message = '';  // message to put in the marker list if the map is below the min_zoom threshold
+			gv_options.synthesize_fields = {}; // for example: {label:'{name}'} would cause all markers' names to become visible labels
+				
+			
+			// Load GPS Visualizer's Google Maps functions (this must be loaded AFTER gv_options are set):
+			if (window.location.toString().indexOf('https://') == 0) { // secure pages require secure scripts
+				document.writeln('<script src="https://gpsvisualizer.github.io/google_maps/functions3.js" type="text/javascript"><'+'/script>');
+			} else {
+				document.writeln('<script src="http://maps.gpsvisualizer.com/google_maps/functions3.js" type="text/javascript"><'+'/script>');
+			}
+			
+		</script>
+		
+		<style type="text/css">
+			/* Put any custom style definitions here (e.g., .gv_marker_info_window, .gv_marker_info_window_name, .gv_marker_list_item, .gv_tooltip, .gv_label, etc.) */
+			#gmap_div .gv_marker_info_window {
+				font-size:11px !important;
+			}
+			#gmap_div .gv_label {
+				background-color:#333333; border:1px solid black; padding:1px;
+				color:white; font:9px Verdana,sans-serif !important; font-weight:normal !important;
+				opacity:0.80; filter:alpha(opacity=80);
+			}
+			
+		</style>
+		
+		<!-- end GPSV setup script and styles; begin map-drawing script (they must be separate) -->
+		<script type="text/javascript">
+			function GV_Map() {
+			  
+				GV_Setup_Map();
+				
+				
+				
+				GV_Draw_Marker({lat:38.9517000,lon:-94.6673000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:41.9539000,lon:-91.7163000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:43.0564000,lon:-89.5033000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:40.0300000,lon:-75.6235000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:41.2365000,lon:-73.0383000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:41.5967000,lon:-87.5307000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:41.4185000,lon:-81.9097000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:32.9311000,lon:-96.8056000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:33.9272000,lon:-117.8850000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:40.1165000,lon:-75.2848000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:29.9491000,lon:-95.4113000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.9484000,lon:-88.0082000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:35.9282000,lon:-84.0361000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:37.3235000,lon:-121.9430000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.0664000,lon:-80.0934000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:40.1407000,lon:-74.9558000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:39.9393000,lon:-75.0175000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:33.4682000,lon:-86.7752000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:36.0639000,lon:-115.0390000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:41.9525000,lon:-88.1155000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:38.6261000,lon:-90.4169000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:44.9779000,lon:-93.4012000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:41.2501000,lon:-75.8441000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.3470000,lon:-71.0793000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:38.9530000,lon:-94.5237000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:32.2217000,lon:-110.9150000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:33.6122000,lon:-117.7100000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:31.7900000,lon:-106.3760000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.0613000,lon:-87.7471000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:39.5809000,lon:-104.9550000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.5615000,lon:-83.1839000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:41.8880000,lon:-87.6354000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:27.5459000,lon:-99.5028000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:37.5823000,lon:-77.4990000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.1522000,lon:-87.8125000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.2255000,lon:-83.2685000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:28.0664000,lon:-82.5765000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.0483000,lon:-87.8395000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:28.0554000,lon:-82.4356000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:47.8316000,lon:-122.2730000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
+				GV_Draw_Marker({lat:42.0613000,lon:-87.7471000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:31.1571000,lon:-89.4476000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.9137000,lon:-75.3495000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:44.9703000,lon:-93.4364000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:40.6378000,lon:-73.9261000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:41.5045000,lon:-87.7273000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:41.7166000,lon:-87.6820000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:44.2728000,lon:-88.4709000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:33.5024000,lon:-111.9300000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.8190000,lon:-84.2810000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:40.0831000,lon:-75.3894000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:41.0486000,lon:-81.5808000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:37.6738000,lon:-97.3956000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:35.0292000,lon:-85.1551000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.9607000,lon:-82.9944000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:35.8375000,lon:-78.6413000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.3404000,lon:-76.4868000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:25.9571000,lon:-80.1466000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.9146000,lon:-75.4292000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:38.0790000,lon:-78.4725000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:35.1962000,lon:-106.6580000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:37.3262000,lon:-122.0140000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:45.1297000,lon:-93.2631000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:38.8192000,lon:-90.2493000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:35.9689000,lon:-78.9583000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:43.0301000,lon:-76.0170000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.6892000,lon:-84.1651000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.0433000,lon:-77.1089000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:41.6183000,lon:-87.8436000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:43.0327000,lon:-88.1070000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:39.9156000,lon:-82.8806000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:42.2425000,lon:-83.7491000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
+				GV_Draw_Marker({lat:40.7378000,lon:-74.3638000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:26.1375000,lon:-80.1162000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:39.2463000,lon:-94.6009000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:41.6611000,lon:-81.3599000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:33.7980000,lon:-84.3651000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:41.6912000,lon:-83.6446000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:40.2224000,lon:-76.9303000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:35.2005000,lon:-89.7919000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:40.3021000,lon:-79.5215000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:42.9722000,lon:-78.6965000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:39.5590000,lon:-104.8730000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:27.9321000,lon:-82.3239000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:39.2439000,lon:-84.5953000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:37.6368000,lon:-122.4210000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:39.9054000,lon:-86.0643000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:42.0985000,lon:-88.2895000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:32.8732000,lon:-117.2110000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:42.3320000,lon:-83.3713000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:33.8488000,lon:-84.3642000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:29.9091000,lon:-90.0558000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:38.0340000,lon:-78.4860000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:43.1236000,lon:-89.3026000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:42.3097000,lon:-83.2218000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:40.0605000,lon:-82.9740000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:40.2944000,lon:-74.0530000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:35.0966000,lon:-106.5660000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:39.8263000,lon:-86.2369000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:41.6030000,lon:-83.6647000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:45.0589000,lon:-93.3148000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.7642000,lon:-89.6967000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:35.9559000,lon:-86.8162000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.8778000,lon:-87.6245000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.0763000,lon:-83.1292000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:44.4833000,lon:-88.0244000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.0628000,lon:-76.4052000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.9554000,lon:-76.9610000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.6832000,lon:-73.4363000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:32.3033000,lon:-90.2530000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:32.8303000,lon:-97.2188000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:36.7657000,lon:-76.2265000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.8683000,lon:-77.1472000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.9660000,lon:-122.0560000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.9146000,lon:-75.4292000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.2310000,lon:-96.1383000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.2993000,lon:-71.3868000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:43.0856000,lon:-77.6374000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.8753000,lon:-71.0437000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.5594000,lon:-90.3815000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:30.4827000,lon:-90.4571000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:30.6732000,lon:-88.1223000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:32.6770000,lon:-97.3962000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.4627000,lon:-71.0261000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:47.6045000,lon:-122.3290000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.9764000,lon:-74.1828000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.6882000,lon:-121.0500000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:28.8050000,lon:-81.3404000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.8432000,lon:-104.7590000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.4528000,lon:-75.6388000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:47.2176000,lon:-122.4670000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.9908000,lon:-84.5240000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:44.5157000,lon:-88.0131000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.9985000,lon:-84.6531000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:44.9774000,lon:-93.2732000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.4151000,lon:-81.9093000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.4996000,lon:-111.5440000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.8179000,lon:-96.6333000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.2290000,lon:-80.4140000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.2488000,lon:-85.6082000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:31.5373000,lon:-97.1883000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:34.1018000,lon:-118.4160000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.7655000,lon:-86.1590000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:36.0829000,lon:-79.8296000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:29.5444000,lon:-95.1510000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.6816000,lon:-83.1533000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:36.1248000,lon:-115.1690000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.5920000,lon:-81.5098000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.8936000,lon:-74.5094000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:34.7401000,lon:-86.6639000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.4880000,lon:-88.9554000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:32.9423000,lon:-96.6996000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:29.7060000,lon:-95.5124000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.1996000,lon:-84.3787000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.9131000,lon:-94.6439000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:33.6902000,lon:-117.8850000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:38.6031000,lon:-90.4464000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:29.5082000,lon:-98.3974000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:33.5764000,lon:-84.3546000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.7675000,lon:-71.2250000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:32.6839000,lon:-97.1325000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:30.4608000,lon:-91.0914000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.8906000,lon:-74.2613000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:29.9464000,lon:-90.1229000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.9513000,lon:-75.1552000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:26.3684000,lon:-80.1370000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:30.1909000,lon:-92.0614000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.0686000,lon:-71.7192000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:43.1242000,lon:-87.9140000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:34.0885000,lon:-117.6930000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.2373000,lon:-75.2469000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.4498000,lon:-82.9343000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.3803000,lon:-73.4754000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.5282000,lon:-84.3050000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.2109000,lon:-80.7528000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.4393000,lon:-122.1730000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.0396000,lon:-77.1089000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:36.1165000,lon:-79.7359000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:30.0329000,lon:-89.9734000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:36.2984000,lon:-86.6997000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.6588000,lon:-80.3252000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.8955000,lon:-122.0580000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.7273000,lon:-73.6354000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:29.7322000,lon:-95.6451000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:37.6742000,lon:-77.4606000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.9563000,lon:-71.4354000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:36.0621000,lon:-95.8861000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:32.7694000,lon:-117.1680000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.0855000,lon:-75.3947000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.3121000,lon:-81.8243000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:41.3746000,lon:-72.1410000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.1510000,lon:-77.2043000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:26.2132000,lon:-81.8007000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.3839000,lon:-86.8447000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.7109000,lon:-104.8220000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.0881000,lon:-75.3878000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.0830000,lon:-87.9365000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:40.1427000,lon:-75.1198000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:26.6025000,lon:-81.8715000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:39.0828000,lon:-94.5818000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				
+				
+				GV_Finish_Map();
+					
+			  
+			}
+			GV_Map(); // execute the above code
+			// http://www.gpsvisualizer.com/map_input?convert_routes=aw&form=google&google_wpt_labels=1&show_trk=0&trk_colorize=none&trk_opacity=0&wpt_colorize=name&wpt_list=name
+		</script>
+		
+		
+		
+	</body>
+
+</html>
