@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>gps_all (1)</title>
+		<title>gps_b (3) + gps_c (3) + gps_n (3) + gps_a (3)</title>
 		<base target="_top"></base>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
@@ -30,11 +30,12 @@
 			</div>
 				
 			<div id="gv_infobox" class="gv_infobox" style="font:11px Arial; border:solid #666666 1px; background-color:#ffffff; padding:4px; overflow:auto; display:none; ">
-				<div id="gv_legend_header" style="padding-bottom:2px;"><b>name</b></div>
-				<div class="gv_legend_item"><span style="color:#e60000;">&#9608; A</span></div>
-				<div class="gv_legend_item"><span style="color:#4de600;">&#9608; B</span></div>
-				<div class="gv_legend_item"><span style="color:#0098e6;">&#9608; C</span></div>
-				<div class="gv_legend_item"><span style="color:#e600e6;">&#9608; N</span></div>
+				<div id="gv_legend_header" style="padding-bottom:2px;"><b>change in profit</b></div>
+				<div class="gv_legend_item"><span style="color:#fae622;">&#9608; 0.00</span></div>
+				<div class="gv_legend_item"><span style="color:#5bc862;">&#9608; -12.50</span></div>
+				<div class="gv_legend_item"><span style="color:#208f8c;">&#9608; -25.00</span></div>
+				<div class="gv_legend_item"><span style="color:#3a528b;">&#9608; -37.50</span></div>
+				<div class="gv_legend_item"><span style="color:#410151;">&#9608; -50.00</span></div>
 			</div>
 
 
@@ -47,13 +48,13 @@
 		
 		<!-- begin GPS Visualizer setup script (must come after maps.google.com code) -->
 		<script type="text/javascript">
-			/* Global variables used by the GPS Visualizer functions (20160303143605): */
+			/* Global variables used by the GPS Visualizer functions (20160303195746): */
 			gv_options = {};
 			
 			// basic map parameters:
 			gv_options.center = [36.89435,-96.74655];  // [latitude,longitude] - be sure to keep the square brackets
 			gv_options.zoom = 4;  // higher number means closer view; can also be 'auto' for automatic zoom/center based on map elements
-			gv_options.map_type = 'GV_HYBRID';  // popular map_type choices are 'GV_STREET', 'GV_SATELLITE', 'GV_HYBRID', 'GV_TERRAIN', 'GV_TOPO_US', 'GV_TOPO_WORLD', 'GV_OSM' (http://www.gpsvisualizer.com/misc/google_map_types.html)
+			gv_options.map_type = 'GV_TERRAIN';  // popular map_type choices are 'GV_STREET', 'GV_SATELLITE', 'GV_HYBRID', 'GV_TERRAIN', 'GV_TOPO_US', 'GV_TOPO_WORLD', 'GV_OSM' (http://www.gpsvisualizer.com/misc/google_map_types.html)
 			gv_options.map_opacity = 1.00;  // number from 0 to 1
 			gv_options.full_screen = true;  // true|false: should the map fill the entire page (or frame)?
 			gv_options.width = 700;  // width of the map, in pixels
@@ -90,11 +91,11 @@
 			  gv_options.infobox_options.draggable = true;  // true|false: can it be moved around the screen?
 			  gv_options.infobox_options.collapsible = true;  // true|false: can it be collapsed by double-clicking its top bar?
 			gv_options.utilities_menu = true;  // true|false
-			gv_options.allow_export = false;  // true|false
+			gv_options.allow_export = true;  // true|false
 
 
 			// marker-related options:
-			gv_options.default_marker = { color:'red',icon:'circle',scale:1 }; // icon can be a URL, but be sure to also include size:[w,h] and optionally anchor:[x,y]
+			gv_options.default_marker = { color:'red',icon:'circle',scale:1.5 }; // icon can be a URL, but be sure to also include size:[w,h] and optionally anchor:[x,y]
 			gv_options.marker_tooltips = true; // do the names of the markers show up when you mouse-over them?
 			gv_options.marker_shadows = false; // true|false: do the standard markers have "shadows" behind them?
 			gv_options.marker_link_target = '_blank'; // the name of the window or frame into which markers' URLs will load
@@ -123,7 +124,7 @@
 			  gv_options.marker_list_options.desc = false;  // true|false: will the markers' descriptions be shown below their names in the list?
 			  gv_options.marker_list_options.icons = true;  // true|false: should the markers' icons appear to the left of their names in the list?
 			  gv_options.marker_list_options.thumbnails = false;  // true|false: should markers' thumbnails be shown in the list?
-			  gv_options.marker_list_options.folders_collapsed = false;  // true|false: do folders in the list start out in a collapsed state?
+			  gv_options.marker_list_options.folders_collapsed = true;  // true|false: do folders in the list start out in a collapsed state?
 			  gv_options.marker_list_options.folders_hidden = false;  // true|false: do folders in the list start out in a hidden state?
 			  gv_options.marker_list_options.collapsed_folders = []; // an array of folder names
 			  gv_options.marker_list_options.hidden_folders = []; // an array of folder names
@@ -184,206 +185,206 @@
 				
 				
 				
-				GV_Draw_Marker({lat:38.9517000,lon:-94.6673000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:41.9539000,lon:-91.7163000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:43.0564000,lon:-89.5033000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:40.0300000,lon:-75.6235000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:41.2365000,lon:-73.0383000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:41.5967000,lon:-87.5307000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:41.4185000,lon:-81.9097000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:32.9311000,lon:-96.8056000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:33.9272000,lon:-117.8850000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:40.1165000,lon:-75.2848000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:29.9491000,lon:-95.4113000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.9484000,lon:-88.0082000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:35.9282000,lon:-84.0361000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:37.3235000,lon:-121.9430000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.0664000,lon:-80.0934000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:40.1407000,lon:-74.9558000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:39.9393000,lon:-75.0175000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:33.4682000,lon:-86.7752000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:36.0639000,lon:-115.0390000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:41.9525000,lon:-88.1155000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:38.6261000,lon:-90.4169000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:44.9779000,lon:-93.4012000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:41.2501000,lon:-75.8441000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.3470000,lon:-71.0793000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:38.9530000,lon:-94.5237000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:32.2217000,lon:-110.9150000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:33.6122000,lon:-117.7100000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:31.7900000,lon:-106.3760000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.0613000,lon:-87.7471000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:39.5809000,lon:-104.9550000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.5615000,lon:-83.1839000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:41.8880000,lon:-87.6354000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:27.5459000,lon:-99.5028000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:37.5823000,lon:-77.4990000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.1522000,lon:-87.8125000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.2255000,lon:-83.2685000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:28.0664000,lon:-82.5765000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.0483000,lon:-87.8395000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:28.0554000,lon:-82.4356000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:47.8316000,lon:-122.2730000,name:'A',desc:'',label:'A',color:'#e60000',icon:''});
-				GV_Draw_Marker({lat:42.0613000,lon:-87.7471000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:31.1571000,lon:-89.4476000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.9137000,lon:-75.3495000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:44.9703000,lon:-93.4364000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:40.6378000,lon:-73.9261000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:41.5045000,lon:-87.7273000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:41.7166000,lon:-87.6820000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:44.2728000,lon:-88.4709000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:33.5024000,lon:-111.9300000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.8190000,lon:-84.2810000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:40.0831000,lon:-75.3894000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:41.0486000,lon:-81.5808000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:37.6738000,lon:-97.3956000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:35.0292000,lon:-85.1551000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.9607000,lon:-82.9944000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:35.8375000,lon:-78.6413000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.3404000,lon:-76.4868000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:25.9571000,lon:-80.1466000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.9146000,lon:-75.4292000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:38.0790000,lon:-78.4725000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:35.1962000,lon:-106.6580000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:37.3262000,lon:-122.0140000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:45.1297000,lon:-93.2631000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:38.8192000,lon:-90.2493000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:35.9689000,lon:-78.9583000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:43.0301000,lon:-76.0170000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.6892000,lon:-84.1651000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.0433000,lon:-77.1089000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:41.6183000,lon:-87.8436000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:43.0327000,lon:-88.1070000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:39.9156000,lon:-82.8806000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:42.2425000,lon:-83.7491000,name:'B',desc:'',label:'B',color:'#4de600',icon:''});
-				GV_Draw_Marker({lat:40.7378000,lon:-74.3638000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:26.1375000,lon:-80.1162000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:39.2463000,lon:-94.6009000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:41.6611000,lon:-81.3599000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:33.7980000,lon:-84.3651000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:41.6912000,lon:-83.6446000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:40.2224000,lon:-76.9303000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:35.2005000,lon:-89.7919000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:40.3021000,lon:-79.5215000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:42.9722000,lon:-78.6965000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:39.5590000,lon:-104.8730000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:27.9321000,lon:-82.3239000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:39.2439000,lon:-84.5953000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:37.6368000,lon:-122.4210000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:39.9054000,lon:-86.0643000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:42.0985000,lon:-88.2895000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:32.8732000,lon:-117.2110000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:42.3320000,lon:-83.3713000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:33.8488000,lon:-84.3642000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:29.9091000,lon:-90.0558000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:38.0340000,lon:-78.4860000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:43.1236000,lon:-89.3026000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:42.3097000,lon:-83.2218000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:40.0605000,lon:-82.9740000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:40.2944000,lon:-74.0530000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:35.0966000,lon:-106.5660000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:39.8263000,lon:-86.2369000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:41.6030000,lon:-83.6647000,name:'C',desc:'',label:'C',color:'#0098e6',icon:''});
-				GV_Draw_Marker({lat:45.0589000,lon:-93.3148000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.7642000,lon:-89.6967000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:35.9559000,lon:-86.8162000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.8778000,lon:-87.6245000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.0763000,lon:-83.1292000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:44.4833000,lon:-88.0244000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.0628000,lon:-76.4052000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.9554000,lon:-76.9610000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.6832000,lon:-73.4363000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:32.3033000,lon:-90.2530000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:32.8303000,lon:-97.2188000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:36.7657000,lon:-76.2265000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.8683000,lon:-77.1472000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.9660000,lon:-122.0560000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.9146000,lon:-75.4292000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.2310000,lon:-96.1383000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.2993000,lon:-71.3868000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:43.0856000,lon:-77.6374000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.8753000,lon:-71.0437000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.5594000,lon:-90.3815000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:30.4827000,lon:-90.4571000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:30.6732000,lon:-88.1223000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:32.6770000,lon:-97.3962000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.4627000,lon:-71.0261000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:47.6045000,lon:-122.3290000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.9764000,lon:-74.1828000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.6882000,lon:-121.0500000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:28.8050000,lon:-81.3404000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.8432000,lon:-104.7590000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.4528000,lon:-75.6388000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:47.2176000,lon:-122.4670000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.9908000,lon:-84.5240000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:44.5157000,lon:-88.0131000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.9985000,lon:-84.6531000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:44.9774000,lon:-93.2732000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.4151000,lon:-81.9093000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.4996000,lon:-111.5440000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.8179000,lon:-96.6333000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.2290000,lon:-80.4140000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.2488000,lon:-85.6082000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:31.5373000,lon:-97.1883000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:34.1018000,lon:-118.4160000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.7655000,lon:-86.1590000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:36.0829000,lon:-79.8296000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:29.5444000,lon:-95.1510000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.6816000,lon:-83.1533000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:36.1248000,lon:-115.1690000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.5920000,lon:-81.5098000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.8936000,lon:-74.5094000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:34.7401000,lon:-86.6639000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.4880000,lon:-88.9554000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:32.9423000,lon:-96.6996000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:29.7060000,lon:-95.5124000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.1996000,lon:-84.3787000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.9131000,lon:-94.6439000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:33.6902000,lon:-117.8850000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:38.6031000,lon:-90.4464000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:29.5082000,lon:-98.3974000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:33.5764000,lon:-84.3546000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.7675000,lon:-71.2250000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:32.6839000,lon:-97.1325000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:30.4608000,lon:-91.0914000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.8906000,lon:-74.2613000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:29.9464000,lon:-90.1229000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.9513000,lon:-75.1552000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:26.3684000,lon:-80.1370000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:30.1909000,lon:-92.0614000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.0686000,lon:-71.7192000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:43.1242000,lon:-87.9140000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:34.0885000,lon:-117.6930000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.2373000,lon:-75.2469000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.4498000,lon:-82.9343000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.3803000,lon:-73.4754000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.5282000,lon:-84.3050000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.2109000,lon:-80.7528000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.4393000,lon:-122.1730000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.0396000,lon:-77.1089000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:36.1165000,lon:-79.7359000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:30.0329000,lon:-89.9734000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:36.2984000,lon:-86.6997000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.6588000,lon:-80.3252000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.8955000,lon:-122.0580000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.7273000,lon:-73.6354000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:29.7322000,lon:-95.6451000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:37.6742000,lon:-77.4606000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.9563000,lon:-71.4354000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:36.0621000,lon:-95.8861000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:32.7694000,lon:-117.1680000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.0855000,lon:-75.3947000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.3121000,lon:-81.8243000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:41.3746000,lon:-72.1410000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.1510000,lon:-77.2043000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:26.2132000,lon:-81.8007000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.3839000,lon:-86.8447000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.7109000,lon:-104.8220000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.0881000,lon:-75.3878000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:42.0830000,lon:-87.9365000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:40.1427000,lon:-75.1198000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:26.6025000,lon:-81.8715000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
-				GV_Draw_Marker({lat:39.0828000,lon:-94.5818000,name:'N',desc:'',label:'N',color:'#e600e6',icon:''});
+				GV_Draw_Marker({lat:42.0613000,lon:-87.7471000,name:'#1',desc:'Ad Campaign: Version B<br>Change in Profit: -20.6187191034%',color:'#20a485',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:31.1571000,lon:-89.4476000,name:'#2',desc:'Ad Campaign: Version B<br>Change in Profit: -21.8591327875%',color:'#1e9e88',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.9137000,lon:-75.3495000,name:'#5',desc:'Ad Campaign: Version B<br>Change in Profit: -18.5693267385%',color:'#28ae7f',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:44.9703000,lon:-93.4364000,name:'#12',desc:'Ad Campaign: Version B<br>Change in Profit: -20.1487048806%',color:'#21a784',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:40.6378000,lon:-73.9261000,name:'#15',desc:'Ad Campaign: Version B<br>Change in Profit: -30.954618558%',color:'#2b738e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:41.5045000,lon:-87.7273000,name:'#18',desc:'Ad Campaign: Version B<br>Change in Profit: -28.4571816807%',color:'#267f8e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:41.7166000,lon:-87.6820000,name:'#20',desc:'Ad Campaign: Version B<br>Change in Profit: -25.5787964664%',color:'#218c8d',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:44.2728000,lon:-88.4709000,name:'#25',desc:'Ad Campaign: Version B<br>Change in Profit: -37.9294157016%',color:'#3b4f8a',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:33.5024000,lon:-111.9300000,name:'#26',desc:'Ad Campaign: Version B<br>Change in Profit: -48.7193914072%',color:'#460b5e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.8190000,lon:-84.2810000,name:'#28',desc:'Ad Campaign: Version B<br>Change in Profit: -37.1910738689%',color:'#39548b',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:40.0831000,lon:-75.3894000,name:'#31',desc:'Ad Campaign: Version B<br>Change in Profit: -16.2777789257%',color:'#37b877',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:41.0486000,lon:-81.5808000,name:'#32',desc:'Ad Campaign: Version B<br>Change in Profit: -30.86932923%',color:'#2b748e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:37.6738000,lon:-97.3956000,name:'#37',desc:'Ad Campaign: Version B<br>Change in Profit: -22.0259450994%',color:'#1e9e88',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:35.0292000,lon:-85.1551000,name:'#38',desc:'Ad Campaign: Version B<br>Change in Profit: -36.6949671018%',color:'#38568b',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.9607000,lon:-82.9944000,name:'#43',desc:'Ad Campaign: Version B<br>Change in Profit: -25.1770263819%',color:'#208f8c',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:35.8375000,lon:-78.6413000,name:'#48',desc:'Ad Campaign: Version B<br>Change in Profit: -26.6348930207%',color:'#23888d',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.3404000,lon:-76.4868000,name:'#49',desc:'Ad Campaign: Version B<br>Change in Profit: -27.3666876762%',color:'#24858d',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:25.9571000,lon:-80.1466000,name:'#52',desc:'Ad Campaign: Version B<br>Change in Profit: -24.8925502491%',color:'#20908c',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.9146000,lon:-75.4292000,name:'#53',desc:'Ad Campaign: Version B<br>Change in Profit: -27.5481395408%',color:'#25838d',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:38.0790000,lon:-78.4725000,name:'#54',desc:'Ad Campaign: Version B<br>Change in Profit: -21.987602579%',color:'#1e9e88',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:35.1962000,lon:-106.6580000,name:'#55',desc:'Ad Campaign: Version B<br>Change in Profit: -31.2600206384%',color:'#2c718e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:37.3262000,lon:-122.0140000,name:'#56',desc:'Ad Campaign: Version B<br>Change in Profit: -34.6167260743%',color:'#33618d',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:45.1297000,lon:-93.2631000,name:'#63',desc:'Ad Campaign: Version B<br>Change in Profit: -33.0142616505%',color:'#2f698d',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:38.8192000,lon:-90.2493000,name:'#64',desc:'Ad Campaign: Version B<br>Change in Profit: -29.3904777146%',color:'#287a8e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:35.9689000,lon:-78.9583000,name:'#68',desc:'Ad Campaign: Version B<br>Change in Profit: -23.0109824483%',color:'#1e998a',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:43.0301000,lon:-76.0170000,name:'#69',desc:'Ad Campaign: Version B<br>Change in Profit: -18.435662826%',color:'#28ae7f',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.6892000,lon:-84.1651000,name:'#74',desc:'Ad Campaign: Version B<br>Change in Profit: -32.4189614855%',color:'#2e6c8e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.0433000,lon:-77.1089000,name:'#77',desc:'Ad Campaign: Version B<br>Change in Profit: -24.2812845521%',color:'#1f938b',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:41.6183000,lon:-87.8436000,name:'#81',desc:'Ad Campaign: Version B<br>Change in Profit: -26.4847924946%',color:'#23898d',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:43.0327000,lon:-88.1070000,name:'#89',desc:'Ad Campaign: Version B<br>Change in Profit: -39.6429565999%',color:'#3f4587',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:39.9156000,lon:-82.8806000,name:'#91',desc:'Ad Campaign: Version B<br>Change in Profit: -24.2295184812%',color:'#1f938b',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:42.2425000,lon:-83.7491000,name:'#100',desc:'Ad Campaign: Version B<br>Change in Profit: -31.4356267163%',color:'#2c718e',icon:'',folder:'Version B'});
+				GV_Draw_Marker({lat:40.7378000,lon:-74.3638000,name:'#9',desc:'Ad Campaign: Version C<br>Change in Profit: 2.40261359344%',color:'#fae622',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:26.1375000,lon:-80.1162000,name:'#13',desc:'Ad Campaign: Version C<br>Change in Profit: -32.3867978932%',color:'#2e6c8e',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:39.2463000,lon:-94.6009000,name:'#22',desc:'Ad Campaign: Version C<br>Change in Profit: -37.5608955306%',color:'#3a528b',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:41.6611000,lon:-81.3599000,name:'#24',desc:'Ad Campaign: Version C<br>Change in Profit: -39.2341074311%',color:'#3e4888',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:33.7980000,lon:-84.3651000,name:'#29',desc:'Ad Campaign: Version C<br>Change in Profit: -45.5919169382%',color:'#482172',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:41.6912000,lon:-83.6446000,name:'#30',desc:'Ad Campaign: Version C<br>Change in Profit: -47.2604579361%',color:'#471668',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:40.2224000,lon:-76.9303000,name:'#35',desc:'Ad Campaign: Version C<br>Change in Profit: -28.2132993273%',color:'#26808e',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:35.2005000,lon:-89.7919000,name:'#36',desc:'Ad Campaign: Version C<br>Change in Profit: -18.6912354898%',color:'#28ae7f',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:40.3021000,lon:-79.5215000,name:'#39',desc:'Ad Campaign: Version C<br>Change in Profit: -23.369585628%',color:'#1e988a',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:42.9722000,lon:-78.6965000,name:'#40',desc:'Ad Campaign: Version C<br>Change in Profit: -50.4446311544%',color:'#410151',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:39.5590000,lon:-104.8730000,name:'#46',desc:'Ad Campaign: Version C<br>Change in Profit: -30.5590156918%',color:'#2a758e',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:27.9321000,lon:-82.3239000,name:'#50',desc:'Ad Campaign: Version C<br>Change in Profit: -26.375170922%',color:'#23898d',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:39.2439000,lon:-84.5953000,name:'#51',desc:'Ad Campaign: Version C<br>Change in Profit: -35.3142138713%',color:'#355d8c',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:37.6368000,lon:-122.4210000,name:'#62',desc:'Ad Campaign: Version C<br>Change in Profit: -38.7453478255%',color:'#3d4b89',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:39.9054000,lon:-86.0643000,name:'#65',desc:'Ad Campaign: Version C<br>Change in Profit: -42.4086029261%',color:'#453580',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:42.0985000,lon:-88.2895000,name:'#67',desc:'Ad Campaign: Version C<br>Change in Profit: -34.7613242244%',color:'#33608d',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:32.8732000,lon:-117.2110000,name:'#72',desc:'Ad Campaign: Version C<br>Change in Profit: -28.1117852702%',color:'#26818e',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:42.3320000,lon:-83.3713000,name:'#75',desc:'Ad Campaign: Version C<br>Change in Profit: -28.1433675903%',color:'#26808e',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:33.8488000,lon:-84.3642000,name:'#76',desc:'Ad Campaign: Version C<br>Change in Profit: -39.6942558901%',color:'#3f4587',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:29.9091000,lon:-90.0558000,name:'#80',desc:'Ad Campaign: Version C<br>Change in Profit: -22.6814670766%',color:'#1e9a89',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:38.0340000,lon:-78.4860000,name:'#83',desc:'Ad Campaign: Version C<br>Change in Profit: -37.503469061%',color:'#3a528b',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:43.1236000,lon:-89.3026000,name:'#85',desc:'Ad Campaign: Version C<br>Change in Profit: -43.0137499505%',color:'#46317e',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:42.3097000,lon:-83.2218000,name:'#88',desc:'Ad Campaign: Version C<br>Change in Profit: -28.6349911887%',color:'#277e8e',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:40.0605000,lon:-82.9740000,name:'#92',desc:'Ad Campaign: Version C<br>Change in Profit: -43.7276006999%',color:'#462d7c',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:40.2944000,lon:-74.0530000,name:'#93',desc:'Ad Campaign: Version C<br>Change in Profit: -21.6120633727%',color:'#1e9f88',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:35.0966000,lon:-106.5660000,name:'#95',desc:'Ad Campaign: Version C<br>Change in Profit: -45.7799410514%',color:'#482071',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:39.8263000,lon:-86.2369000,name:'#98',desc:'Ad Campaign: Version C<br>Change in Profit: -25.0472147461%',color:'#208f8c',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:41.6030000,lon:-83.6647000,name:'#99',desc:'Ad Campaign: Version C<br>Change in Profit: -38.9514128142%',color:'#3d4a89',icon:'',folder:'Version C'});
+				GV_Draw_Marker({lat:45.0589000,lon:-93.3148000,name:'#101',desc:'Ad Campaign: None<br>Change in Profit: -28.669891547%',color:'#277e8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.7642000,lon:-89.6967000,name:'#102',desc:'Ad Campaign: None<br>Change in Profit: -31.5013568436%',color:'#2c708e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:35.9559000,lon:-86.8162000,name:'#103',desc:'Ad Campaign: None<br>Change in Profit: -24.9269697054%',color:'#20908c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.8778000,lon:-87.6245000,name:'#104',desc:'Ad Campaign: None<br>Change in Profit: -38.6783090298%',color:'#3d4b89',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.0763000,lon:-83.1292000,name:'#105',desc:'Ad Campaign: None<br>Change in Profit: -19.8898367361%',color:'#23a784',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:44.4833000,lon:-88.0244000,name:'#106',desc:'Ad Campaign: None<br>Change in Profit: -37.6829182846%',color:'#3b518a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.0628000,lon:-76.4052000,name:'#107',desc:'Ad Campaign: None<br>Change in Profit: -20.9587306811%',color:'#1fa286',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.9554000,lon:-76.9610000,name:'#108',desc:'Ad Campaign: None<br>Change in Profit: -28.4809038552%',color:'#277e8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.6832000,lon:-73.4363000,name:'#109',desc:'Ad Campaign: None<br>Change in Profit: -28.7810947501%',color:'#277d8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:32.3033000,lon:-90.2530000,name:'#110',desc:'Ad Campaign: None<br>Change in Profit: -30.2769531152%',color:'#2a768e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:32.8303000,lon:-97.2188000,name:'#111',desc:'Ad Campaign: None<br>Change in Profit: -21.7570415725%',color:'#1e9f88',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:36.7657000,lon:-76.2265000,name:'#112',desc:'Ad Campaign: None<br>Change in Profit: -32.8622375252%',color:'#2f698d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.8683000,lon:-77.1472000,name:'#113',desc:'Ad Campaign: None<br>Change in Profit: -19.6794954079%',color:'#23a883',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.9660000,lon:-122.0560000,name:'#114',desc:'Ad Campaign: None<br>Change in Profit: -35.5242045377%',color:'#355c8c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.9146000,lon:-75.4292000,name:'#115',desc:'Ad Campaign: None<br>Change in Profit: -31.3479458703%',color:'#2c718e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.2310000,lon:-96.1383000,name:'#116',desc:'Ad Campaign: None<br>Change in Profit: -41.2353723339%',color:'#433c84',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.2993000,lon:-71.3868000,name:'#117',desc:'Ad Campaign: None<br>Change in Profit: -28.4216780422%',color:'#267f8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:43.0856000,lon:-77.6374000,name:'#118',desc:'Ad Campaign: None<br>Change in Profit: -36.8150402127%',color:'#39558b',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.8753000,lon:-71.0437000,name:'#119',desc:'Ad Campaign: None<br>Change in Profit: -32.3689774225%',color:'#2e6c8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.5594000,lon:-90.3815000,name:'#120',desc:'Ad Campaign: None<br>Change in Profit: -28.3761916242%',color:'#267f8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:30.4827000,lon:-90.4571000,name:'#121',desc:'Ad Campaign: None<br>Change in Profit: -28.2572431607%',color:'#26808e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:30.6732000,lon:-88.1223000,name:'#122',desc:'Ad Campaign: None<br>Change in Profit: -29.0559504319%',color:'#287b8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:32.6770000,lon:-97.3962000,name:'#123',desc:'Ad Campaign: None<br>Change in Profit: -38.7546824158%',color:'#3d4b89',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.4627000,lon:-71.0261000,name:'#124',desc:'Ad Campaign: None<br>Change in Profit: -23.1186913067%',color:'#1e998a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:47.6045000,lon:-122.3290000,name:'#125',desc:'Ad Campaign: None<br>Change in Profit: -34.5031828975%',color:'#33618d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.9764000,lon:-74.1828000,name:'#126',desc:'Ad Campaign: None<br>Change in Profit: -36.4108407899%',color:'#37588c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.6882000,lon:-121.0500000,name:'#127',desc:'Ad Campaign: None<br>Change in Profit: -17.0857693893%',color:'#30b47a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:28.8050000,lon:-81.3404000,name:'#128',desc:'Ad Campaign: None<br>Change in Profit: -25.7807486926%',color:'#218c8d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.8432000,lon:-104.7590000,name:'#129',desc:'Ad Campaign: None<br>Change in Profit: -28.5709264542%',color:'#277e8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.4528000,lon:-75.6388000,name:'#130',desc:'Ad Campaign: None<br>Change in Profit: -23.8224541709%',color:'#1f958b',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:47.2176000,lon:-122.4670000,name:'#131',desc:'Ad Campaign: None<br>Change in Profit: -28.6208824992%',color:'#277e8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.9908000,lon:-84.5240000,name:'#132',desc:'Ad Campaign: None<br>Change in Profit: -30.8556352842%',color:'#2b748e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:44.5157000,lon:-88.0131000,name:'#133',desc:'Ad Campaign: None<br>Change in Profit: -38.0531139465%',color:'#3c4e8a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.9985000,lon:-84.6531000,name:'#134',desc:'Ad Campaign: None<br>Change in Profit: -29.88491311%',color:'#29798e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:44.9774000,lon:-93.2732000,name:'#135',desc:'Ad Campaign: None<br>Change in Profit: -30.161547047%',color:'#2a778e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.4151000,lon:-81.9093000,name:'#136',desc:'Ad Campaign: None<br>Change in Profit: -32.3562937916%',color:'#2e6c8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.4996000,lon:-111.5440000,name:'#137',desc:'Ad Campaign: None<br>Change in Profit: -28.8472663056%',color:'#277d8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.8179000,lon:-96.6333000,name:'#138',desc:'Ad Campaign: None<br>Change in Profit: -37.811420376%',color:'#3b508a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.2290000,lon:-80.4140000,name:'#139',desc:'Ad Campaign: None<br>Change in Profit: -33.801967766%',color:'#31648d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.2488000,lon:-85.6082000,name:'#140',desc:'Ad Campaign: None<br>Change in Profit: -29.5236684089%',color:'#287a8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:31.5373000,lon:-97.1883000,name:'#141',desc:'Ad Campaign: None<br>Change in Profit: -29.9947015413%',color:'#29788e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:34.1018000,lon:-118.4160000,name:'#142',desc:'Ad Campaign: None<br>Change in Profit: -23.6062980995%',color:'#1e978a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.7655000,lon:-86.1590000,name:'#143',desc:'Ad Campaign: None<br>Change in Profit: -21.0822626964%',color:'#1fa286',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:36.0829000,lon:-79.8296000,name:'#144',desc:'Ad Campaign: None<br>Change in Profit: -26.2519230877%',color:'#22898d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:29.5444000,lon:-95.1510000,name:'#145',desc:'Ad Campaign: None<br>Change in Profit: -31.4627885802%',color:'#2c718e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.6816000,lon:-83.1533000,name:'#146',desc:'Ad Campaign: None<br>Change in Profit: -33.1681347894%',color:'#30688d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:36.1248000,lon:-115.1690000,name:'#147',desc:'Ad Campaign: None<br>Change in Profit: -32.6844501599%',color:'#2e6b8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.5920000,lon:-81.5098000,name:'#148',desc:'Ad Campaign: None<br>Change in Profit: -40.7959121736%',color:'#423f85',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.8936000,lon:-74.5094000,name:'#149',desc:'Ad Campaign: None<br>Change in Profit: -21.0527678038%',color:'#1fa286',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:34.7401000,lon:-86.6639000,name:'#150',desc:'Ad Campaign: None<br>Change in Profit: -12.9975445992%',color:'#55c666',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.4880000,lon:-88.9554000,name:'#151',desc:'Ad Campaign: None<br>Change in Profit: -18.6158578137%',color:'#28ae7f',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:32.9423000,lon:-96.6996000,name:'#152',desc:'Ad Campaign: None<br>Change in Profit: -24.9544887145%',color:'#208f8c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:29.7060000,lon:-95.5124000,name:'#153',desc:'Ad Campaign: None<br>Change in Profit: -31.0635484486%',color:'#2b738e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.1996000,lon:-84.3787000,name:'#154',desc:'Ad Campaign: None<br>Change in Profit: -26.3921410967%',color:'#23898d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.9131000,lon:-94.6439000,name:'#155',desc:'Ad Campaign: None<br>Change in Profit: -41.7312194142%',color:'#433a83',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:33.6902000,lon:-117.8850000,name:'#156',desc:'Ad Campaign: None<br>Change in Profit: -29.4708223839%',color:'#287a8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.6031000,lon:-90.4464000,name:'#157',desc:'Ad Campaign: None<br>Change in Profit: -40.3121773713%',color:'#414286',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:29.5082000,lon:-98.3974000,name:'#158',desc:'Ad Campaign: None<br>Change in Profit: -32.6558918317%',color:'#2e6b8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:33.5764000,lon:-84.3546000,name:'#159',desc:'Ad Campaign: None<br>Change in Profit: -22.2869540986%',color:'#1e9c89',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.7675000,lon:-71.2250000,name:'#160',desc:'Ad Campaign: None<br>Change in Profit: -25.1307965784%',color:'#208f8c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:32.6839000,lon:-97.1325000,name:'#161',desc:'Ad Campaign: None<br>Change in Profit: -35.7460394671%',color:'#365b8c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:30.4608000,lon:-91.0914000,name:'#162',desc:'Ad Campaign: None<br>Change in Profit: -36.9433429305%',color:'#39558b',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.8906000,lon:-74.2613000,name:'#163',desc:'Ad Campaign: None<br>Change in Profit: -22.4197997728%',color:'#1e9b89',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:29.9464000,lon:-90.1229000,name:'#164',desc:'Ad Campaign: None<br>Change in Profit: -37.0547806488%',color:'#39558b',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.9513000,lon:-75.1552000,name:'#165',desc:'Ad Campaign: None<br>Change in Profit: -24.4317915882%',color:'#1f928c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:26.3684000,lon:-80.1370000,name:'#166',desc:'Ad Campaign: None<br>Change in Profit: -38.5215451019%',color:'#3d4c89',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:30.1909000,lon:-92.0614000,name:'#167',desc:'Ad Campaign: None<br>Change in Profit: -41.9747577721%',color:'#443881',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.0686000,lon:-71.7192000,name:'#168',desc:'Ad Campaign: None<br>Change in Profit: -24.9874497374%',color:'#208f8c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:43.1242000,lon:-87.9140000,name:'#169',desc:'Ad Campaign: None<br>Change in Profit: -40.7108461554%',color:'#423f85',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:34.0885000,lon:-117.6930000,name:'#170',desc:'Ad Campaign: None<br>Change in Profit: -37.8227120387%',color:'#3b508a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.2373000,lon:-75.2469000,name:'#171',desc:'Ad Campaign: None<br>Change in Profit: -38.9347512231%',color:'#3d4a89',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.4498000,lon:-82.9343000,name:'#172',desc:'Ad Campaign: None<br>Change in Profit: -27.6007758852%',color:'#25838d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.3803000,lon:-73.4754000,name:'#173',desc:'Ad Campaign: None<br>Change in Profit: -30.8346683099%',color:'#2b748e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.5282000,lon:-84.3050000,name:'#174',desc:'Ad Campaign: None<br>Change in Profit: -27.2358570849%',color:'#24858d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.2109000,lon:-80.7528000,name:'#175',desc:'Ad Campaign: None<br>Change in Profit: -34.3435686161%',color:'#32628d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.4393000,lon:-122.1730000,name:'#176',desc:'Ad Campaign: None<br>Change in Profit: -24.7283294593%',color:'#20908c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.0396000,lon:-77.1089000,name:'#177',desc:'Ad Campaign: None<br>Change in Profit: -34.4652436348%',color:'#33618d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:36.1165000,lon:-79.7359000,name:'#178',desc:'Ad Campaign: None<br>Change in Profit: -33.2023745978%',color:'#30688d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:30.0329000,lon:-89.9734000,name:'#179',desc:'Ad Campaign: None<br>Change in Profit: -42.6048712092%',color:'#45347f',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:36.2984000,lon:-86.6997000,name:'#180',desc:'Ad Campaign: None<br>Change in Profit: -26.9155439583%',color:'#24868d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.6588000,lon:-80.3252000,name:'#181',desc:'Ad Campaign: None<br>Change in Profit: -26.9347046567%',color:'#24868d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.8955000,lon:-122.0580000,name:'#182',desc:'Ad Campaign: None<br>Change in Profit: -32.011387219%',color:'#2d6e8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.7273000,lon:-73.6354000,name:'#183',desc:'Ad Campaign: None<br>Change in Profit: -38.3551937937%',color:'#3c4d8a',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:29.7322000,lon:-95.6451000,name:'#184',desc:'Ad Campaign: None<br>Change in Profit: -9.8061189434%',color:'#7ad150',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:37.6742000,lon:-77.4606000,name:'#185',desc:'Ad Campaign: None<br>Change in Profit: -44.1914722631%',color:'#472a79',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.9563000,lon:-71.4354000,name:'#186',desc:'Ad Campaign: None<br>Change in Profit: -37.603751526%',color:'#3a528b',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:36.0621000,lon:-95.8861000,name:'#187',desc:'Ad Campaign: None<br>Change in Profit: -37.1392482479%',color:'#39548b',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:32.7694000,lon:-117.1680000,name:'#188',desc:'Ad Campaign: None<br>Change in Profit: -35.9816490479%',color:'#365a8c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.0855000,lon:-75.3947000,name:'#189',desc:'Ad Campaign: None<br>Change in Profit: -27.1093751041%',color:'#24868d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.3121000,lon:-81.8243000,name:'#190',desc:'Ad Campaign: None<br>Change in Profit: -31.6239015977%',color:'#2c708e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:41.3746000,lon:-72.1410000,name:'#191',desc:'Ad Campaign: None<br>Change in Profit: -29.0202098962%',color:'#277c8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.1510000,lon:-77.2043000,name:'#192',desc:'Ad Campaign: None<br>Change in Profit: -29.0388209682%',color:'#277c8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:26.2132000,lon:-81.8007000,name:'#193',desc:'Ad Campaign: None<br>Change in Profit: -26.1029655041%',color:'#228a8d',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.3839000,lon:-86.8447000,name:'#194',desc:'Ad Campaign: None<br>Change in Profit: -39.4906367081%',color:'#3f4788',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.7109000,lon:-104.8220000,name:'#195',desc:'Ad Campaign: None<br>Change in Profit: -43.6685180258%',color:'#462d7c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.0881000,lon:-75.3878000,name:'#196',desc:'Ad Campaign: None<br>Change in Profit: -20.9006365251%',color:'#1fa386',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:42.0830000,lon:-87.9365000,name:'#197',desc:'Ad Campaign: None<br>Change in Profit: -31.8100601703%',color:'#2d6f8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:40.1427000,lon:-75.1198000,name:'#198',desc:'Ad Campaign: None<br>Change in Profit: -36.476238063%',color:'#38578c',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:26.6025000,lon:-81.8715000,name:'#199',desc:'Ad Campaign: None<br>Change in Profit: -30.4028900517%',color:'#2a768e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:39.0828000,lon:-94.5818000,name:'#200',desc:'Ad Campaign: None<br>Change in Profit: -29.6540502906%',color:'#287a8e',icon:'',folder:'None'});
+				GV_Draw_Marker({lat:38.9517000,lon:-94.6673000,name:'#3',desc:'Ad Campaign: Version A<br>Change in Profit: -22.7024010911%',color:'#1e9a89',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:41.9539000,lon:-91.7163000,name:'#4',desc:'Ad Campaign: Version A<br>Change in Profit: -20.1075800653%',color:'#21a784',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:43.0564000,lon:-89.5033000,name:'#6',desc:'Ad Campaign: Version A<br>Change in Profit: -29.3064561534%',color:'#287b8e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:40.0300000,lon:-75.6235000,name:'#7',desc:'Ad Campaign: Version A<br>Change in Profit: -38.9547046437%',color:'#3d4a89',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:41.2365000,lon:-73.0383000,name:'#8',desc:'Ad Campaign: Version A<br>Change in Profit: -31.5336352635%',color:'#2c708e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:41.5967000,lon:-87.5307000,name:'#10',desc:'Ad Campaign: Version A<br>Change in Profit: -27.4079802415%',color:'#24848d',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:41.4185000,lon:-81.9097000,name:'#11',desc:'Ad Campaign: Version A<br>Change in Profit: -25.2773928688%',color:'#218e8c',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:32.9311000,lon:-96.8056000,name:'#14',desc:'Ad Campaign: Version A<br>Change in Profit: -37.8096939608%',color:'#3b508a',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:33.9272000,lon:-117.8850000,name:'#16',desc:'Ad Campaign: Version A<br>Change in Profit: -15.0690867727%',color:'#41bd72',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:40.1165000,lon:-75.2848000,name:'#17',desc:'Ad Campaign: Version A<br>Change in Profit: -24.7791069376%',color:'#20908c',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:29.9491000,lon:-95.4113000,name:'#19',desc:'Ad Campaign: Version A<br>Change in Profit: -42.9766731382%',color:'#45327f',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.9484000,lon:-88.0082000,name:'#21',desc:'Ad Campaign: Version A<br>Change in Profit: -34.4062973061%',color:'#32618d',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:35.9282000,lon:-84.0361000,name:'#23',desc:'Ad Campaign: Version A<br>Change in Profit: -41.2955440388%',color:'#433c84',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:37.3235000,lon:-121.9430000,name:'#27',desc:'Ad Campaign: Version A<br>Change in Profit: -36.1221390204%',color:'#37598c',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.0664000,lon:-80.0934000,name:'#33',desc:'Ad Campaign: Version A<br>Change in Profit: -32.4885955864%',color:'#2e6b8e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:40.1407000,lon:-74.9558000,name:'#34',desc:'Ad Campaign: Version A<br>Change in Profit: -14.9108961634%',color:'#43be70',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:39.9393000,lon:-75.0175000,name:'#41',desc:'Ad Campaign: Version A<br>Change in Profit: -28.2500291644%',color:'#26808e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:33.4682000,lon:-86.7752000,name:'#42',desc:'Ad Campaign: Version A<br>Change in Profit: -30.2276441624%',color:'#2a778e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:36.0639000,lon:-115.0390000,name:'#44',desc:'Ad Campaign: Version A<br>Change in Profit: -29.5697761681%',color:'#287a8e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:41.9525000,lon:-88.1155000,name:'#45',desc:'Ad Campaign: Version A<br>Change in Profit: -26.6002779599%',color:'#23888d',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:38.6261000,lon:-90.4169000,name:'#47',desc:'Ad Campaign: Version A<br>Change in Profit: -24.76446198%',color:'#20908c',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:44.9779000,lon:-93.4012000,name:'#57',desc:'Ad Campaign: Version A<br>Change in Profit: -37.604635167%',color:'#3a528b',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:41.2501000,lon:-75.8441000,name:'#58',desc:'Ad Campaign: Version A<br>Change in Profit: -28.0287818364%',color:'#26818e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.3470000,lon:-71.0793000,name:'#59',desc:'Ad Campaign: Version A<br>Change in Profit: -31.0334996838%',color:'#2b738e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:38.9530000,lon:-94.5237000,name:'#60',desc:'Ad Campaign: Version A<br>Change in Profit: -28.4020358938%',color:'#267f8e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:32.2217000,lon:-110.9150000,name:'#61',desc:'Ad Campaign: Version A<br>Change in Profit: -30.5204591992%',color:'#2a768e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:33.6122000,lon:-117.7100000,name:'#66',desc:'Ad Campaign: Version A<br>Change in Profit: -23.2817348388%',color:'#1e988a',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:31.7900000,lon:-106.3760000,name:'#70',desc:'Ad Campaign: Version A<br>Change in Profit: -36.9241808436%',color:'#39558b',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.0613000,lon:-87.7471000,name:'#71',desc:'Ad Campaign: Version A<br>Change in Profit: -39.7889984467%',color:'#404487',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:39.5809000,lon:-104.9550000,name:'#73',desc:'Ad Campaign: Version A<br>Change in Profit: -30.4079754%',color:'#2a768e',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.5615000,lon:-83.1839000,name:'#78',desc:'Ad Campaign: Version A<br>Change in Profit: -25.4557301265%',color:'#218d8c',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:41.8880000,lon:-87.6354000,name:'#79',desc:'Ad Campaign: Version A<br>Change in Profit: -26.7394902792%',color:'#23888d',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:27.5459000,lon:-99.5028000,name:'#82',desc:'Ad Campaign: Version A<br>Change in Profit: -46.9778689051%',color:'#47176a',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:37.5823000,lon:-77.4990000,name:'#84',desc:'Ad Campaign: Version A<br>Change in Profit: -27.0785873765%',color:'#24868d',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.1522000,lon:-87.8125000,name:'#86',desc:'Ad Campaign: Version A<br>Change in Profit: -25.0262607462%',color:'#208f8c',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.2255000,lon:-83.2685000,name:'#87',desc:'Ad Campaign: Version A<br>Change in Profit: -22.3435446646%',color:'#1e9c89',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:28.0664000,lon:-82.5765000,name:'#90',desc:'Ad Campaign: Version A<br>Change in Profit: -19.0012227968%',color:'#26ac81',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:42.0483000,lon:-87.8395000,name:'#94',desc:'Ad Campaign: Version A<br>Change in Profit: -26.8669531%',color:'#23878d',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:28.0554000,lon:-82.4356000,name:'#96',desc:'Ad Campaign: Version A<br>Change in Profit: -13.6640044626%',color:'#4fc369',icon:'',folder:'Version A'});
+				GV_Draw_Marker({lat:47.8316000,lon:-122.2730000,name:'#97',desc:'Ad Campaign: Version A<br>Change in Profit: -26.4280818302%',color:'#23898d',icon:'',folder:'Version A'});
 				
 				
 				GV_Finish_Map();
@@ -391,7 +392,7 @@
 			  
 			}
 			GV_Map(); // execute the above code
-			// http://www.gpsvisualizer.com/map_input?convert_routes=aw&form=google&google_wpt_labels=1&google_wpt_shadows=0&google_wpt_sym=circle&show_trk=0&trk_colorize=none&trk_opacity=0&wpt_colorize=name&wpt_list=name
+			// http://www.gpsvisualizer.com/map_input?allow_export=1&bg_map=google_physical&colorize_gray=0&colorize_max=0&colorize_min=-50&colorize_spectrum=http%3A%2F%2Fwww.brandoncurtis.com%2Fdata%2Fcolormap-viridis.png&convert_routes=aw&form=google&google_wpt_shadows=0&google_wpt_sym=circle&lightness=50&marker_list_options:folders_collapsed=1&saturation=50&synthesize_desc=Ad%20Campaign%3A%20%7Bcampaign%7D%3Cbr%3EChange%20in%20Profit%3A%20%7Bchange%20in%20profit%7D%25&synthesize_folder=%7Bcampaign%7D&synthesize_name=%23%7Bname%7D&trk_opacity=50&trk_width=0&wpt_colorize=custom&wpt_colorize_custom=change%20in%20profit&wpt_list=name&wpt_scale=1.5
 		</script>
 		
 		
