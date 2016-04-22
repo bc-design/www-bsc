@@ -1,2 +1,7 @@
 User-agent: *
 Disallow: /daily
+Disallow: /hidden
+Disallow: /data
+Disallow: /old
+Disallow: /salon
+Disallow: /tools
