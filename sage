@@ -1,1 +1,1 @@
-/var/www2/sage/
+/var/www2/sage
