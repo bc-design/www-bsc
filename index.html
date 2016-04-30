@@ -38,7 +38,7 @@
       var ctx = canvas.getContext("2d");  // get the context
       ctx.fillStyle = "rgba(255,255,255,0.35)";
       ctx.fillRect(0,0,canvas.width,canvas.height);
-      window.requestAnimationFrame(draw);
+      //window.requestAnimationFrame(draw);
     }
     else {
       run = true;
@@ -47,11 +47,9 @@
   }
 
   function uncage() {
-    //for (int asdf = 0; asdf < 10; asdf++) {
-      console.error('changeorbs');
-      //orbs[asdf].boundary.x.upper.bordertype = "exit";
-    //}
-    window.requestAnimationFrame(draw);
+    for (var a=0; a < orbs.length; a++) {
+      orbs[a].boundary.x.upper.bordertype = "exit";
+    }
   }
 
   function Orb(shape, size, position, velocity, boundary, style) {
@@ -64,7 +62,7 @@
     this.boundary = typeof boundary !== 'undefined' ? boundary : 
             {x : {lower : { value : 0,
                             iscollide : function(that) {return (that.position.x - that.size < that.boundary.x.lower.value)},
-                            isout : function(that) {return (that.position.x + that.size < that.boundary.lower.value)},
+                            isout : function(that) {return (that.position.x + that.size < that.boundary.x.lower.value)},
                             bordertype : 'bounce'
                           },
                   upper : { value : canvas.width,
