@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>|BC| Supercluster</title>
 	<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -22,20 +21,35 @@
 
 <body onload="init();">
 
-	<div class="header">
+  <div class="header">
     <h1>|BC| SUPERCLUSTER<div class="social"><div class="g-plusone"></div></div>
     </h1>
   </div>
 
-<canvas id="canvas" height="120px"></canvas>
+<div style="position:relative;"><canvas id="canvas" style="height:120px"></canvas>
+	<div id="cage" style="position:absolute; width:20px; height:120px;
+		top:0px; right:-20px" ></div>
+</div>
 
 <script>
   function stopanimation() {
     if (run) {
-      run=false;
+      run = false;
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.fillStyle = "rgba(255,255,255,0.35)";
+      ctx.fillRect(0,0,canvas.width,canvas.height);
+      window.requestAnimationFrame(draw);
     }
     else {
       run = true;
+      window.requestAnimationFrame(draw);
+    }
+  }
+
+  function uncage() {
+    for (int asdf = 0; asdf < 10; asdf++) {
+      console.error('changeorbs');
+      //orbs[asdf].boundary.x.upper.bordertype = "exit";
     }
     window.requestAnimationFrame(draw);
   }
@@ -112,7 +126,7 @@
       var colg = Math.floor(256*Math.random());
       var colb = Math.floor(256*Math.random());
       orb.style = "rgba(" + colr.toString() + "," + colg.toString() + "," + colb.toString() + ",0.35)";
-      orb.boundary.x.upper.bordertype = "exit";
+      //orb.boundary.x.upper.bordertype = "exit";
       orbs.push(orb);
     }
   }
@@ -123,6 +137,7 @@
     canvas.width = document.getElementById("content").offsetWidth;
     canvas.height = 120; // set the canvas height
     document.getElementById("canvas").addEventListener("click", stopanimation);
+    document.getElementById("cage").addEventListener("click", uncage);
     
     orbs = [];
     orbGen(50);
@@ -145,12 +160,6 @@
         }
       }
       window.requestAnimationFrame(draw); // then repeat
-    }
-    else {
-      var ctx = canvas.getContext("2d");  // get the context
-      ctx.fillStyle = "rgba(10,10,10,100)";
-      ctx.fillRect(0,0,canvas.width,canvas.height);
-      window.requestAnimationFrame(draw);
     }
   }
 </script>
@@ -188,10 +197,10 @@
 <!-- BEGIN SECRET PAGES -->
 		<form name="secret_pages"
         		action="javascript:location.href = 'hidden/' + window.document.secret_pages.page.value + '.html'"
-        		style="margin:0;">
+        		style="margin:0; width:220px;">
         		<div style="display:inline;">
-        	        	<input type="password" size="12" name="page">
-        	        	<input type="submit" value="Go">
+        	        	<input type="password" name="page" style="width:55%;">
+        	        	<input type="submit" value="go">
 	                	<noscript></noscript>
                 	</div>
 		</form>
