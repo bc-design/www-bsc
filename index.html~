@@ -27,10 +27,8 @@
   </div>
 
 <div style="position:relative;"><canvas id="canvas" style="height:120px"></canvas>
-	<div id="cageright" style="position:absolute; width:20px; height:120px;
+	<div id="cage" style="position:absolute; width:20px; height:120px;
 		top:0px; right:-20px" ></div>
-		<div id="cageleft" style="position:absolute; width:20px; height:120px;
-		top:0px; left:-20px" ></div>
 </div>
 
 <script>
@@ -48,15 +46,9 @@
     }
   }
 
-  function uncageright() {
+  function uncage() {
     for (var a=0; a < orbs.length; a++) {
       orbs[a].boundary.x.upper.bordertype = "exit";
-    }
-  }
-  
-  function uncageleft() {
-    for (var b=0; b < orbs.length; b++) {
-      orbs[b].boundary.x.lower.bordertype = "exit";
     }
   }
 
@@ -132,19 +124,35 @@
       var colg = Math.floor(256*Math.random());
       var colb = Math.floor(256*Math.random());
       orb.style = "rgba(" + colr.toString() + "," + colg.toString() + "," + colb.toString() + ",0.35)";
-      //orb.boundary.x.upper.bordertype = "exit";
       orbs.push(orb);
     }
   }
   
+
+  function Frameclock() {
+    this.tfps = 50;
+    this.tinterval = function() {return 1000/this.tfps}; // in ms
+    this.tnow = function() {return Date.now()};
+    this.tlast = 0;
+    this.update = function() {this.tlast = this.tnow()};
+    this.refresh = function() {
+      if ((this.tnow()-this.tlast) > this.tinterval()) {
+        this.update();
+        return true;
+      }
+      else {return false}
+    }
+  }
+  
   function init() {
+    clk = new Frameclock();
+    clk.update();
     run = true;
     var canvas = document.getElementById("canvas");
     canvas.width = document.getElementById("content").offsetWidth;
     canvas.height = 120; // set the canvas height
     document.getElementById("canvas").addEventListener("click", stopanimation);
-    document.getElementById("cageleft").addEventListener("click", uncageleft);
-    document.getElementById("cageright").addEventListener("click", uncageright);
+    document.getElementById("cage").addEventListener("click", uncage);
     
     orbs = [];
     orbGen(50);
@@ -152,10 +160,11 @@
   }
   
   function draw() {
-    if (run == true) { // time to update the frame
+    if (clk.refresh() && run) { // time to update the frame
+      //console.error((clk.tnow()-clk.tlast)-clk.tinterval());
       var ctx = canvas.getContext("2d");  // get the context
       ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
-      ctx.save(); // save this pristine canvas state
+      //ctx.save(); // save this pristine canvas state
       
       for (var i=0; i < orbs.length; i++) {
         if (orbs[i].active) {
@@ -166,8 +175,9 @@
           orbs[i].move();
         }
       }
-      window.requestAnimationFrame(draw); // then repeat
+      clk.update()
     }
+    window.requestAnimationFrame(draw); // then repeat
   }
 </script>
 
