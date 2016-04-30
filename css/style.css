@@ -107,3 +107,9 @@ button {
   text-shadow:none;
   border:1px solid black;
 }
+
+/* input box sizing fix */
+input {
+    box-sizing: border-box;
+}
+

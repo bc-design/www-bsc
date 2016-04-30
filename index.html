@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>|BC| Supercluster</title>
 	<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -32,12 +31,16 @@
 <script>
   function stopanimation() {
     if (run) {
-      run=false;
+      run = false;
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.fillStyle = "rgba(255,255,255,0.1)";
+      ctx.fillRect(0,0,canvas.width,canvas.height);
+      window.requestAnimationFrame(draw);
     }
     else {
       run = true;
+      window.requestAnimationFrame(draw);
     }
-    window.requestAnimationFrame(draw);
   }
 
   function Orb(shape, size, position, velocity, boundary, style) {
@@ -146,12 +149,6 @@
       }
       window.requestAnimationFrame(draw); // then repeat
     }
-    else {
-      var ctx = canvas.getContext("2d");  // get the context
-      ctx.fillStyle = "rgba(255,255,255,0.1)";
-      ctx.fillRect(0,0,canvas.width,canvas.height);
-      window.requestAnimationFrame(draw);
-    }
   }
 </script>
 
@@ -188,10 +185,10 @@
 <!-- BEGIN SECRET PAGES -->
 		<form name="secret_pages"
         		action="javascript:location.href = 'hidden/' + window.document.secret_pages.page.value + '.html'"
-        		style="margin:0;">
+        		style="margin:0; width:220px;">
         		<div style="display:inline;">
-        	        	<input type="password" size="12" name="page">
-        	        	<input type="submit" value="Go">
+        	        	<input type="password" name="page" style="width:55%;">
+        	        	<input type="submit" value="go">
 	                	<noscript></noscript>
                 	</div>
 		</form>
