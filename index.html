@@ -21,19 +21,22 @@
 
 <body onload="init();">
 
-	<div class="header">
+  <div class="header">
     <h1>|BC| SUPERCLUSTER<div class="social"><div class="g-plusone"></div></div>
     </h1>
   </div>
 
-<canvas id="canvas" height="120px"></canvas>
+<div style="position:relative;"><canvas id="canvas" style="height:120px"></canvas>
+	<div id="cage" style="position:absolute; width:20px; height:120px;
+		top:0px; right:-20px" ></div>
+</div>
 
 <script>
   function stopanimation() {
     if (run) {
       run = false;
       var ctx = canvas.getContext("2d");  // get the context
-      ctx.fillStyle = "rgba(255,255,255,0.1)";
+      ctx.fillStyle = "rgba(255,255,255,0.35)";
       ctx.fillRect(0,0,canvas.width,canvas.height);
       window.requestAnimationFrame(draw);
     }
@@ -41,6 +44,13 @@
       run = true;
       window.requestAnimationFrame(draw);
     }
+  }
+
+  function uncage() {
+    for (int j=0; j < orbs.length; j++) {
+      orbs[j].boundary.x.upper.bordertype = 'exit';
+    }
+    window.requestAnimationFrame(draw);
   }
 
   function Orb(shape, size, position, velocity, boundary, style) {
@@ -115,7 +125,7 @@
       var colg = Math.floor(256*Math.random());
       var colb = Math.floor(256*Math.random());
       orb.style = "rgba(" + colr.toString() + "," + colg.toString() + "," + colb.toString() + ",0.35)";
-      orb.boundary.x.upper.bordertype = "exit";
+      //orb.boundary.x.upper.bordertype = "exit";
       orbs.push(orb);
     }
   }
@@ -126,6 +136,7 @@
     canvas.width = document.getElementById("content").offsetWidth;
     canvas.height = 120; // set the canvas height
     document.getElementById("canvas").addEventListener("click", stopanimation);
+    document.getElementById("cage").addEventListener("click", uncage);
     
     orbs = [];
     orbGen(50);
