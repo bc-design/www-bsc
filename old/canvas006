@@ -1,0 +1,111 @@
+NOW WITH BLOCKS AND FPS CONTROL (NOT SUPPORTED)
+
+<canvas id="canvas"></canvas>
+
+<script>
+  function Block(){
+    this.shape = 'block';
+    this.pos = [0,50];    // position
+    this.vel = [1,0];    // velocity
+    this.size = [20,20]; // size
+    this.bounds = [canvas.width,canvas.height] // boundaries
+    this.wrap = [true, true]; //x- and y-wrapping
+    this.style = "rgba(200,0,0,0.5)";
+    this.move = function() {
+      for (i=0; i < this.pos.length; i++) {
+        this.pos[i] += this.vel[i];
+        if (this.pos[i]+this.size[i] > this.bounds[i] || this.pos[i] < 0) {
+          this.vel[i] *= -1;
+        }
+      }
+    }
+  }
+  
+  function Orb(shape, size, pos, vel, bounds, wrap, style){
+    this.shape = typeof shape !== 'undefined' ? shape : 'orb'; //shape
+    this.size = typeof size !== 'undefined' ? size : [10,10]; // size
+    this.pos = typeof pos !== 'undefined' ? pos : [this.size[0],100];    // position
+    this.vel = typeof vel !== 'undefined' ? vel : [1,0];    // velocity
+    this.bounds = typeof bounds !== 'undefined' ? bounds : [canvas.width,canvas.height]; // boundaries
+    this.wrap = typeof wrap !== 'undefined' ? wrap : [true, true]; //x- and y-wrapping
+    this.style = typeof style !== 'undefined' ? style : "rgba(0,200,0,0.5)";
+    this.move = function() {
+      for (i=0; i < this.pos.length; i++) {
+        this.pos[i] += this.vel[i];
+        if (this.pos[i]+this.size[i] > this.bounds[i] || this.pos[i]-this.size[0] < 0) {
+          this.vel[i] *= -1;
+        }
+      }
+    }
+  }
+  
+  fps = {
+    maxfps : 40,
+    _tfirst : Date.now(),
+    _tlast : 0,
+    _tinterval : function() {return 1000/this.maxfps},
+    _tnow : function() {return Date.now()},
+    _tdelta : function() {return (this._tnow() - this._tlast)},
+    _tlastup : function() {
+    	this._tlast = (this._tnow() - this._tdelta() % this._tinterval())
+    },
+    duration : function() {return (this._tfirst - this._tnow())},
+    refresh : function() {
+    	if (this._tdelta() > this._tinterval()){
+    	  this._tlastup()
+    	  return true
+    	}
+    	else{
+    	  return false
+    	}
+    }
+  }
+  
+  function init() {
+    var canvas = document.getElementById("canvas");
+    canvas.width = document.getElementById("content").offsetWidth;
+    canvas.height = 120; // set the canvas height
+    norbs = 50;
+    orbs = []
+    for (var i = 0; i < norbs; i++) {
+      var orb = new Orb()
+      
+      //var vels = [-3,-2,-1,1,2,3]; //quantized velocities
+      //var velx = vels[Math.floor(vels.length*Math.random())];
+      //var vely = vels[Math.floor(vels.length*Math.random())];
+      //orb.vel = [velx,vely];
+      orb.vel = [3*(Math.random()-0.5), 3*(Math.random()-0.5)]
+      orb.pos = [30,canvas.height/2];
+      orb.size = [20,20];
+      var colr = 0; //Math.floor(256*Math.random());
+      var colg = Math.floor(256*Math.random());
+      var colb = Math.floor(256*Math.random());
+      orb.style = "rgba(" + colr.toString() + "," + colg.toString() + "," + colb.toString() + ",0.35)";
+      orbs.push(orb);
+    }
+    window.requestAnimationFrame(draw);
+  }
+  
+  function draw() {
+    if (true) { // time to update the frame
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
+      ctx.save(); // save this pristine canvas state
+      
+      //b.move(); // move the block
+      //c.move(); // move the orb
+      //ctx.fillStyle = b.style;
+      //ctx.fillRect(b.pos[0],b.pos[1],b.size[0],b.size[1]); // draw blocks
+      
+      for (var i=0; i < norbs; i++) {
+        ctx.beginPath();
+        ctx.fillStyle = orbs[i].style;
+        ctx.arc(orbs[i].pos[0],orbs[i].pos[1],orbs[i].size[0],0,2*Math.PI,false);
+        ctx.fill();
+        orbs[i].move();
+      }
+      
+      window.requestAnimationFrame(draw); // then repeat
+    }
+  }
+</script>

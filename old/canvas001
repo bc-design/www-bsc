@@ -1,0 +1,135 @@
+<canvas id="canvas" height="200px"></canvas>
+
+<script>
+  var xpos, ypos, xinit, yinit;
+  var xinc, yinc;
+  var xsize, ysize;
+  var maxfps, tinterval, tlast, tnow, tdelta
+  var xwrap, ywrap;
+
+  function init() {
+    window.requestAnimationFrame(draw);
+
+    maxfps = 40;
+    tinterval = 1000/maxfps;
+    tlast = Date.now();
+
+    xsize = 20;
+    ysize = 20;
+
+    nblocks = 3;
+    xoffset = -30;
+    yoffset = 0;
+    fillStyles = ["rgba(200,0,0,0.5)","rgba(0,200,0,0.5)","rgba(0,0,200,0.5)"];
+    xwrap = true;
+    ywrap = true;
+
+    xinit = 0; //-xsize-(nblocks-1)*(xoffset+xsize);
+    yinit = canvas.height/2;
+    xpos = xinit;
+    ypos = yinit;
+
+    xinc = 1;
+    yinc = 0;
+  }
+
+  function draw() {
+
+    //window.requestAnimationFrame(draw);
+
+    tnow = Date.now();
+    tdelta = tnow - tlast;  // time since last frame update
+
+    if (tdelta > tinterval) { // time to update the frame
+
+      tlast = tnow - (tdelta % tinterval); 
+
+      var canvas = document.getElementById("canvas");
+      canvas.width = document.getElementById("content").offsetWidth;
+      canvas.height = 200; // set the canvas height
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
+      ctx.save();
+    
+      ctx.fillStyle = fillStyles[0];
+	    ctx.fillRect(xpos,ypos,xsize,ysize);
+      ctx.save();
+
+      ctx.translate(xoffset,yoffset);
+      ctx.fillStyle = fillStyles[1];
+	    ctx.fillRect(xpos,ypos,xsize,ysize);
+      ctx.save();
+
+      ctx.translate(xoffset,yoffset);
+      ctx.fillStyle = fillStyles[2];
+	    ctx.fillRect(xpos,ypos,xsize,ysize);
+      ctx.save();
+
+      if (xpos+nblocks*(xsize+Math.abs(xoffset)) > canvas.width) { // first x-wrap
+        ctx.restore();
+        ctx.translate(-canvas.width,0);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+
+        ctx.restore();
+        ctx.translate(-canvas.width,0);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+
+        ctx.restore();
+        ctx.translate(-canvas.width,0);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+      }
+      else {
+        ctx.restore();
+        ctx.restore();
+        ctx.restore();
+      }
+
+      if (xpos+nblocks*(xsize+Math.abs(xoffset)) > canvas.width*2) { // subsequent x-wraps
+        xpos -= canvas.width;
+      }
+
+      /*if (ywrap) { // first y-wrap, positive and negative
+        ctx.restore();
+        ctx.save();
+        ctx.translate(0,-canvas.height);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+        ctx.restore();
+        ctx.translate(0,canvas.height);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+
+        ctx.restore();
+        ctx.save();
+        ctx.translate(0,-canvas.height);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+        ctx.restore();
+        ctx.translate(0,canvas.height);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+
+        ctx.restore();
+        ctx.save();
+        ctx.translate(0,-canvas.height);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+        ctx.restore();
+        ctx.translate(0,canvas.height);
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+      }
+
+      if (ypos + ysize/2 > canvas.height*2) {  // subsequent y-wraps
+        ypos -= canvas.height;
+      }*/
+
+      if (ypos + ysize/2 > canvas.height) {  // simple y+ wrap
+        ypos -= canvas.height;
+      }
+
+      xpos += xinc;
+      ypos += ((canvas.width-xpos%canvas.width)/50)*Math.sin((xpos+xinit)*.05);
+      
+      ctx.restore();
+      ctx.moveTo(0,0);
+      var loc = xpos.toString() + ", " + ypos.toString()
+      ctx.fillText(loc,200,50);
+    }
+    window.requestAnimationFrame(draw);
+  }
+</script>

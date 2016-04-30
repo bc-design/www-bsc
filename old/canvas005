@@ -1,0 +1,92 @@
+<canvas id="canvas" height="200px"></canvas>
+
+<script>
+
+  var fps = {
+    maxfps : 40,
+    _tlast : 0,
+    _tinterval : function(){return 1000/this.maxfps},
+    _tnow : function(){return Date.now()},
+    _tdelta : function(){return (this._tnow() - this._tlast)},
+    _tlastup : function(){
+    	this._tlast = (this._tnow() - this._tdelta() % this._tinterval())
+    },
+    refresh : function(){
+    	if (this._tdelta() > this._tinterval()){
+    	  this._tlastup();
+    	  return true;
+    	}
+    	else{
+    	  return false;
+    	}
+    }
+  }
+
+  function Block(){
+    this.shape = 'block';
+    this.pos = [0,50];    // position
+    this.vel = [1,0];    // velocity
+    this.size = [20,20]; // size
+    this.bounds = [canvas.width,canvas.height] // boundaries
+    this.wrap = [true, true]; //x- and y-wrapping
+    this.style = "rgba(200,0,0,0.5)";
+    this.move = function() {
+      for (i=0; i < this.pos.length; i++) {
+        this.pos[i] += this.vel[i];
+        if (this.pos[i]+this.size[i] > this.bounds[i] || this.pos[i] < 0) {
+          this.vel[i] *= -1;
+        }
+      }
+    }
+  }
+  
+  function Orb(){
+    this.shape = 'orb';
+    this.size = [10,10]; // size
+    this.pos = [this.size[0],100];    // position
+    this.vel = [1,0];    // velocity
+    this.bounds = [canvas.width,canvas.height] // boundaries
+    this.wrap = [true, true]; //x- and y-wrapping
+    this.style = "rgba(0,200,0,0.5)";
+    this.move = function() {
+      for (i=0; i < this.pos.length; i++) {
+        this.pos[i] += this.vel[i];
+        if (this.pos[i]+this.size[i] > this.bounds[i] || this.pos[i]-this.size[0] < 0) {
+          this.vel[i] *= -1;
+        }
+      }
+    }
+  }
+  
+  function init() {
+    var canvas = document.getElementById("canvas");
+    canvas.width = document.getElementById("content").offsetWidth;
+    canvas.height = 200; // set the canvas height
+    b = new Block();
+    c = new Orb();
+    window.requestAnimationFrame(draw);
+  }
+  
+  function draw() {
+    if (true) { // time to update the frame
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
+      ctx.save(); // save this pristine canvas state
+      
+      b.move(); // move the block
+      c.move();
+      ctx.fillStyle = b.style;
+      ctx.fillRect(b.pos[0],b.pos[1],b.size[0],b.size[1]); // draw blocks
+      
+      ctx.beginPath();
+      ctx.fillStyle = c.style;
+      ctx.arc(c.pos[0],c.pos[1],c.size[0],0,2*Math.PI,false);
+      ctx.fill();
+      
+      var loc = b.pos[0].toString() + ", " + b.pos[1].toString(); // debug
+      ctx.fillText(loc,200,50); // debug
+      
+      window.requestAnimationFrame(draw); // then repeat
+    }
+  }
+</script>

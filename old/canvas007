@@ -1,0 +1,128 @@
+<canvas id="canvas"></canvas>
+
+<script>
+  function Orb(shape, size, position, velocity, boundary, style) {
+    this.shape = typeof shape !== 'undefined' ? shape : 'orb';
+    this.size = typeof size !== 'undefined' ? size : 10;
+    this.position = typeof position !== 'undefined' ? position : {x : this.size, y : 100};
+    this.velocity = typeof velocity !== 'undefined' ? velocity : {x : 1, y : 0};
+    this.style = typeof style !== 'undefined' ? style : "rgba(200,0,0,0.5)";
+    this.boundary = typeof boundary !== 'undefined' ? boundary : 
+            {x : {lower : { value : 0,
+                            iscollide : function(that) {return (that.position.x - that.size < that.boundary.x.lower.value)},
+                            isout : function(that) {return (that.position.x + that.size < that.boundary.lower.value)},
+                            bordertype : 'bounce'
+                          },
+                  upper : { value : canvas.width,
+                            iscollide : function(that) {return (that.position.x + that.size > that.boundary.x.upper.value)},
+                            isout : function(that) {return (that.position.x - that.size > that.boundary.x.upper.value)},
+                            bordertype : 'bounce'
+                          }
+                },
+             y : {lower :  {value : 0,
+                            iscollide : function(that) {return (that.position.y - that.size < that.boundary.y.lower.value)},
+                            isout : function(that) {return (that.position.y + that.size < that.boundary.y.lower.value)},
+                            bordertype : 'bounce'
+                          },
+                 upper :  {value : canvas.height,
+                            iscollide : function(that) {return (that.position.y + that.size > that.boundary.y.upper.value)},
+                            isout : function(that) {return (that.position.y - that.size > that.boundary.y.upper.value)},
+                            bordertype : 'bounce'
+                          }
+                },
+            };
+    this.move = function() {
+      var that = this;
+      for (var dimension in this.boundary) {
+        this.position[dimension] += this.velocity[dimension];
+        for (var bound in this.boundary[dimension]) {
+          switch(this.boundary[dimension][bound].bordertype) {
+            case 'bounce':
+              if (this.boundary[dimension][bound].iscollide(that)) {
+                this.velocity[dimension] *= -1 // reverse the velocity in this dimension
+                break;
+              }
+              break;
+            case 'exit':
+              if (this.boundary[dimension][bound].isout(that)) {
+                this.destroy() // remove this object from the collection
+                break;
+              }
+              break;
+            case 'wrap':  // NOT TESTED YET
+              if (this.boundary[dimension][bound].isout(that)) {
+                // MODULO IS BROKEN IN JAVASCRIPT - WRONG SIGN
+                this.position[dimension] %= this.boundary[dimension].upper.value // wrap to other side
+              }
+              break;
+            default:
+          }
+        }
+      }
+    }
+    this.destroy = function() {
+      return true;
+    }
+  }
+  
+  function orbGen(n) {
+    for (var i = 0; i < n; i++) {
+      var orb = new Orb();
+      //orb.velocity = [3*(Math.random()-0.5), 3*(Math.random()-0.5)];
+      //orb.position = [30,canvas.height/2];
+      //orb.size = [20,20];
+      var colr = 0; //Math.floor(256*Math.random());
+      var colg = Math.floor(256*Math.random());
+      var colb = Math.floor(256*Math.random());
+      //orb.style = "rgba(" + colr.toString() + "," + colg.toString() + "," + colb.toString() + ",0.35)";
+      orbs.push(orb);
+    }
+  }
+  
+  function init() {
+    var canvas = document.getElementById("canvas");
+    canvas.width = document.getElementById("content").offsetWidth;
+    canvas.height = 120; // set the canvas height
+    //orbs = [];
+    //orbGen(100);
+    
+    orb = new Orb();
+    var colr = 0; //Math.floor(256*Math.random());
+    var colg = Math.floor(256*Math.random());
+    var colb = Math.floor(256*Math.random());
+    orb.style = "rgba(" + colr.toString() + "," + colg.toString() + "," + colb.toString() + ",0.35)";
+    orb.position = {x : 50, y : 50};
+    orb.size = 20;
+    orb.velocity = {x : 3*(Math.random()-0.5), y : 3*(Math.random()-0.5)}
+    window.requestAnimationFrame(draw);
+  }
+  
+  function draw() {
+    if (true) { // time to update the frame
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
+      ctx.save(); // save this pristine canvas state
+      
+      ctx.beginPath();
+      ctx.fillStyle = orb.style;
+      ctx.arc(orb.position.x,orb.position.y,orb.size,0,2*Math.PI,false);
+      //ctx.arc(50,50,50,0,2*Math.PI,false);
+      ctx.fill();
+      orb.move();
+      //orb.position.x += orb.velocity.x;
+      //orb.position.y += orb.velocity.y;
+      
+      
+      
+      //for (var i=0; i < orbs.length; i++) {
+      //  ctx.beginPath();
+      //  ctx.fillStyle = orbs[i].style;
+      //  ctx.arc(orbs[i].pos[0],orbs[i].pos[1],orbs[i].size[0],0,2*Math.PI,false);
+      //  ctx.fill();
+      //  orbs[i].move();
+      //}
+      
+      window.requestAnimationFrame(draw); // then repeat
+    }
+  }
+</script>

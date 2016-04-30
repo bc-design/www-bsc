@@ -148,7 +148,7 @@
     }
     else {
       var ctx = canvas.getContext("2d");  // get the context
-      ctx.fillStyle = "rgba(255,255,255,0.1)";
+      ctx.fillStyle = "rgba(10,10,10,100)";
       ctx.fillRect(0,0,canvas.width,canvas.height);
       window.requestAnimationFrame(draw);
     }

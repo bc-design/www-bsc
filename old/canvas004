@@ -1,0 +1,96 @@
+<canvas id="canvas" height="200px"></canvas>
+
+<script>
+  var fps = {
+    maxfps : 40,
+    tlast : 0,
+    tinterval : function(){return 1000/this.maxfps},
+    tnow : function(){return Date.now()},
+    tdelta : function(){return (this.tnow() - this.tlast)},
+    tlastup : function(){
+    	this.tlast = (this.tnow() - this.tdelta() % this.tinterval())
+    },
+    refresh : function(){
+    	if (this.tdelta() > this.tinterval()){
+    	  this.tlastup();
+    	  return true;
+    	}
+    	else{
+    	  return false;
+    	}
+    },
+  }
+
+  function myBlock(){
+    this.pos = [0,0];    // position
+    this.vel = [1,0];    // velocity
+    this.size = [20,20]; // size
+  }
+
+  var xpos, ypos, xinit, yinit;
+  var xinc, yinc;
+  var xsize, ysize;
+  var maxfps, tinterval, tlast, tnow, tdelta
+  var xwrap, ywrap;
+
+  function init() {
+    window.requestAnimationFrame(draw);
+
+    xsize = 20;
+    ysize = 20;
+
+    nblocks = 3;
+    xoffset = -30;
+    yoffset = 0;
+    fillStyles = ["rgba(200,0,0,0.5)","rgba(0,200,0,0.5)","rgba(0,0,200,0.5)"];
+    xwrap = true;
+    ywrap = true;
+
+    xinit = 0; //-xsize-(nblocks-1)*(xoffset+xsize);
+    yinit = canvas.height/2;
+    xpos = xinit;
+    ypos = yinit;
+
+    xinc = -5;
+    yinc = 0;
+  }
+
+  function draw() {
+
+    //window.requestAnimationFrame(draw);
+
+    if (fps.refresh()) { // time to update the frame
+
+      var canvas = document.getElementById("canvas");
+      canvas.width = document.getElementById("content").offsetWidth;
+      canvas.height = 200; // set the canvas height
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
+      ctx.save();
+
+      for (var n = 0; n < nblocks; n++) {
+        ctx.fillStyle = fillStyles[n];
+	      ctx.fillRect(xpos,ypos,xsize,ysize);
+	      ctx.translate(xoffset,yoffset);
+      }
+
+      if (xpos+xsize > canvas.width) { // x+bounce
+         xinc *= -1;
+      }
+
+      if (xpos < 0) { // x-bounce
+         xinc *= -1;
+      }
+
+      xpos += xinc;
+      ypos += yinc;
+      
+      ctx.restore();
+      ctx.moveTo(0,0);
+      var loc = xpos.toString() + ", " + ypos.toString()
+      ctx.fillText(loc,200,50);
+    }
+    window.requestAnimationFrame(draw);
+  }
+</script>
+

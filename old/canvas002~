@@ -1,0 +1,79 @@
+<canvas id="canvas" height="200px"></canvas>
+
+<script>
+  var xpos, ypos, xinit, yinit;
+  var xinc, yinc;
+  var xsize, ysize;
+  var maxfps, tinterval, tlast, tnow, tdelta
+  var xwrap, ywrap;
+
+  function init() {
+    window.requestAnimationFrame(draw);
+
+    maxfps = 40;
+    tinterval = 1000/maxfps;
+    tlast = Date.now();
+
+    xsize = 20;
+    ysize = 20;
+
+    nblocks = 3;
+    xoffset = -30;
+    yoffset = 0;
+    fillStyles = ["rgba(200,0,0,0.5)","rgba(0,200,0,0.5)","rgba(0,0,200,0.5)"];
+    xwrap = true;
+    ywrap = true;
+
+    xinit = 0; //-xsize-(nblocks-1)*(xoffset+xsize);
+    yinit = canvas.height/2;
+    xpos = xinit;
+    ypos = yinit;
+
+    xinc = -5;
+    yinc = 0;
+  }
+
+  function draw() {
+
+    //window.requestAnimationFrame(draw);
+
+    tnow = Date.now();
+    tdelta = tnow - tlast;  // time since last frame update
+
+    if (tdelta > tinterval) { // time to update the frame
+
+      tlast = tnow - (tdelta % tinterval); 
+
+      var canvas = document.getElementById("canvas");
+      canvas.width = document.getElementById("content").offsetWidth;
+      canvas.height = 200; // set the canvas height
+      var ctx = canvas.getContext("2d");  // get the context
+      ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
+      ctx.save();
+
+      for (var n = 0; n < nblocks; n++) {
+        ctx.fillStyle = fillStyles[n];
+	ctx.fillRect(xpos,ypos,xsize,ysize);
+	ctx.translate(xoffset,yoffset);
+      }
+
+      if (xpos+xsize > canvas.width) { // x+bounce
+         xinc *= -1;
+      }
+
+      if (xpos < 0) { // x-bounce
+         xinc *= -1;
+      }
+
+      xpos += xinc;
+      ypos += yinc;
+      
+      ctx.restore();
+      ctx.moveTo(0,0);
+      var loc = xpos.toString() + ", " + ypos.toString()
+      ctx.fillText(loc,200,50);
+    }
+    window.requestAnimationFrame(draw);
+  }
+</script>
+
