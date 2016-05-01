@@ -129,7 +129,7 @@
   }
   
   function Frameclock() {
-    this.tfps = 50;
+    this.tfps = 30;
     this.tinterval = function() {return 1000/this.tfps}; // in ms
     this.tnow = function() {return Date.now()};
     this.tlast = 0;
@@ -154,7 +154,7 @@
     document.getElementById("cage").addEventListener("click", uncage);
     
     orbs = [];
-    orbGen(50);
+    orbGen(25);
     window.requestAnimationFrame(draw);
   }
   
