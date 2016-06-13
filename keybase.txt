@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/brandoncurtis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.brandoncurtis.com
+  * I am brandoncurtis (https://keybase.io/brandoncurtis) on keybase.
+  * I have a public key ASBRYhs5ynHiSroGp2COCY4MkGBX5pAWFiYcJiziWAAeGAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010117d39a485282cd4218a2bc061f997be20def7fd50fd4be59d62a177f3a12934a0a",
+            "host": "keybase.io",
+            "kid": "012051621b39ca71e24aba06a7608e098e0c906057e6901616261c262ce258001e180a",
+            "uid": "20ceeff56d295fadb145d1dbeaa07019",
+            "username": "brandoncurtis"
+        },
+        "service": {
+            "hostname": "www.brandoncurtis.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1465861092,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1465860539,
+        "hash": "a6b78f55ad924d9867f34f445c7d35f3a58442dc8975d32903bdedbe37d503440af0a73adcc79075410f62a639fc40993a6d5300bdcfcbcd986ddc73fb677753",
+        "seqno": 483403
+    },
+    "prev": "b1eaac3ce2f0db1bc80c3a6745c15093e2233dc40f7f8bbbe5f077c08cd31673",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUWIbOcpx4kq6BqdgjgmODJBgV+aQFhYmHCYs4lgAHhgKp3BheWxvYWTFAwJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMTdkMzlhNDg1MjgyY2Q0MjE4YTJiYzA2MWY5OTdiZTIwZGVmN2ZkNTBmZDRiZTU5ZDYyYTE3N2YzYTEyOTM0YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTE2MjFiMzljYTcxZTI0YWJhMDZhNzYwOGUwOThlMGM5MDYwNTdlNjkwMTYxNjI2MWMyNjJjZTI1ODAwMWUxODBhIiwidWlkIjoiMjBjZWVmZjU2ZDI5NWZhZGIxNDVkMWRiZWFhMDcwMTkiLCJ1c2VybmFtZSI6ImJyYW5kb25jdXJ0aXMifSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5icmFuZG9uY3VydGlzLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY1ODYxMDkyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjU4NjA1MzksImhhc2giOiJhNmI3OGY1NWFkOTI0ZDk4NjdmMzRmNDQ1YzdkMzVmM2E1ODQ0MmRjODk3NWQzMjkwM2JkZWRiZTM3ZDUwMzQ0MGFmMGE3M2FkY2M3OTA3NTQxMGY2MmE2MzlmYzQwOTkzYTZkNTMwMGJkY2ZjYmNkOTg2ZGRjNzNmYjY3Nzc1MyIsInNlcW5vIjo0ODM0MDN9LCJwcmV2IjoiYjFlYWFjM2NlMmYwZGIxYmM4MGMzYTY3NDVjMTUwOTNlMjIzM2RjNDBmN2Y4YmJiZTVmMDc3YzA4Y2QzMTY3MyIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKrSWllv6nMcA19t5nwzxCB3VE7vEtE0yY5IIb8yr2USA1+y664yWwUqaf1toFQVoItTYpTtukKwQkhitmyD8Auoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brandoncurtis
+
+==================================================================
+
