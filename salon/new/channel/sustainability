@@ -1,0 +1,2373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#sustainability</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            #art
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            #education
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            #health
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            #libations
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            #podcast
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            #professional
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            #society
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            <span style="background-color: #ab9ba9">
+                #sustainability
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-04 15:26:21</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-09-04 16:53:04</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-09-04 18:57:06</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-04 20:35:29</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-21 11:42:27</div>
+            <div class="msg"><a href="http://www.goodshomedesign.com/family-wraps-home-in-greenhouse-to-protect-it-from-the-cold/">http://www.goodshomedesign.com/family-wraps-home-in-greenhouse-to-protect-it-from-the-cold/</a><br /><br /><strong>Family Wraps Home In Greenhouse To Protect It From The Cold</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-21 14:05:50</div>
+            <div class="msg">Awesome</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-21 14:06:35</div>
+            <div class="msg">But as a side note it's more efficient to have this on three sides and then a normal insulated house on the north side</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-01 14:22:24</div>
+            <div class="msg">this year we are paying a little bit extra for PG&amp;E Solar Choice: <a href="http://www.pge.com/en/myhome/saveenergymoney/solar/choice/index.page">http://www.pge.com/en/myhome/saveenergymoney/solar/choice/index.page</a><br /><br /><strong>I've joined the Solar Movement with PG&amp;E's Solar Choice Rate Plan! Will you?</strong><br />You have a new way to support renewable energy sources exclusively in PG&amp;E's service territory. Purchase 50 or 100% of your electricity from solar projects. Learn More.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-01 14:23:30</div>
+            <div class="msg">our electricity usage is very low, especially now that the weather is nice and I have the grill and gigantic propane burner set up with a gigantic pot and pressure cooker</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-01 14:24:12</div>
+            <div class="msg">and the overall impact on our bill is equal and opposite to what we save through our time-of-use and critical peak pricing incentives</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-01 14:25:29</div>
+            <div class="msg">which I wrote about last year: <a href="http://www.andhigherstill.com/2015/03/save-money-on-electricity-with.html">http://www.andhigherstill.com/2015/03/save-money-on-electricity-with.html</a><br /><br /><strong>Save Money on Electricity with Alternative Pricing Plans | And Higher Still</strong><br />If you're one of Pacific Gas &amp; Electric's 5 million+ electricity customers, you can take advantage of two peak demand reduction programs to save a bunch of money on summer energy costs!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-01 14:27:04</div>
+            <div class="msg">anyway, I want to figure out whether a program like PG&amp;E Solar Choice actually encourages development of more grid-scale solar resources</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-01 14:27:16</div>
+            <div class="msg">@bpl, do you know anything about this?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-01 15:29:42</div>
+            <div class="msg">For California... Maybe. They have renewable energy mandates, so this might actually be a way to pass on costs to a set of consumers who are more inclined to pay.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-01 15:31:19</div>
+            <div class="msg">I'm looking at the actual structure now</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-01 15:35:13</div>
+            <div class="msg">Looks like it's being counted separately from the mandates so you are probably contributing to accelerated solar deployment</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-22 06:14:23</div>
+            <div class="msg">@brandon: if done improperly you can get a lot of local air pollution when producing charcoal. Otherwise this stuff has been proclaimed for years and seems like it can do everything but at significant capital cost in some situations: slash and burn it's almost free, places with barely enough biomass for fuel purposes not so much.  There were stories a while back touting significant evidence that use of biochar in combination with other soil enhancers helped support a rather large civilization in the rather poor soil of the amazon river basin.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-22 06:16:16</div>
+            <div class="msg"><a href="https://en.wikipedia.org/wiki/Terra_preta">https://en.wikipedia.org/wiki/Terra_preta</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-22 06:20:24</div>
+            <div class="msg">The VW thing...  very clever idiots. Makes one wonder why they thought they could get away with it...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-09-22 11:12:52</div>
+            <div class="msg">Diesel cars are famous for having great mileage; people who own them are usually pretty smug about it, in my experience.  but there are huge tradeoffs between fuel economy and NOx emissions... NOx--&gt;ozone--&gt;smog 😞  this is why diesel trucks are such a problem-- and in fact, all VW cars are a drop in the bucket compared to the emissions from long-haul rigs.  Some absurd percentage of U.S. carbon emissions comes from 18-wheelers (I'd have to look back at my Air Quality notes to figure out exactly how much-- yeah Environmental Engineering masters degree!)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-22 18:17:47</div>
+            <div class="msg"><a href="http://www3.epa.gov/blackcarbon/basic.html">http://www3.epa.gov/blackcarbon/basic.html</a></p><br /><br /><p>EPA: On road and Off Road diesel are tied at about 40% each for Mobile Carbon Soot Emission (not Carbon Dioxide Emissions). The total category makes up about 50% of US emissions and the next largest category is "open biomass burning, including wildfires" at ~35%. Total US emissions are expected to decline sharply due to increase vehicle/heavyequipment emission standards. This is mostly going to be the result of better capture and burn equipment on diesel trucks which, while a large source than diesel cars due to sheer number, are larger and easier to implement pollution controls on.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-22 18:20:33</div>
+            <div class="msg">It's also worth looking at the global estimates for this too. It shows how our technological state and environmental policies have impacted our local environment. For instance it no longer rains black dust in Pittsburgh.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-09-21 10:18:59</div>
+            <div class="msg">@mbyron has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-21 19:20:03</div>
+            <div class="msg">Technical details on the VW "emissions hack": <a href="https://np.reddit.com/r/engineering/comments/3lhhjk/have_you_ever_been_asked_by_your_boss_to_violate/cv8ypjk?context=3">https://np.reddit.com/r/engineering/comments/3lhhjk/have_you_ever_been_asked_by_your_boss_to_violate/cv8ypjk?context=3</a><br /><br /><strong>Have you ever been asked by your boss to violate your ethics like this? "EPA finds Volkswagen guilty of "skirting" emissions rules with software. Detect device" • /r/engineering</strong><br />509 points and 635 comments so far on reddit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-23 10:37:28</div>
+            <div class="msg"><a href="https://youtu.be/R8Uybj7pnBI">https://youtu.be/R8Uybj7pnBI</a><br /><br /><strong>Watch Greens MP Set Fire To Condamine River Due To Fracking</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-01 16:24:37</div>
+            <div class="msg"><a href="https://docs.google.com/forms/d/1G-7V9yzQUT4nT4trf_pS3tllt8ZSfRpoyJSND0ehQBo/viewform?c=0&amp;w=1">https://docs.google.com/forms/d/1G-7V9yzQUT4nT4trf_pS3tllt8ZSfRpoyJSND0ehQBo/viewform?c=0&amp;w=1</a><br />I submitted a question about biochar and terra preta!<br /><br /><strong>Questions for UC Davis' Science Communication Group</strong><br />What do you want to know about food or agriculture?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-01 16:24:44</div>
+            <div class="msg"><a href="https://en.wikipedia.org/wiki/Terra_preta">https://en.wikipedia.org/wiki/Terra_preta</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-01-16 08:07:43</div>
+            <div class="msg">In 2015, global human carbon emissions fell for the first time since we've been keeping track of such things!  Not even close to enough to prevent climate change, but still it's kind of nice.</p><br /><br /><p><a href="http://www.bloombergview.com/articles/2015-12-15/it-looks-like-global-carbon-emissions-hit-a-peak">http://www.bloombergview.com/articles/2015-12-15/it-looks-like-global-carbon-emissions-hit-a-peak</a><br /><br /><strong>We've Hit `Peak Carbon'</strong><br />Burning less coal makes a difference.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-16 14:14:09</div>
+            <div class="msg">Slow downs like this are almost entirely economic at this stage.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-16 14:14:32</div>
+            <div class="msg">There is yet much work to do</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-01-16 14:23:37</div>
+            <div class="msg">Haha, true, but I feel that "economics" can be used to describe pretty much any macro-scale movement in this arena.  The question is whether the relevant economic factors are transient or long-lived.  For instance, the following factor seems like it might be more long-lived, if it's true...</p><br /><br /><p>"Much of the highest quality and most accessible coal has already been mined in countries such as China. As the remaining coal becomes lower quality and harder to reach, the costs of getting it from the ground to power plants and factories soars. This is probably a big reason why Chinese coal production has already plateaued, and why the country now imports a substantial amount of coal despite being endowed with ample domestic reserves."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-01-16 14:24:56</div>
+            <div class="msg">Of course, the real goal has to be to make enough of the right science and technological innovation happen to shift the economic factors in the right direction.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-16 22:59:41</div>
+            <div class="msg">Agreed on the long term goals and the fact that all of this is heavily dependent on economics.  </p><br /><br /><p>What I meant to state was that this slow down is still mostly the result of decreased global production (aka economic troubles, recessions, etc) resulting in lower energy demand and thus lower carbon production.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-16 23:00:28</div>
+            <div class="msg">The 2008 recession was good from the perspective of decreasing carbon emissions</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-16 23:15:42</div>
+            <div class="msg">Fossil fuels divestment: thoughts?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-18 08:55:22</div>
+            <div class="msg">Then it's mostly a moral statement and maybe long term economic move.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 09:57:36</div>
+            <div class="msg">we were discussing rooftop solar in 'marginal markets' (Pennsylvania) in <em>#statecollege</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 09:58:09</div>
+            <div class="msg">overall verdict, rooftop solar works better than you might think in dimmer places</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 09:58:28</div>
+            <div class="msg">the incentives in some markets really make it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 09:59:23</div>
+            <div class="msg">but the payback period in PA is quite a bit longer than, say, Arizona</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 09:59:44</div>
+            <div class="msg">in terms of an investment, ehhhh</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 10:00:23</div>
+            <div class="msg">further reductions in solar capital costs and/or pricing carbon would really push it over the edge</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 13:08:08</div>
+            <div class="msg">Sounds about right</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 16:41:46</div>
+            <div class="msg">Yay NASA spin-offs! Also this is a very excited, very confused, non technical take on all of it.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 16:45:42</div>
+            <div class="msg">Basically it's really high temperature combustion reactions (ie ionize the air and maintain a high chamber temp) which break everything down and don't leave nasty partial combustion biproducts ( ie why you don't breath in smoke). Instead you can do a clean partial combustion reaction to Syngas, other waste gas, and oxidized ash/slag.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 16:47:00</div>
+            <div class="msg">Disadvantages: capital and maintenance costs. Regular combustion systems are cheaper and, from an energy standpoint, usually more efficient.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 16:47:25</div>
+            <div class="msg">Also you still have to scrub the waste gas for mercury etc.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 16:51:14</div>
+            <div class="msg">Still listening and they are a bit clueless</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 16:52:40</div>
+            <div class="msg">Omg they're talking about using glassified radioactive waste as paving stones.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 16:53:12</div>
+            <div class="msg">Because it's "no longer dangerous"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 17:01:27</div>
+            <div class="msg">And "all they have to do is keep the tipping fees low and they can undercut landfills! All that's missing is the environmental will." Ignoring the massive cost of capital and financing.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 17:08:42</div>
+            <div class="msg">I am a fan of this technology as it's an awesome way to deal with toxic organic waste but recycling, composting, and pyrolysis are currently better for most purposes.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-06 21:20:54</div>
+            <div class="msg">Very familiar with plasma torches and their waste applications</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-06 21:21:07</div>
+            <div class="msg">Horrendously expensive to build and run</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-06 21:22:12</div>
+            <div class="msg">only really commercially viable now for treating, for instance, semiconductor processing waste gas</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-06 21:39:26</div>
+            <div class="msg">I think they will become more viable as the technology matures but I doubt it will ever beat, recycling, composting, and digesters for reducing land fill influx. They might have some advantages in reducing the undifferentiated mess that's already in landfills. Currently, if we're feeling echo friendly, we just put taps in then and wait for the organics to turn into low grade natural gas.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-16 07:33:08</div>
+            <div class="msg">I like it as a] a subtle, non-white light source and b] getting the O2 benefits without worrying about trimming/watering/my cats eating the leaves.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-16 12:42:49</div>
+            <div class="msg">House plants are a necessary part of the feline diet</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/54a33b032abe2b652a19b95a2c48b23d.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">joel</div>
+            <div class="time">2016-05-17 08:09:24</div>
+            <div class="msg">&lt;@U186T3Z1U|joel> has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-25 15:17:59</div>
+            <div class="msg">solar + storage + software to the rescue: <a href="http://www.vox.com/2016/2/5/10919082/solar-storage-economics">http://www.vox.com/2016/2/5/10919082/solar-storage-economics</a><br /><br /><strong>If you thought solar was going to hurt utilities, get a load of solar+storage</strong><br />It's coming, there's no stopping it, and utilities are going to get crushed if they don't reform.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-25 17:03:20</div>
+            <div class="msg">Lol :-)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-25 17:22:40</div>
+            <div class="msg">... Eventually ;)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-25 21:10:02</div>
+            <div class="msg">Exponential change can be so deceptive.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-03 23:50:20</div>
+            <div class="msg">a discussion on oil prices and polymer recyclability: <a href="http://www.npr.org/2016/01/14/463010138/low-oil-prices-interfere-with-what-recyclers-are-paid-for-plastic">http://www.npr.org/2016/01/14/463010138/low-oil-prices-interfere-with-what-recyclers-are-paid-for-plastic</a><br /><br /><strong>Low Oil Prices Interfere With What Recyclers Are Paid For Plastic</strong><br />The price of oil has been on a downward dive for a couple of years. This has been great for some businesses and not so for others. One industry hit especially hard is the recycling business.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-09 11:35:15</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=YY7f1t9y9a0">https://www.youtube.com/watch?v=YY7f1t9y9a0</a><br /><br /><strong>Billions in Change Official Film</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-02 07:40:55</div>
+            <div class="msg"><a href="http://99percentinvisible.org/episode/separation-anxiety/">http://99percentinvisible.org/episode/separation-anxiety/</a><br /><br /><strong>Separation Anxiety - 99% Invisible</strong><br />“Für Elise” is one of the world’s most widely-recognized pieces of music. The Beethoven melody has been played by pianists the world over, and its near-universal recognition has been used to attract customers for companies as big as McDonald’s  and as small as your local ice-cream truck. But if you hear the song playing on the streets of Taiwan, accompanied</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:02:50</div>
+            <div class="msg">saw a really frightening seminar on fluoropolymers</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:03:12</div>
+            <div class="msg">and how they're going to stick around for geologic time</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:03:31</div>
+            <div class="msg">because the C—F bond is not to be trifled with</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:03:55</div>
+            <div class="msg">and how fluorinated precursors and surfactants can now be found in the blood of pretty much every higher organism on the planet</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:05:03</div>
+            <div class="msg">so hopefully they're as safe as the manufacturers say they are...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:05:27</div>
+            <div class="msg">(research says they're endocrine disruptors and worse)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:06:18</div>
+            <div class="msg">CA is now requiring labelling of furniture containing fluoropolymer foams</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:06:30</div>
+            <div class="msg">buuuut nowhere else is, and it hasn't been required before</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:06:58</div>
+            <div class="msg">so most of your stuff with foam in it is probably 5-10% fluoropolymers by mass</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:10:02</div>
+            <div class="msg">takeaway: pretty much everything that's not wood, stone, glass, ceramic, concrete, steel, natural fibers, and a few other things is woefully untested and therefore suspect</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:10:46</div>
+            <div class="msg">(asterisk, double-dagger)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-25 12:14:54</div>
+            <div class="msg"><a href="http://www.nytimes.com/2016/01/10/magazine/the-lawyer-who-became-duponts-worst-nightmare.html">http://www.nytimes.com/2016/01/10/magazine/the-lawyer-who-became-duponts-worst-nightmare.html</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-25 12:48:46</div>
+            <div class="msg">We don't always release interested chemicals in industrial quantities but when we do we really fuck shit up</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-26 10:15:13</div>
+            <div class="msg">@brandon uploaded a file: <a href="https://gwusbdhdu.slack.com/files/brandon/F0D77MKRN/greg.png">greg.png</a> and commented: @bwoolston, any idea who this asshole is?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 06:38:53</div>
+            <div class="msg">And it probably kills the market for all the nascent plastic/organics to fuels companies as well. I wonder if it would make sense to redirect it to a waste to energy plant. It's probably higher energy content than undifferentiated waste and those plants have to be set up to handle pollution/dioxin production anyway.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-04-04 07:33:41</div>
+            <div class="msg">x-post from <em>#food</em>: Is there a way to quantify the environmental end-game in terms of $$ for cleanup?  I get that reducing plastic usage is only negligibly reducing demand for oil, but it seems like the converse is pretty rough.  That yearly driving equivalent comes out to .02 metric tons of CO2, but 520 basically-immortal plastic bags can do a lot of harm (especially in the ocean).  Is there a way to compare impact, other than the cost-of-demand analysis above?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-04-04 09:16:12</div>
+            <div class="msg">It could also be redirected to a municipal solid waste (MSW) to syngas plant (e.g. Enerkem), which isn't limited to recyclable materials. Enerkem takes the syngas and converts it to MeOH or EtOH. I believe their MeOH is nearly competitive with the uber low MeOH prices we are seeing right now. A big factor in their economics is the tipping fee they receive though. So a plant in North America, where the cost to dump in a landfill is cheap would not be as attractive as a plant in Europe/Japan where landfilling is more expensive.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-04 10:44:21</div>
+            <div class="msg">anecdote: Japan redirects almost EVERYTHING to waste-to-energy, due to the high domestic cost of landfill space and electricity</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 11:07:09</div>
+            <div class="msg">Japan is awesome on that regard</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 11:09:58</div>
+            <div class="msg">But that is the major issue with environmental studies: how to quantify the impact of something so dispersed?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 11:10:20</div>
+            <div class="msg">@mbyron I've seen studies for limited things (impacts of deforestation in the Poconos on NYC s water purification costs etc.)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-04 17:24:28</div>
+            <div class="msg"><a href="http://www.heraldscotland.com/news/14395942.display/">http://www.heraldscotland.com/news/14395942.display/</a><br /><br /><strong>Half of Scotland's energy consumption came from renewables last year</strong><br />Scotland has met a key target for renewable energy consumption, according to official figures.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 20:03:07</div>
+            <div class="msg">That's really cool! Though it's one of those situations where they're tired into a lot of other grids so technically not as hard.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/47d05f5cfc1e807473fe1ceecf86892f.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0000-72.png"/>
+        <div class="message">
+            <div class="username">tksinensky</div>
+            <div class="time">2016-04-04 20:03:47</div>
+            <div class="msg">@tksinensky has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-18 10:41:20</div>
+            <div class="msg">This seems like an Ancient Magical Fix Everything Technology: <a href="https://en.wikipedia.org/wiki/Biochar">https://en.wikipedia.org/wiki/Biochar</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-18 20:40:00</div>
+            <div class="msg">@bpl, do you know of any downsides?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-18 12:36:10</div>
+            <div class="msg"><a href="http://nocamels.com/2012/10/20-recyclable-cardboard-bicycle-is-now-a-reality/">http://nocamels.com/2012/10/20-recyclable-cardboard-bicycle-is-now-a-reality/</a><br /><br /><strong>$20 Recyclable Cardboard Bicycle Is Now A Reality</strong><br />Israeli inventor Zohar Gafni, along with his business partner Nimrod Elmish, will soon begin the mass-production of a cardboard bike. The durable, lightweight and eco-friendly vehicle will go into production within six months and is expected to be sold with a $20 price tag.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/cad11fee131788c75fbd6d2d73e9f59d.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">erik.curtis</div>
+            <div class="time">2015-10-18 14:09:07</div>
+            <div class="msg">@erik.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f67fd1992c225ab18eca144de0238646.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">lindsayad</div>
+            <div class="time">2015-10-18 14:09:07</div>
+            <div class="msg">@lindsayad has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4e69b6194a652d4b767cd42219dbc314.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">mariagillespie</div>
+            <div class="time">2015-10-18 14:09:07</div>
+            <div class="msg">@mariagillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b10e78515203ad47dc5d28d9f3c2384a.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">galenlynch</div>
+            <div class="time">2015-10-18 14:09:07</div>
+            <div class="msg">@galenlynch has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/5b5fa7bd103728ebd8aeea4a334f36ef.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png"/>
+        <div class="message">
+            <div class="username">melaniedrake</div>
+            <div class="time">2015-10-18 14:09:07</div>
+            <div class="msg">@melaniedrake has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/88ac432852a604e6edb4ef9acc234997.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">rodgelers</div>
+            <div class="time">2015-10-18 14:09:08</div>
+            <div class="msg">@rodgelers has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-27/23396463141_2ca0634b50ad68f0fb37_72.jpg"/>
+        <div class="message">
+            <div class="username">sean.mac</div>
+            <div class="time">2015-10-18 14:09:08</div>
+            <div class="msg">@sean.mac has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b30b544998f76a85acdaef50d02f9603.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0009-72.png"/>
+        <div class="message">
+            <div class="username">sbernecker</div>
+            <div class="time">2015-10-18 14:09:08</div>
+            <div class="msg">@sbernecker has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-10-18 14:09:08</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-18 14:09:18</div>
+            <div class="msg">@channel: does anyone know someone with photovoltaic panels?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-18 17:42:20</div>
+            <div class="msg">@bgillespie  neat. that makes me curious.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-18 17:42:52</div>
+            <div class="msg">@brandon galen's dad</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-18 18:02:27</div>
+            <div class="msg">@galenlynch, know what the specs are on it?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/d8e11cf2deea38a7afaf3c3aa474b3f8.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">jim</div>
+            <div class="time">2016-06-13 13:51:12</div>
+            <div class="msg">@jim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-10-06 20:38:02</div>
+            <div class="msg">@matt.s.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-17 08:23:23</div>
+            <div class="msg">Probably a good idea for coal in the 10 year range from a portfolio stand point unless we start shipping to Africa somehow. Natural gas and oil are a bit more robust. </p><br /><br /><p>As for effectiveness as a means of changing the status quo... Not sure but if it helps prevent new fossil fuel infrastructure from being built that could be huge.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-17 10:40:00</div>
+            <div class="msg">It won't restrict their access to capital</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-29 16:06:33</div>
+            <div class="msg">xpost from the @vadim in the Spring slack:<br /><a href="http://www.theatlantic.com/business/archive/2016/03/the-economic-case-for-worldwide-vegetarianism/475524/?utm_source=SFTwitter">http://www.theatlantic.com/business/archive/2016/03/the-economic-case-for-worldwide-vegetarianism/475524/?utm_source=SFTwitter</a><br /><br /><strong>How Much Money the World Would Save If Everyone Became Vegetarian</strong><br />Not curbing its taste for meat could cost the U.S. almost $200 billion each year—and the global economy up to $1.6 trillion.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-03-29 16:06:39</div>
+            <div class="msg">@vadim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-03-29 16:10:58</div>
+            <div class="msg">“the @vadim"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-03-29 16:11:30</div>
+            <div class="msg">I like it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-29 16:19:29</div>
+            <div class="msg">lol oops</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-29 17:49:50</div>
+            <div class="msg">I would save a bunch if I didn't turn right around and spend it on mushrooms and olives, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b10e78515203ad47dc5d28d9f3c2384a.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">galenlynch</div>
+            <div class="time">2015-11-06 15:05:32</div>
+            <div class="msg">@brandon: Referring to your question on 10/18 no I don't know, but I can ask what set up he has. I know he has a nice inverter/power point tracker and recently maxes out the space on his roof</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-05 06:22:27</div>
+            <div class="msg">"If the average Joe Taxpayer or Josephine Consumer were able to prop open one eye even just a tiny bit for just a brief period of time, in order to give the slightest shit about efficiency – meeting goals with minimal waste instead of just sliding along blindly in a chute greased with their own drool, the change we would experience would be absolutely spectacular."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-05 06:22:32</div>
+            <div class="msg">I found this amusing</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-05 06:22:45</div>
+            <div class="msg">the analogy is rather striking</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-05 06:23:08</div>
+            <div class="msg"><a href="http://www.mrmoneymustache.com/2015/11/01/the-drive-thru/">http://www.mrmoneymustache.com/2015/11/01/the-drive-thru/</a><br /><br /><strong>Understand the Drive-Thru and We Can Solve All Problems</strong><br />Exciting Foreword: I'm cooking up the big annual Gathering of Mustachians right here in my hometown on Friday, November 13th. If you live nearby and want to meet more clever, fun, like-minded peopl...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-12-04 09:27:46</div>
+            <div class="msg">@brandon: Thoughts?  <a href="http://www.takepart.com/article/2015/12/03/climate-change-oxygen-ocean">http://www.takepart.com/article/2015/12/03/climate-change-oxygen-ocean</a><br /><br /><strong>Report: The World Will Run out of Breathable Air Unless Carbon Is Cut</strong><br />A new study finds that unabated greenhouse gas emissions will cripple ocean phytoplankton’s ability to produce oxygen.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-04 10:03:40</div>
+            <div class="msg">That's... Problematic</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-04 11:17:13</div>
+            <div class="msg">Still more inhabitable than mars!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-04 11:31:53</div>
+            <div class="msg">oceans are important</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-04 11:32:08</div>
+            <div class="msg">we know this, and yet we continue to mess with them without really having any idea what we're doing</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-04 11:32:29</div>
+            <div class="msg">so, this is depressing but not unsurprising</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-04 11:34:07</div>
+            <div class="msg">(I know a lot of people that work on ocean acidification-- they often talk about how it's one of the most drastic byproducts of climate change, and yet doesn't get hyped so much in media coverage, because coccolithophores aren't as cute as polar bears.)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-04 11:34:31</div>
+            <div class="msg">(which is ridiculous, because coccolithophores are ADORABLE)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-04 11:52:28</div>
+            <div class="msg">This is only one study, so no real consensus yet on the end of the world, just a headline. Still you're right that we don't think about it enough and that we really have no idea what will happen</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-12-04 12:07:17</div>
+            <div class="msg"><a href="http://farm5.static.flickr.com/4036/4254681996_27b1ed7ff0.jpg">http://farm5.static.flickr.com/4036/4254681996_27b1ed7ff0.jpg</a><br /></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-04 16:09:18</div>
+            <div class="msg">Dr. Turns did a very good job arguing that we should ditch coal purely for its other problems</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-04 16:11:26</div>
+            <div class="msg">But that is part of the problem: only so much money to invest. Give coal power to 500 MIndians or solar to 250? Also can I have an extra large latte to go in my extra large hummer cup holders?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-04 16:14:11</div>
+            <div class="msg">What you think there's a better use for money?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-04 17:10:56</div>
+            <div class="msg">Coal is steadily falling over the last 5 years or so on its own. <a href="http://www.eia.gov/todayinenergy/detail.cfm?id=21232">http://www.eia.gov/todayinenergy/detail.cfm?id=21232</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-04 17:21:19</div>
+            <div class="msg">Yep result of more regulation of mercury and NOx coinciding with natural gas and wind getting real cheap. Encouraged oldest, most polluting plants to close</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-04 17:24:25</div>
+            <div class="msg">Also there was a general tend towers lower demand in the US (recession and efficiency...) </p><br /><br /><p>The natural gas price probably won't last decades but will last long enough for solar and nuke to become viable so the developed world basically stopped building coal plants. </p><br /><br /><p>Everyone else picked up the slack though...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2015-12-01 12:14:01</div>
+            <div class="msg">@clara has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 09:35:21</div>
+            <div class="msg">@bpl I met the owner of this company last week <a href="http://www.madisonstartups.com/launch-wisconsin-gets-onramp-event/">http://www.madisonstartups.com/launch-wisconsin-gets-onramp-event/</a><br /><br />Your only source for original news and events from the startup, tech and biotech scene in Madison, Wis.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 09:35:46</div>
+            <div class="msg">They do cleantech investments</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 10:35:47</div>
+            <div class="msg">@connorgalleher has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-23 11:16:58</div>
+            <div class="msg">Yeah I've been to one of their events and prepped slides for others</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:36:18</div>
+            <div class="msg">They successfully scaled 1,4-butanediol production</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:36:19</div>
+            <div class="msg"><a href="http://www.genomatica.com/partners/dupont-tate-and-lyle/">http://www.genomatica.com/partners/dupont-tate-and-lyle/</a><br /><br />Genomatica is a leader in sustainable chemicals: ‘greener’ intermediate and basic chemicals made from renewable feedstocks, rather than oil and gas. High-volume core products with better economics and smaller environmental footprint.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:37:53</div>
+            <div class="msg">when they said 'pilot scale' they actually delivered 2000 tons of product, like they're an actual chemical company or something</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:40:15</div>
+            <div class="msg">@bpl a bunch of their development projects recently went public:</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:40:32</div>
+            <div class="msg"><a href="http://www.genomatica.com/news/press-releases/genomatica-announces-nylon-intermediates-program/">http://www.genomatica.com/news/press-releases/genomatica-announces-nylon-intermediates-program/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:40:38</div>
+            <div class="msg"><a href="http://www.genomatica.com/news/press-releases/braskem-signs-joint-development-agreement-for-bio-based-butadiene/">http://www.genomatica.com/news/press-releases/braskem-signs-joint-development-agreement-for-bio-based-butadiene/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:40:45</div>
+            <div class="msg"><a href="http://www.genomatica.com/news/press-releases/versalis-and-genomatica-launch-joint-venture-for-bio-based-butadiene/">http://www.genomatica.com/news/press-releases/versalis-and-genomatica-launch-joint-venture-for-bio-based-butadiene/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 12:21:10</div>
+            <div class="msg">"For an integrated process from biomass to BDO, Genomatica has disclosed results achieved earlier in the project that exceed 120 grams per liter and 3.1 grams per liter per hour. While Genomatica has achieved significantly higher results with conventional commercial carbohydrate feedstocks, our achievements to date bring commercial success with biomass within range."<br /><a href="http://www.genomatica.com/news/press-releases/genomatica-advances-commercial-readiness-biomass-feedstocks-for-chemicals/">http://www.genomatica.com/news/press-releases/genomatica-advances-commercial-readiness-biomass-feedstocks-for-chemicals/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/963914bd77f352a4f2ba6586fb881b81.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0007-72.png"/>
+        <div class="message">
+            <div class="username">bwoolston</div>
+            <div class="time">2015-09-23 21:36:33</div>
+            <div class="msg">@bwoolston has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 21:45:28</div>
+            <div class="msg">This still pops into my head on a daily basis:<br /><a href="https://www.youtube.com/watch?v=gtcZbN0Z08c">https://www.youtube.com/watch?v=gtcZbN0Z08c</a><br /><br /><strong>Sesame Street: Water Conservation</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 22:16:31</div>
+            <div class="msg">Also re:conversation with @connorgalleher and co tonight, despite all of the rain Berkeley is still only at 72% of normal rainfall this year</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 22:16:52</div>
+            <div class="msg">compared to 55% of normal at this time last year: <a href="http://weather.sfgate.com/auto/sfgate/geo/precip/index.html">http://weather.sfgate.com/auto/sfgate/geo/precip/index.html</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-15 22:16:45</div>
+            <div class="msg"><a href="http://www.digitaltrends.com/home/microalgae-lamps-can-light-your-home-and-are-edible/#ixzz3dWGGpkpd">http://www.digitaltrends.com/home/microalgae-lamps-can-light-your-home-and-are-edible/#ixzz3dWGGpkpd</a><br /><br /><strong>Go green! These edible algae lamps could light your home</strong><br />Two designers have created a future-home display at th Museum of Contemporary Art that includes living algae-filled lamps that can be drained and eaten later.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-02-15 22:38:23</div>
+            <div class="msg">Hmm, I wonder if this article should also be posted in <em>#food</em>?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-15 22:56:33</div>
+            <div class="msg">I dunno; I already cross-posted with <em>#art</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-15 23:54:48</div>
+            <div class="msg">Neat!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-15 23:56:03</div>
+            <div class="msg">Debatable, but probably minimal environmental benefit especially where electricity is fossil fuel intensive and you can grow things outside.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-15 23:56:43</div>
+            <div class="msg">On the other hand, I'm always in favor of growing of things</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-04-07 08:05:23</div>
+            <div class="msg">This podcast is basically Car Talk but for random subjects.  Listening to them being excited and confused is half the fun!  It's definitely non-technical but it was the first I had ever heard of plasma waste converters (a few months ago, I think).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-04-07 08:06:15</div>
+            <div class="msg">Speaking of composting... are there any gardeners on this @channel?  I know @brandon grows some of his own stuff.  If there's critical mass we could start a new channel-- I'm a n00b and could use some advice.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-07 11:06:36</div>
+            <div class="msg">Yeah... Sorry for the reaction. I investigated the tech pretty heavily a while ago and energy generation is arguably my expertise.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-07 11:07:43</div>
+            <div class="msg">For gardening: I've done a lot in the past and may be trying to set one up again this year so a channel might not be bad. Other wise we can put it in food</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-04-07 11:36:59</div>
+            <div class="msg">No apologies!  Accuracy &gt;&gt; entertainment.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-04-05 07:58:17</div>
+            <div class="msg"><a href="http://www.stuffyoushouldknow.com/podcasts/please-listen-to-how-plasma-waste-converters-work/">http://www.stuffyoushouldknow.com/podcasts/please-listen-to-how-plasma-waste-converters-work/</a><br /><br /><strong>Please Listen to How Plasma Waste Converters Work</strong><br />There is a way to not only sustainably get rid our household waste, but also produce enough energy from it to power the process and even create electricity for the grid. The future is here!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:05:04</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSNP69K/img_20151104_160241383_hdr.jpg|Bio-economy vs. $50 per barrel oil></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-04 16:10:42</div>
+            <div class="msg">Actually putting together some competitive economic info on bio-based commodity chemicals vs. petro right now</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-04 16:11:44</div>
+            <div class="msg">As you might guess, some look good, some don't.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-04 16:12:52</div>
+            <div class="msg">Let me know if Greg says anything interesting</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:38:51</div>
+            <div class="msg">"part two: what do these results really mean?" if there's an interesting part, it'll be here</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:39:44</div>
+            <div class="msg">"does it make sense <em>economically</em> to propose biotechnology and renewable feedstocks for fuels and chemicals?"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:40:03</div>
+            <div class="msg">"current state of commercial efforts..."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:41:16</div>
+            <div class="msg">"Genomatica" - you made the good list 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:41:20</div>
+            <div class="msg">DSM-Poet</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:41:21</div>
+            <div class="msg">Biochemtex</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:41:24</div>
+            <div class="msg">GrandBio</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:41:38</div>
+            <div class="msg">Myriant, Bioamber, DSM</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:41:42</div>
+            <div class="msg">Solazyme...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:42:31</div>
+            <div class="msg">"a feedstock story"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:43:27</div>
+            <div class="msg">comparison of oil and corn costs...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:44:30</div>
+            <div class="msg">$25/ton biomass...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:45:50</div>
+            <div class="msg">he's saying you need $25-50/ton biomass to compete with $30-60/barrel oil</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:47:09</div>
+            <div class="msg">$250/ton glucose... $830/ton feedstock cost for lipids... sell for $1000/ton....</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:49:11</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSVS6FL/img_20151104_164821350.jpg|Biotechnology Punchline></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:50:15</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSP7UEQ/img_20151104_164934.jpg|Interesting idea></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:54:00</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSPD0S0/img_20151104_165312474_hdr.jpg|When bio wins></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:55:44</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSVBGF8/img_20151104_165401.jpg|Acetic acid></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:56:13</div>
+            <div class="msg">@brandon uploaded a file: <a href="https://gwusbdhdu.slack.com/files/brandon/F0DSWHS9E/img_20151104_165539.jpg">Moorella</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:56:56</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSPHDJQ/img_20151104_165624.jpg|Moorella process></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:57:51</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSPJYLC/img_20151104_165705.jpg|Gas to liquids with bio></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:58:31</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSWMFEC/img_20151104_165801.jpg|Process performance></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 16:59:32</div>
+            <div class="msg">@brandon uploaded a file: <https://gwusbdhdu.slack.com/files/brandon/F0DSPMY4C/img_20151104_165824.jpg|Stephanopoulos thanks></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 17:01:23</div>
+            <div class="msg">"What do you do with leftover biomass? " "solved, but it's a secret" "drill with oily algae biomass mixture"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 17:02:57</div>
+            <div class="msg">@bwoolston, top row, stage right</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 17:03:04</div>
+            <div class="msg">(I think!)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 17:04:42</div>
+            <div class="msg">"efficiency of a synthetic pathway - will be in the paper!"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 17:06:48</div>
+            <div class="msg">"a question of how you can speed up the process..." Prausnitz: "that's why you have such a big group!"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 17:08:03</div>
+            <div class="msg">annnd here comes a lifecycle analysis question...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-04 17:08:38</div>
+            <div class="msg">Alex Bell, as usual</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-05 02:57:50</div>
+            <div class="msg">@bpl: <a href="http://www.natelenergy.com/">http://www.natelenergy.com/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-05 06:16:02</div>
+            <div class="msg">Clever design. Probably better than many of the others I've seen for low head hydro in terms of turbine cost and flexibility.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-05 06:17:51</div>
+            <div class="msg">Low head hydro being a resource that we should debatably use on a large scale... On the other had for the developing world that could be huge</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-05 13:32:11</div>
+            <div class="msg">@bpl @brandon I have a good friend who works for Natel if you have questions</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-05 13:32:48</div>
+            <div class="msg">oh cool! I'm going to a presentation on Monday evening</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-05 13:33:00</div>
+            <div class="msg">I think their technical lead person will be there</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-05 13:34:33</div>
+            <div class="msg">sweet.  Katie McKinstry is a Berkeley ME grad, and i feel like I could friend-matchmake her with most of you</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-05 13:34:36</div>
+            <div class="msg">she is awesome</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-05 16:18:44</div>
+            <div class="msg">Cool</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-26 19:30:56</div>
+            <div class="msg">Speaking of: <a href="http://www.scientificamerican.com/article/autism-rise-driven-by-environment/">http://www.scientificamerican.com/article/autism-rise-driven-by-environment/</a><br /><br /><strong>New Study: Autism Linked to Environment</strong><br />Research links soaring incidence of the mysterious neurological disorder to fetal and infant exposure to pesticides, viruses, household chemicals</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-26 19:31:44</div>
+            <div class="msg">Its an epidemiological study ruling out a bunch of data artifacts and coming to the conclusion that something is causing a large increase.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-12-08 00:12:34</div>
+            <div class="msg">Saw this on reddit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-12-08 00:12:39</div>
+            <div class="msg">in a thread about superbugs</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-12-08 00:12:40</div>
+            <div class="msg"><a href="https://pbs.twimg.com/media/B5-lDJWCUAAwfya.jpg">https://pbs.twimg.com/media/B5-lDJWCUAAwfya.jpg</a><br /></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-08 10:38:29</div>
+            <div class="msg">That pretty much summarizes all the problems.</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>
