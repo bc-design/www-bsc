@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#professional</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            #art
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            #education
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            #health
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            #libations
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            #podcast
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            <span style="background-color: #ab9ba9">
+                #professional
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            #society
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            #sustainability
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-13 23:30:48</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-13 23:30:48</div>
+            <div class="msg">@brandon set the channel purpose: professional development stuff—get me the jorbs</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-13 23:31:14</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-10-13 23:31:14</div>
+            <div class="msg">@connorgalleher has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/963914bd77f352a4f2ba6586fb881b81.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0007-72.png"/>
+        <div class="message">
+            <div class="username">bwoolston</div>
+            <div class="time">2015-10-13 23:31:14</div>
+            <div class="msg">@bwoolston has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-13 23:31:14</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/cad11fee131788c75fbd6d2d73e9f59d.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">erik.curtis</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@erik.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f67fd1992c225ab18eca144de0238646.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">lindsayad</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@lindsayad has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b10e78515203ad47dc5d28d9f3c2384a.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">galenlynch</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@galenlynch has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4e69b6194a652d4b767cd42219dbc314.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">mariagillespie</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@mariagillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@matt.s.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@mbyron has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/5b5fa7bd103728ebd8aeea4a334f36ef.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png"/>
+        <div class="message">
+            <div class="username">melaniedrake</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@melaniedrake has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/88ac432852a604e6edb4ef9acc234997.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">rodgelers</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@rodgelers has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b30b544998f76a85acdaef50d02f9603.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0009-72.png"/>
+        <div class="message">
+            <div class="username">sbernecker</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@sbernecker has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-27/23396463141_2ca0634b50ad68f0fb37_72.jpg"/>
+        <div class="message">
+            <div class="username">sean.mac</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@sean.mac has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-13 23:31:15</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-13 23:31:34</div>
+            <div class="msg">(new policy: invite all the peoples, and they can leave if they wants)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-13 23:33:55</div>
+            <div class="msg">self-promotion is my favorite thing in the entire world, but I still find it almost impossible to write a paragraph that doesn't make me cringe when I read it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-13 23:34:03</div>
+            <div class="msg">seeking feedback onnnnn...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-13 23:34:08</div>
+            <div class="msg">LinkedIn profile: <a href="https://www.linkedin.com/in/brandoncurtis">https://www.linkedin.com/in/brandoncurtis</a><br /><br />View Brandon Curtis's professional profile on LinkedIn. LinkedIn is the world's largest business network, helping professionals like Brandon Curtis discover inside connections to recommended job candidates, industry experts, and business partners.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-13 23:34:29</div>
+            <div class="msg">("professionals like Brandon Curtis" luuuuulz)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-14 08:18:02</div>
+            <div class="msg">comments: maybe change "I want" to "I am seeking" or "I am looking for"?  Also the opening is snappy and powerful, but a little abrupt.  Any way you can turn that sentence around and start with "Making a difference" and then proceed to "technical aptitude is insufficient"? Something like "To make a real difference in the world, technical aptitude alone is insufficient--scientists and engineers need..."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-14 08:19:19</div>
+            <div class="msg">also, you don't want to imply that your technical aptitude is in any way a Priority 2. right now it reads like "I am more skilled at communicating science than I am at doing science!" Clearly not true to anyone who pokes through your CV, but at this point they've only read two sentences, so.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-14 08:19:53</div>
+            <div class="msg">otherwise, great!  Way better than the usual template-matchy descriptions you normally see.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-14 08:20:20</div>
+            <div class="msg">(I'm immersed in this process myself-- academic cover letters are a pain! and everyone has different opinions on how long they should be, what they should address, etc)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:14:04</div>
+            <div class="msg">(to clarify: I'm way more skilled at communicating science than I am at doing science)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:14:48</div>
+            <div class="msg">Thanks for the feedback @mbyron, I'll do some more editing and see how it sounds</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:15:21</div>
+            <div class="msg">I made a lot of changes to the organization and language yesterday</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:16:10</div>
+            <div class="msg">1) the paper descriptions were originally just the abstracts, but that was pretty impenetrable → replaced with short descriptions</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:17:19</div>
+            <div class="msg">2) converted a bunch of text blocks into bullets to reduce the visual density</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:18:32</div>
+            <div class="msg">3) moved non- or low-paying stuff, especially team stuff, from 'employment' to 'projects'</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:19:11</div>
+            <div class="msg">'Projects' let you link out directly to the other people on the team, which is cool</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:19:48</div>
+            <div class="msg">4) restructured descriptions to emphasis what I actually did</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 10:20:29</div>
+            <div class="msg">5) after some deliberation, added skills but turned off skills endorsements</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-14 10:36:11</div>
+            <div class="msg">What was the source of the decision on the skills but no endorsements?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-14 10:39:02</div>
+            <div class="msg">I also skill but no endorsements. Mostly because the only people who endorsed me for things don’t know shit about them</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-14 11:57:59</div>
+            <div class="msg">Makes sense</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 13:13:40</div>
+            <div class="msg">agreed, it was weird to have a bunch of randos endorsing me for random things</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 13:14:32</div>
+            <div class="msg">and if I have 3 endorsements for Python and 15 endorsements for biochemistry, does that make me five times better at biochemistry?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-14 16:24:29</div>
+            <div class="msg">Yes</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-14 16:24:34</div>
+            <div class="msg">Obviously</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 16:46:07</div>
+            <div class="msg">oh good 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 16:46:41</div>
+            <div class="msg">Greg Johnson endorsed me for:<br /> • Carpet Cleaning<br /> • Shoes<br /> • Alternative Rock</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-10-14 16:48:07</div>
+            <div class="msg">...Can I get everyone in the room to endorse @brandon in "Reading Wikipedia Out Loud"?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-14 16:57:14</div>
+            <div class="msg">(@melaniedrake would be on board with that...)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-14 20:21:19</div>
+            <div class="msg">Haha yes</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-14 20:21:35</div>
+            <div class="msg">We should have a you tube series...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-15 08:07:28</div>
+            <div class="msg">one time a professional dog walker endorsed me for "analysis"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-15 08:08:01</div>
+            <div class="msg">I didn't know you could turn those off! (goes to linkedin to turn it off)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-15 08:19:03</div>
+            <div class="msg">there is part of me that still wants to believe that no one actually uses linkedin + researchgate + google scholar + all the countless stupid online tools that purport to showcase your professional abilities</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-15 08:19:14</div>
+            <div class="msg">i mean, seriously, just look at my damn CV</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-15 08:19:35</div>
+            <div class="msg">it's hard enough just doing science, let alone worrying about keeping a dozen professional networking sites updated</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-15 11:33:19</div>
+            <div class="msg">Marketing department here is quite fond of LinkedIn... Not sure we've ever used it as part of a recruiting process</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-16 08:42:44</div>
+            <div class="msg">We use it as part of our recruiting process and so does everyone else AFAIK</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-16 10:12:52</div>
+            <div class="msg">yeah, I don't think I've ever interacted with a recruiter of any sort  (or anyone who had a potential interest in hiring me) and haven't had them stalking my LinkedIn profile by the end of the day</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-16 11:10:53</div>
+            <div class="msg">How do you know when someone is looking at your profile?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-16 11:42:23</div>
+            <div class="msg">It will report it to you unless they have the paid anonymity settings</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-31 16:53:28</div>
+            <div class="msg">How's the new job, @zach? I haven't heard 'the pitch' yet 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:53:46</div>
+            <div class="msg">Heh</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:53:52</div>
+            <div class="msg">It's good</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:54:36</div>
+            <div class="msg">No pitch for you. If you want to buy high-fashion clothes on mobile, you can use our app! If you want to do it on the web, you can use our soon-to-launch website.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:54:54</div>
+            <div class="msg">I'm working on the web side of things</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:55:07</div>
+            <div class="msg">Company is still a startup, but a lot more stable</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-31 16:55:18</div>
+            <div class="msg">(revenue?)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:55:40</div>
+            <div class="msg">There is revenue, but it pales in comparison to our operating cost.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:55:58</div>
+            <div class="msg">We recently raised a series B round of funding</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-31 16:56:17</div>
+            <div class="msg">so a typical startup 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-31 16:56:25</div>
+            <div class="msg">reasonable commute?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-31 16:56:37</div>
+            <div class="msg">yeah, it's in flatiron, so it's pretty close</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-04 08:32:39</div>
+            <div class="msg"><a href="http://www.nasa.gov/press-release/be-an-astronaut-nasa-seeks-explorers-for-future-space-missions">http://www.nasa.gov/press-release/be-an-astronaut-nasa-seeks-explorers-for-future-space-missions</a><br /><br /><strong>Be an Astronaut: NASA Seeks Explorers for Future Space Missions</strong><br />In anticipation of returning human spaceflight launches to American soil, and in preparation for the agency’s Journey to Mars, NASA announced it will soon begin accepting applications for the next class of astronaut candidates. With more human spacecraft in development in the United States today than at any other time in history, future astronauts</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-04 20:26:47</div>
+            <div class="msg">Job postings always require more work experience than you have.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-06 10:24:21</div>
+            <div class="msg">@seekarete has left the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-11 09:39:50</div>
+            <div class="msg">Any experts in the house?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-11 09:39:51</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=BKorP55Aqvg">https://www.youtube.com/watch?v=BKorP55Aqvg</a><br /><br /><strong>The Expert (Short Comedy Sketch)</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-19 14:02:27</div>
+            <div class="msg">@zach, for your business, would you say that your past work "speaks for itself"? Do you go to conferences? What does "professional development" looks like?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-19 14:11:08</div>
+            <div class="msg">I would say that my work is certainly top tier both in quality and, more importantly, delivery time. However, it's not only my work that distinguishes me from other top-tier developers, but my ability to communicate requirements and accurate timelines. I often attend conferences, in order to continue providing my clients access to cutting-edge methodologies and industry best-practices.</p><br /><br /><p>💩 💩 💩</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-19 14:11:12</div>
+            <div class="msg">🔥</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-19 14:52:37</div>
+            <div class="msg">what sort of 'portfolio' do you show a potential employer?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-19 14:53:04</div>
+            <div class="msg">when you work on a big project, is it difficult to communicate what part is yours?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-20 12:28:17</div>
+            <div class="msg">Oh are you asking real questions? cause I was just bullshitting</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 12:28:51</div>
+            <div class="msg">lol I know you're full of shit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 12:28:56</div>
+            <div class="msg">I'm actually trying to get a serious answer, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-20 12:30:02</div>
+            <div class="msg">It depends on the project. For my work at KA, I point people to the logged-in homepage</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-20 12:30:18</div>
+            <div class="msg">because I was pretty instrumental in its creation</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-20 12:30:40</div>
+            <div class="msg">For my recent work, I would point someone at the spring website</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-20 12:30:44</div>
+            <div class="msg">It</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-20 12:31:00</div>
+            <div class="msg">It's not expected that you show off something you made entirely on your own</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-20 12:31:11</div>
+            <div class="msg">since that's usually not how you'll be working in the new job</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-30 18:18:28</div>
+            <div class="msg">Glassdoor's 100 Best Places to Work: <a href="https://www.glassdoor.com/Best-Places-to-Work-LST_KQ0,19.htm">https://www.glassdoor.com/Best-Places-to-Work-LST_KQ0,19.htm</a><br /><br /><strong>Glassdoor Best Places to Work</strong><br />Glassdoor is excited to announce the 50 Best Places to Work in the US. Our Employees Choice Awards are selected by the people who know these companies the best - their employees.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-30 18:20:51</div>
+            <div class="msg">Fortune's 100 Best Companies to Work For: <a href="http://fortune.com/best-companies/">http://fortune.com/best-companies/</a><br /><br /><strong>100 Best Companies to Work For</strong><br />This year’s list marks Fortune’s 18th year of partnering with Great Place to Work. Google ranks No.1 for the sixth time, and 16 new companies make impressive debuts, including Acuity (No. 3...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-30 18:22:05</div>
+            <div class="msg">Forbes' America's Best Employers: <a href="http://www.forbes.com/best-employers/list/">http://www.forbes.com/best-employers/list/</a><br /><br /><strong>America's Best Employers</strong><br />Where are the best places to work? We polled 20,000 U.S. employees and came up with a ranking of the top 500. Is your company on the list?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2015-12-01 12:12:52</div>
+            <div class="msg">@clara has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-29 15:27:52</div>
+            <div class="msg"><a href="http://www.theatlantic.com/business/archive/2015/12/military-versus-private-sector/422124/">http://www.theatlantic.com/business/archive/2015/12/military-versus-private-sector/422124/</a><br /><br /><strong>The Military: An Alternative to the Brutalities of the Modern Economy</strong><br />The millions of service members who live on military bases around the world experience a kind of economic and social security that is foreign to most of America’s middle class.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-29 15:28:08</div>
+            <div class="msg">"Most civilians I’ve talked to about military service dismiss it as a brutal and alien experience. But in many ways, the gig economy, and the contemporary economy more generally, provide the more brutal environment: People are isolated, uncared for, fungible or disposable, and without the opportunity to cultivate the higher human need to sacrifice for a noble purpose. In this sense, it’s the military—and similar occupations—that provide the more humane option."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-29 16:20:04</div>
+            <div class="msg">... The military as a semi meritocratic communist society... Interesting even if it's an artificial environment dependent on external support (ie taxes).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-29 19:20:56</div>
+            <div class="msg">I shared because I never thought about it that way</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-30 07:23:30</div>
+            <div class="msg">Neither had I though all the foundation was there to make the leap.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-12-30 13:16:40</div>
+            <div class="msg">How Completely Messed Up Practices Become Normal <a href="http://danluu.com/wat/">http://danluu.com/wat/</a><br /><br />Have you ever mentioned something that seems totally normal to you only to be greeted by surprise? Happens to me all the time, when I describe …</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-12-30 13:17:05</div>
+            <div class="msg">This should pretty much be required reading for anyone trying to start a company/organiation</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-30 18:43:37</div>
+            <div class="msg"><a href="http://danluu.com/startup-tradeoffs/">http://danluu.com/startup-tradeoffs/</a><br /><br />There’s a meme that’s been going around for a while now: you should join a startup because the money is better and the work is more technically …</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-30 19:19:40</div>
+            <div class="msg">&gt; _"In any case, the reality is that <em>the difference between types of  companies is smaller than the differences between companies of the same  type</em>. That’s true whether we’re talking about startups vs. big companies  or mobile gaming vs. biotech. This is recursive. <em>The differences between different managers and teams at a company can easily be larger than the differences between companies</em>. If someone tells you that you  should work for a certain type of company, that advice is guaranteed to  be wrong much of the time, whether that’s a VC advocating that you  should work for a startup or a Turing award winner telling you that you  should work in a research lab."_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-16 07:36:16</div>
+            <div class="msg">&lt;@U15R7CDKK|diaghilev> has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/54a33b032abe2b652a19b95a2c48b23d.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">joel</div>
+            <div class="time">2016-05-17 08:10:09</div>
+            <div class="msg">&lt;@U186T3Z1U|joel> has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:25:51</div>
+            <div class="msg">@zach: interview prep, eh?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-05-19 12:25:55</div>
+            <div class="msg">@vadim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-05-19 12:25:59</div>
+            <div class="msg">ehhhhhh????</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:26:04</div>
+            <div class="msg">what's the occasion?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:26:05</div>
+            <div class="msg">oh hi vadim</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-05-19 12:26:11</div>
+            <div class="msg">ohai</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:26:17</div>
+            <div class="msg">(also, what does interview prep involve?)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-05-19 12:26:29</div>
+            <div class="msg">solving dumb algorithms puzzles</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:26:37</div>
+            <div class="msg">for software engineering, memorizing the shapes of</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:26:42</div>
+            <div class="msg">dumb algorithms puzzles</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:26:48</div>
+            <div class="msg">lolol</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-05-19 12:26:59</div>
+            <div class="msg">that you will NEVER do in your job</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:27:03</div>
+            <div class="msg">though i would like to do a little refresher course on analysis stuff</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-05-19 12:27:13</div>
+            <div class="msg">but people want you to prove that you can do them, because they are snobs? or something</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:27:21</div>
+            <div class="msg">like be able to prove some interesting complexity things</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:27:32</div>
+            <div class="msg">and some graph theory theorems</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:27:33</div>
+            <div class="msg">because arbitrary selection criteria</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:27:38</div>
+            <div class="msg">I would also like to write a compiler</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:27:42</div>
+            <div class="msg">or interpreter</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:28:21</div>
+            <div class="msg">someplace you want to interview?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:28:39</div>
+            <div class="msg">my friend at Flexport wants me to work there</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:28:47</div>
+            <div class="msg">*searches</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:28:48</div>
+            <div class="msg">it’s unclear if i will actually have to interview</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:29:02</div>
+            <div class="msg">but I think I will do my due diligence this time and apply around</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2016-05-19 12:29:29</div>
+            <div class="msg">I've been wanting to learn more about compilers</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:29:56</div>
+            <div class="msg">oh, you mean Uber for transoceanic shipping 😏</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:30:14</div>
+            <div class="msg">i don’t think uber is the right A in that A for B</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 12:30:16</div>
+            <div class="msg">but yeah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:31:51</div>
+            <div class="msg">you don't call Uber and use it to transport arbitrary people and things between arbitrary locations?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:32:01</div>
+            <div class="msg">I must be using it wrong</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-19 12:32:35</div>
+            <div class="msg">someone bothering you? give 'em the ol' Surprise Uber To Somewhere</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 15:15:43</div>
+            <div class="msg">Lure Brian to the Bay, Volume 1:<br />• Natel Energy, low-head hydroelectric power - <a href="http://www.natelenergy.com/">http://www.natelenergy.com/</a><br />• kW Engineering, energy efficiency and engineering services - <a href="https://www.kw-engineering.com/">https://www.kw-engineering.com/</a><br />• Bolt Threads, synthetic spidersilk - <a href="https://boltthreads.com/">https://boltthreads.com/</a><br />• Alphabet Energy, thermoelectric generators - <a href="https://www.alphabetenergy.com/">https://www.alphabetenergy.com/</a><br />• OSIsoft, industrial process analytics - <a href="http://www.osisoft.com/">http://www.osisoft.com/</a><br />• Sunpower, rooftop and utility-scale solar - <a href="http://us.sunpower.com/">http://us.sunpower.com/</a><br />• Solar City, rooftop and utility-scale solar - <a href="http://www.solarcity.com/">http://www.solarcity.com/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 15:29:24</div>
+            <div class="msg">A list of 100 technology companies in the region: <a href="https://en.wikipedia.org/wiki/Category:Technology_companies_based_in_the_San_Francisco_Bay_Area">https://en.wikipedia.org/wiki/Category:Technology_companies_based_in_the_San_Francisco_Bay_Area</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 16:29:01</div>
+            <div class="msg">TARC 2006 PARTICIPANTS  (@bpl, @seekarete) - TARC just created an alumni LinkedIn group, hahah: <a href="https://www.linkedin.com/groups/8302646/profile">https://www.linkedin.com/groups/8302646/profile</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-01 21:59:06</div>
+            <div class="msg">I have friends working for Natel, Sun Power, and Alphabet energy! And likely some of the others too. Hit me up if you want me to put you in contact with them for an informational interview or whatnot.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-01 22:01:24</div>
+            <div class="msg">Oh jk, my contact at sunpower works for Tesla now. But that is also around and a cool place to work!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-06-02 10:37:26</div>
+            <div class="msg">I've heard rumors that Tesla works you pretty hard for the compensation you receive compared to other comparable companies. Has anyone else heard something similar?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 10:41:38</div>
+            <div class="msg">I have as well, but I know two people who work there and love it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-02 11:13:04</div>
+            <div class="msg">Yes.  My friend Katie who works for Natel left Tesla because she had a kid and they were super unfriendly re: maternity policies.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 11:13:40</div>
+            <div class="msg">(sidenote: 99% sure Katie was at the Natel infosession earlier this year)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-02 11:13:42</div>
+            <div class="msg">However, my other friend Julia (who I assume left sunpower relatively recently to work at Tesla) also recently had a kid.  I haven't talked to her about why she switched.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-02 11:16:28</div>
+            <div class="msg">@brandon, I feel like you should be friends with Katie and her husband Marc.  They are environment-focused DIYer antimaterialist badass scientists who bike everywhere and drive a Leaf everywhere else.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 11:27:04</div>
+            <div class="msg">oh wow. where do they live? (btw Natel Energy session was awesome, really liked the CTO guy)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-02 12:05:28</div>
+            <div class="msg">Last I talked to them they still lived in SW Berkeley on Acton St.</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>

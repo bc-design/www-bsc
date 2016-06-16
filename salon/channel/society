@@ -1,0 +1,4273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#society</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            #art
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            #education
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            #health
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            #libations
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            #podcast
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            #professional
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            <span style="background-color: #ab9ba9">
+                #society
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            #sustainability
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 12:29:41</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 12:29:42</div>
+            <div class="msg">@brandon set the channel purpose: a home for sociology, psychology, and economics</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-02-23 12:29:42</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-23 12:29:42</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2016-02-23 12:29:42</div>
+            <div class="msg">@clara has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 12:29:43</div>
+            <div class="msg">@connorgalleher has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-23 12:29:43</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:29:43</div>
+            <div class="msg">@mbyron has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4e69b6194a652d4b767cd42219dbc314.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">mariagillespie</div>
+            <div class="time">2016-02-23 12:29:43</div>
+            <div class="msg">@mariagillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-23 12:29:43</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 12:30:29</div>
+            <div class="msg">Having friends is important! <a href="http://time.com/4228151/health-adult-friendship/">http://time.com/4228151/health-adult-friendship/</a><br /><br /><strong>Why Your Friendships Make You Happier, According to Science</strong><br />Be strategic and intentional about your friendships</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 12:30:33</div>
+            <div class="msg">&gt; _A 2010 meta-analysis reviewed 148 studies involving over 300,000 participants and concluded that having weak social ties was as big a risk factor to health as being an alcoholic and twice as harmful as obesity. Julianne Holt-Lunstad, co-author of the analysis, told Reuters, <em>“A lack of social relationships was equivalent to smoking up to 15 cigarettes a day.”</em>_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-23 12:33:13</div>
+            <div class="msg">Yeah...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 12:33:34</div>
+            <div class="msg">@mbyron, you moved fairly recently.  Being out of school, is it as hard as I think it's going to be?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 12:34:25</div>
+            <div class="msg">@bpl, @zach, @connorgalleher, @seekarete, @rodgelers, I guess you would know too</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/88ac432852a604e6edb4ef9acc234997.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">rodgelers</div>
+            <div class="time">2016-02-23 12:34:28</div>
+            <div class="msg">@rodgelers has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 12:34:45</div>
+            <div class="msg">(and @sean.mac and @erik.curtis are about to find out!)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-27/23396463141_2ca0634b50ad68f0fb37_72.jpg"/>
+        <div class="message">
+            <div class="username">sean.mac</div>
+            <div class="time">2016-02-23 12:34:48</div>
+            <div class="msg">@sean.mac has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/cad11fee131788c75fbd6d2d73e9f59d.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">erik.curtis</div>
+            <div class="time">2016-02-23 12:34:48</div>
+            <div class="msg">@erik.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:45:28</div>
+            <div class="msg">guys it is so hard</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:45:47</div>
+            <div class="msg">hate to break it to you but everything they say about making friends after school is true (at least in my case)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:46:41</div>
+            <div class="msg">I find it harder because I don't live in the city where I actually work-- my husband works at UCLA and I work at UC Irvine, so we live in Long Beach.  If I lived in Irvine, I'd be able to at least take advantage of the natural relationships that arise with colleagues/labmates.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:47:05</div>
+            <div class="msg">So if you have a choice about it, live close to where you work because commuting kills relationships (and your wallet, but that's another story)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:49:15</div>
+            <div class="msg">leaving grad school is also harder than leaving undergrad.  The community you built in undergrad basically dissipates within a year or two of your graduation-- you can't go back and visit and expect all your friends to be there and your favorite institutions to be unchanged.  Grad school is different because your community remains pretty much intact after you leave.  Your friends are still hanging out with each other, just not with you. The institutions where you invested time and effort are still chugging merrily along without you.  It gives you a reality check on how much you were actually needed to make those things work.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:49:28</div>
+            <div class="msg">BUT all is not lost</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 12:50:39</div>
+            <div class="msg">Lots of opportunities for structural interaction in the post-grad-school life.  My neighbors are chill, and I've met a lot of people through my church.  But relationships form on a much slower timescale than they did when I was in school.  Patience is key.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-23 12:59:13</div>
+            <div class="msg">Most of my friends are from work. It’s not ideal</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-23 12:59:28</div>
+            <div class="msg">but it’s not bad! I work with cool people</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-23 12:59:53</div>
+            <div class="msg">it’s been more of a problem at other places where I worked and didn’t have good chemistry with my coworkers</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-23 13:00:51</div>
+            <div class="msg">Most of my existing structure left when I did. Reforming a new one out of work mates and climbing partners.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-23 13:01:17</div>
+            <div class="msg">Also avoided that for a while as I'm not really planning on staying long term</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:06:27</div>
+            <div class="msg">@melaniedrake and I still have our prebaked friend group from our graduate class</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/5b5fa7bd103728ebd8aeea4a334f36ef.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png"/>
+        <div class="message">
+            <div class="username">melaniedrake</div>
+            <div class="time">2016-02-23 13:06:32</div>
+            <div class="msg">@melaniedrake has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 13:17:36</div>
+            <div class="msg">one other probably obvious note-- the biggest difference between School and the Real World is the ratio of new arrivals vs. permanent residents.  In School of all forms, there's a steady supply of new arrivals who are equally interested in making friends, and you end up being friends with those people.  In the Real World, most people already have a network; their needs are met and they have no reason to form a relationship with you.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 13:18:14</div>
+            <div class="msg">workaround: find other people who are as new and clueless as you, and then make friends with them.  Some institutions have structures in place for this (my church does this).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:18:19</div>
+            <div class="msg">huh. that's an interesting way to think about it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:20:17</div>
+            <div class="msg">on the other hand, I am looking forward to having more intentional friendships</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:21:12</div>
+            <div class="msg">it's initially nice having a pre-baked group, but I eventually get frustrated that I don't really have much in common with most of these people</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 13:25:51</div>
+            <div class="msg">@brandon: sounds like you and @melaniedrake might like the idea of cohousing after leaving Berkeley (if not the Bay Area).  See: <a href="https://en.wikipedia.org/wiki/Cohousing">https://en.wikipedia.org/wiki/Cohousing</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 13:26:18</div>
+            <div class="msg">I had a friend in Berkeley who lived in a cohousing complex in Temescal; visited her once or twice and it seemed pretty awesome.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:26:38</div>
+            <div class="msg">right now we're living with a classmate whom we <em>do</em> have a lot in common with, and it's great</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:26:59</div>
+            <div class="msg">we have a neighbor that we like a lot too</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:27:12</div>
+            <div class="msg">we don't spend enough time with them though</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:27:17</div>
+            <div class="msg">*clicking</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 13:28:14</div>
+            <div class="msg">cohousing seems cool to me because you don't have to live with other people-- you have your own apartment, kitchen, bathroom, living space, etc</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 13:28:29</div>
+            <div class="msg">But you're still within a self-selected group of people who prioritize community very highly</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 13:28:47</div>
+            <div class="msg">AND you get access to a lot of cool shared facilities that you may not have otherwise been able to access or afford.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:45:42</div>
+            <div class="msg">so that's the word for the thing that @zach and @bgillespie and @bpl and I have been talking about forever, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:46:07</div>
+            <div class="msg">it's like... micro-socialism</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 13:47:01</div>
+            <div class="msg">(I am hardcore crushing on the prospect of socialism to ↓ bad things and ↑ good things)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-23 14:05:00</div>
+            <div class="msg">I’m all about undermining the tragedy of the commons using small groups of people with personal relationships</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 14:05:52</div>
+            <div class="msg">It's hard though, people need their space</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 14:21:47</div>
+            <div class="msg">That's why cohousing seems like a better solution to me than a full-on coop situation</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 14:22:37</div>
+            <div class="msg">I eventually moved out of the BSC house because of the tragedy of the commons issues (the only kitchen was the big industrial kitchen; the only bathroom was the one I shared with ~10 others; the only living area other than my bedroom was frequently cluttered and often in use when I wanted it).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 14:23:06</div>
+            <div class="msg">But I loved the intentional community, as well as the quirky cross-section of people I encountered that I may not have encountered otherwise</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 14:24:13</div>
+            <div class="msg">Jacob is in our class and therefore practically family at this point, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 14:24:36</div>
+            <div class="msg">I just like having other signs of life around</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 14:24:45</div>
+            <div class="msg">stuff happening outside of stuff I've made happen</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 14:48:56</div>
+            <div class="msg"><a href="http://www.ic.org/directory/maps/">http://www.ic.org/directory/maps/</a><br /><br /><strong>Map - Fellowship for Intentional Community</strong><br />Map of Intentional Communities This is a map of all the intentional communities listed in our directory. This Map of Intentional Communities may take a few moments to load. Thank you! Newest Communities | Recently Updated | Types | State/Country List | Maps | Advanced Search</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 15:57:45</div>
+            <div class="msg">Cool!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-23 16:31:57</div>
+            <div class="msg">@mbyron: None in Waco...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-23 16:36:55</div>
+            <div class="msg">@seekarete you could start one!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-23 16:41:20</div>
+            <div class="msg">Yeah I've been thinking about this for a while. Just not settled sufficiently to start one and I keep finding friends to live with as house mates</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:41:48</div>
+            <div class="msg">Some things are hard, some are easy</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:42:38</div>
+            <div class="msg">Luckily I already had family and friends in San Diego, so I had a head start with my relationships. Without that however, I would have been in dire straits</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:44:23</div>
+            <div class="msg">It took the better part of a year to slowly convince co-workers that I would be a worthwhile addition to their friend group</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:45:03</div>
+            <div class="msg">I'd say one of the biggest things I miss about school is constantly being surrounded by highly capable/intelligent people</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:45:27</div>
+            <div class="msg">Not to say that I don't work with smart people, I do</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-23 16:46:15</div>
+            <div class="msg">That sounds exhausting, even when you're already around them for work. As a stay-at-home dad and commuting-night student I have almost zero contact with those sorts of people.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:46:15</div>
+            <div class="msg">but when you're in a college town, it's not just when you're in class, it's everywhere</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:48:37</div>
+            <div class="msg">@mbyron, you really hit the nail on the head when you said that no one has a reason to form a new relationship with you</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 16:50:07</div>
+            <div class="msg">it mentions that factor in the article, too</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-23 16:50:09</div>
+            <div class="msg">I think there is a lot of up front work to form the initial relationships, but once you lay the groundwork, you can generate enough inertia to quickly form new relationships</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-23 17:18:24</div>
+            <div class="msg">I joined a crossfit gym in part because of the community aspect that's widely mentioned. Small sample size, but I'm not really seeing it. So little time to talk/bond.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-23 17:25:05</div>
+            <div class="msg">I think hiking could be good, because your only options are 1) enjoy nature or 2) talk</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-23 17:28:56</div>
+            <div class="msg">That's something I considered; setting up a standing, Saturday morning notice on Reddit/Craigslist and just seeing who shows. The park system in Waco is pretty good for the size of the city.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-02-23 19:21:39</div>
+            <div class="msg">Maria and I attend some events with the Berkeley Running Club, a Meetup group.  Similar to hiking, running is a great way to meet people since talking is pretty much all there is to do on a run aside from enjoy the sights.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-02-23 19:22:48</div>
+            <div class="msg">@seekarete: If there's a critical mass of users in your area, <a href="http://meetup.com">meetup.com</a> is a pretty good way to get a group of regular participants.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-23 20:26:19</div>
+            <div class="msg">Like wise for climbing, though a tad more expensive depending on gas. Mostly climb things and talk</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-23 20:26:46</div>
+            <div class="msg">And there is built in talk time while recovering or waiting for someone to fall off the wall</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-28 07:57:02</div>
+            <div class="msg">@bgillespie: There seems to be a bit more activity on meetup than when I looked over the summer, but still not the breadth one would hope for.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-28 07:57:19</div>
+            <div class="msg"><a href="https://www.washingtonpost.com/news/wonk/wp/2016/02/23/this-is-the-height-of-laziness/">https://www.washingtonpost.com/news/wonk/wp/2016/02/23/this-is-the-height-of-laziness/</a><br /><br /><strong>The baffling reason many millennials don’t eat cereal</strong><br />There is something troubling about why many millennials aren't eating cereal anymore.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-28 10:00:44</div>
+            <div class="msg">Yeah I leave the bowl till evening at the earliest.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-28 10:29:57</div>
+            <div class="msg">Sometimes I have oatmeal or fruit after crossfit, but I usually don't have breakfast at all. The "millennials don't eat cereal" headline is the initial clickbait, though; there are more points relevant to this channel in the article. Even a soylent shout-out.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-28 10:31:08</div>
+            <div class="msg">...which is funny. Because cleaning up after soylent is at least as laborious as cleaning up after cereal.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-02-28 10:41:03</div>
+            <div class="msg">I... just rinse out the bowl after I'm done eating cereal.  It takes five seconds.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-28 11:13:26</div>
+            <div class="msg">Agreed on the soylent. I eat raw oatmeal n stuff. Tends to sick</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-28 12:09:28</div>
+            <div class="msg">Most days I fast into early afternoon at the earliest. Problem solved!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-08 16:57:49</div>
+            <div class="msg"><a href="http://motherboard.vice.com/read/my-year-in-san-franciscos-2-million-secret-society-startup">http://motherboard.vice.com/read/my-year-in-san-franciscos-2-million-secret-society-startup</a><br /><br /><strong>My Year in San Francisco’s $2 Million Secret Society Startup</strong><br />The rise and fall of Latitude, an exclusive, for-profit underground society started by a wealthy backer, is a fable for modern Silicon Valley.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-08 16:57:51</div>
+            <div class="msg">weird</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-09 10:50:59</div>
+            <div class="msg">Continuing the discussion on secret coworking spaces.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-09 10:51:32</div>
+            <div class="msg">I think it's an interesting idea and software engineers would be the best group to roll it out to.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:51:38</div>
+            <div class="msg">Started in <em>#art</em> here: <a href="https://gwusbdhdu.slack.com/archives/art/p1457547871000022">https://gwusbdhdu.slack.com/archives/art/p1457547871000022</a><br /><br />I think I have talked to @brandon about my idea for a coworking secret society</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-09 10:52:06</div>
+            <div class="msg">I'm not sure at how useful this would be on a large scale</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:52:26</div>
+            <div class="msg">I think good communities are unscalable.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-09 10:52:43</div>
+            <div class="msg">Truth</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:52:46</div>
+            <div class="msg">The way to scale them is to have more of them, and have them interacting</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:52:52</div>
+            <div class="msg">at the community level</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:52:57</div>
+            <div class="msg">or the supercommunity level</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-09 11:25:42</div>
+            <div class="msg">So scale it as a society of individual communities rather than a community</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 12:10:49</div>
+            <div class="msg">Yeah that’s an idea I have for experimental communities</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 12:11:03</div>
+            <div class="msg">That @brandon and I have talked about</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-09 13:46:30</div>
+            <div class="msg">holy shit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-09 13:46:41</div>
+            <div class="msg">that is weird and creepy and cultlike and fascinating</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-09 13:47:19</div>
+            <div class="msg">and says a lot of interesting things about human needs and tendencies, and response to cultural incentives</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-09 18:09:37</div>
+            <div class="msg">I wonder how much it says about "human needs" seeing as it all occurred within a non-representational and self-selected slice of one unique/distinct city.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-09 20:59:36</div>
+            <div class="msg">Considering the number of people who didn't go for it... Yeah not sure. Definitely would make life more interesting but unless you need more friends and a community with a passion out probably doesn't meet anything new</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-09 20:59:58</div>
+            <div class="msg">It does have a lot of cool stuff going for it though</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-09 22:19:16</div>
+            <div class="msg">You're right, to say "human needs" is an overgeneralization.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-09 22:20:38</div>
+            <div class="msg">I guess what I was thinking is that it blows my mind that this many people (regardless of demographic) could get so involved in/attached to a set of rituals and beliefs and mythos that have no intrinsic deeper meaning</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-09 22:21:06</div>
+            <div class="msg">The entire thing was invented for profit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-09 22:22:43</div>
+            <div class="msg">I guess I don't see a real difference between this "society" and a garden-variety cult. It seems to exploit many of the same cognitive record-scratches.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 05:25:44</div>
+            <div class="msg">You should go to a Catholic Mass ( and profit motive applies to a lot of that as well)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 05:29:56</div>
+            <div class="msg">This has some meaning at the core espousing an ethos of exploration and discrete deviation from the greater society. So in that regard I think they used things that have intrinsic meaning to build the rituals. I think that explains a bit why that demographic of people went for it and why they were passed when the owner tried to monetize it.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 05:34:38</div>
+            <div class="msg">I agree that there isn't much difference between this and a cult. But the same can be argued for a lot of religions, things like Mormonism and Scientology (invented for profit from whole cloth).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 05:36:48</div>
+            <div class="msg">However I think that a better comparison is to the old social clubs (like the Elks) and, most obviously, to the Masons.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 05:38:46</div>
+            <div class="msg">They each have a set of core values that and people that, while not being against the greater society, are not wholly in line with it or are a narrow subset.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 05:40:48</div>
+            <div class="msg">They have regular social events of various kinds, service projects, occasional secret meetings, in group symbols and signaling, and rituals that are only meaningful (as i think most human rituals are are) due to shared history and repetition.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 05:42:42</div>
+            <div class="msg">This type of behavior actually describes the boy scouts fairly well too...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 09:53:31</div>
+            <div class="msg">@zach: I love the distributed coworking co-op concept</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 09:54:51</div>
+            <div class="msg">it would be very cool if people could make use of salon contacts when traveling</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-10 09:59:42</div>
+            <div class="msg">@bpl Sure, I've been to a Catholic mass (many times over-- my husband grew up Catholic).  I do think there's a difference between traditions like catholicism and other "mainstream" branches of organized religion vs. things like Scientology.  I'd argue that the former arose organically, and the motives for profit grew out of some people saying "hey, we've got some people in a really vulnerable place, let's exploit this." The latter looked at the example set by religion and said "hey, we could make a BRAND NEW one of these and reap the profits."  It may be a subtle difference but I think it's important to note.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-10 10:01:25</div>
+            <div class="msg">For the record, there's not necessarily anything bad (imo) or even logically contradictory about biological or social impulses toward ritual, reverence, and community.  After all, if you believe that we're created beings designed for a purpose (as I and many other religious folks do), then the presence of those impulses makes total sense.  I think it's interesting to look at commonalities and differences in the ways that people find to fill those urges.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-10 10:02:48</div>
+            <div class="msg">I do find it slightly amusing that many of the same people who participate wholeheartedly in societies like the Latitude (and find deeper meaning and purpose in them) are often the same people that, without the slightest trace of irony, denounce organized religion.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 10:13:40</div>
+            <div class="msg">as I mentioned last week, I'm very interested in how progressives can tap into these impulses to advance the progressive agenda</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 10:14:31</div>
+            <div class="msg">the failure of progressivism to organize effectively is a HUGE PROBLEM</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 13:32:12</div>
+            <div class="msg">I agree that the distinction in origin is important but I'm not sure that final results differ that much given sufficient time (looking at Mormonism in particular). </p><br /><br /><p>The presence of those impulses make sense regardless of belief about design. Humans are social critters, extremely cued into learning behaviors from each other, and very much tribal/community oriented. </p><br /><br /><p>It really is amusing when they don't understand the place organized religions fill. Others are mostly against the messages and end up as Unitarians out joining things like AHA.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 13:34:31</div>
+            <div class="msg">@brandon a lot of organized religions started out as progressive responses to previous ones (or conservative responses in the case of some)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 13:35:57</div>
+            <div class="msg">So i guess the question is really more what are you considering progressive and what kind of community are you aiming to set up?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-10 14:24:17</div>
+            <div class="msg">it's also a tool to be used with care.  Overly spiritual and/or messianic lenses, when applied to political change, can lead to Really Bad Outcomes (the most salient example obviously being the rise of the Soviet Union)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 16:00:20</div>
+            <div class="msg">Truth that.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-03-16 15:48:40</div>
+            <div class="msg">@vadim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-18 05:04:37</div>
+            <div class="msg">@bgillespie, care to share some more details on what Effective Altruism is all about?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-01 12:35:46</div>
+            <div class="msg">@lindsayad shared something interesting by The Economist yesterday</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f67fd1992c225ab18eca144de0238646.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">lindsayad</div>
+            <div class="time">2016-04-01 12:35:59</div>
+            <div class="msg">@lindsayad has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-01 12:36:09</div>
+            <div class="msg">let's see if I can lure him in here...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/47d05f5cfc1e807473fe1ceecf86892f.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0000-72.png"/>
+        <div class="message">
+            <div class="username">tksinensky</div>
+            <div class="time">2016-04-04 20:04:36</div>
+            <div class="msg">@tksinensky has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 21:35:29</div>
+            <div class="msg">Interesting article on <a href="http://slatestarcodex.com/">http://slatestarcodex.com/</a> about tribalism. Alot of it was well stated Probably True Things that I thought were kind of obvious but don't spend much time thinking about. <br /><br /><strong>Slate Star Codex</strong><br />By the author of <a href="http://unsongbook.com">unsongbook.com</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 21:37:07</div>
+            <div class="msg">It definitely bright to mind @seekarete 's question of what we consider ourselves.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 21:37:51</div>
+            <div class="msg">But I'm also curious now: what groups do you associate with most and how tribal are they?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-18 09:12:37</div>
+            <div class="msg">Oh democracy: <a href="http://www.theguardian.com/environment/2016/apr/17/boaty-mcboatface-wins-poll-to-name-polar-research-vessel">http://www.theguardian.com/environment/2016/apr/17/boaty-mcboatface-wins-poll-to-name-polar-research-vessel</a><br /><br /><strong>Boaty McBoatface wins poll to name polar research vessel</strong><br />NERC chief has final say and faces dilemma between credibility of the organisation and burden of public opinion</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-18 09:12:48</div>
+            <div class="msg">"The city of Austin, Texas, also learned the perils of public voting after a poll to rename the Solid Waste Services Department ended up with an overwhelming number of votes to call it The Fred Durst Society of the Humanities and Arts"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-18 10:24:03</div>
+            <div class="msg">Telling the internet they can name something is always a dubious idea. Let them make suggestions sure, but don't let them vote unless you charge then for the privilege</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-24 02:14:24</div>
+            <div class="msg"><a href="http://www.msnbc.com/rachel-maddow-show/week-god-42316">http://www.msnbc.com/rachel-maddow-show/week-god-42316</a><br /><br /><strong>This Week in God, 4.23.16</strong><br />A new theme park requires its employees to believe the planet is only 6,000 years old. That may seem funny, but take a guess who's helping subsidize those jobs.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-07 20:41:59</div>
+            <div class="msg"><a href="http://nymag.com/scienceofus/2016/05/half-of-your-friends-probably-dont-think-of-you-as-a-friend.html">http://nymag.com/scienceofus/2016/05/half-of-your-friends-probably-dont-think-of-you-as-a-friend.html</a><br /><br /><strong>Half of Your Friends Probably Don’t Think of You As a Friend</strong><br />A sad little study on “reciprocal friendships.” Or, um, lack thereof.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-08 06:44:46</div>
+            <div class="msg">I'm guessing that people have a much better idea of closer friends</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-08 06:46:32</div>
+            <div class="msg">Also this number means that, barring network effects and Brad Pitt,  chances are a bunch of mere acquaintances think of you as a friend</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-09 12:15:49</div>
+            <div class="msg">I think friend means different things to different people, too</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-09 18:21:43</div>
+            <div class="msg">@brandon ;-)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-16 07:36:33</div>
+            <div class="msg">&lt;@U15R7CDKK|diaghilev> has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-17 18:16:21</div>
+            <div class="msg">When you hear "millennial" in conversation or read it in a headline, what range of birthdates comes to mind?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-05-17 18:28:40</div>
+            <div class="msg">1985 to PLEASE STOP</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-05-17 18:28:49</div>
+            <div class="msg">Or thereabouts.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-17 18:34:45</div>
+            <div class="msg">I considered throwing this link into <em>#politics</em>, but their broad definition of millennial seemed more interesting. <a href="http://journalistsresource.org/studies/society/social-media/facebook-millennial-politics-election">http://journalistsresource.org/studies/society/social-media/facebook-millennial-politics-election</a><br /><br /><strong>How social media influences Millennials' political views - Journalist's Resource</strong><br />2015 study from the University of Hawaii that looks at how young adults who are known as "millennials" use social media to inform their political opinions.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-17 18:39:36</div>
+            <div class="msg">"born between 1980 and the mid-2000s."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-17 18:42:49</div>
+            <div class="msg">so what are these ten-year-olds running around nowadays?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-17 18:45:13</div>
+            <div class="msg">Exactly. How can it possibly be meaningful to group 10-year-olds and 36-year-olds together?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-17 18:45:53</div>
+            <div class="msg">"generations" = 💩</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-17 18:46:35</div>
+            <div class="msg">how many millions of people is that?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-17 18:47:16</div>
+            <div class="msg">&gt; _"Millennials, whom we define as those ages 18-34 in 2015, now number 75.4 million, surpassing the 74.9 million Baby Boomers (ages 51-69). And Generation X (ages 35-50 in 2015) is projected to pass the Boomers in population by 2028."_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-17 18:47:30</div>
+            <div class="msg"><a href="http://www.pewresearch.org/fact-tank/2016/04/25/millennials-overtake-baby-boomers/">http://www.pewresearch.org/fact-tank/2016/04/25/millennials-overtake-baby-boomers/</a><br /><br /><strong>Millennials overtake Baby Boomers as America’s largest generation</strong><br />Millennials now number 75.4 million, surpassing the 74.9 million Baby Boomers.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-17 18:59:14</div>
+            <div class="msg">So... the first "Post-Millennial" voters will be casting ballots this fall. Weird.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-17 22:21:31</div>
+            <div class="msg">Note that they are using a 16 year cohort for millennials, an 18 year cohort for boomers, and a 15 year one for gen x</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-17 22:22:44</div>
+            <div class="msg">This seems a bit bs when going "oh look how many of them there are many aren't they a scary demographic shift?!"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-17 22:24:13</div>
+            <div class="msg">Using regular time intervals for cohorts would make gen x bigger, the boomers smaller, and millennials even scarier by comparison.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-18 23:45:45</div>
+            <div class="msg">Related to the conversion in <em>#politics</em>, my favorite quote on the philosophy of hypocrisy:</p><br /><br /><p>&gt; _"You know, when I was a young man, hypocrisy was deemed the worst of vices," Finkle-McGraw said. "It was all because of moral relativism. You see, in that sort of a climate, you are not allowed to criticise others--after all, if there is no absolute right and wrong, then what grounds is there for criticism?"_</p><br /><br /><p>&gt;_"Now, this led to a good deal of general frustration, for people are naturally censorious and love nothing better than to criticise others' shortcomings. And so it was that they seized on hypocrisy and elevated it from a ubiquitous peccadillo into the monarch of all vices. For, you see, even if there is no right and wrong, you can find grounds to criticise another person by contrasting what he has espoused with what he has actually done. In this case, you are not making any judgment whatsoever as to the correctness of his views or the morality of his behaviour--you are merely pointing out that he has said one thing and done another. Virtually all political discourse in the days of my youth was devoted to the ferreting out of hypocrisy._</p><br /><br /><p>&gt;_"We take a somewhat different view of hypocrisy," Finkle-McGraw continued. "In the late-twentieth-century Weltanschauung, a hypocrite was someone who espoused high moral views as part of a planned campaign of deception--he never held these beliefs sincerely and routinely violated them in privacy. Of course, most hypocrites are not like that. Most of the time it's a spirit-is-willing, flesh-is-weak sort of thing."_</p><br /><br /><p>&gt;_"That we occasionally violate our own stated moral code," Major Napier said, working it through, "does not imply that we are insincere in espousing that code." "Of course not," Finkle-McGraw said. "It's perfectly obvious, really. No one ever said that it was easy to hew to a strict code of conduct. Really, the difficulties involved--the missteps we make along the way--are what make it interesting. The internal, and eternal, struggle, between our base impulses and the rigorous demands of our own moral system is quintessentially human. It is how we conduct ourselves in that struggle that determines how we may in time be judged by a higher power." All three men were quiet for a few moments, chewing mouthfuls of beer or smoke, pondering the matter._</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 08:07:35</div>
+            <div class="msg">I thought that might be from my favorite book</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-19 08:07:41</div>
+            <div class="msg">and it is!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-21 11:22:05</div>
+            <div class="msg">I should reread that.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-03 19:26:44</div>
+            <div class="msg">Basic income comes to Oakland: <a href="http://abc7news.com/society/oakland-chosen-for-study-that-pays-for-your-basic-expenses/1365421/">http://abc7news.com/society/oakland-chosen-for-study-that-pays-for-your-basic-expenses/1365421/</a><br /><br /><strong>Oakland chosen for study that pays for your basic expenses</strong><br />A Silicon Valley company chose Oakland to conduct a paid study to find out what people do and how they feel when their basic expenses are covered.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-06-03 20:56:49</div>
+            <div class="msg">What!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-03 21:52:24</div>
+            <div class="msg">💰</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:14:58</div>
+            <div class="msg">&gt;_"if someone's a rapist and an athlete, they're not an athlete who made a mistake, they're a criminal who can also swim."_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:15:29</div>
+            <div class="msg">discuss, or something?  I don't know.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:15:51</div>
+            <div class="msg">Internet lynch mobs really, really disturb me</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:17:29</div>
+            <div class="msg">but hey universe, the Internet Rage Machine has produced another golden opportunity to signal The Right Things to your chosen tribe</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:27:44</div>
+            <div class="msg">This one is a pretty clear failure of the justice system</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:28:52</div>
+            <div class="msg">Or really just the sentencing; the jury convicted him without too much fuss (given that he WAS caught in the act and all)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:29:22</div>
+            <div class="msg">agreed, "the justice system is broken" &amp;etc &amp;etc</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:30:17</div>
+            <div class="msg">but there's just something really sick about how gleefully people parade the corpses of their tribal enemies through the social media streets</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:30:17</div>
+            <div class="msg">People are mostly riled about it because the convicted criminal and all those close to him have been astoundingly, tenaciously tone-deaf</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:31:21</div>
+            <div class="msg">obligatory link to Internet Rage Dynamics 101: <a href="https://www.youtube.com/watch?v=rE3j_RHkqJc">https://www.youtube.com/watch?v=rE3j_RHkqJc</a><br /><br /><strong>This Video Will Make You Angry</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:31:30</div>
+            <div class="msg">It's like, dude, you were convicted of a crime we've defined as one of society's most heinous</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:31:56</div>
+            <div class="msg">And you were CAUGHT DOING IT</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:32:26</div>
+            <div class="msg">Yeah but this rage isn't super tribal</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:32:47</div>
+            <div class="msg"><a href="http://www.nytimes.com/2015/02/15/magazine/how-one-stupid-tweet-ruined-justine-saccos-life.html">http://www.nytimes.com/2015/02/15/magazine/how-one-stupid-tweet-ruined-justine-saccos-life.html</a><br /><br /><strong>How One Stupid Tweet Blew Up Justine Sacco’s Life</strong><br />The unique 21st-century misery of the online shaming victim.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:32:53</div>
+            <div class="msg">I don't see anyone really defending this guy, except for the Worst Trolls</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-07 20:33:43</div>
+            <div class="msg">true, but... yuck.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:34:05</div>
+            <div class="msg">Yes to this. I am anti trial-by-online-mob. Buuuut I'm pro trial-by-jury, which this for sure was.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-07 20:36:43</div>
+            <div class="msg">In general mandatory minimum laws are pretty awful, but this seems like a problem. This judge effectively circumvented the jury's ruling, or mitigated it substantially. We should fix that. But how? Is the only recourse to recall this particular judge?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 06:28:10</div>
+            <div class="msg">yea it was clear this dude did not seem to get what he did was a heinous crime or show remorse for it, and instead blamed it on being drunk</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 06:28:17</div>
+            <div class="msg">I don't see why he got a light sentence</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 06:32:35</div>
+            <div class="msg">I think this is different than internet mobs, in that there was a trial, the jury found him guilty, but the sentence seems improper (likely due to the elite background of the defendant). This is how societies guard against elites acting like they're above the law.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 07:03:12</div>
+            <div class="msg">I mean, he got a light sentence because the judge decided he was really a nice guy at heart, and that his well-being was worth more than serving justice to his victim.  If you're not mad about that, you're not paying attention.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 07:07:51</div>
+            <div class="msg">There is a little bit of a tribal sense to it, in that there have been a lot of people trying to point out these issues (race/class/gender privilege) for a long time, and here is a perfect encapsulation of it-- a place where you can point and say "see!  We told you so!"  I don't think anyone could really argue that the sentencing would have been as light had he not been a rich white guy.  The gender side of it comes in when you look at the transcripts of how the defense lawyer questioned the victim (what were you wearing, how much did you drink, are you sexually active, etc).  The whole thing honestly reads like someone took a "This Is Rape Culture" thinkpiece from some shitty blog and transmuted it into actual events.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 07:10:34</div>
+            <div class="msg">which isn't to say that these complaints aren't valid-- we have a metric shit-ton of work to do surrounding male entitlement to female bodies, which is a problem that shows up in a ton of ways.  As long as we have dudes shooting up campuses because they can't get dates, or a guy that stabs a girl for saying no to his prom invitation, I think it's pretty clear we have a problem.  (These aren't just anecdotes; the stats back it up pretty clearly, but I won't go into those unless someone is interested.  But I do have them, if you want them).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 10:51:37</div>
+            <div class="msg"><p>Agreed on all points. A few general questions though: </p><br /><br /><ol><li><p>How do we differentiate between justice and societal revenge. </p></li><li><p>With internet mobs, independent of current events where the guy's clearly a rapist, saying all drunk sex is rape and that only rapists are responsible for rape, should i be suing people I've had mutually consensual drunk sex with?</p></li><br /></ol></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 10:57:21</div>
+            <div class="msg">Question one can be more loosely asked as: what is justice, how does it differ from revenge, how does it differ from utilitarian results?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 11:13:56</div>
+            <div class="msg">Oh and I will admit I am trying to shift the conversation. I find the current events and outrage to be a tautological example of the deep and systemic problems with our society. This case seems cut and dry. What I'm interested in is how to effect systemic change but don't see a good way to discuss this without a better understanding of what justice is and is not.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:29:32</div>
+            <div class="msg">That's the right conversation to have.  Well, what outcomes do you want 'justice' to have?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:30:22</div>
+            <div class="msg">one, you would like to effectively disincentivize the crime in the first place</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:31:16</div>
+            <div class="msg">two, you would like some kind of restitution for the victims and/or society, where possible</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:32:48</div>
+            <div class="msg">three, you want to prevent the crime from reoccurring</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:33:16</div>
+            <div class="msg">and lastly there's the revenge piece</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:33:56</div>
+            <div class="msg">Thinking about it in terms of case studies...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:34:49</div>
+            <div class="msg">Let's say somebody murders someone, and let's say we run the stats on the circumstances and find that this person's expected recidivism rate is basically zero</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 11:37:42</div>
+            <div class="msg">what do you do with that information?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 11:48:18</div>
+            <div class="msg">giving them too lenient of a sentence would be a bad incentive</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 11:48:38</div>
+            <div class="msg">people would walk around knowing that they get 1 “free” murder as long as they make it look like it will never happen again</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 11:48:59</div>
+            <div class="msg">although most people would not want to murder anyone for any reason, enough would that this would be a bad incentive</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 12:15:29</div>
+            <div class="msg">This is kind of what I was talking about with "different from utilitarianism"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 12:15:59</div>
+            <div class="msg">What is justice?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 12:16:14</div>
+            <div class="msg">does the utility of the criminal count?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 12:16:20</div>
+            <div class="msg">as much as a non-criminal’s?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:17:50</div>
+            <div class="msg">Equality under the law seems to be very important in Western cultures. Not sure how other cultures feel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 12:18:04</div>
+            <div class="msg">"there are no criminals, only people who break the law"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:18:57</div>
+            <div class="msg">Like if I eradicate malaria but murder 1 person, how does the justice system deal with me?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-06-08 12:19:08</div>
+            <div class="msg">i’m not sure criminals are cared for the same as non-criminals in Western culture. For example, sex offenders are punished for life, felons can’t vote, etc.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:19:11</div>
+            <div class="msg">Obviously that’s a very utilitarian way to ask that question</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:23:00</div>
+            <div class="msg"><p>In response to “what is justice?”. I would posit a few parts of an answer (not exhaustive):</p><ul><li>Restitution to the victim</li><li>Restitution to society</li><li>Protection of the victim from the offender</li><li>Protection of society from the offender</li><br /></ul></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:24:20</div>
+            <div class="msg">Restitution is a difficult calculation though, especially in cases where there can be no restitution or restitution cannot be made in kind (murder, rape, vandalism of something priceless)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:25:26</div>
+            <div class="msg">Protection of the offender from society seems just too, though</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:25:41</div>
+            <div class="msg">In that punishment should “fit the crime” in some way</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:26:24</div>
+            <div class="msg">And this is really difficult to calculate without a strongly shared value system</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 12:54:30</div>
+            <div class="msg">and THAT is an extremely good point</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 12:54:32</div>
+            <div class="msg">@bpl only rapists are responsible for rape, period.  But there is some gray area as to what constitutes rape when both parties are under the influence.  If they're both too drunk to consent, did they rape each other? If there were no witnesses, it's he-said-she-said (unless you can prove that one party was unconscious, in which case the non-unconscious party is definitely at fault).  It's an interesting (and pretty horrific) question.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 12:55:40</div>
+            <div class="msg">@zach I like your summary of justice.  Was that meant to be an ordered list? (just curious)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:56:04</div>
+            <div class="msg">No, unordered, as I thought of them</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 12:57:09</div>
+            <div class="msg">In this specific case we've shone a light on a disconnect in the justice system-- that a judge can effectively overrule a jury in a criminal case.  This particular judge is elected, so we can say "no, that's not justice" by taking him out of office.  But lots of judges are appointed, so that won't work everywhere.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 12:59:19</div>
+            <div class="msg">I figured this would explode into ten threads, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-08 12:59:34</div>
+            <div class="msg">This is the intended role of a judge though, isn’t it? Juries are sometimes kind of a silly way to dispense justice (see Oracle v Google). It’s a checks-and-balances approach to justice, with judges filling the role of expert on the laws that are in place (as well as other factors, like rhetoric).</p><br /><br /><p>This is not a value judgement on whether it’s a good thing, just an observation.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:00:14</div>
+            <div class="msg">this was basically my original point, that Direct Democracy in a criminal trial context is basically the most horrifying thing I can think of</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:00:28</div>
+            <div class="msg">it's aka "a lynch mob"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:01:24</div>
+            <div class="msg">I dunno, I think juries are a pretty good way to go about it (or at least the best way we have).  You can always go back to the old "perception is flawed, reality is subjective, and justice is therefore entirely relative" argument.  From that POV, justice is little more than a collectively-agreed-upon set of arbitrary rules.  Who better to judge than members of the society that are forming that collective impression of what justice is?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:02:04</div>
+            <div class="msg">what disturbs me about this story, and why I brought it up, is the number of people <em>I know personally</em> who spent all day reposting blog articles about how we should just go find this kid and fucking kill him</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:02:25</div>
+            <div class="msg">we love our systems, except when we don't</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:02:35</div>
+            <div class="msg">Well, that seems counterproductive</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 13:02:41</div>
+            <div class="msg">To put it in another context: consider Hillary being tried on (fill in the random thing) by a jury in Texas.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:02:42</div>
+            <div class="msg">The Mob is way scarier than any system we have</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:03:45</div>
+            <div class="msg">we put up with the imprecision of these systems precisely to fence out The Mob in contexts we've decided are important</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:04:53</div>
+            <div class="msg">But in addition to the lynch mob, there are also people calling to recall this judge (which seems like a reasonable course of action and works within the system).  On another level, you've got people having a dialogue about how this kid's dad and friends and upbringing are probably a big contributor to why he did what he did (and thought he could get away with it).  That's a good discussion to have, because it may result in some new father somewhere saying holy shit, I have to teach my son some things or he might grow up like that guy over there.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:05:05</div>
+            <div class="msg">So, good things and bad things.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 13:05:59</div>
+            <div class="msg">@mbyron that argument becomes circular fast and breaks down in edge cases. I understand why making such firm stances is often necessary in a culture of blaming victims and anything other than the perp but it's still not a great rule from a logic standpoint.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:06:38</div>
+            <div class="msg">@bpl, sorry, which argument?  I'm having trouble following the thread</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:06:55</div>
+            <div class="msg">I'm guessing 12:54pm</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:06:58</div>
+            <div class="msg">(Slack needs subthreading...)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 13:07:27</div>
+            <div class="msg">@mbyron yep</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:07:31</div>
+            <div class="msg">(you can right-click on a timestamp and get a line's link, and posting that link will cite the line)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:08:53</div>
+            <div class="msg">@bpl I don't think it's circular.  We use it for other crimes pretty easily.  If you get mugged walking down a dark alley at night, we might talk about the possible unnecessary risks you took, but no one suggests leniency for the mugger (or suggests that it's your fault you got mugged).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 13:09:33</div>
+            <div class="msg">Mugging has a much clearer definition.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:09:41</div>
+            <div class="msg">In the case of rape, what's difficult to define is whether or not a crime was committed.  Once we decide that the crime WAS committed, we move forward</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:09:43</div>
+            <div class="msg">Exactly</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:09:56</div>
+            <div class="msg">I think we're in agreement, it's just semantics</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 13:10:06</div>
+            <div class="msg">That's why I'm saying the argument is circular</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 13:10:34</div>
+            <div class="msg">And becomes problematic at edge cases</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:11:16</div>
+            <div class="msg">Okay, sure, but if we want to localize the problem, it's at the definition of the crime itself.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:12:50</div>
+            <div class="msg">(there are people who will agree that a rape was committed, but will say that the rapist should not be punished and/or should be punished lightly because of the context in which the crime was committed.  I just want to make sure that's not what you were saying).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:13:14</div>
+            <div class="msg">(exhibit A: the recent case that started this conversation)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 13:14:24</div>
+            <div class="msg">I agree with that but obviously not for the case at hand. there are weird (aka edge cases) situations where something can be definitely rape but not the perpetrators fault. The instance of a forgotten or unclear safe word is the most obvious.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:15:49</div>
+            <div class="msg">Oh, I see what you mean.  Okay, I concede.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:17:14</div>
+            <div class="msg">(sometimes, I forget that this channel is full of Really Smart People and I start assuming that they are using the same arguments that I hear other people use and that I have to rebut frequently in the real world.)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:20:21</div>
+            <div class="msg">another potential 👹 argument is re:responsibility.  semantics, but it could be argued that while perpetrators are responsible for crimes, <em>everyone</em> is responsible for taking precautions to defend themselves</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:21:12</div>
+            <div class="msg">and it can be argued while <em>acknowledging</em> that the need for such precautions "in this day and age" &amp;etc is ridiculous and an indication of societal badness</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:23:26</div>
+            <div class="msg">(I'm steelmanning that argument)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:25:38</div>
+            <div class="msg">What bearing then does responsibility-for-precaution have on justice?  Scenario: Mugger (A) robs someone in a dark alley at 2am in a bad part of town and their victim is wearing headphones.  Mugger (B) robs someone in broad daylight who is fully aware of their surroundings.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:26:13</div>
+            <div class="msg">Should (A) and (B) suffer the same punishment, or should (A) receive a more lenient sentence?  Or, should victim (A) have to pay a fine?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:29:26</div>
+            <div class="msg">you will find people who want to take up that argument, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:30:39</div>
+            <div class="msg">I can imagine an interesting dystopia where everyone is required to pay for insurance on everything</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:31:55</div>
+            <div class="msg">like how car insurance changes based on your demographics</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:33:00</div>
+            <div class="msg">effectively penalizing you for belonging to a statistical slice that bad things tend to happen to, somewhat regardless of fault</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:34:56</div>
+            <div class="msg">it's a formalization of the visceral reaction of not wanting to pay for other peoples' stupid decisions</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:36:16</div>
+            <div class="msg">if <em>I</em> think they're taking unreasonable risks... and it's always in hindsight, so I don't really know what you do with that argument</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:36:24</div>
+            <div class="msg">Yeah, but that system sucks.  I'm mildly annoyed that I have to pay more for car insurance because I live in Long Beach, but I recognize that I chose to live in Long Beach so it's on me.  But there are tons of people that didn't choose to live in Long Beach that have to pay more for car insurance, and they could be using that money to feed their kids.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:36:54</div>
+            <div class="msg">sure, but there's the bad argument: "insurance is a business"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:37:22</div>
+            <div class="msg">and a better argument: even when insurance is NOT a business, 💰 is conserved and it needs to come from somewhere</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:38:03</div>
+            <div class="msg">but yeah, it's a very regressive concept</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:38:46</div>
+            <div class="msg">arguing on the micro level, I am all for encouraging people to make good defensive decisions</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:39:08</div>
+            <div class="msg">and I think the world would be a much better place if we did a better job of incentivizing people to look out for their own health, safety, and security</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 13:39:37</div>
+            <div class="msg">but I don't think that victim-blaming is a good way to implement that</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:44:41</div>
+            <div class="msg">That sounds good, but we're still left with a very sticky problem: how do you determine what risk factors can or can't be mitigated?  And how can you possibly make that standard consistent and fair?  Can you penalize someone for living in a bad neighborhood if you can prove that they chose to live there?  How would you prove that?  It's intractable.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 13:45:06</div>
+            <div class="msg">Incentivizing sounds like an easier and more attractive solution than penalizing.  And we already do that, to some extent, with the current system.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 16:04:22</div>
+            <div class="msg">Using the recent case, this would be the equivalent of charging the victim with  public drunkenness or having her health insurance premiums go up as a result of reckless behavior WHILE ALSO arresting and punishing the perp appropriately.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 16:08:00</div>
+            <div class="msg">Yeah penalizing things seems like a shit idea.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 16:08:03</div>
+            <div class="msg">I agree that the problems of determining causality, choice, mitigation potential, and fairness may be intractable.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 16:34:38</div>
+            <div class="msg">@mbyron: by the way, thanks for putting up with a bunch of excessively Spock like discussions of very emotionally endowed subjects. This type of thing drives my house mate nuts</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 17:00:27</div>
+            <div class="msg">@bpl no problem.  It's good to stretch your brain in different ways.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-08 17:01:19</div>
+            <div class="msg">(this type of thing also drives my housemate, i.e. husband, nuts... though we tend to alternate between the Spock and non-Spock roles)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-08 17:15:48</div>
+            <div class="msg">I'm living with a neuroscientist and  an international development worker. So it varies but usually it's two Spock's and a Kirk/McCoy</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 19:38:17</div>
+            <div class="msg">@mbyron: like with car insurance, you don't worry about the 'why' and stick to the 'what'.  you only go as deep as you need to.  "Young male living in CA? Thanks, that's all we needed to know!"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-08 19:40:01</div>
+            <div class="msg">car insurers are already offering discounts to keep a GPS logger running in your car at all times.  They're not looking for anything in particular—machine learning will find the patterns, and that's good enough.  Big Data is the enabling technology of a billion optimizations (and just as many dystopias)\</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 09:44:26</div>
+            <div class="msg">Related to yesterday's discussion, this is an extremely good article shared by a lawyer friend: <a href="http://www.nytimes.com/roomfordebate/2016/06/08/should-an-unpopular-sentence-in-the-stanford-rape-case-cost-a-judge-his-job/judicial-recall-will-inevitably-lead-to-harsher-sentences">http://www.nytimes.com/roomfordebate/2016/06/08/should-an-unpopular-sentence-in-the-stanford-rape-case-cost-a-judge-his-job/judicial-recall-will-inevitably-lead-to-harsher-sentences</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 09:45:06</div>
+            <div class="msg">&gt; her comments on the share: _"This is why I am against voting for judges and don't vote for judges myself, including on yesterday's ballot (I left that part blank). Judges should make their decisions without worrying whether they're going to lose their jobs if the public doesn't like it. That's not to say that there is no place in jurisprudence for public opinion -- not at all -- just that the judicial process needs to be free from the influence of potential retribution, whether that be judges getting recalled or voted out of office (as happened to the Iowa Supreme Court justices responsible for marriage equality in Iowa), or tampering with witnesses and jurors. When a judge really fucks up, the voting booth is not the only means possible to handle it. We have the appellate system in place to review a fuckup in a particular case, as well as systems such as judicial ethics boards to handle complaints of conduct by a judge that goes beyond error and into unethical conduct, as some have suggested of Judge Persky's Turner sentencing. (In the federal court system, we have impeachment, which is very rare, though judges who are in hot water will leave their jobs voluntarily before it gets to that point, eg Rader and Fusté as recent examples.)"_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:12:29</div>
+            <div class="msg">there was also a good one on Slate, with some interesting historical tidbits on the constitutionality of victim impact statements</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:16:03</div>
+            <div class="msg">I've been ruminating on the meaning of justice and how we decide what justice is.  There was some discussion above about this in terms of how we punish people for crimes, but there's another half too-- how do we define what is criminal?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:17:45</div>
+            <div class="msg">Obviously this changes over time-- some things are legal now which were illegal many years ago (e.g., miscegenation) and other things are illegal now which were legal not too long ago (marital rape was legal until 1993 in a couple of states).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:18:17</div>
+            <div class="msg">Changes in public opinion drive changes in law</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:18:23</div>
+            <div class="msg">well clearly it's just a decision you make as a society, right?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:18:48</div>
+            <div class="msg">Right, but doesn't that mean that mob justice and rule-of-law are basically equivalent?  It's just that the latter has a longer timescale.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:19:00</div>
+            <div class="msg">tons of stuff that's (il)legal today won't be in fifty years</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:19:28</div>
+            <div class="msg">very very strongly disagreed</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:19:40</div>
+            <div class="msg">I mean, I'm devil's advocating a lot here</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:19:43</div>
+            <div class="msg">the systems we put in place are a low-pass filter on public opinion</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:19:44</div>
+            <div class="msg">I don't think they are either</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:20:10</div>
+            <div class="msg">but it's an interesting thing to think about.  Rule-of-law is basically public opinion that's been codified and checked for consistency.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:20:29</div>
+            <div class="msg">because people are much better at having strong feelings than thinking things through</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:20:58</div>
+            <div class="msg">Sure, but one person's "thinking things through" might be another's "strong feelings".  there's no objective difference.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:21:37</div>
+            <div class="msg">I would say that the codification and increased time scale is what smooths out the wild day-to-day fluctuations in public opinion, which is why it's important</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:22:44</div>
+            <div class="msg">maybe today, to Average Joe, it seems like a great idea to make death threats against the family of a judge because we think he sentenced one person too leniently, and that's Just Wrong</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:23:39</div>
+            <div class="msg">but there's no way Average Joe should be trusted to think about how what kind of incentives that's going to create and what kinds of precedents it's going to set <em>for the rest of time in a million different contexts</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:24:02</div>
+            <div class="msg">so we agree that these protections are important</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:24:09</div>
+            <div class="msg">I totally agree. I'm just pondering the implications of timescale on our systems of law/judiciary</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:24:38</div>
+            <div class="msg">Could be one reason why we've found that it's better (albeit still flawed) to appoint judges for life rather than multi-year terms</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:25:13</div>
+            <div class="msg">What does that tell us about the timescale of changes in public opinion, and the magnitude of its fluctuations?  I wonder if you could quantify this.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:25:28</div>
+            <div class="msg">The Mob is definitely prone to lash out</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:25:46</div>
+            <div class="msg">but The Mob almost <em>never</em> follows up</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:26:06</div>
+            <div class="msg">So timescale isn't (or shouldn't be) the only barrier to entry for making laws</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:26:33</div>
+            <div class="msg">You should then logically have laws be made by people with a vested interest in following up</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:26:58</div>
+            <div class="msg">A judge is careful of precedent, because they know they might be affected by that precedent in the future</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:27:35</div>
+            <div class="msg">(and, on average, a person has invested 15-20 years of their career before appointment, with no guarantee of eventually becoming a judge)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:27:44</div>
+            <div class="msg">the ideal judge is thinking about <em>all law_ for _all time</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:28:12</div>
+            <div class="msg">it's fine that the average person isn't thinking that way</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:28:51</div>
+            <div class="msg">the average person can have their opinion about &lt;X&gt;, as long as there is sufficient buffering and filtering between them and an actual rule change</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:29:43</div>
+            <div class="msg">I wrote my SAT essay about how the world would be a better place if people were more deferential to experts 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:29:53</div>
+            <div class="msg">it received an extremely low score 😞</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:30:04</div>
+            <div class="msg">Ha!  that would be an unpopular essay</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:30:12</div>
+            <div class="msg">(also, how do you remember that?)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:30:20</div>
+            <div class="msg">because I was nervous about that, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:30:42</div>
+            <div class="msg">the prompt was basically "defend the concept of democracy"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:30:46</div>
+            <div class="msg">I've been called out for expressing that same view.  It's not super PC.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:31:25</div>
+            <div class="msg">and all of my immediate thoughts were, hmm, pure democracy has some pretty horrible qualities</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:31:39</div>
+            <div class="msg">so I went with it, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:32:11</div>
+            <div class="msg">Yeah.  I remember my parents telling me from an early age that we DON'T live in a democracy-- we live in a democratic republic, and that was different</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:32:16</div>
+            <div class="msg">the average person just doesn't value the subject expertise of other people</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:32:38</div>
+            <div class="msg">In retrospect, the concept of filtering public opinion may or may not have been what they were trying to teach me, but it's useful now</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:33:00</div>
+            <div class="msg">That's true, but there's also the problem of defining what an "expert" is, or what their qualifications are</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:33:19</div>
+            <div class="msg">sure, and experts disagree</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:33:20</div>
+            <div class="msg">In many cases, the definition of "expert" falls to the supposed experts themselves, which creates kind of a fox-guarding-the-henhouse thing</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:33:49</div>
+            <div class="msg">and ideas change. doctors used to advertise cigarettes...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:34:20</div>
+            <div class="msg">experts aren't omniscient, but they're <em>the best we have</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:35:31</div>
+            <div class="msg">and the alternatives to study and data and logic are pretty bad</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:35:40</div>
+            <div class="msg">Relevant: <a href="https://xkcd.com/675/">https://xkcd.com/675/</a><br /><br /><strong>Revolutionary</strong><br />[Title text] "I mean, what's more likely -- that I have uncovered fundamental flaws in this field that no one in it has ever thought about, or that I need to read a little more?  Hint: it's the one that involves less work."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:37:29</div>
+            <div class="msg">it's like when a non-technical friend posts this scathing thing about electricity usage in datacenters</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:38:13</div>
+            <div class="msg">and it's like, uhhh, here's the link to the Energy-Efficient Algorithms research center at LBNL...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:39:08</div>
+            <div class="msg">by the time you read something in the popular press, probably hundreds of very smart people have been working on it for years</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:39:30</div>
+            <div class="msg">but people love anecdotes and feelings and just-so stories</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:39:45</div>
+            <div class="msg">But for Average Joe, there's so much trust involved.  If you don't have the technical skills to evaluate what the experts are saying, you have to take it on faith.  Faith requires an entirely different set of brain muscles, which are well-developed in some and less-developed in others.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:40:06</div>
+            <div class="msg">you have to trust the system, to some extent</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:40:17</div>
+            <div class="msg">(I will admit that not having the technical skills to evaluate such things is becoming less excusable, but there's also the question of investing the time to acquire those skills)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:40:55</div>
+            <div class="msg">you have to trust other people's abilities AND motives</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:41:16</div>
+            <div class="msg">but you know how Those Scientists like to get together and make stuff up for fun and profit...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:41:42</div>
+            <div class="msg">Follow-The-Money is my favorite argument to make to family and friends who are climate skeptics</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:41:54</div>
+            <div class="msg">"If it was really about the money, who in this case is most likely to be lying?"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:42:04</div>
+            <div class="msg">it's tough because some conspiracies are real</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:42:08</div>
+            <div class="msg">but that's a very good heuristic</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:42:39</div>
+            <div class="msg">like the car manufacturers banding together to criminalize pedestrianism and dismantle the public transportation infrastructure</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:43:03</div>
+            <div class="msg">that is totally obscene and an actual historical fact</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:44:28</div>
+            <div class="msg">but if you're constantly seeing fake conspiracies in everything, you get numb to the real ones</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:44:44</div>
+            <div class="msg">Wait, I remember reading recently how the car manufacturer one wasn't actually true</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:44:46</div>
+            <div class="msg">at least not in LA</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:45:00</div>
+            <div class="msg">Everyone here talks about how we used to have these awesome streetcars and GM made us take them all out</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:45:23</div>
+            <div class="msg">but in reality the streetcars were going bankrupt long before GM was involved?  or something</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:45:33</div>
+            <div class="msg">alas, I have not the time to research this properly</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:45:44</div>
+            <div class="msg">even better, a lot of those streetcars were actually run by private companies 😉</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:46:03</div>
+            <div class="msg">but <em>no one cares to look things up</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:46:28</div>
+            <div class="msg">it's much more fun to stick to the easy story and feel right all the time</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:47:10</div>
+            <div class="msg">or, clicking on the initial poke-you-in-the-eye headline gives you a dopamine burst, but researching further doesn't</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:47:16</div>
+            <div class="msg">part of my argument in the SAT essay was that the world is getting more and more complicated</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:47:46</div>
+            <div class="msg">back in the day you could be Benjamin Franklin and have an educated opinion on most of the things you could have an opinion on</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:47:55</div>
+            <div class="msg">(granted he was wrong about lots of stuff)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:48:19</div>
+            <div class="msg">but today it's just not feasible to have an educated opinion about most things most of the time</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:48:58</div>
+            <div class="msg">and as everything gets more complicated, we're forced to lean on the experts more heavily</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:49:50</div>
+            <div class="msg">that's just the outcome of voluntarily submitting to factual data and logical reasoning</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:50:14</div>
+            <div class="msg">and it's <em>scary</em> 👻</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:51:20</div>
+            <div class="msg">admitting that you don't have much to offer on <em>most of the important conversations of your day</em> is dis-empowering</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:52:30</div>
+            <div class="msg">but that's the nature of living in a world where everything you interact with is built on top of millions of lives' work</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:53:47</div>
+            <div class="msg">for me, <em>#diy</em> is about taking back a little bit of that power, in bits and pieces</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:56:41</div>
+            <div class="msg">in doing a thing, even a simple thing, you get a tiny bit more of an understanding of the stuff the world is built on</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 10:57:25</div>
+            <div class="msg">my favorite part of college was learning about things that immediately impacted what I saw when I looked at the world</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:00:19</div>
+            <div class="msg">I go about my day and I see physics, chemistry, biology</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:00:58</div>
+            <div class="msg">not in the foreground—most of the time I'm not thinking about anything in particular</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:02:09</div>
+            <div class="msg">it's more like walking through a city and looking at the sidewalk and thinking about the labyrinth of wires and pipes and tunnels that are under there somewhere</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:03:32</div>
+            <div class="msg">and wondering how all of that got built and how anyone ever manages to maintain something that huge and that complicated</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:04:27</div>
+            <div class="msg">but that there are other people walking around in the same city who could talk about those things <em>for hours</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:06:13</div>
+            <div class="msg">about the theoretical ideals or the on-the-ground practicals of the thing</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:06:53</div>
+            <div class="msg">and because of that, I have the privilege of walking around and wondering about it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:07:00</div>
+            <div class="msg">but for the most part, <em>it just works</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:08:01</div>
+            <div class="msg">and the average non-pipes-and-wires person can abstract away a thousand years of innovation into "turn knob → water comes out"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:09:51</div>
+            <div class="msg">(almost always) non-poisonous water, all day every day, no significant investment of time or money required</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:10:25</div>
+            <div class="msg">it's the luxury of never having to think about <em>most things</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:10:47</div>
+            <div class="msg">but I think it's important that people do think about it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:11:07</div>
+            <div class="msg">because maybe then they'd appreciate the experts!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 11:16:04</div>
+            <div class="msg">@brandon well said. I feel like discussing this further but don't have time which is honestly a microcosm of what you just said.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:20:24</div>
+            <div class="msg">this makes me want to re-read Asimov's <em>Foundation</em> for some solid social commentary on these issues 🚀</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-09 11:26:47</div>
+            <div class="msg">Imo, this is a big part of why education is important. It’s hard believe in experts if you don’t believe things are complicated enough to justify experts. Someone with a B.S. in Physics is going to have a lot more confidence in the guys at CERN than a plumber who never took AP Physics. We need to get people over the Dunning–Kruger effect as much as possible</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-09 16:21:42</div>
+            <div class="msg">I've described that way of seeing things to a few people. It's a good way to make a date weird :-).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-09 16:24:35</div>
+            <div class="msg">I also think this is why things like peace core are cool, though the lesson is often "we are so privileged to have these things" than "holy shit, look at how crazy complex and dependent on specialist knowledge our infrastructure is." This has led to some interesting problems in development and aid projects</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 17:01:22</div>
+            <div class="msg">yeahhh... I think it's easy to get sucked into the mindset that you can drop a couple solar panels in Africa and teach the kids Javascript and world problems: solved</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 17:02:08</div>
+            <div class="msg">granted, technology has a HUGE roll to play in leap-frogging developing countries through some of the ugly stages of industrial and technological revolution</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 17:02:26</div>
+            <div class="msg">but there is <em>so much more than that</em> going on</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-09 17:13:53</div>
+            <div class="msg">Peace *Corps</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-09 17:43:57</div>
+            <div class="msg">@seekarete  thanks I knew something looked odd with that</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-09 17:45:01</div>
+            <div class="msg">@brandon it needs to be like cell phones: centralized expertise and basically fool proof distributed tech</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-09 17:45:50</div>
+            <div class="msg">'really' cheap plug and play micro grids being a good example target</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-10 15:59:40</div>
+            <div class="msg">@matt.s.curtis sent me a commencement speech that's a great follow-up to the science &amp; society stuff we were talking about yesterday: <a href="http://www.newyorker.com/news/news-desk/the-mistrust-of-science">http://www.newyorker.com/news/news-desk/the-mistrust-of-science</a><br /><br /><strong>The Mistrust of Science - The New Yorker</strong><br />Science has never been more powerful, but it is under attack.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/d8e11cf2deea38a7afaf3c3aa474b3f8.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">jim</div>
+            <div class="time">2016-06-13 13:49:37</div>
+            <div class="msg">@jim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>

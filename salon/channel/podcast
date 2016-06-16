@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#podcast</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            #art
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            #education
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            #health
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            #libations
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            <span style="background-color: #ab9ba9">
+                #podcast
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            #professional
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            #society
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            #sustainability
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-10 20:43:38</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-10 20:43:39</div>
+            <div class="msg">@seekarete set the channel purpose: What are you listening to? This is a place to share direct links to audio you've found interesting. Try to limit it to individual episodes/interviews instead of recommending a whole series like Night Vale or Serial.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f67fd1992c225ab18eca144de0238646.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">lindsayad</div>
+            <div class="time">2016-03-10 20:43:39</div>
+            <div class="msg">@lindsayad has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 20:43:39</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 20:43:39</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/963914bd77f352a4f2ba6586fb881b81.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0007-72.png"/>
+        <div class="message">
+            <div class="username">bwoolston</div>
+            <div class="time">2016-03-10 20:43:39</div>
+            <div class="msg">@bwoolston has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@clara has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/327472e6047f427e76582e95c5c3154c.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0025-72.png"/>
+        <div class="message">
+            <div class="username">corymsimon</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@corymsimon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@connorgalleher has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b10e78515203ad47dc5d28d9f3c2384a.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">galenlynch</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@galenlynch has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/cad11fee131788c75fbd6d2d73e9f59d.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">erik.curtis</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@erik.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@mbyron has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/88ac432852a604e6edb4ef9acc234997.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">rodgelers</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@rodgelers has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4e69b6194a652d4b767cd42219dbc314.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">mariagillespie</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@mariagillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2016-03-10 20:43:40</div>
+            <div class="msg">@matt.s.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2016-03-10 20:43:41</div>
+            <div class="msg">@melaurahs has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/5b5fa7bd103728ebd8aeea4a334f36ef.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png"/>
+        <div class="message">
+            <div class="username">melaniedrake</div>
+            <div class="time">2016-03-10 20:43:41</div>
+            <div class="msg">@melaniedrake has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b30b544998f76a85acdaef50d02f9603.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0009-72.png"/>
+        <div class="message">
+            <div class="username">sbernecker</div>
+            <div class="time">2016-03-10 20:43:41</div>
+            <div class="msg">@sbernecker has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-27/23396463141_2ca0634b50ad68f0fb37_72.jpg"/>
+        <div class="message">
+            <div class="username">sean.mac</div>
+            <div class="time">2016-03-10 20:43:41</div>
+            <div class="msg">@sean.mac has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-10 20:43:41</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-10 20:45:47</div>
+            <div class="msg">Also, try to include a topic summary and length in case the link doesn't auto-populate. Example:</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-10 20:49:20</div>
+            <div class="msg"><em>Geography of Genius: 40 minutes</em>. Exploring why expressions of genius seem to be clustered in certain locations at certain periods of history. Interview includes Athens, Vienna, Edinburgh, Calcutta, Silicon Valley.  <a href="https://soundcloud.com/artofmanliness/181-the-geography-of-genius">https://soundcloud.com/artofmanliness/181-the-geography-of-genius</a><br /><br /><strong>#181: The Geography of Genius by The Art of Manliness</strong><br />Throughout human history there have been pockets of genius around the world. You had Athens with Plato, Socrates, and Aristotle. During the Enlightenment, Edinburgh, Scotland produced a lot of great thinkers who influenced the modern world. And today, Silicon Valley seems to have a concentration of extremely smart and talented people. Why do these pockets of genius seem of occur? What was it about these places? My guest today wanted to find out. Eric Weiner is the author of The Geography of Genius, and on today's show we talk about his book.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-02 07:41:15</div>
+            <div class="msg">_Separation Anxiety: 16 minutes + ads._ Illustrating the Taiwanese trash collection system and it's influence on recycling habits in contrast to the American system. <a href="http://99percentinvisible.org/episode/separation-anxiety/">http://99percentinvisible.org/episode/separation-anxiety/</a><br /><br /><strong>Separation Anxiety - 99% Invisible</strong><br />“Für Elise” is one of the world’s most widely-recognized pieces of music. The Beethoven melody has been played by pianists the world over, and its near-universal recognition has been used to attract customers for companies as big as McDonald’s  and as small as your local ice-cream truck. But if you hear the song playing on the streets of Taiwan, accompanied</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-10 11:50:04</div>
+            <div class="msg"><a href="http://www.teamrwb.org/blog/special-edition-podcast-with-sebastian-junger-best-selling-author-and-oscar-nominated-filmmaker/">http://www.teamrwb.org/blog/special-edition-podcast-with-sebastian-junger-best-selling-author-and-oscar-nominated-filmmaker/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/d8e11cf2deea38a7afaf3c3aa474b3f8.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">jim</div>
+            <div class="time">2016-06-13 13:48:11</div>
+            <div class="msg">@jim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>

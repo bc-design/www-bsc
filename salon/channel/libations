@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#libations</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            #art
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            #education
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            #health
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            <span style="background-color: #ab9ba9">
+                #libations
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            #podcast
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            #professional
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            #society
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            #sustainability
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-06 09:10:09</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-06 09:10:10</div>
+            <div class="msg">@seekarete set the channel purpose: all about consumable liquids</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-06 09:10:10</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:10:10</div>
+            <div class="msg">@melaurahs has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-06 09:18:32</div>
+            <div class="msg">I've been drinking McClelland's Single Malt Islay which is produced by Bowmore. More economical.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:18:45</div>
+            <div class="msg">Ditto Green Spot</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:19:00</div>
+            <div class="msg">won out in a home taste test over the Yellow Spot 12 year</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:20:32</div>
+            <div class="msg">Brandon, what have you been brewing lately?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-06 09:20:52</div>
+            <div class="msg">plasma 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-06 09:21:02</div>
+            <div class="msg">gotta jump into a conference call, back in a bit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:21:02</div>
+            <div class="msg">great on a hot afternoon</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:21:07</div>
+            <div class="msg">ttyl</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-06 09:25:48</div>
+            <div class="msg">@connorgalleher has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:43:07</div>
+            <div class="msg"><a href="https://www.masterofmalt.com/whiskies/drinks-by-the-dram/the-whisky-advent-calendar/">https://www.masterofmalt.com/whiskies/drinks-by-the-dram/the-whisky-advent-calendar/</a><br /><br /><strong>The Whisky Advent Calendar (2015 Edition)</strong><br />ESTIMATED DESPATCH MID-NOVEMBER It's the 2015 Whisky Advent Calendar! Look at it. Regard it. What is surely the greatest advent calendar known to humankind is back for a fourth Christmas countdown, and there's still no better way to get into the festive spirit! Behind each of the 24 windows lies a different 3cl Drinks By The Dram sample of delicious whisky, so this year be sure to count down to Christmas in style (again). This calendar is also available in Christmas Red Coloured Edition. Highlights among this year’s 24 drams include a rare 50-year-old Scotch, an award-winning Japanese whisky and the World’s Best Blended Whisky (World Whiskies Awards 2014). Each handmade, wax-sealed dram allows whisky fans to sample a new whisky, tasting everything from single grain whisky to rare Scotch worth up to £350 a bottle... SPOILER ALERT! You can view the contents below if you really want to know by selecting 'Read more' - although we've still placed them in a random order below so the surprise won't be completely ruined! Read more - Glenfarclas 25 Year Old - Yoichi Non Age - Compass Box Great King Street - Artist's Blend - Balvenie 15 Year Old Single Barrel Sherry Cask - Teeling Small Batch Irish Whiskey - Kilchoman Machir Bay 2014 Release - Mackmyra Brukswhisky (The Swedish Whisky) - Glenfiddich 18 Year Old - Girvan Patent Still - Proof Strength - Isle of Jura Elixir 12 Year Old - Tullamore D.E.W. 12 Year Old Special Reserve - Monkey Shoulder Blended Malt Scotch Whisky - Caol Ila 12 Year Old - Dalwhinnie Winter's Gold - Elijah Craig Small Batch Bourbon 12 Year Old - Arran - Batch 4 (That Boutique-y Whisky Company) - The Lost Distilleries Blend - Batch 6 - Dalmore 15 Year Old - Isle Of Jura Superstition - The GlenDronach 12 Year Old - Fettercairn Fior - Invergordon 50 Year Old - Xtra Old Particular (Douglas Laing) (Master of Malt) - Balvenie 12 Year Old DoubleWood - Glen Scotia Double Cask</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 09:43:20</div>
+            <div class="msg">Lusting after that^</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-06 10:08:09</div>
+            <div class="msg">Ha. I just closed a tab with that. $200, though.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-06 10:57:36</div>
+            <div class="msg">I am glad that my taste for wine and liquor are so poorly developed that I am perfectly happy to drink the cheap stuff 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 14:24:51</div>
+            <div class="msg">yeah sometimes I get my yucks by perusing, not usually buying</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 14:25:14</div>
+            <div class="msg">my grandfather gave me a sip of jameson 18 year and saw my blissed out face</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f14aa55d68b963445570bd23a82b11f5.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png"/>
+        <div class="message">
+            <div class="username">melaurahs</div>
+            <div class="time">2015-11-06 14:25:32</div>
+            <div class="msg">he turned to my SO and said, "sorry, she's gonna be expensive to please now"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-06 14:26:21</div>
+            <div class="msg">@bgillespie and @rodgelers and I hit up Russian River Brewery in Santa Rosa two weekends ago</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-06 14:26:26</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/88ac432852a604e6edb4ef9acc234997.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">rodgelers</div>
+            <div class="time">2015-11-06 14:26:26</div>
+            <div class="msg">@rodgelers has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-06 14:26:29</div>
+            <div class="msg">gooooood stuff</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-06 16:16:27</div>
+            <div class="msg">As he said: gooooood stuff</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-08 10:14:01</div>
+            <div class="msg">delicious: <a href="https://en.wikipedia.org/wiki/Rooibos">https://en.wikipedia.org/wiki/Rooibos</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-08 10:14:21</div>
+            <div class="msg">order by the pound, only a buck an ounce: <a href="http://www.amazon.com/Davidsons-Tea-Organic-African-16-Ounce/dp/B000SATIE6/">http://www.amazon.com/Davidsons-Tea-Organic-African-16-Ounce/dp/B000SATIE6/</a><br /><br /><a href="http://Amazon.com">Amazon.com</a> : Davidson's Tea Bulk, Organic South African Rooibos, 16-Ounce Bag : Grocery &amp; Gourmet Food</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-08 10:14:36</div>
+            <div class="msg">I think it would a good secondary flavor for a beer</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-11 17:23:58</div>
+            <div class="msg">Not Your Father's Rootbeer: 5.9% abv, definitely tastes like rootbeer, not worth it @ $5 a bottle.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-12 06:53:57</div>
+            <div class="msg">That would be fun to have on draft!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-12 06:54:30</div>
+            <div class="msg">Utah has some surprisingly good beer to offer</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-12 06:54:51</div>
+            <div class="msg">Red Rock Brewery is pretty awesome</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-16 19:18:16</div>
+            <div class="msg"><a href="https://twitter.com/gibbs79/status/666387953573171200">https://twitter.com/gibbs79/status/666387953573171200</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-17 08:51:38</div>
+            <div class="msg">In case you hadn't heard...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-11-17 08:51:39</div>
+            <div class="msg"><a href="http://www.wsj.com/articles/constellation-brands-to-buy-craft-beer-maker-for-1-billion-1447686489">http://www.wsj.com/articles/constellation-brands-to-buy-craft-beer-maker-for-1-billion-1447686489</a><br /><br /><strong>Constellation Brands to Buy Craft-Beer Maker for $1 Billion</strong><br />Constellation Brands said it will pay $1 billion for California craft brewer Ballast Point Brewing &amp; Spirits—a record sum for a U.S. craft-beer company.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-17 09:01:17</div>
+            <div class="msg">whaaaaat is this about</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-17 09:01:37</div>
+            <div class="msg">"craft beer" has 10% market share?!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-17 09:02:27</div>
+            <div class="msg">depends on the definitions, but people were celebrating in late 2010 when it broke 5%</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 11:08:34</div>
+            <div class="msg"><a href="http://vinepair.com/wine-blog/craft-beer-bubble/">http://vinepair.com/wine-blog/craft-beer-bubble/</a><br /><br /><strong>The Craft Beer Bubble | VinePair</strong><br />After a half decade of relentless growth the American Craft Beer industry looks increasingly frothy. What does the future hold?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-30 12:35:01</div>
+            <div class="msg"><a href="http://www.grubstreet.com/2015/10/state-of-craft-beer-business-in-america.html#">http://www.grubstreet.com/2015/10/state-of-craft-beer-business-in-america.html#</a><br /><br /><strong>The End of Craft Beer</strong><br />"Craft beer is just about to completely explode and become unrecognizable to itself."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-30 18:42:20</div>
+            <div class="msg">@seekarete: interesting, and expected!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-30 18:42:52</div>
+            <div class="msg">I bet we'll see a "craft beer snob" shift toward smaller, employee-owned, benefit corporation breweries</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-30 18:45:15</div>
+            <div class="msg"><a href="http://amzn.com/B001R8X30I">http://amzn.com/B001R8X30I</a><br /><br />Shop TableTopStill at the Amazon Home Brewing &amp; Wine Making store. Free Shipping on eligible items. Everyday low prices, save up to 50%.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-30 18:46:52</div>
+            <div class="msg">Overpriced (considering the hotplate isn't included), but I've never seen an all-in-one kit sold like this before. Maybe a sign of shifting legal attitudes towards home-distillation.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2015-12-01 11:25:10</div>
+            <div class="msg">@clara has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-01 16:32:08</div>
+            <div class="msg">Sierra Nevada Narwhal Imperial Stout: <a href="http://www.beeradvocate.com/beer/profile/140/86149/">http://www.beeradvocate.com/beer/profile/140/86149/</a><br /><br /><strong>Narwhal Imperial Stout | Sierra Nevada Brewing Co.</strong><br />Narwhal Imperial Stout is a Russian Imperial Stout style beer brewed by Sierra Nevada Brewing Co. in Chico, CA. 92 out of 100 with 826 reviews, ratings and opinions.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-01 16:32:11</div>
+            <div class="msg">mmmm</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2015-12-01 16:52:47</div>
+            <div class="msg">If you're into the heavy stouts, you should make sure you pick up this year's Black Butte <a href="http://www.beeradvocate.com/beer/profile/63/175162/">http://www.beeradvocate.com/beer/profile/63/175162/</a> Available at Berkeley Bowl last time I checked.<br /><br /><strong>Black Butte XXVII | Deschutes Brewery</strong><br />Black Butte XXVII is a American Porter style beer brewed by Deschutes Brewery in Bend, OR. 94 out of 100 with 44 reviews, ratings and opinions.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-02 10:01:03</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=LS-ErOKpO4E">https://www.youtube.com/watch?v=LS-ErOKpO4E</a><br /><br /><strong>Yule Log</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-12-02 10:06:57</div>
+            <div class="msg">I'm waiting for this man to say something distinguished and profound.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-12-02 10:07:03</div>
+            <div class="msg">...still waiting...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-02 11:04:23</div>
+            <div class="msg">He crosses his legs about halfway through.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2015-12-02 17:53:22</div>
+            <div class="msg">I will use this to justify using Founder's Breakfast Stout as a morning run recovery beverage.  <a href="http://well.blogs.nytimes.com/2015/12/02/the-close-ties-between-exercise-and-beer/?_r=0">http://well.blogs.nytimes.com/2015/12/02/the-close-ties-between-exercise-and-beer/?_r=0</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-05 12:14:08</div>
+            <div class="msg">@mbyron has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-05 12:14:21</div>
+            <div class="msg">this was our happy hour drink yesterday: <a href="http://www.birdandcleaver.com/blog/rdandcleaver.com/2013/04/fennel-orange-cocktail.html">http://www.birdandcleaver.com/blog/rdandcleaver.com/2013/04/fennel-orange-cocktail.html</a><br /><br /><strong>fennel + orange cocktail</strong><br />With the return of warmer weather comes one of our favorite pastimes; sitting on our duffs drinkin' on the patio. That statement probably paints an unfair picture of what actually goes on (most of the time), so, lest you get the (mostly) wrong opinion of us, I should elaborate. Nearly any warm weekend night you will find us right outside our backdoor enjoying the fresh air, a revolving door of good company, and often times, a tasty libation. And while it is (usually) not some sort of shirtless, cheap beer swilling extravaganza (mind you, I did say usually), we don't often get too fancy with it either. A bottle of wine, a few candles to keep the bugs away, a clean tablecloth, and a yard free of child debris is usually the extent of it. It works for us. This drink has nothing to do with nights like that. It takes more effort. As you can see from the branch sticking out of it, it is quite fancy. O.k not really, but you do have to cut things up, measure, and muddle them together. Yes, muddle! So, this is probably not your average everyday cocktail. However, should you ever feel compelled to go that extra mile, and create a deliciously refreshing drink that doesn't come in quantities of 6 and 12, we think you should try this one. fennel + orange cocktail 2 oz gin 1 oz vermouth 1 oz lemon juice 1/4 cup fennel bulb/stem coarsely chopped. try not to get the frond in it. 3 orange slices + 1 for garnish 1 oz simple syrup. (we use the 50/50 sugar/water recipe. just mix them in a jar and shake until dissolved) **should you desire an alcohol free drink, omit the booze and add 3 oz soda water Combine gin, vermouth, fennel and orange slices in cocktail shaker.  Muddle ingredients.  Add lemon juice and simple syrup, shake and strain into glass with fresh ice. Garnish with fennel stem ( make sure the fronds do not hang into cocktail ) and 1/2 an orange slice.  Enjoy!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-12-05 12:14:55</div>
+            <div class="msg">recommend!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-15 18:45:22</div>
+            <div class="msg">Closed out the old house; move-in complete. Enjoying a somewhat celebratory Brother Thelonious from North Coast.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-19 21:08:25</div>
+            <div class="msg">Anyone familiar with "Pourtastic tastings?" <a href="https://pourtasticllc.com/">https://pourtasticllc.com/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-19 21:09:37</div>
+            <div class="msg">Not familiar!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-19 21:10:37</div>
+            <div class="msg"><a href="https://www.reddit.com/r/Waco/comments/3x9vol/hiring_craft_beer_lovers_in_waco/">https://www.reddit.com/r/Waco/comments/3x9vol/hiring_craft_beer_lovers_in_waco/</a><br /><br /><strong>Hiring Craft Beer Lovers in Waco! • /r/Waco</strong><br />Pourtastic Tastings is hiring NOW for beer lovers in Waco! $20/hr to spread the love of beer! This is a perfect part-time job for the weekends to...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-19 21:11:09</div>
+            <div class="msg">&gt;In addition to our unbeatable tracking metrics, we manage and train reliable, professional brand ambassadors who are passionate about the products they pour and act as an extension of your brewery, winery, cidery or distillery.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-14 23:49:26</div>
+            <div class="msg">Yona Yona ale: the Japanese do a respectable American Pale Ale <a href="http://www.beeradvocate.com/beer/profile/3553/10429/">http://www.beeradvocate.com/beer/profile/3553/10429/</a><br /><br /><strong>Yona Yona Ale | Yo-Ho Brewing Company</strong><br />Yona Yona Ale is a American Pale Ale (APA) style beer brewed by Yo-Ho Brewing Company in Nagano-ken Kitasaga-gun, Japan. 86 out of 100 with 62 reviews, ratings and opinions.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-14 23:49:45</div>
+            <div class="msg">(Now, with no open container laws!)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-14 23:54:26</div>
+            <div class="msg">Also picked up a Belgian white, which is hanging out in the refrigerator at the airBnB <a href="http://www.beeradvocate.com/beer/profile/3553/89584/">http://www.beeradvocate.com/beer/profile/3553/89584/</a><br /><br /><strong>Suiyoubi No Neko | Yo-Ho Brewing Company</strong><br />Suiyoubi No Neko is a Witbier style beer brewed by Yo-Ho Brewing Company in Nagano-ken Kitasaga-gun, Japan. 84 out of 100 with 15 reviews, ratings and opinions.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2016-01-15 08:49:33</div>
+            <div class="msg">Tried to do this pub crawl when I was in Osaka last Christmas -- many of these places were closed for New Year's unfortunately... Beer Belly Tenma was great. Apparently they've been getting a lot of American tourists, probably in part because of the NY Times article. <br /><a href="http://www.nytimes.com/2014/04/27/travel/a-craft-beer-pub-crawl-in-the-kitchen-of-japan.html?_r=0">http://www.nytimes.com/2014/04/27/travel/a-craft-beer-pub-crawl-in-the-kitchen-of-japan.html?_r=0</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-23 15:14:27</div>
+            <div class="msg"><a href="http://www.aleindustries.com/Win-250-In-Ale-Industries-Beer-Rare-Selections-One-of-a-kind-Bottles-SF-Beer-Week-Raffle">http://www.aleindustries.com/Win-250-In-Ale-Industries-Beer-Rare-Selections-One-of-a-kind-Bottles-SF-Beer-Week-Raffle</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-18 09:57:34</div>
+            <div class="msg">Happy National Drink Wine Day!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-02-18 09:57:35</div>
+            <div class="msg"><a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;es_th=1&amp;ie=UTF-8\#q=national%20drink%20wine%20day">https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;es_th=1&amp;ie=UTF-8\#q=national%20drink%20wine%20day</a><br /><br />Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-18 09:57:53</div>
+            <div class="msg">oh shoot, I drank wine yesterday</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-18 09:57:57</div>
+            <div class="msg">whatsoever will I do 😉</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-19 16:10:55</div>
+            <div class="msg">@brandon uploaded a file: <a href="https://gwusbdhdu.slack.com/files/brandon/F0N8RU7K5/smorgaswein.gif">smorgaswein.gif</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-27 19:53:22</div>
+            <div class="msg">French sour ale should not be consumed after toasted marshmallows.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-06 23:59:38</div>
+            <div class="msg">what french sour ale, and where are you encountering sour ale and marshmallows at the same event?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-07 15:25:50</div>
+            <div class="msg">BYOB birthday party + fire pit. Someone else brought it.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 17:23:39</div>
+            <div class="msg">@brandon uploaded a file: <a href="https://gwusbdhdu.slack.com/files/brandon/F0SDN0ZDH/img_20160313_171655.jpg">fieldwork-crowler.jpg</a> and commented: Fieldwork Brewing was the best thing to happen to beer in the Bay Area last year</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2016-03-13 17:38:32</div>
+            <div class="msg">Fieldwork is awesome.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-26 10:15:17</div>
+            <div class="msg">@seekarete uploaded a file: <https://gwusbdhdu.slack.com/files/seekarete/F0VMM5W58/img_20160326_121156.jpg|Old Chub Nitro Pounder></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-26 10:20:34</div>
+            <div class="msg">Tasty?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-26 10:24:30</div>
+            <div class="msg">Hell yeah. ABV is a bit lower at 6.9%</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-04 20:05:55</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-16 05:39:10</div>
+            <div class="msg">@bpl uploaded a file: <https://gwusbdhdu.slack.com/files/bpl/F116RM0LT/img_20160415_212007143.jpg|Weird subtle flavor> and commented: Resinous hops</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-16 05:39:13</div>
+            <div class="msg">All in all quite good and light enough most people will drink it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-17 18:56:20</div>
+            <div class="msg">Follow up on the Nitro-Old Chub. 4-pack got me 2 good, Guinness-like pours, 1 slightly flat (half-finger of head) pour, 1 explosive mess. I don't think Oskar Blues has got their nitro-canning procedure dialed in yet.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-17 19:01:05</div>
+            <div class="msg">Unrelated; why is Moscow-Mules-in-copper-barware such a thing now? Does the copper really enhance it that much?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:42:53</div>
+            <div class="msg">it is DEFINITELY blowing up</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:43:18</div>
+            <div class="msg">there is a place in Seattle, right off Pike Place, that makes their own ginger beer</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:44:06</div>
+            <div class="msg">you can get it in growlers (as @melaniedrake, @zach, @matt.s.curtis and I did over Thanksgiving) and of course, they move quite the volume of Moscow Mules</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2016-04-17 19:44:10</div>
+            <div class="msg">@matt.s.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/5b5fa7bd103728ebd8aeea4a334f36ef.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png"/>
+        <div class="message">
+            <div class="username">melaniedrake</div>
+            <div class="time">2016-04-17 19:44:10</div>
+            <div class="msg">@melaniedrake has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-04-17 19:44:10</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:45:46</div>
+            <div class="msg">the copper most certainly has no effect</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:46:05</div>
+            <div class="msg">copper's primary claim to fame is its corrosion resistance</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:46:19</div>
+            <div class="msg">only nitric acid dissolves it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:46:34</div>
+            <div class="msg">so, it's a gimmick</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 19:46:45</div>
+            <div class="msg">but so is most servingware</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-17 20:04:19</div>
+            <div class="msg">I just don't get it. The copper is another thing to buy/clean/store in a presumably already crowded bar area. And why ruin your ginger beer with vodka when you can use dark rum for a Dark and Stormy. <a href="https://www.youtube.com/watch?v=Sg83EmRbFFY">https://www.youtube.com/watch?v=Sg83EmRbFFY</a><br /><br /><strong>How to make a Dark and Stormy Cocktail - Tipsy Bartender</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-04-17 22:20:49</div>
+            <div class="msg">@seekarete: so much yes to rum&gt;&gt;vodka. Someone once told me that if you measure the quality of your spirit by how colorless, odorless, and tasteless it is, then you're doing it wrong.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-04-18 09:20:39</div>
+            <div class="msg">&gt; so, it's a gimmick<br />I don’t think it’s entirely a gimmick</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-04-18 09:20:51</div>
+            <div class="msg">The cup tastes different and it feels colder</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-04-18 09:21:54</div>
+            <div class="msg">It’s kind of similar to drinking out of a frosted mug (A&amp;W)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-04-18 09:22:15</div>
+            <div class="msg">Also, even if it were just a different color, it’s special and brains like that sort of thing</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-04 18:02:32</div>
+            <div class="msg">Rogue Hazelnut Brown Nectar is delicious.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-04 20:52:30</div>
+            <div class="msg">That sounds awesome</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-26 13:23:10</div>
+            <div class="msg">@channel: whisky :whisky: or whiskey :whisky:?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-26 13:24:04</div>
+            <div class="msg">Only the US and Ireland put the "e" and whisky.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-05-26 13:34:58</div>
+            <div class="msg">@seekarete is right. Irish whiskey, scotch whisky.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-05-26 13:35:47</div>
+            <div class="msg">So it would be bourbon whiskey, then?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-26 13:37:32</div>
+            <div class="msg">yep. Haven't met a bourbon I really liked, though. My favorites are from Islay (Scotland) or Bushmills (Northern Ireland).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 23:36:39</div>
+            <div class="msg">re:the hard soda craze, instead of spending $10 on a 4-pack of hard rootbeer, just get whatever regular rootbeer you like and dump a bunch of Bulleit in it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 23:36:47</div>
+            <div class="msg">Mission Accomplished :hyperspace:</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-03 06:08:38</div>
+            <div class="msg">But!... yeah same thing</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>

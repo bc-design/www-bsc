@@ -1,0 +1,2783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#health</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            #art
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            #education
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            <span style="background-color: #ab9ba9">
+                #health
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            #libations
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            #podcast
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            #professional
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            #society
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            #sustainability
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 15:19:14</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 15:19:14</div>
+            <div class="msg">@seekarete set the channel purpose: Fitness goals, methods, progress, and events</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-09-23 15:20:02</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-09-23 15:20:03</div>
+            <div class="msg">@mbyron has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:20:03</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 15:25:29</div>
+            <div class="msg">I guess I'll start by showing all you civilians how Uncle Sam evaluates soldiers: <br />2 minutes of Push-ups (without lifting your hands)<br />2 minutes of Sit-ups (without resting in the down position) <br />2-mile run (flat/flat-ish course)<br />Those figures + age determine your PT score. Do it on your own for fun: <a href="http://apftcalculator.com/">http://apftcalculator.com/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f67fd1992c225ab18eca144de0238646.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">lindsayad</div>
+            <div class="time">2015-09-23 15:26:40</div>
+            <div class="msg">@lindsayad has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 15:26:40</div>
+            <div class="msg">@connorgalleher has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-23 15:29:59</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4e69b6194a652d4b767cd42219dbc314.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">mariagillespie</div>
+            <div class="time">2015-09-23 15:29:59</div>
+            <div class="msg">@mariagillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-27/23396463141_2ca0634b50ad68f0fb37_72.jpg"/>
+        <div class="message">
+            <div class="username">sean.mac</div>
+            <div class="time">2015-09-23 15:29:59</div>
+            <div class="msg">@sean.mac has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:31:51</div>
+            <div class="msg">okay, so let's say I'm Normal Joe and I roll off the couch and max out at 20 total push-ups and... a sit-up every two seconds</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:32:08</div>
+            <div class="msg">and I manage an eight-mile mile</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:32:18</div>
+            <div class="msg">oh okay, this thing is a calculator...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:32:41</div>
+            <div class="msg">huh, so that's a fail</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:32:45</div>
+            <div class="msg">okay, so this isn't totally trivial</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 15:33:37</div>
+            <div class="msg">Yeah; I should add that while the total is out of 300, each event is on a 100-point scale and you must get at least 60 points in each event.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:34:12</div>
+            <div class="msg">I guess I'm biased by my activities, but I'm surprised how many points that gives me in sit-ups (76) and run (71) versus push-ups (only 40)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:38:40</div>
+            <div class="msg">also, what the heck are the functions that get me from push-ups → score?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:39:13</div>
+            <div class="msg">so I need 39 push-ups to pass the push-up portion, which seems like a lot</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:39:41</div>
+            <div class="msg">compared to an 8:30 mile over two miles</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:40:12</div>
+            <div class="msg">annnnd 45 sit-ups</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:41:26</div>
+            <div class="msg">I would difficulty rank that: sit-ups &lt; run &lt; push-ups</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:41:36</div>
+            <div class="msg">do you know how people typically score?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:45:17</div>
+            <div class="msg">do you get bonus nachos for outperforming?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 15:46:59</div>
+            <div class="msg">All over the map and varies by job and unit too.  Active duty parachute units are probably the most fit. The reserves as a whole seems to suffer because there isn't mandatory exercise time 5 days a week for us.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:47:14</div>
+            <div class="msg">what happens if you fail?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 15:52:30</div>
+            <div class="msg">Depends on the time of year and reason for the test. Some schools require a PT score to apply/attend.  For normal guys, if you  fail multiple tests in you can be kicked out within maybe 3 months. It's a matter of command motivation and paperwork. If they're about to deploy or you demonstrate improvement, they'll be more lenient. If you have rank/influence you can avoid being tested for years.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 15:53:19</div>
+            <div class="msg">By regulation, you only need one passing PT score per year, but some units do it more frequently.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 15:53:28</div>
+            <div class="msg">I'm surprised there's no pull-up</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 16:03:55</div>
+            <div class="msg">Well this is just the Army Physical Fitness Test that is applied to everyone. Its main virtue is that it's very scalable, requires no equipment, and almost no training to administer. For Airborne folks there is a pull-up requirement (something about operating the parachutes). For many schools there are ruck marches with different weight/distance/time requirements. I think the Air assault standard is 35 lbs/12 miles/within 3 hours.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 16:10:28</div>
+            <div class="msg">There is an unofficial "extended scale" that you "unlock" after you score over 100 in all 3 events.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 16:18:16</div>
+            <div class="msg">ohhhhh</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 16:18:22</div>
+            <div class="msg">is this used in advancement?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-23 16:59:57</div>
+            <div class="msg">Can be. If there are more eligible candidates than open positions, then marksmanship and PT score are considered.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/963914bd77f352a4f2ba6586fb881b81.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0007-72.png"/>
+        <div class="message">
+            <div class="username">bwoolston</div>
+            <div class="time">2015-09-23 21:35:55</div>
+            <div class="msg">@bwoolston has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-23 22:07:22</div>
+            <div class="msg">And this is all army only right? Each branch has different though similar requirements (Navy - Marines lowest?)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-09-24 07:37:21</div>
+            <div class="msg">Interesting!  The run and push-up depend on gender, but sit-ups are not adjusted at all.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-09-24 07:37:37</div>
+            <div class="msg">So I pass decently well as a lady, but fail as a dude.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-09-24 07:41:24</div>
+            <div class="msg">This is going to sound pretty clueless but what are the current restrictions for women in the military?  As far as I know they are still disallowed from active combat, but there are still lots of women who serve in "non-active" things that still seem pretty active to me (like driving a van in a combat zone, but not being actually sent out on the ground).</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-24 09:17:07</div>
+            <div class="msg">@bpl Yeah. I know the Marines do crunches instead of sit-ups and have a pull-up requirement.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-24 09:22:51</div>
+            <div class="msg">@mbyron You're generally correct; infantry, artillery, cavalry, armor (tanks), combat engineering, and Special Forces are still closed to enlisted females. There are a few female Engineer Officers leading combat engineers, though.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-27/23396463141_2ca0634b50ad68f0fb37_72.jpg"/>
+        <div class="message">
+            <div class="username">sean.mac</div>
+            <div class="time">2015-09-29 19:21:39</div>
+            <div class="msg">Running portion: DESTROYED. Others ... ehhh ... ;D</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-10-10 13:30:04</div>
+            <div class="msg">I have no idea if this is actually employed by SOCOM units, but it's an interesting benchmark: <a href="http://www.refactortactical.com/blog/special-forces-pt-test-upper-body-round-robin">http://www.refactortactical.com/blog/special-forces-pt-test-upper-body-round-robin</a><br /><br /><strong>Special Forces PT Test (Upper Body Round Robin)</strong><br />Get the UBRR Eight Week Workout E-Book by Stew Smith at <a href="http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htmThe">http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htmThe</a> Upper Body Round Robin AKA the UBRR is a commonly used physical fitness test among many Tier I and Tier II Special Operations Units. This pt test goes well beyond the typical scoring of pushups, sit-ups and a run. UPPER BODY ROUND ROBIN (UBRR)Bench PressPushupsSitupsPull-upsDipsRope ClimbKipp UpShuttle Run5 Mile Run/RuckUBRR SCORING SYSTEMSpecial Instruction:As soon as an individual finishes one exercise, he must start the next exercise in no more than 10 minutes.There is only one common standard for all age groups.Only one attempt is allowed per participant at each stationIn order to pass the UBRR, participants must achieve the following:Pass all events with at least the minimum score, and Receive at least 1100 total points from all the events combined.Bench press:Time: No time limit.Minimum: 6 repetitions with the individuals body weight minus 20 percent of the individuals body weight is the minimumScore: The minimum is 100 points. Each additional repetition above the minimum is worth 3 pointsThe correct position is: The individual will lay flat (supine) on the bench, feet flat on the floor, shoulder blades, head, and buttocks in contact with the bench. Hands are approximately shoulder width apart.A correct repetition is: On the command, "Go", the bar is pushed off the supports (first repetition only), and arms are extended fully to the locked position. Then the bar is lowered until it touches the chest, and then raised until the arms are fully extended, elbows locked.Grader position: The grader must be located to one side of the individual doing the exercise to ensure the feet stay flat on the floor, the buttocks, shoulder blades and head stay in contact with the bench, and the arms fully extended. The grader will notify the individual doing the exercise if the feet, buttocks, shoulder blades, or head lift do not maintain contact, or the arms don't fully extend. The repetition will not be counted after the second notification.Example : Individual weighs 180 pounds.Minimum weight: 180lbs-36lbs (20% of 180) = 144 lbsIndividual presses 144 lbs 15 times.Score = 100 points for minimum (6repetitions)9 repetitions over minimum x 3 points per repetition for a total of 27 additional points (9 x 3 = 27). Total score is 127 (100 points minimum and 27 points for additional points).<a href="http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htmPush-ups:Time">http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htmPush-ups:Time</a>: 1 minuteMinimum: 40 pushups is the minimumScore: The minimum is 100 points. Each additional repetition above the minimum is worth 2 pointsThe correct position is: The back is generally straight, feet are up to 12 inches apart, hands are placed should width apart with arms extended and locked on a generally flat surfaceA correct repetition is: On the command, "Go", the body is lowered from the front leaning rest position until the chest (sternum area) touches a flat hand on the floor, then the body is raised until the arms are fully extended (locked).Grader position: The grader will have one hand on the floor and the other on one elbow of the individual doing the exercise. The grader will notify the individual doing the exercise if he needs to go lower or extend the arms fully, and will not count the repetition after the second notificationSit-ups:Time: 1 minuteMinimum: 40 sit-ups is the minimumScore: The minimum is 100 points. Each additional repetition above the minimum is worth 3 pointsThe correct position is: The individual lies flat (supine) on his back on a generally flat surface. The legs should have a 90 degree bend at the knees. Feet should be flat on the floor with no more than 12 inches in between them, and at the same level as the upper body. Fingers should be interlaced (one or more and at any part of the finger) and placed behind the head.A correct repetition is: On the command "Go" the individual raises his upper body by bending at the pelvis until the spine (base of the neck) breaks or equals the vertical plane (lower spine). Then he lowers his body until the shoulder blades touch the floor. The person holding the feet may secure them by any means, but will not be in the way or assist in the repetition.Grader position: The grader will be positioned perpendicular to the individual doing the exercise. The grader will notify the individual doing the exercise if he needs to go higher or interlace the fingers and will not count the repetition after the second notification.Pull-ups:Time: No time limitMinimum: 6 pull-ups is the minimumScore: The minimum is 100 points. Each additional repetition above the minimum is worth 3.5 pointsThe correct position is: The bar will be grasped with hands shoulder width apart, knuckles facing the individual. The individual will hang from the bar so that the arms are fully extended (starting position).A correct position is: On the command "Go", pull with the arms, raising the body until the chin is higher than the bar (head can be level or tilted back). Then the individual will lower his body until he is hanging with arms fully extended. The knees may be bent so the feet are behind the body, but the knees cannot come up in the front or kip in any way that would assist in the repetition.Grader position: The grader will stand 18 inches in front of the person doing the exercise and will count out loud. If the individual touches the grader with any part of this body, that repetition will not count. The grader will notify the individual doing the exercise if he needs to go higher or lock the arms, and will not count the repetition after the first notification.<a href="http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htm">http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htm</a> Dips:Time: No time limit.Minimum: 10 dips is the minimumScore: The minimum is 100 points. Each additional repetition above the minimum is worth 2.5 pointsThe correct position is: The body will be fully supported on the dip bar, arms fully extended and locked. Legs may be bent or straight, and feet may be crossed.A correct repetition is: On the command "Go", lower the body until the upper arms are parallel with the dip bar, and then press upwards with the arms until the arms are fully extended, elbows locked.Grader position: The grader will be positioned to one side of the individual to ensure the upper arms are at least parallel with the dip bar in the lower position, and the arms become fully locked in the up position. The grader will notify the individual if he fails the go low enough, or if the elbows don't lock. He will not count the repetition after the second notification.Rope climb:Time: No time limitMinimum: Individual mist climb the rope (using any technique) until he can touch the designate height (the green tape at 20 feet) on the rope. Individual will wear a 20 lb vest during this exercise.Score: This is a GO/NO GO event, and no points will be awarded.Kipp-upTime: One minute time limitMinimum: Six kipp ups is the minimum.Score: The minimum is 100 points. Each additional repetition above the minimum is worth 3.5 pointsThe correct position is: The individual will position himself underneath the pull-up bar as if he were doing a regular pull-up. Do a left or right facing movement so the pull-up bar is now perpendicular to the individual. Grasp the bar with palms facing each other, no more than 5" apart, arms fully extended and body hanging without touching the ground.The correct repetition is: On the command, "Go", pull up with the arms and torso, raising the feet and legs, one leg on either side of the bar, until the heels touch above the bar, with the bar between the legs. Then lower the legs until the arms and legs are fully extend in the starting position. This is one repetition.Grader position: The grader will be located to one side or the other of the individual to ensure the arms and legs are fully extended to start each repetition. The grader will also ensure that the heels touch above the bar on each repetition. The grader will notify the individual if the individual fails to fully extend the arms or legs or fails to touch the heels above the bar. He will not count the repetition after the second notification.Shuttle Run:Time: 24 seconds is the maximum timeScore: The maximum is worth 100 points. Each full 0.1 second under the maximum is worth 2 points.A correct course is: The course will be a pre-marked 25 meter running lane that is flat and without obstructions. Easily visible lines on the ground will indicate the starting point and the 25 meter point.A correct shuttle run is: On the command "Go", the individual doing the exercise will leave the start point and run down to the far end of the course, pick up a block, return to the start point and put that block down behind the line. Then he will pick up a different block, return to the far end, put that block down behind the line, pick up a different block and return to the starting line. The blocks must be placed behind the lines and carried by hand.Grader position: The grader will be positioned behind the starting line, and must use a watch that measures tenths of a second.Example: Individual's time = 22.4 secondsTime is 24 seconds or less (maximum) = 100 pointsTotal time under 24 seconds is sixteen 1/10th second incrementsScore = 100 (maximum time) + (16 x 2) for tenths of a secondunder the maximum for a total score of 132 pointsFive Mile Run:Time: Maximum time is 40 minutesScore: The maximum is worth 100 points. Every full 5 second increment under the maximum time is worth 2 pointsA correct course is: The course will be 5 miles in distance, with a paved (or similar) surface, generally flat and without obstacles. The start and finish line will be the same.A correct five mile run is: On the command "Go", the individual will begin to run at his own pace, and continue through the course until he crosses the finish line. This exercise must be completedGrader position: The grader will be located at the start/finish line, and will begin the time at the command "Go". He will call off the finish times as runners cross the finish line, and he will not stop his watch until the last runner has completed the run.Example: Individuals time = 36:17Time is 40 minutes or less (maximum) = 100 pointsTotal time under 40 minutes is 223 seconds44 full 5 second increments x 2 points per increment = 88 points(22 x 3 = 88)Score = 100 (maximum time) + 88 (points for 5 second increments) for a totalScore of 188 points.5 Mile Run OR Five Mile Rucksack March: Time: The maximum time is 75 minutes for the ruck, 40 minutes for the run. Score: The maximum score is worth 100 points. Every full time increment of 15 seconds under the maximum is worth 2 points.Equipment: The rucksack must weigh no less than 40 pounds dry. Uniform can be pants or shorts with boots.A correct course is: The course will be 5 miles in distance, with a hard, solid surface, generally flat without obstacles. The start and finish line will be the same.A correct five mile rucksack march is: Individual will begin at the start line, and at the command "Go", will begin the ruckmarch at his own pace and continue through the course until he crosses the finish line. This entire exercise must be completed with the rucksack, and un-aided. Running is authorized.Grader position: The grader will be located at the start/finish line, and will start the time at the command "Go". He will call off the times as participants cross the finish line, and he will not stop the time until the last individual completes the rucksack march.Example: Individuals time is 52 minutes 35 seconds.Time is 75 minutes or less (maximum) = 100 pointsTotal time under 75 minutes is 22 minutes and two 15 full seconds22 minutes x 4 (15 second increments) = 88 + 1 (15 full second)89 x 2 = 178Score of 178 points<a href="http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htm">http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htm</a> Click to Purchase the UBRR E-Workout BookLooking to improve your UBRR Score? Try the Eight Week Workout guide by Stew Smith available for immediate download at <a href="http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htm">http://www.refactortactical.com/Upper-Body-Round-Robin-UBRR-p/ssubrr.htm</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-07 19:28:28</div>
+            <div class="msg">This week I have gotten... zero exercise</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 01:00:28</div>
+            <div class="msg">Go take Pilates with Sornam!!! I think she's at the rsf at 8am Mondays and wednesdays</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 01:00:37</div>
+            <div class="msg">She is a serious badass</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 01:01:15</div>
+            <div class="msg">Pilates gets a bad rap because it's faddish and lots of wishy washy people do a bad approximation of it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 01:01:31</div>
+            <div class="msg">But if you actually do it right, it kicks your ass</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 01:03:14</div>
+            <div class="msg">I used to go in on my way to lab. It's mostly strength and flexibility training so you don't sweat a ton and don't need to shower after, which saves time</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-08 08:35:23</div>
+            <div class="msg">I'll be hiking in Utah later this week, but only after spending a couple days taking advantage of the free food at this conference...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-08 08:57:53</div>
+            <div class="msg">This is one of the reasons I'm hesitant to get a car: unavoidable bike rides are a good way of ensuring a minimum level of exercise.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-08 08:59:12</div>
+            <div class="msg">@mbyron Pilates can be intense. Pilates/yoga mixtures are also fun</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-08 09:00:03</div>
+            <div class="msg">'unfortunately' the ride to work is only a little over a mile</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 09:21:18</div>
+            <div class="msg">Speaking of bikes... Anyone know of a good bike shop or coop in the Long Beach area?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 09:22:12</div>
+            <div class="msg">I am in the market for a good solid used bike due to the unfortunately pilfered state of my previous bike</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-08 09:22:36</div>
+            <div class="msg">RIP speedy 80s steel frame triathlon bike :(</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-08 09:46:06</div>
+            <div class="msg">buy someone _else's_ stolen bike on Craigslist 🙂  😕</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-08 09:47:00</div>
+            <div class="msg">. ...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-08 09:47:17</div>
+            <div class="msg">And a better bike lock...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-08 09:48:37</div>
+            <div class="msg">I have also used <a href="http://www.bikesdirect.com/">http://www.bikesdirect.com/</a> before<br /><br />Bicycles &amp; Bikes - Mountain, Triathlon, Road, Comfort, Hybrid and Women's Bikes, Kestrel, Fuji, Schwinn and GT bikes</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-08 09:48:59</div>
+            <div class="msg">some assembly required but nothing as complex as ikea</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-08 09:49:45</div>
+            <div class="msg">though you want to double check things as ikea doesn't hurt as much when it falls apart</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-16 18:33:44</div>
+            <div class="msg">So who has strong feelings about running/cross-training socks? Lycra/spandex/nylon? Uncle Sam has finally decided we can wear black socks in uniform, so I'm considering an upgrade from the originally-white-but-now-kinda-pinkish-or-gray cotton ones I've been using since Iraq.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 19:21:19</div>
+            <div class="msg">Got a flu shot today</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 19:21:23</div>
+            <div class="msg">Arm LEGIT HURTS</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 19:21:36</div>
+            <div class="msg">Never had that happen before</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-20 19:30:31</div>
+            <div class="msg">Do push-ups.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 19:40:39</div>
+            <div class="msg">Evidence that exercise helps?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 19:40:55</div>
+            <div class="msg">... Or distraction therapy?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-20 19:43:40</div>
+            <div class="msg">Well probably won't help now, but it's supposed to work the delivery medium out of the muscle faster so there's less lasting soreness.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 20:04:57</div>
+            <div class="msg">ooof. really hurts.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-11-20 22:39:10</div>
+            <div class="msg">Mine did too for like a day! I've never had that happen before either</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-21 18:04:26</div>
+            <div class="msg">@seekarete: I have still not found Optimal Socks</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-21 21:48:09</div>
+            <div class="msg">REI has a members sale this weekend, so I'll probably pick something from them tomorrow.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-21 21:53:10</div>
+            <div class="msg">Here's an idea: How about a specific <em>#health</em> channel goal? Like a race to X number of kettle bell swings or running mileage tracking up to the winter break shindig.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-21 21:53:33</div>
+            <div class="msg">I like that idea!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-21 21:56:10</div>
+            <div class="msg">My initial inspiration: <a href="https://docs.google.com/spreadsheets/d/1wTFv4DjYiX-tEDpCfV-7vrJRCGqqSwfgMyBJOU87Xlw/edit#gid=0">https://docs.google.com/spreadsheets/d/1wTFv4DjYiX-tEDpCfV-7vrJRCGqqSwfgMyBJOU87Xlw/edit#gid=0</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-21 22:15:20</div>
+            <div class="msg">I like kettle bells because it doesn't require good weather or much space. But it is equipment some of you might not have/have access to. .</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-21 22:15:33</div>
+            <div class="msg">Maybe burpees?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-22 05:53:35</div>
+            <div class="msg">Sounds interesting</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-22 22:27:54</div>
+            <div class="msg">So I made a little google sheet that goes from 23NOV to New Years. 💪 Anyone can edit: <a href="https://docs.google.com/spreadsheets/d/10ZpY_grl7Nv8fCIVquM5tQrCD4iWZlM0t0vH1x6savc/">https://docs.google.com/spreadsheets/d/10ZpY_grl7Nv8fCIVquM5tQrCD4iWZlM0t0vH1x6savc/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-22 22:29:30</div>
+            <div class="msg">@seekarete shared a file: <a href="https://gwusbdhdu.slack.com/files/seekarete/F0F3PV36W/gwusbdhdufitness">#fitness</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-11-22 22:31:43</div>
+            <div class="msg">It would be easy to copy/paste the Burpee sheet for other exercises/mileage.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-04 19:13:10</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=AeB__4Uphzg">https://www.youtube.com/watch?v=AeB__4Uphzg</a><br /><br /><strong>Rick and Morty - X Gon' Give It To Ya HD</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-05 16:37:41</div>
+            <div class="msg">50/55/15:50 on my APFT this morning. Equals 215 points for 27-year-old male.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-05 17:42:51</div>
+            <div class="msg">I biked to work...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-05 17:44:02</div>
+            <div class="msg">Without onsite work out buddies, I fear I lack sufficient motivation.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-05 17:55:07</div>
+            <div class="msg">I refuse to heat the apartment and I have dumbbells in the living room.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-12-05 19:00:13</div>
+            <div class="msg">My ride is 5mi one way and I'm still wearing a sweat shirt. Seems to work out heat wise down to about freezing. </p><br /><br /><p>my house mate wants to keep the temperature at ~80. It's a point of contention.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-12-31 01:43:18</div>
+            <div class="msg"><a href="http://cryingwonthelp.com/sadness/#">http://cryingwonthelp.com/sadness/#</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-19 10:27:39</div>
+            <div class="msg">Getting back on the intermittent fasting bandwagon!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-19 10:31:23</div>
+            <div class="msg">@matt.s.curtis, are you still on said bandwagon or planning on returning to it?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2016-01-19 10:31:27</div>
+            <div class="msg">@matt.s.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-26 08:52:15</div>
+            <div class="msg">$1 per pound kettlebells - free shipping with Prime <a href="http://www.amazon.com/CAP-Barbell-15--Pounds-Kettlebell/dp/B003J9HKYI">http://www.amazon.com/CAP-Barbell-15--Pounds-Kettlebell/dp/B003J9HKYI</a><br /><br /><a href="http://Amazon.com">Amazon.com</a> : CAP Barbell 15 -Pounds Kettlebell : Kettlebell Weights : Sports &amp; Outdoors</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-26 19:52:40</div>
+            <div class="msg">Well I signed up for 3 months of MWF 0615 crossfit classes.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-26 19:55:12</div>
+            <div class="msg">I don't know if "class" is the right term. Session? Appointment? Voluntary self-abuse period?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-27 10:42:11</div>
+            <div class="msg">Though the best exercise programs seem to be the ones where the voluntary aspects of compliance are downplayed</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-27 10:42:14</div>
+            <div class="msg">Nice.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-28 13:14:16</div>
+            <div class="msg">Here's a thing I'm also doing: <a href="http://charitychallenges.net/current-challenge/">http://charitychallenges.net/current-challenge/</a><br /><br /><strong>Current Challenge - Charity Challenges</strong><br />Squats! Do them fast or do them heavy, we don’t care!  Join us and get great tips and resources to maximize your squatting potential. Sign Up Now GET STRONGER, HAVE FUN, AND GIVE BACK!   Welcome to the Squat challenge!  We are gonna have an awesome time and you are gonna get crazy good at squats in …</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-30 07:24:27</div>
+            <div class="msg">@seekarete shared a file: <a href="https://gwusbdhdu.slack.com/files/seekarete/F0F3PV36W/gwusbdhdufitness">#fitness</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-30 10:55:34</div>
+            <div class="msg">Record of the number of squats per day?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-30 11:27:31</div>
+            <div class="msg">Pretty much. The fundraiser part is 20 bucks to veterans' charities in exchange for getting a patch with the threshold goal you reach.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-30 11:35:50</div>
+            <div class="msg">Sarah is did not register with fundraiser, but she's going to track her squat count over the same 3 months.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-30 17:53:54</div>
+            <div class="msg">Cool</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-30 18:52:20</div>
+            <div class="msg">Hmmm, trying to start a squat-off?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-01-30 19:50:15</div>
+            <div class="msg">Yes. The gauntlet is down.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 22:46:25</div>
+            <div class="msg">@brandon has renamed the channel from "fitness" to "health"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 22:46:36</div>
+            <div class="msg">Whu-oh: <a href="http://archneur.jamanetwork.com/article.aspx?articleID=2487375">http://archneur.jamanetwork.com/article.aspx?articleID=2487375</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 22:47:40</div>
+            <div class="msg">"Do Proton Pump Inhibitors Increase the Risk of Dementia?" (JAMA Neurology)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-26 16:24:12</div>
+            <div class="msg"><a href="http://blogs.plos.org/publichealth/2013/05/29/why-diy-fecal-transplants-are-a-thing-and-the-fda-is-only-part-of-the-reason/">http://blogs.plos.org/publichealth/2013/05/29/why-diy-fecal-transplants-are-a-thing-and-the-fda-is-only-part-of-the-reason/</a><br /><br /><strong>Why DIY fecal transplants are a thing (and the FDA is only part of the reason) | Public Health</strong><br />Michael K. was three days away from surgery to remove part of his intestine (the last-resort treatment for his ulcerative colitis) when he heard about a treatment his doctor had never recommended: fecal transplants. He canceled the surgery, sought help from a mentor, and chose a friend who he thought would be a good source of healthy donor material. What happened next sounds a bit like an oddball marriage proposal: he took the friend on a hike, made a few poop jokes, and then popped the question. The friend said yes, as he writes in his success story on The Power of Poo, a website created to help patients find help with fecal transplants (DIY or otherwise.) The two moved in together for more convenient poop swapping, since he wanted to do the transplants frequently, and they need to be fresh. If you want something done, you've got to do it yourself? Is the age of the do-it-yourself fecal transplant upon us? That was several experts' concern after the FDA's recent decision to regulate</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-26 19:29:29</div>
+            <div class="msg">Neat</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-10 19:07:29</div>
+            <div class="msg">@brandon: What's your activity level and fluid intake like during your fasting periods?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 19:14:06</div>
+            <div class="msg">I always drink a lot, but I drink even more while I'm fasting</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 19:15:24</div>
+            <div class="msg">I make an extra effort to push myself</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 19:15:46</div>
+            <div class="msg">my energy levels are lower but more stable</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 19:16:54</div>
+            <div class="msg">not considering food removes a whole constellation of thinking I would be doing otherwise</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 19:17:05</div>
+            <div class="msg">it helps me focus a little</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-16 13:09:38</div>
+            <div class="msg">Neurosurgery can transmit Alzheimer-type diseases: <a href="http://www.smw.ch/content/smw-2016-14287/">http://www.smw.ch/content/smw-2016-14287/</a><br /><br /><strong>Swiss Medical Weekly</strong><br />International peer-reviewed medical journal based on online-first publication</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-16 16:29:44</div>
+            <div class="msg">so take care the next time you're doing some DIY brain surgery 😉</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-18 11:54:41</div>
+            <div class="msg">Apparently gym class used to be badass. <a href="https://www.youtube.com/watch?v=fISgKl8dB3M">https://www.youtube.com/watch?v=fISgKl8dB3M</a><br /><br /><strong>Physical Education in schools in 1960's - #JFKChallenge</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-18 21:48:06</div>
+            <div class="msg">Send like it was only a pilot program?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-18 21:48:23</div>
+            <div class="msg">A. The video is all guys</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-18 21:49:27</div>
+            <div class="msg">B. That's kind of a crazy gym class. I kind of wish we'd been pushed that hard because we could have taken it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-18 21:49:43</div>
+            <div class="msg">C. We all know people who couldn't have taken it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-18 21:50:29</div>
+            <div class="msg">Also this could only have been a plan after the implementation of socialist school lunch programs</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-19 01:17:30</div>
+            <div class="msg">← gym by correspondence 😄</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-19 01:18:09</div>
+            <div class="msg">but I totally agree with @bpl, I wish I had been in more programs that had really pushed me as a kid</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-19 17:41:51</div>
+            <div class="msg">It wasn't a pilot program, but it was a successful example offered as a model by JFK. They were in ability groups (the different shorts), so the "can't take it" folks would be together presumably pushing themselves to get better while not hindering the higher levels.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-19 17:45:52</div>
+            <div class="msg">The big thing that I felt hindered really getting into gym classes was the lack of time. Periods that are fine for academic instruction are way to short to really get into any physical instruction. And once you reach middle school, the kids are gonna start sweating with any serious exertion, but there was literally no time afforded to shower.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-19 21:52:19</div>
+            <div class="msg">The time aspect is very true. Maybe block scheduling would be more amenable to it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-20 06:10:25</div>
+            <div class="msg">Also, though I initially didn't like the idea of separate classes for different capability levels, it's probably a good idea and it's exactly what we do on the academic side of things. I imagine we didn't because of tradition and cost</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-20 09:46:56</div>
+            <div class="msg">Didn't we have 'advanced gym' at the high school?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-20 13:14:06</div>
+            <div class="msg">I don't think so?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-20 13:20:59</div>
+            <div class="msg">Maybe it was an option, but not required. I remember half-semester "electives" I think I did fencing and the climbing wall.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-20 15:09:00</div>
+            <div class="msg">We both did fencing, climbing, and weights, and I did ball room but I'm not sure you did</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-20 15:09:35</div>
+            <div class="msg">I think they differentiated within sections: advanced rock climbing etc. but the resources available were limited</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-20 15:09:53</div>
+            <div class="msg">I thought there was an option in 11th and 12th where you had gym every day</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-26 14:25:34</div>
+            <div class="msg">@channel: so who's getting deep-frozen? <a href="http://waitbutwhy.com/2016/03/cryonics.html">http://waitbutwhy.com/2016/03/cryonics.html</a><br /><br /><strong>Why Cryonics Makes Sense - Wait But Why</strong><br />The more I read about cryonics—i.e. freezing yourself after death—the more I realized it's something we should all be talking about.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-26 14:44:14</div>
+            <div class="msg">Yudkowsky weighs in with an "information death" computer analogy:<br />&gt; _"But if you want to keep the secret on your hard drive secure against all possible future technologies that might ever be developed, then cover it with thermite and set it on fire. It’s the only way to be sure."_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-26 14:44:28</div>
+            <div class="msg">&gt; _"Pumping someone full of cryoprotectant and gradually lowering their temperature until they can be stored in liquid nitrogen is not a secure way to erase a person."_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-03 16:17:53</div>
+            <div class="msg">research says that 80% of white people with my genotype are lactose-intolerant</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-03 16:19:29</div>
+            <div class="msg">so it looks like I lucked out 😄 🐮</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-03 16:21:34</div>
+            <div class="msg">the offending SNPs:<br /><a href="https://www.snpedia.com/index.php/Rs4988235">https://www.snpedia.com/index.php/Rs4988235</a><br /><a href="https://www.snpedia.com/index.php/Rs182549">https://www.snpedia.com/index.php/Rs182549</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-08 20:01:04</div>
+            <div class="msg">Do any of you have experience or strong opinions on chiropracty?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-08 20:01:15</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=hV-wGiAn9nE">https://www.youtube.com/watch?v=hV-wGiAn9nE</a><br /><br /><strong>The BEST OF - Neck/Back Cracking Compilation - Over 12 Minutes of Cracking Joy</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-08 21:18:20</div>
+            <div class="msg">My uncle is a chiropractor.  I don't like him, but unrelated.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-08 21:18:42</div>
+            <div class="msg">roommate Jacob says "it feels good. maybe it stopped my headaches?"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-16 08:56:24</div>
+            <div class="msg">Finally hit 10,000 squats. <a href="https://docs.google.com/spreadsheets/d/10ZpY_grl7Nv8fCIVquM5tQrCD4iWZlM0t0vH1x6savc/edit?usp=sharing">https://docs.google.com/spreadsheets/d/10ZpY_grl7Nv8fCIVquM5tQrCD4iWZlM0t0vH1x6savc/edit?usp=sharing</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-16 08:56:25</div>
+            <div class="msg">@seekarete shared a file: <a href="https://gwusbdhdu.slack.com/files/seekarete/F0F3PV36W/gwusbdhdufitness">#fitness</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-17 17:25:40</div>
+            <div class="msg">@seekarete: have all of those squats given you any trouble?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-04-17 18:22:32</div>
+            <div class="msg">I think my thighs are bigger. Blew out the knee of one of my older pairs of jeans. But none of the incidental pain or soreness has been lasting.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-12 21:49:46</div>
+            <div class="msg">Gonna do another Goruck thing at the end of the month. Shorter length, less weight than last year.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-13 05:11:25</div>
+            <div class="msg">Fun</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-15 12:14:16</div>
+            <div class="msg">getting into embarrassingly bad shape at the moment... moving a pull-up bar and a set of freeweights to the office to counter</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-05-15 22:04:24</div>
+            <div class="msg">Maria and I are putting together a "Run for Bernie Sanders" event this coming weekend if you're interested!  (Also @melaniedrake, and other Bay Area people!)  Our inaugural run earlier today was a good time -- people love honking their horns at runners with signs.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-05-15 22:06:30</div>
+            <div class="msg">Rumor has it that @sean.mac may try to make it next week as well -- he couldn't come today because he was busy with another Bernie event.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-15 22:07:10</div>
+            <div class="msg">that sounds awesome!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-15 22:07:13</div>
+            <div class="msg">though this weekend I will be losing my mind at <a href="http://makerfaire.com/">http://makerfaire.com/</a><br /><br /><strong>Welcome to Maker Faire</strong><br />Maker Faire - The Greatest Show (&amp; Tell) on Earth. Maker Faire is part science fair, part county fair, and part something entirely new! As a celebration of the Maker Movement, it’s a family-friendly showcase of invention, creativity, and resourcefulness.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-05-15 22:42:34</div>
+            <div class="msg">NICE</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-05-15 22:42:58</div>
+            <div class="msg">I think it will probably be a weekly event at least through the primary, so perhaps the following weekend.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-16 07:35:54</div>
+            <div class="msg">&lt;@U15R7CDKK|diaghilev> has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-19 18:13:44</div>
+            <div class="msg">@seekarete uploaded a file: <https://gwusbdhdu.slack.com/files/seekarete/F1ACEG34L/publicly_listed.png|Publicly Listed.png> and commented: Well it's for-serious now...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-05-20 10:26:58</div>
+            <div class="msg">@connorgalleher uploaded a file: <https://gwusbdhdu.slack.com/files/connorgalleher/F1AJEDN6Q/bike_to_work_day_swag.jpg|Bike to work day swag></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-05-20 10:27:05</div>
+            <div class="msg">Anyone else have bike to work day today? Or is that just San Diego?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-20 11:00:43</div>
+            <div class="msg">It wasn't snowing hard...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-20 11:16:37</div>
+            <div class="msg">Wait, they're incentivizing you?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-20 11:16:41</div>
+            <div class="msg">That's cool</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-05-20 13:04:36</div>
+            <div class="msg">In places where it doesn't snow, we get free t shirts for biking to work</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-05-20 13:04:56</div>
+            <div class="msg">Which we then wear on our non snowy bike rides</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-20 13:18:31</div>
+            <div class="msg">Everyday with good weather is bike to work day! Just minus the swag</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-05-20 13:29:50</div>
+            <div class="msg">Yeah, the county organized a bunch of pit stops with sponsors to pump us full of sugar on our morning commute ☕ 🍪🚴</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-20 13:32:43</div>
+            <div class="msg">Nice!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-20 13:32:51</div>
+            <div class="msg">I thought our bike-to-work day was a couple weeks</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-20 13:33:00</div>
+            <div class="msg">but I dunno, my ride is all of 1.1 miles through neighborhoods</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-20 13:33:13</div>
+            <div class="msg">and I did not manage any swag</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-05-20 14:10:35</div>
+            <div class="msg">Wait, I am confused.  My city has a bike to work WEEK, but it's only four days and two of them are saturday and sunday (when people are presumably... not working?) <a href="http://www.bikelongbeach.org/event/bike-to-work-week">http://www.bikelongbeach.org/event/bike-to-work-week</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-05-20 14:12:29</div>
+            <div class="msg">also, that is a shit-ton of swag.  nice work.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-20 15:23:22</div>
+            <div class="msg">the water bottles were part of the swag haul?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-05-20 15:26:36</div>
+            <div class="msg">yep, one Oakley and one Smith Camelbak</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-05-20 15:26:52</div>
+            <div class="msg">and that smith shirt</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-05-20 15:26:55</div>
+            <div class="msg">and a kind bar shirt</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-20 15:28:54</div>
+            <div class="msg">sick.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-23 18:22:01</div>
+            <div class="msg">new 90-day challenge: Push-ups. <a href="http://charitychallenges.net/current-challenge/">http://charitychallenges.net/current-challenge/</a><br /><br /><strong>Push Up Challenge 2016 - Charity Challenges</strong><br />The Push Up Challenge runs from 6/1/2016 - 8/31/2016 and will raise money for Team RWB &amp; the Green Beret Foundation! Sign up and support these groups!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-23 22:16:55</div>
+            <div class="msg">That's a fair number of push-ups</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-23 22:19:02</div>
+            <div class="msg">Do you track on the site?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-23 22:29:40</div>
+            <div class="msg">Cool!  I suck at push-ups!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-23 22:29:52</div>
+            <div class="msg">wanna make a spreadsheet and we can compete?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-23 22:31:08</div>
+            <div class="msg">maybe I should start now</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-23 22:31:18</div>
+            <div class="msg">one-week head start</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-23 23:34:37</div>
+            <div class="msg">Ha!  I happen to be in the middle of <a href="http://hundredpushups.com/test.html">http://hundredpushups.com/test.html</a> (tracked here: <a href="https://docs.google.com/spreadsheets/d/1qea5779l61rjJdtEGHc8fDHE8LPUsLIVjSlDLGwWqbo/edit#gid=0">https://docs.google.com/spreadsheets/d/1qea5779l61rjJdtEGHc8fDHE8LPUsLIVjSlDLGwWqbo/edit#gid=0</a>)<br /><br /><strong>Initial Test | Hundred Pushups</strong><br />The Hundred Pushups Training Program is a six week training program designed to improve strength and physical fitness.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-24 05:04:39</div>
+            <div class="msg">@seekarete shared a file: <a href="https://gwusbdhdu.slack.com/files/seekarete/F0F3PV36W/gwusbdhdufitness">#fitness</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 12:18:53</div>
+            <div class="msg">Hells yes, I am totally unprepared, let's do some PUSHUPS</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 12:19:27</div>
+            <div class="msg">@seekarete, @bpl, @bgillespie, &lt;@U15R7CDKK> - pushup time?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 12:22:51</div>
+            <div class="msg">@seekarete, putting '10k' as the slowest pace on there is extremely demoralizing... 😿</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-06-01 12:23:28</div>
+            <div class="msg">Hmm, what does 10k mean in this context?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 12:23:40</div>
+            <div class="msg">10,000 pushups over three months, looks like!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-06-01 12:24:22</div>
+            <div class="msg">Ahh, got it.  Confused because it looks like a daily parameter.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 12:24:40</div>
+            <div class="msg">yeah. that would mean 100 pushups a day.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-06-01 12:25:14</div>
+            <div class="msg">Yeah.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-06-01 12:25:32</div>
+            <div class="msg">Armed forces peeps be off the hook.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 12:25:52</div>
+            <div class="msg">I'm wondering about the best strategy to maximize the number per day.  Small sets spread throughout the day?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 12:26:23</div>
+            <div class="msg">write a script to lock my computer for a minute every hour and do another ten?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 16:48:03</div>
+            <div class="msg">I organized it that way because I think it's easiest to think about daily/weekly pacing this way. The other tabbed sheet shows how good/not good I was at maintaining pace on the squat challenge.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 16:48:49</div>
+            <div class="msg">10k, 20k, and 30k are the "reward" values for the original charity challenge.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 16:48:59</div>
+            <div class="msg">ahh. explain reward?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 16:50:15</div>
+            <div class="msg">Well you get a velcro-backed patch that you can put on your hat/backpack/etc. This is run by fans of Goruck, so they all have places to put such patches.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 16:50:55</div>
+            <div class="msg"><a href="https://alldayruckoff.com/announcements/charity-challenges-2016-push-challenge/">https://alldayruckoff.com/announcements/charity-challenges-2016-push-challenge/</a><br /><br /><strong>Charity Challenges 2016 Push Up Challenge - All Day Ruckoff</strong><br />With the Squat Challenge over we’re gearing up for the next Charity Challenges event… push ups! Through the first Charity Challenges event we raised $9,077 and from the second event we raised $15,018. Being able to donate $24,095 total to charity with Mettle Forger has been incredible. Sign Up Sign ups are open now on …</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 16:51:05</div>
+            <div class="msg">charity $$$ from ? → to ?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 16:59:38</div>
+            <div class="msg">Participants pay a fee to get admission to their tracking website and log their own exercise. All honor system. If they hit the 10k, 20k, or 30k thresholds, they get the appropriate patch in the mail at the end. The remainder (majority) of the fee goes to Team RWB and the Green Beret Foundation.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 17:02:38</div>
+            <div class="msg">Supposedly it's just 2 guys volunteering their time to run it. I still haven't received my squat challenge patch, though and that ended April 30th.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 17:12:37</div>
+            <div class="msg">Monday I signed up for the pilot of "Military Wellness Initiative" wherein they're supposed to send me a Under Armour Band. <a href="http://www.wareable.com/under-armour/under-armour-band-review">http://www.wareable.com/under-armour/under-armour-band-review</a><br /><br /><strong>​Under Armour Band review</strong><br />The Under Armour Band is the HTC Grip reborn. The US sports giant's first wearable was delayed from launch in 2015. But now it's back with a new look. You can pick up the Band for $180, making it a more expensive purchase than the Fitbit Charge HR and our current fitness tracker fave, the&amp;#8230;</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 17:13:45</div>
+            <div class="msg">Interesting! What's your half of the bargain?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-01 17:14:39</div>
+            <div class="msg">I had to waive my HIPPA rights, so... let's hope it's a real thing. I had to make an account on their fitness tracking service. <a href="http://werally.com">werally.com</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 17:50:36</div>
+            <div class="msg">@brandon pinned @seekarete's GDocs Spreadsheet <a href="https://gwusbdhdu.slack.com/files/seekarete/F0F3PV36W/gwusbdhdufitness">#fitness</a> to this channel.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-06-01 23:12:25</div>
+            <div class="msg">I'm already doing a pushup challenge (goal: 100 consecutive after six weeks), so I would be happy to double-dip, no signups required for me.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 23:13:17</div>
+            <div class="msg">&lt;@U15R7CDKK>: add a column!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-06-01 23:14:07</div>
+            <div class="msg">Added myself to the list</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-01 23:22:08</div>
+            <div class="msg">my plan is to do a whole bunch of sets of 10</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-02 20:48:08</div>
+            <div class="msg"><a href="http://seekarete.blogspot.com/2016/06/rucking-university-class-003-aar.html">http://seekarete.blogspot.com/2016/06/rucking-university-class-003-aar.html</a><br /><br /><strong>Seek Arete: Rucking University Class 003 AAR</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 23:05:16</div>
+            <div class="msg">I made the spreadsheet pretty 🐴</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 23:05:39</div>
+            <div class="msg">and now it'll automatically fill in a zero for you if you don't fill in a number for a day</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 23:06:20</div>
+            <div class="msg">and it estimates your final count by projecting your three-day moving average</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-02 23:07:14</div>
+            <div class="msg">@bgillespie or @zach or someone, you know you wanna be Player <em>#5</em> 🌈</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-03 07:35:03</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-03 07:35:08</div>
+            <div class="msg">oh yeah i can play</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-03 07:35:19</div>
+            <div class="msg">link me?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-03 07:56:52</div>
+            <div class="msg">@seekarete shared a file: <a href="https://gwusbdhdu.slack.com/files/seekarete/F0F3PV36W/gwusbdhdufitness">#fitness</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-03 07:57:30</div>
+            <div class="msg">Someone did some Excel witchcraft and prettied it up last night. *Edit - it was @brandon. I guess I should read messages before I type.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-03 10:08:17</div>
+            <div class="msg">Is the pushups one set?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-03 10:18:54</div>
+            <div class="msg">Over the course of a day</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-03 10:19:14</div>
+            <div class="msg">how is goal setting supposed to work?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-03 22:27:12</div>
+            <div class="msg">What do you mean by goal-setting?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-03 22:29:35</div>
+            <div class="msg">90 minutes to go...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-03 22:29:39</div>
+            <div class="msg">(for me at least!)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-06-04 09:27:33</div>
+            <div class="msg">I cannot advise going from zero-to-80 pushups in one set.  You will be Very Sad.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-06-04 09:28:29</div>
+            <div class="msg">If you want to get it all done in relatively short order and are just going for quantity, not endurance-building, do sets of 10 with two minute rests between.  Lower the rest periods or raise the set count if you want to make it harder.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-06 06:55:45</div>
+            <div class="msg">I can probably do 100 pushups without too much sad</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-06 06:55:57</div>
+            <div class="msg">I was doing them a month or so ago</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-06 06:56:15</div>
+            <div class="msg">I haven’t started yet though because I’ve been sick and I’m also suuuuuper lazy</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-06-06 09:48:39</div>
+            <div class="msg">out of curiosity what do you weigh right now Zach</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-06 10:15:07</div>
+            <div class="msg">my plan is to do 12x sets of 10, three days in a row</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-06 10:15:43</div>
+            <div class="msg">then add 1 per set until I work up to 6x sets of 20</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-06 10:35:13</div>
+            <div class="msg">150 lbs</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-06 10:36:17</div>
+            <div class="msg">I'm at 185 lbs after a fasting day</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-06 10:36:30</div>
+            <div class="msg">and 192 after a 🍕 🍺 day</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-06 10:36:55</div>
+            <div class="msg">(goddammit, need a veggie pizza slice emoji)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-06-06 10:37:23</div>
+            <div class="msg">My weight oscillates between 150 and 160. When I’m in better shape I am actually light surprisingly (but it makes sense I guess cause I have lean climbing muscles)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-09 10:40:27</div>
+            <div class="msg">@seekarete uploaded a file: <https://gwusbdhdu.slack.com/files/seekarete/F1FGY0RT8/20160609_123751.jpg|Slack for Android Upload> and commented: It's real. Straight from Maryland.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-06-09 10:42:37</div>
+            <div class="msg">what is that?  and why is it real?  should i know this logo?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-09 11:06:10</div>
+            <div class="msg">Up in the thread a bit I said I applied to get a free-to-me Under Armour Band fitness tracker from a pilot program called "Military Wellness Initiative." It was a whole thing where I had to verify my service and waive my HIPPA rights and I had no real guarantee it was a real thing and not a data collection scam. But today the fitness tracker arrived. 130 bucks charged to not-me.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-09 11:11:51</div>
+            <div class="msg">Great! So now what do you have to do?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-09 15:00:17</div>
+            <div class="msg">I'm not really sure. So far I haven't been able to get it to sync with my phone, but that's more of a <em>#technology</em> issue.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-06-09 21:42:56</div>
+            <div class="msg">@seekarete uploaded a file: <https://gwusbdhdu.slack.com/files/seekarete/F1FMQ1823/uarecorddashboard.jpg|\#UnderArmour *\#UARecord* \#RuleYourself></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-06-10 12:35:11</div>
+            <div class="msg">@brandon uploaded a file: <a href="https://gwusbdhdu.slack.com/files/brandon/F1FUNMM8V/img_20160610_115204545_hdr.jpg">2016-06-10_biketrailer.jpg</a> and commented: "Nice trailer, dude!" @connorgalleher</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-06-10 13:00:21</div>
+            <div class="msg">Glad it's still getting some use!</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>

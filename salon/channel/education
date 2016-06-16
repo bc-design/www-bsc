@@ -1,0 +1,3093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#education</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            #art
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            <span style="background-color: #ab9ba9">
+                #education
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            #health
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            #libations
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            #podcast
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            #professional
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            #society
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            #sustainability
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-04 15:26:29</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-09-04 16:53:00</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-09-04 18:56:22</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-09-04 20:34:57</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-09-19 12:12:46</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4e69b6194a652d4b767cd42219dbc314.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">mariagillespie</div>
+            <div class="time">2015-09-22 12:07:00</div>
+            <div class="msg">@mariagillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 10:34:29</div>
+            <div class="msg">@connorgalleher has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 11:48:57</div>
+            <div class="msg">There is an edX course through TU Delft regarding Industrial Biotechnology</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 11:49:37</div>
+            <div class="msg">Top performers are invited to submit a testimonial. One of those students will be flown out to Delft for a short course of their choosing over the summer</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 11:49:37</div>
+            <div class="msg"><a href="https://www.edx.org/course/industrial-biotechnology-delftx-ib01x">https://www.edx.org/course/industrial-biotechnology-delftx-ib01x</a><br /><br /><strong>Industrial Biotechnology</strong><br />Learn the basics of sustainable processing for biobased products to further understand their impact on global sustainability.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:50:18</div>
+            <div class="msg">holy. crap. wow.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 11:50:27</div>
+            <div class="msg">TU Delft is one of the leaders in the field and has a top notch ChemE program. One of the instructors for this course is on our advisory board at Genomatica</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:50:44</div>
+            <div class="msg">...so you're doing this, right? hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 11:50:49</div>
+            <div class="msg">yep!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:51:20</div>
+            <div class="msg">Awesome find - advertising to my dad's lab</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 11:53:03</div>
+            <div class="msg">Also one Biopharmaceutical Manufacturing via MIT</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2015-09-23 11:53:03</div>
+            <div class="msg"><a href="https://www.edx.org/course/making-biologic-medicines-patients-mitx-10-03x-0">https://www.edx.org/course/making-biologic-medicines-patients-mitx-10-03x-0</a><br /><br /><strong>Making Biologic Medicines for Patients: The Principles of Biopharmaceutical Manufacturing</strong><br />Learn how protein therapeutics are manufactured and explore the fundamental principles of biopharmaceutical manufacturing.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-09-23 11:53:49</div>
+            <div class="msg">education's going to be awesome soon</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/963914bd77f352a4f2ba6586fb881b81.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0007-72.png"/>
+        <div class="message">
+            <div class="username">bwoolston</div>
+            <div class="time">2015-09-23 21:36:48</div>
+            <div class="msg">@bwoolston has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-10-06 20:37:30</div>
+            <div class="msg">@matt.s.curtis has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-07 02:21:19</div>
+            <div class="msg"><a href="http://www.intechopen.com/">http://www.intechopen.com/</a> - "2,508 OPEN ACCESS BOOKS "<br /><br />InTechOpen is a leading global publisher of Journals and Books within the fields of Science, Technology and Medicine. We are the preferred choice of over 60,000 authors worldwide.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-11 20:43:56</div>
+            <div class="msg">MIT and the "MicroMasters degree"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-11 20:43:59</div>
+            <div class="msg"><a href="http://news.mit.edu/2015/online-supply-chain-management-masters-mitx-micromasters-1007">http://news.mit.edu/2015/online-supply-chain-management-masters-mitx-micromasters-1007</a><br /><br /><strong>Online courses + time on campus = a new path to an MIT master’s degree</strong><br />Pilot program reimagines admissions process, introduces “MicroMaster’s.”</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-11 20:44:25</div>
+            <div class="msg">the program in supply chain management is rolling out now, with more to follow!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-16 14:58:55</div>
+            <div class="msg">re:a previous discussion with @mbyron: <a href="http://i100.independent.co.uk/article/bilingual-children-earn-more-than-kids-who-only-speak-one-language--ZJbICLk6wg">http://i100.independent.co.uk/article/bilingual-children-earn-more-than-kids-who-only-speak-one-language--ZJbICLk6wg</a><br /><br /><strong>Bilingual children earn more than kids who only speak one language</strong><br />A new study has found that bilingual children of immigrants in the US could expect to earn between $2,000 and $5,000 more annually than children who speak only English.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-16 14:59:02</div>
+            <div class="msg">@mbyron has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-16 16:31:23</div>
+            <div class="msg">Question for those in the know regarding MOOCs.  Is there any software out there to handle grading in a distributed, crowd-sourced fashion?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-16 16:32:40</div>
+            <div class="msg">In particular I have an idea for a system that would be useful as a way to provide feedback to students in a course without large-scale intervention by instructors:</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-16 16:35:47</div>
+            <div class="msg">Students scan their assignment (or otherwise submit a PDF), and then students are randomly matched with other students' assignments (at least 2) and asked to grade the assignment.  Solutions are provided for reference at this point.  Students receive a completion score for grading their assigned submissions, and also get the educational feedback of seeing and assessing other students' work in the process.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-16 16:39:49</div>
+            <div class="msg">To provide some level of accountability for the grades being given, if two grades for an assignment differ by some threshold amount, then a flag is raised and an instructor takes a look.  If there is a problem with the grade given by one or more of the students, said students lose their grading completion score and perhaps a few points more.  The instructor can provide a definitive grade in this case.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-16 16:41:18</div>
+            <div class="msg">PDF annotation capability would be a nice touch.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-16 16:41:24</div>
+            <div class="msg">Anyone know if such a thing exists?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-16 18:19:09</div>
+            <div class="msg">I have heard of similar systems but don't recall where.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-16 18:19:41</div>
+            <div class="msg">It was something someone else was complaining about being stuck in...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-16 18:22:38</div>
+            <div class="msg">@brandon  I've seen conflicting research on this topic. Everyone seems to agree that learning English is currently worthwhile. Other languages are a maybe for learning especially at college prices. On the other hand if you happen to grow up with both....</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-19 08:51:29</div>
+            <div class="msg">file it away under "advantages of marrying a french canadian"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-19 14:40:36</div>
+            <div class="msg">other advantages include...?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-19 14:40:56</div>
+            <div class="msg">oh wait, duh</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-19 14:40:56</div>
+            <div class="msg"><a href="https://en.wikipedia.org/wiki/Poutine">https://en.wikipedia.org/wiki/Poutine</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-19 15:34:48</div>
+            <div class="msg">well, that and the cabin on this lake: <a href="http://mw2.google.com/mw-panoramio/photos/medium/384217.jpg">http://mw2.google.com/mw-panoramio/photos/medium/384217.jpg</a><br /></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-19 15:35:31</div>
+            <div class="msg">incidentally, also the site of this awesome feat: <a href="https://www.youtube.com/watch?v=Bfa9HrieUyQ">https://www.youtube.com/watch?v=Bfa9HrieUyQ</a><br /><br /><strong>Farthest flight by hoverboard - Guinness World Records</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-19 15:39:10</div>
+            <div class="msg">@bgillespie: I feel like some Coursera courses use a similar student self-grading process.  I remember going to a talk by Andrew Ng (Coursera founder) at CITRIS waaaay back in 2011, which was before Coursera even launched.  He talked about the feasibility of the MOOC model and the self-grading thing was a point that I remember.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-19 16:09:59</div>
+            <div class="msg">@bgillespie: I know lots of software for human-aided autograding, but I'm unfamiliar with any particular packages that enabling peer assessment</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-19 16:43:16</div>
+            <div class="msg">@mbyron: "Celine Dion currently owns a summer house on Lac Ouareau."<br /><a href="https://en.wikipedia.org/wiki/Lake_Ouareau">https://en.wikipedia.org/wiki/Lake_Ouareau</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-19 18:36:48</div>
+            <div class="msg">Yup, knew that. Never seen her there though...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-20 10:25:42</div>
+            <div class="msg">I've been collecting the DRM-free ebooks that I've accumulated over the years: <br /><a href="https://drive.google.com/folderview?id=0BybvIKZx9i0HfkF5Q2t2d2NtaWlmQ0JRMFZ5YmY1bTQxZERKbDh1MDNwU2hHaU54enZwWjQ&amp;usp=sharing\#list">https://drive.google.com/folderview?id=0BybvIKZx9i0HfkF5Q2t2d2NtaWlmQ0JRMFZ5YmY1bTQxZERKbDh1MDNwU2hHaU54enZwWjQ&amp;usp=sharing\#list</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-20 10:25:50</div>
+            <div class="msg">the MAKE Humble Bundle was <em>so good</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-10-20 12:37:59</div>
+            <div class="msg">Why you gotta do this to me, Brandon.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-20 13:05:48</div>
+            <div class="msg">because I want to destroy your life with goodness, Bryan</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-10-20 19:35:59</div>
+            <div class="msg">omnomnom</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-21 12:23:33</div>
+            <div class="msg">holy shit, @brandon.  thanks for sharing.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-21 12:31:33</div>
+            <div class="msg">The Unix folder is particularly tasty 🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-23 10:36:10</div>
+            <div class="msg">This buys Penn State a lot of points in my book: <a href="http://open.ems.psu.edu/">http://open.ems.psu.edu/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-23 10:40:06</div>
+            <div class="msg">Here's an example of a course, EGEE 439: Alternative Fuels from Biomass Source - <a href="https://www.e-education.psu.edu/egee439/">https://www.e-education.psu.edu/egee439/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-23 11:16:02</div>
+            <div class="msg">&lt;hmm, no snippets again&gt;</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-23 11:16:29</div>
+            <div class="msg">Ah, I thought you meant slack snippets</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-23 11:16:40</div>
+            <div class="msg">you mean the webpage previews</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-10-23 11:16:47</div>
+            <div class="msg">yeah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-23 11:18:08</div>
+            <div class="msg">@zach uploaded a file: <https://gwusbdhdu.slack.com/files/zach/F0D3KS7C0/This_is_a_snippet.js|This is a snippet></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-10-23 11:18:37</div>
+            <div class="msg">snippets are bad though — the formatting is wonky</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-23 12:26:53</div>
+            <div class="msg">Q: how much do we love Richard Alley</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-23 12:26:55</div>
+            <div class="msg">A: SO MUCH</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2015-10-23 12:29:33</div>
+            <div class="msg">@mbyron: I took his Coursera class. I... did not give it my full attention.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-23 12:33:06</div>
+            <div class="msg">I leave this here with no further comment: <a href="https://www.youtube.com/watch?v=fq22bVmxfuk">https://www.youtube.com/watch?v=fq22bVmxfuk</a><br /><br /><strong>Ring of Fire (psurockvideo)</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2015-10-23 12:34:18</div>
+            <div class="msg">(also, I have fond childhood memories of playing an extraordinarily complex variant of Bananagrams at his house with Karen and Janet, who  every time they were losing somehow remembered new rules to the game)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/b10e78515203ad47dc5d28d9f3c2384a.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-72.png"/>
+        <div class="message">
+            <div class="username">galenlynch</div>
+            <div class="time">2015-11-06 15:10:39</div>
+            <div class="msg">@galenlynch has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-17 15:28:24</div>
+            <div class="msg">Educational materials created with tax dollars? They should be open-access!<br /><a href="https://www.eff.org/deeplinks/2015/11/tell-us-department-education-open-licensing-matters">https://www.eff.org/deeplinks/2015/11/tell-us-department-education-open-licensing-matters</a><br /><br /><strong>Tell the U.S. Department of Education: Open Licensing Matters</strong><br />The U.S. Department of Education is considering a rule change that would make the educational resources the Department funds a lot more accessible to educators and students—not just in the U.S., but around the world. We hope to see it adopted, and that it sets the standard for similar policies at other government agencies.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:33:08</div>
+            <div class="msg">battling old academics over how to structure a hackathon for the AIChE student conferences next year...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:34:00</div>
+            <div class="msg">"the industry representatives I talked to were uncomfortable with the term 'hack-a-thon', and suggested we change the name to 'app-a-thon'" @bgillespie @zach</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-18 15:34:55</div>
+            <div class="msg">hahaha <em>purge them</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-18 15:35:21</div>
+            <div class="msg">🔥</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:36:08</div>
+            <div class="msg">my reply: "sure, except _what the fuck is an appathon?_?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:36:26</div>
+            <div class="msg">also, 'app' (to me) summons images of teams of programmers and designers, months of work, beta testing, pitch decks...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:37:48</div>
+            <div class="msg">you don't call a half-day informal hackathon an "app development competition"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:38:15</div>
+            <div class="msg">'hackathon' (to me) makes me think of a bunch of people eating pizza and learning new tools</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:41:05</div>
+            <div class="msg">"I think we should keep it in Excel so that they don't require any specialized tools"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-18 15:41:47</div>
+            <div class="msg">wow i have never wanted to <strong>not</strong> go to something so much</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:41:52</div>
+            <div class="msg">my reply: "sure, except <em>Excel is a specialized proprietary tool</em> (and a shitty one at that)"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:42:07</div>
+            <div class="msg">also, you just clarified what an appathon is:</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:42:18</div>
+            <div class="msg">it's where you all get together and do <em>a homework problem</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:42:19</div>
+            <div class="msg">...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:42:23</div>
+            <div class="msg">IN EXCEL</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:42:26</div>
+            <div class="msg">!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:42:53</div>
+            <div class="msg">I'm sure that will get the undergrads all excited.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:43:10</div>
+            <div class="msg">How old is old?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:43:22</div>
+            <div class="msg">fifties or so</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-18 15:43:38</div>
+            <div class="msg">clearly not an MIT guy</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2015-11-18 15:43:41</div>
+            <div class="msg">🙂</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:44:45</div>
+            <div class="msg">Yeah, I feel like there are a subset of old people who are actually pretty awesome and still on top of new advances.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:44:49</div>
+            <div class="msg">Roanoke</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:44:51</div>
+            <div class="msg">whereverthefuck that is</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:45:02</div>
+            <div class="msg">But there are really a lot that aren't.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-18 15:45:24</div>
+            <div class="msg">I wonder what the difference is.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:45:48</div>
+            <div class="msg">I described the effect above</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:46:17</div>
+            <div class="msg">ambition + perverse incentives + race-to-the-bottom</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-18 15:50:00</div>
+            <div class="msg">supply:demand means you still have people selling their souls to work at <em>Roanoke</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-19 23:25:59</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=T2RAK9Noubs">https://www.youtube.com/watch?v=T2RAK9Noubs</a><br /><br /><strong>Realtime Data Acquisition and Plotting with Arduino and Python</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 06:57:12</div>
+            <div class="msg">Anyone used a generic Arduino clone?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 10:41:16</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=0jjFjC30-4A&amp;t=6m40s">https://www.youtube.com/watch?v=0jjFjC30-4A&amp;t=6m40s</a><br /><br /><strong>Brian Greene Explains That Whole General Relativity Thing</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-20 10:41:34</div>
+            <div class="msg">the last minute, YES</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-20 10:49:15</div>
+            <div class="msg">I understood all those words. 😐</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-22 14:38:58</div>
+            <div class="msg">For something a little bit different,</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-22 14:38:59</div>
+            <div class="msg"><a href="http://www.pbs.org/newshour/updates/spring-fever/">http://www.pbs.org/newshour/updates/spring-fever/</a><br /><br /><strong>The case for starting sex education in kindergarten</strong><br />In the Netherlands, the approach, known as “comprehensive sex education,” starts as early as age 4. You'll never hear an explicit reference to sex in a kindergarten class. The goal is bigger than that. It’s about having open, honest conversations about love and relationships.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-22 16:22:14</div>
+            <div class="msg">The dutch are always so practical</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-22 17:33:34</div>
+            <div class="msg">&gt; They also learn about different types of families, what it means to be a good friend, and that a baby grows in a mother’s womb.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-22 17:33:41</div>
+            <div class="msg"><strong>Disgusting.</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-22 17:36:28</div>
+            <div class="msg">FILTH</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-22 20:02:23</div>
+            <div class="msg">Kids are supposed to have a confusing, potentially scaring, drawn out learning process. Teaching life skills is imposing liberal ideology</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 00:25:58</div>
+            <div class="msg">Speaking for myself, I've never heard any talk of "sexuality" in a classroom until my senior year in undergrad.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 00:27:53</div>
+            <div class="msg">And even in a sociology course, it was so fleetingly superficial and focused on shock factor that there was nothing to actually be learned.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 00:33:17</div>
+            <div class="msg">What's with all the taboo... can someone clue me in?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2015-11-23 05:33:01</div>
+            <div class="msg">Fear mostly, a little yuck factor, and a system which has to provide to the lowest common denominator.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-23 09:07:30</div>
+            <div class="msg">I mean, the standard response to this is usually "puritanical religious views", but then the Dutch had strong Christian influences through the same eras.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-23 09:07:37</div>
+            <div class="msg"><a href="https://en.wikipedia.org/wiki/Sex_education_in_the_United_States#Role_of_religion_in_abstinence-only_sex_education">https://en.wikipedia.org/wiki/Sex_education_in_the_United_States#Role_of_religion_in_abstinence-only_sex_education</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-23 09:07:44</div>
+            <div class="msg"><a href="https://en.wikipedia.org/wiki/History_of_religion_in_the_Netherlands#Reformation">https://en.wikipedia.org/wiki/History_of_religion_in_the_Netherlands#Reformation</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-23 09:08:49</div>
+            <div class="msg">So I guess... history and culture is complicated.  There.  I said it.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 12:15:48</div>
+            <div class="msg">It's weird... there are certain subsections of things we consider to be so integral to the human experience that we don't want to talk about them in realistic terms.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 12:16:10</div>
+            <div class="msg">And on one hand, with a given amount of time, you can only try to cover so much that's going to be meaningful to everyone. That's fair enough.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 12:25:03</div>
+            <div class="msg">But on the other hand, it's pretty dehumanizing to those low proportion people that don't have the same experience.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 12:25:16</div>
+            <div class="msg">Not really sure where the solution actually lies.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 12:27:25</div>
+            <div class="msg">backspace education. start over.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 13:17:46</div>
+            <div class="msg">Yeah, then again... what proportion of high school students are actually going to use their awesome trig knowledge?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:18:59</div>
+            <div class="msg">what passes for "education" right now is misguided and horrifically inefficient</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:19:19</div>
+            <div class="msg">at best it imparts facts</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:19:37</div>
+            <div class="msg">at worst it kills interest</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 13:24:45</div>
+            <div class="msg">I've been thinking about it...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 13:25:19</div>
+            <div class="msg">I'm pretty sure I did nothing school related in all of middle school.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 13:25:37</div>
+            <div class="msg">I taught myself how to program my calculator...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 13:26:01</div>
+            <div class="msg">I read a hell of a lot of books over the incredibly loud monotone lecturing.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 13:27:06</div>
+            <div class="msg">I just don't know if I actually... learned anything new? And I'm honestly not sure how that's possible. There should have been new things.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:30:07</div>
+            <div class="msg">it's a slow grind through a lot of pointless stuff</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:30:34</div>
+            <div class="msg">there isn't much tracking by middle school</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:31:11</div>
+            <div class="msg">best case you're grouped with the top third of your class or something</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:32:06</div>
+            <div class="msg">which means wasting a looot of time on the dummies</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 13:35:21</div>
+            <div class="msg">if you're in the top few percent, factory farm education is guaranteed to be a huge waste of your time</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 14:00:36</div>
+            <div class="msg">But even then... I'm pretty sure we learned about US history and atoms (Bohr model only) like... 30 times.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 14:01:06</div>
+            <div class="msg">igneous...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 14:01:11</div>
+            <div class="msg">sedimentary...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 14:01:18</div>
+            <div class="msg">metamorphic...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-23 14:01:22</div>
+            <div class="msg">are those even a thing?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 14:11:01</div>
+            <div class="msg">Yeah, sort of.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-11-22/15112443014_3e90e88fe093a24e9507_72.jpg"/>
+        <div class="message">
+            <div class="username">matt.s.curtis</div>
+            <div class="time">2015-11-23 14:11:25</div>
+            <div class="msg">(I live with geology PhD students.)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-24 20:31:30</div>
+            <div class="msg">I'm getting set up to contribute lesson materials to Software Carpentry</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-24 20:32:08</div>
+            <div class="msg">They have a pretty slick standardized lesson format and a crew of volunteer workshop people</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-24 22:23:38</div>
+            <div class="msg">What sorts of lesson materials are you putting together?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-24 22:47:49</div>
+            <div class="msg">Python for Engineers</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-24 23:13:27</div>
+            <div class="msg">Nice.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-24 23:13:55</div>
+            <div class="msg">SciPy?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-24 23:45:59</div>
+            <div class="msg">Including, but not limited to!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-11-24 23:46:14</div>
+            <div class="msg">Very interested in physical computing applications</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-24 23:46:27</div>
+            <div class="msg">All the differential equations?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-24 23:47:30</div>
+            <div class="msg">I'd be interested in taking a look at what you come up with at some point.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2015-11-24 23:48:00</div>
+            <div class="msg">I'm always interested in having a more complete picture of the Broader Python Ecosystem.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/56f108db2974a1dbc68b2a93763a7477.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">clara</div>
+            <div class="time">2015-12-01 12:13:25</div>
+            <div class="msg">@clara has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-02 15:48:05</div>
+            <div class="msg">@brandon uploaded a file: <a href="https://gwusbdhdu.slack.com/files/brandon/F0FPS0U7Q/command-line.png">command-line.png</a> and commented: I had a class with her at Penn State. A faculty member now, very impressive: <a href="https://sites.google.com/site/mwilsonsayres/">https://sites.google.com/site/mwilsonsayres/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-18 00:59:56</div>
+            <div class="msg">FINALLY, a discussion of dark matter that includes an overview of the existential evidence! <a href="https://www.youtube.com/watch?v=9W3RsaWuCuE&amp;index=41&amp;list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL">https://www.youtube.com/watch?v=9W3RsaWuCuE&amp;index=41&amp;list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL</a><br /><br /><strong>Dark Matter: Crash Course Astronomy #41</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2015-12-31 02:08:05</div>
+            <div class="msg">"Why do we leave material out of classes and then fail students who can’t figure out that material for themselves? Why do we make the first couple years of an engineering major some kind of hazing ritual, instead of simply teaching people what they need to know to be good engineers? For all the high-level talk about how we need to plug the leaks in our STEM education pipeline, not only are we not plugging the holes, we’re proud of how fast the pipeline is leaking."<br /><a href="http://danluu.com/teach-debugging/">http://danluu.com/teach-debugging/</a><br /><br />In the fall of 2000, I took my first engineering class: ECE 352, an entry-level digital design class for first-year computer engineers. It was …</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-01-02 12:12:15</div>
+            <div class="msg">Preach. This attitude puzzles and infuriates me.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-01-02 19:30:21</div>
+            <div class="msg">This is similar to what I decided after teaching chemistry. The memorization they could already handle. Problem solving and stoichiometry should have been my focus.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-01-19 09:59:46</div>
+            <div class="msg">MIT's micromasters program through edX is about to start!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-01-19 09:59:47</div>
+            <div class="msg"><a href="https://www.edx.org/course/sc1x-supply-chain-fundamentals-mitx-mitx-ctl-sc1x">https://www.edx.org/course/sc1x-supply-chain-fundamentals-mitx-mitx-ctl-sc1x</a><br /><br /><strong>SC1x Supply Chain Fundamentals: MITx MicroMaster's Credential in Supply Chain Management</strong><br />Learn fundamental concepts for logistics and supply chain management from both analytical and practical perspectives.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-19 10:11:17</div>
+            <div class="msg">the future of education 😄</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-01-28 13:07:27</div>
+            <div class="msg"><a href="http://tech.mit.edu/V135/N38/ortiz.html">http://tech.mit.edu/V135/N38/ortiz.html</a><br /><br />Professor Christine Ortiz is stepping down from her post as dean for graduate education to found a new residential research university.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-28 13:40:12</div>
+            <div class="msg">!!!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-28 13:40:44</div>
+            <div class="msg">Zach, we need to start an education institute</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-01-28 13:43:00</div>
+            <div class="msg">yeah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-01-28 13:43:02</div>
+            <div class="msg">we do</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-28 13:47:10</div>
+            <div class="msg">the required overhead's only getting cheaper</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-29 16:16:10</div>
+            <div class="msg">This is interesting: <a href="https://www.expii.com">https://www.expii.com</a><br /><br /><strong>expii</strong><br />Expii is a free, open, and interactive platform for crowdsourced explanations and practice problems in math and science.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-01-29 16:50:40</div>
+            <div class="msg">Where did find out about expii, @brandon?  Maria was involved in it (low time-commitment employee) for about a year and a half.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-30 12:13:49</div>
+            <div class="msg">@bgillespie: Ylaine Gerardin is now too. Saw it on her LinkedIn!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-01-30 12:49:01</div>
+            <div class="msg">PhD crisis discourse: a critical approach to the framing of the problem and some Australian 'solutions'</p><br /><br /><p>"Following an examination of three Australian institutional responses, we<br />conclude that the crisis discourse signals tensions surrounding the PhD: should achievement<br />in doctoral education be measured by outcomes in intellectual excellence or the responsiveness<br />of qualification to the current needs and priorities of society?"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-17 08:55:36</div>
+            <div class="msg"><a href="http://thetab.com/us/pennstate/2016/02/16/dear-high-schoolers-dont-go-to-penn-state-3255">http://thetab.com/us/pennstate/2016/02/16/dear-high-schoolers-dont-go-to-penn-state-3255</a><br /><br /><strong>'Dear high school seniors, Don't go to Penn State'</strong><br />This article is four years of frustration in the making</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 10:39:38</div>
+            <div class="msg">my article title would be something like "don't trust anyone's advice about how you should handle your education", but *reading</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:05:10</div>
+            <div class="msg">&gt; "In high school I found it hard to relate to my peers because I had big dreams, and <em>I thought maybe college would be a haven of like-minded people with similar dreams</em>. I did find a couple of these people, but the truth about going to a big state school is that big dreams are not the goal. Penn State’s goal is to educate me and get me employed. Penn State’s goal is to make me a favorable statistic. It is not, in any way, to empower me to be a creative individual."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:05:33</div>
+            <div class="msg">to be fair, I had the same preconception about Penn State<br />and about high school, and middle school before that</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:05:38</div>
+            <div class="msg">and about the Schreyer Honors College</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:05:44</div>
+            <div class="msg">and about grad school and UC Berkeley</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:06:50</div>
+            <div class="msg">but I figured out that it wasn't the case within my first six or so months at Penn State</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:07:00</div>
+            <div class="msg">and my first two or three months at Berkeley</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:08:46</div>
+            <div class="msg">It's not the schools' goal, and though I totally agree that there is huge room for the schools to improve on their methods, I really don't think it's the schools' job</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:13:18</div>
+            <div class="msg">If the primary source of value and existential meaning that I extracted from Penn State was the distillate of 212 credits' worth of syllabi bullet points and ABET objectives, I would be pretty sad too</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:16:26</div>
+            <div class="msg">but it wasn't!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:19:43</div>
+            <div class="msg">and I think it did a reasonably good job of preparing me for the wider universe—no seatbelts, no guardrails</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:20:59</div>
+            <div class="msg">that doesn't give a shit about my "big dreams" and "empowerment", but nevertheless contains the tools and the resources I need to make them happen</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:23:41</div>
+            <div class="msg">And that's exactly how I'll frame it for the prospective graduate students who are visiting this weekend</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:25:49</div>
+            <div class="msg">graduate school is not what you think it is—it is mostly a system for extracting high-value labor from very smart people for nearly free</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:26:11</div>
+            <div class="msg">but the resource density of such an operation is kind of insane</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:28:27</div>
+            <div class="msg">and if you are smart enough to realize that, and you step away from stamping license plates long enough to take advantage of those resources, you have access to stuff here that you can't get anywhere else</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:31:54</div>
+            <div class="msg">The relationship in the corporate world is even more blatantly transactional, so you better figure out how to navigate that!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:34:09</div>
+            <div class="msg">(sidenote re:this article, this person paid a LOT of time and money to have a bad time... so why didn't they transfer?)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-17 16:35:13</div>
+            <div class="msg">I think they must have had parental pressure.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:35:32</div>
+            <div class="msg">if you want weirdness, go to an Oberlin or a UC Santa Cruz</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-17 16:35:54</div>
+            <div class="msg">Pitt would have given them about the same big-school resources but greater access to the art and political community of a city they seem to crave.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:36:27</div>
+            <div class="msg">&gt; "I was in junior year before I found a club I liked"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:36:40</div>
+            <div class="msg">I tried out, like, a dozen clubs my first year</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:38:11</div>
+            <div class="msg">you could get a degree in Outing Club if you wanted to</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:38:14</div>
+            <div class="msg">(and some people did)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:38:46</div>
+            <div class="msg">tons of people made THON or Student Government their lives</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:39:38</div>
+            <div class="msg">I liked to say "if you're bored, you're wrong", and I stick by that</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:41:19</div>
+            <div class="msg">&gt; "Penn State hands us a basic program and asks us to operate accordingly. There is no room for anything else."</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:42:46</div>
+            <div class="msg">I spent most of my time doing non-course-related things (a model @bwoolston is very familiar with), so I don't know what that's supposed to mean</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:44:22</div>
+            <div class="msg">if 15 credits is that taxing, c'est la vie I guess</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-17 16:45:30</div>
+            <div class="msg">Well some people need to put in more work to succeed in their classes. I don't think that's a PSU-unique issue, though.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-17 16:46:44</div>
+            <div class="msg">I was more intrigued by the positive support he/she received the first time this was posted. I wonder how much of the current students feel similarly.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:47:44</div>
+            <div class="msg">I tutored tons of people who were failing miserably to run their own shit, so I bet it's common</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:49:02</div>
+            <div class="msg">I'm surprised Penn State doesn't run some sort of Campus Climate Survey to crowdsource the identification and prevention of those feelings</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-17 16:49:30</div>
+            <div class="msg">people feeling that way is bad for business</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-17 16:54:10</div>
+            <div class="msg">I suspect there's always been a 5-10% that's crabby/dissatisfied by their university experience. University leadership just expects it. The complainers just have easier access to publish/find an audience.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-02-17 22:36:01</div>
+            <div class="msg">This person clearly didn't learn much, though-- the writing in the piece is abysmal.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-25 15:34:27</div>
+            <div class="msg">sugar + potassium nitrate = really awesome childhood <a href="http://makezine.com/projects/make-35/homemade-sugar-rocket/">http://makezine.com/projects/make-35/homemade-sugar-rocket/</a><br /><br /><strong>Homemade Potassium Nitrate and Sugar Rocket | Make:</strong><br />In this project, you’ll combine granulated sugar and potassium nitrate to make a powerful engine that can propel a small sugar rocket to impressive heights.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-25 17:07:59</div>
+            <div class="msg">reminds me of high school. The shit they actually paid to let us do.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-25 17:15:06</div>
+            <div class="msg">And look at us all now: Socially destructive slackers.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-25 17:16:30</div>
+            <div class="msg">Quick check on amazon and it looks like this would be cheaper for larger motor sizes.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:45:59</div>
+            <div class="msg">@channel: I would like to propose a <strong>DISCUSSION</strong> (similar to @bgillespie's on corporations-as-organisms) on <strong>Trends in US University Administrative Costs</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:46:52</div>
+            <div class="msg">this is a topic that people often bring up with discussing education financing and debt, &amp;etc &amp;etc</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:47:17</div>
+            <div class="msg">but I have yet to meet someone who has been able to convince me that they actually know anything about this</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:47:41</div>
+            <div class="msg">I don't know anything about it, I'm just aware that this position is a thing</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:49:17</div>
+            <div class="msg">so I propose we evaluate the hypothesis:<br />&gt; _"Administrative costs represent the majority of the increase in US university education costs in the period 1995-2015"_</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:49:45</div>
+            <div class="msg">and we attempt to, like, find some graphs and stuff.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:50:09</div>
+            <div class="msg">and answer questions like "what kind of administrative costs are increasing, and why?"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:50:26</div>
+            <div class="msg">the Washington Post published something about this a couple months ago, and I didn't get around to reading it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:50:34</div>
+            <div class="msg"><a href="https://www.washingtonpost.com/opinions/four-tough-things-universities-should-do-to-rein-in-costs/2015/11/25/64fed3de-92c0-11e5-a2d6-f57908580b1f_story.html">https://www.washingtonpost.com/opinions/four-tough-things-universities-should-do-to-rein-in-costs/2015/11/25/64fed3de-92c0-11e5-a2d6-f57908580b1f_story.html</a><br /><br /><strong>Four tough things universities should do to rein in costs</strong><br />Controlling spending requires fundamental changes in the way colleges are run.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 14:50:43</div>
+            <div class="msg">There was definitely a very informative and well sourced article about this recently</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:50:47</div>
+            <div class="msg">this article has a large number of links, so it could be a good place to start</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 14:51:50</div>
+            <div class="msg">I am trying to remember which publication had this article. It wasn't the Washington Post but was something with similar visibility</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:52:24</div>
+            <div class="msg">I would be very interested, if you can find it!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:52:57</div>
+            <div class="msg">I propose we do a bit of reading on our own and have a discussion in a week or so</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:53:27</div>
+            <div class="msg">add emoji here if you're interested; indicate availability here: <a href="http://www.when2meet.com/?4509246-aX2EQ">http://www.when2meet.com/?4509246-aX2EQ</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 14:55:06</div>
+            <div class="msg">even if you can't make the discussion, reading suggestions and pre-discussion here is very much invited!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 15:02:51</div>
+            <div class="msg">a document for notes: <a href="https://docs.google.com/document/d/1M5BzVqDpntFXu_BZluPKZf99PvFkhWyRrExiIT0-6sE/edit#">https://docs.google.com/document/d/1M5BzVqDpntFXu_BZluPKZf99PvFkhWyRrExiIT0-6sE/edit#</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 15:02:53</div>
+            <div class="msg">@brandon shared a file: <https://gwusbdhdu.slack.com/files/brandon/F0Q0VRGPL/salon-universityadministrativecosts|Salon - University Administrative Costs></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:12:23</div>
+            <div class="msg">I have so many issues with this wapo article</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:13:54</div>
+            <div class="msg">I'll try to come up with more coherent thoughts later but here are some red flags that stuck out to me:<br />1. Repeated citing of the same sources (Carol Twigg, the Delta Project) indicates either laziness or an underlying agenda</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:14:41</div>
+            <div class="msg"><ol><li>Author's lack of background not only in higher education, but in education at all</li><br /></ol></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:15:47</div>
+            <div class="msg"><ol><li>Underlying assumption that universities are for teaching, and that research is a lie that academics tell to get out of teaching</li><br /></ol></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:16:59</div>
+            <div class="msg">and 4. The strange assertion that good research will always result in something someone else wants to read, thus implying that research projects never fail and that hypotheses that don't work out shouldn't be published</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:18:11</div>
+            <div class="msg">Anyway, more on this later. Lots of issues with university costs, and lots of waste, and lots of shit research getting put out, but this article doesn't do a great job summarizing or pointing them out imo</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 15:18:55</div>
+            <div class="msg">must... find... better article...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:28:03</div>
+            <div class="msg">This might be the one I'm thinking of, but it's short on links to external sources: <a href="http://mobile.nytimes.com/2015/04/05/opinion/sunday/the-real-reason-college-tuition-costs-so-much.html?referer=&amp;_r=0">http://mobile.nytimes.com/2015/04/05/opinion/sunday/the-real-reason-college-tuition-costs-so-much.html?referer=&amp;_r=0</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:28:32</div>
+            <div class="msg">Also it's shorter and doesn't really propose solutions to the problem</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-10-02/11798376245_7a8dd6451da749caeebb_72.jpg"/>
+        <div class="message">
+            <div class="username">mbyron</div>
+            <div class="time">2016-03-02 15:29:28</div>
+            <div class="msg">But I would be interested in reading more about the central claim, which is that "public spending on higher education hasn't actually been meaningfully decreased"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 15:33:19</div>
+            <div class="msg">that's interesting, I haven't encountered that claim before</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-02 15:43:40</div>
+            <div class="msg">Interested, but I'm gonna be busy for like the next week. Midterms, finishing the yard/workshop, then parents fly in for a few days.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-04 09:34:10</div>
+            <div class="msg">Here's an article (if anyone is a subscriber to the Chronicle of Higher Education)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-04 09:34:12</div>
+            <div class="msg"><a href="http://chronicle.com/article/Administrative-Bloat-How-Much/135500/">http://chronicle.com/article/Administrative-Bloat-How-Much/135500/</a><br /><br /><strong>Administrative Bloat: How Much Is Enough?</strong><br />In the long-running debate over how many administrators are too many, two economic researchers believe they've identified an ideal ratio.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-04 09:38:35</div>
+            <div class="msg">And another: <a href="http://www.huffingtonpost.com/2014/02/06/higher-ed-administrators-growth_n_4738584.html">http://www.huffingtonpost.com/2014/02/06/higher-ed-administrators-growth_n_4738584.html</a><br /><br /><strong>'It's A Lie. It's A Lie. It's A Lie'</strong><br />The number of non-academic administrative and professional employees at U.S. colleges and universities has more than doubled in the last 25 years, vastly...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-04 12:16:56</div>
+            <div class="msg">I'm hoping these articles discuss WHERE admins are being hired</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-04 12:17:10</div>
+            <div class="msg">because 'administration' could be literally anything</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-04 17:00:39</div>
+            <div class="msg"><a href="http://www.nature.com/news/how-to-build-a-better-phd-1.18905">http://www.nature.com/news/how-to-build-a-better-phd-1.18905</a><br /><br /><strong>How to build a better PhD</strong><br />There are too many PhD students for too few academic jobs — but with imagination, the problem could be solved.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-05 06:09:43</div>
+            <div class="msg">And that is partly why I didn't go for it</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-08 12:44:16</div>
+            <div class="msg">Parents are visiting for Spring Break: learning so much about how State High is going. Googledoc/calendar integration. All students get chromebooks issued starting in middle school.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 12:46:01</div>
+            <div class="msg">whoaaa</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 12:46:10</div>
+            <div class="msg">how is that going, in their opinions?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-08 12:51:03</div>
+            <div class="msg">Seems like it varies by subject and teacher: good for math &amp; social studies, less so for chem. My mom is certified as a learning support paraprofessional, so she's not rolling with the cream of the crop.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-08 12:52:12</div>
+            <div class="msg">This is the first year for all-chromebooks; some previous classes had macs.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 12:53:07</div>
+            <div class="msg">Macs seem like a crazy-huge expense without a commensurate payback</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 12:53:20</div>
+            <div class="msg">of course I would have them using Ubuntu 😉</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-08 12:53:29</div>
+            <div class="msg">edubuntu?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 12:53:42</div>
+            <div class="msg">yeah! learn how to manage their own computing environment</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 12:53:48</div>
+            <div class="msg">eh @lindsayad, @sean.mac?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/f67fd1992c225ab18eca144de0238646.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">lindsayad</div>
+            <div class="time">2016-03-08 12:53:51</div>
+            <div class="msg">@lindsayad has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-27/23396463141_2ca0634b50ad68f0fb37_72.jpg"/>
+        <div class="message">
+            <div class="username">sean.mac</div>
+            <div class="time">2016-03-08 12:53:52</div>
+            <div class="msg">@sean.mac has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-08 13:03:01</div>
+            <div class="msg"><a href="https://www.google.com/edu/products/productivity-tools/classroom/">https://www.google.com/edu/products/productivity-tools/classroom/</a>?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 13:05:35</div>
+            <div class="msg">@seekarete what about Google Classroom?  I've actually played with those tools in a class I TA'ed a few semesters ago</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 13:06:07</div>
+            <div class="msg">'twas a little janky to start, but it's coming together</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 13:06:13</div>
+            <div class="msg">doesn't require a Chromebook</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-08 13:06:38</div>
+            <div class="msg">My dad just started using. Many teachers are, but I guess it's not mandatory.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 13:06:58</div>
+            <div class="msg">it's useful for quickly providing feedback</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 21:30:17</div>
+            <div class="msg">I met a friend of @connorgalleher tonight who says she has a good article about educational administrative costs! Connor, can you post?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-13 21:57:50</div>
+            <div class="msg">Sure thing (once it materializes)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 22:05:37</div>
+            <div class="msg">Also re:conversation with @connorgalleher and co tonight, this is an interesting site: <a href="http://businessofcollegesports.com/">http://businessofcollegesports.com/</a><br /><br /><strong>- The latest news and original analysis on the business of college sports...</strong><br />The latest news and original analysis on the business of college sports...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 22:06:18</div>
+            <div class="msg">in 2013-2014, Penn State football had $59MM in revenue and $30MM in profit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 22:06:48</div>
+            <div class="msg">Berkeley had $38MM in revenue and $15MM in profit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-13 22:07:04</div>
+            <div class="msg">(we were talking about how Berkeley loses money on its sports programs)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-14 17:06:06</div>
+            <div class="msg">@brandon:  Looks like the article she referenced is the same one that @mbyron posted from the NY Times</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-14 17:08:51</div>
+            <div class="msg">There might be some good data in UC Berkeley's Campus Budget Office Website:</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-14 17:08:53</div>
+            <div class="msg"><a href="http://budget.berkeley.edu/">http://budget.berkeley.edu/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-14 17:15:13</div>
+            <div class="msg">UC office of the president budget website:</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-12-04/15973200194_a937ffddeb34f8278cf0_72.jpg"/>
+        <div class="message">
+            <div class="username">connorgalleher</div>
+            <div class="time">2016-03-14 17:15:13</div>
+            <div class="msg"><a href="http://www.ucop.edu/operating-budget/">http://www.ucop.edu/operating-budget/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-16 09:22:49</div>
+            <div class="msg"><a href="https://www.facebook.com/brandon.s.curtis/posts/3280865668604">https://www.facebook.com/brandon.s.curtis/posts/3280865668604</a><br /><br /><strong>Brandon Curtis - Mr. Money Mustache nails it.  Get your... | Facebook</strong><br />Mr. Money Mustache nails it. Get your kid a Raspberry Pi for $50 and give them the gift of Linux. When you know computers FOR SERIOUS, you will ALWAYS...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-16 17:39:03</div>
+            <div class="msg">Did you ghostwrite this article, brandon? 😉</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-16 21:06:37</div>
+            <div class="msg">I wrote something in the same vein a few years ago: <a href="http://www.andhigherstill.com/2013/10/my-investments-skills.html">http://www.andhigherstill.com/2013/10/my-investments-skills.html</a><br /><br /><strong>My Investments: Skills | And Higher Still</strong><br />Don't just pay to have everything done for you—investing in your own capabilities is JUST as important, it not moreso, as investing the money you save.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-16 21:07:08</div>
+            <div class="msg">Telling you man, we're kindred spirits :)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-17 17:57:59</div>
+            <div class="msg"><a href="https://medium.com/@PaulGowder/ssrn-has-been-captured-by-the-enemy-of-open-knowledge-b3e5bca6751d#.qndame1sj">https://medium.com/@PaulGowder/ssrn-has-been-captured-by-the-enemy-of-open-knowledge-b3e5bca6751d#.qndame1sj</a><br /><br /><strong>SSRN has been captured by the enemy of open knowledge.</strong><br />Elsevier just bought SSRN. Here’s why you should be upset, and what we can do about it.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-17 18:40:42</div>
+            <div class="msg">first Mendeley, now this 😞</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/d8e11cf2deea38a7afaf3c3aa474b3f8.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">jim</div>
+            <div class="time">2016-06-13 13:47:24</div>
+            <div class="msg">@jim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>

@@ -4,210 +4,210 @@
     <meta charset="UTF-8">
     <title>#uber</title>
     <link rel=stylesheet type=text/css
-          href="static/viewer.css">
+          href="../static/viewer.css">
 </head>
 <body>
 <div id="fixed">
     <h3>Channels</h3>
     
         
-        <a href="channel/_general">
+        <a href="_general">
             #_general
         </a>
         
         <br />
     
         
-        <a href="channel/_introductions">
+        <a href="_introductions">
             #_introductions
         </a>
         
         <br />
     
         
-        <a href="channel/_meta">
+        <a href="_meta">
             #_meta
         </a>
         
         <br />
     
         
-        <a href="channel/academia">
+        <a href="academia">
             #academia
         </a>
         
         <br />
     
         
-        <a href="channel/art">
+        <a href="art">
             #art
         </a>
         
         <br />
     
         
-        <a href="channel/bayarea">
+        <a href="bayarea">
             #bayarea
         </a>
         
         <br />
     
         
-        <a href="channel/bookclub">
+        <a href="bookclub">
             #bookclub
         </a>
         
         <br />
     
         
-        <a href="channel/deals">
+        <a href="deals">
             #deals
         </a>
         
         <br />
     
         
-        <a href="channel/diy">
+        <a href="diy">
             #diy
         </a>
         
         <br />
     
         
-        <a href="channel/education">
+        <a href="education">
             #education
         </a>
         
         <br />
     
         
-        <a href="channel/finance">
+        <a href="finance">
             #finance
         </a>
         
         <br />
     
         
-        <a href="channel/food">
+        <a href="food">
             #food
         </a>
         
         <br />
     
         
-        <a href="channel/health">
+        <a href="health">
             #health
         </a>
         
         <br />
     
         
-        <a href="channel/libations">
+        <a href="libations">
             #libations
         </a>
         
         <br />
     
         
-        <a href="channel/mathematics">
+        <a href="mathematics">
             #mathematics
         </a>
         
         <br />
     
         
-        <a href="channel/music">
+        <a href="music">
             #music
         </a>
         
         <br />
     
         
-        <a href="channel/podcast">
+        <a href="podcast">
             #podcast
         </a>
         
         <br />
     
         
-        <a href="channel/politics">
+        <a href="politics">
             #politics
         </a>
         
         <br />
     
         
-        <a href="channel/procurement">
+        <a href="procurement">
             #procurement
         </a>
         
         <br />
     
         
-        <a href="channel/productivity">
+        <a href="productivity">
             #productivity
         </a>
         
         <br />
     
         
-        <a href="channel/professional">
+        <a href="professional">
             #professional
         </a>
         
         <br />
     
         
-        <a href="channel/psa">
+        <a href="psa">
             #psa
         </a>
         
         <br />
     
         
-        <a href="channel/security">
+        <a href="security">
             #security
         </a>
         
         <br />
     
         
-        <a href="channel/society">
+        <a href="society">
             #society
         </a>
         
         <br />
     
         
-        <a href="channel/statecollege">
+        <a href="statecollege">
             #statecollege
         </a>
         
         <br />
     
         
-        <a href="channel/sustainability">
+        <a href="sustainability">
             #sustainability
         </a>
         
         <br />
     
         
-        <a href="channel/technology">
+        <a href="technology">
             #technology
         </a>
         
         <br />
     
         
-        <a href="channel/travel">
+        <a href="travel">
             #travel
         </a>
         
         <br />
     
         
-        <a href="channel/uber">
+        <a href="uber">
             <span style="background-color: #ab9ba9">
                 #uber
             </span>

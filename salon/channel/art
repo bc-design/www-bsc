@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#art</title>
+    <link rel=stylesheet type=text/css
+          href="../static/viewer.css">
+</head>
+<body>
+<div id="fixed">
+    <h3>Channels</h3>
+    
+        
+        <a href="_general">
+            #_general
+        </a>
+        
+        <br />
+    
+        
+        <a href="_introductions">
+            #_introductions
+        </a>
+        
+        <br />
+    
+        
+        <a href="_meta">
+            #_meta
+        </a>
+        
+        <br />
+    
+        
+        <a href="academia">
+            #academia
+        </a>
+        
+        <br />
+    
+        
+        <a href="art">
+            <span style="background-color: #ab9ba9">
+                #art
+            </span>
+        </a>
+        
+        <br />
+    
+        
+        <a href="bayarea">
+            #bayarea
+        </a>
+        
+        <br />
+    
+        
+        <a href="bookclub">
+            #bookclub
+        </a>
+        
+        <br />
+    
+        
+        <a href="deals">
+            #deals
+        </a>
+        
+        <br />
+    
+        
+        <a href="diy">
+            #diy
+        </a>
+        
+        <br />
+    
+        
+        <a href="education">
+            #education
+        </a>
+        
+        <br />
+    
+        
+        <a href="finance">
+            #finance
+        </a>
+        
+        <br />
+    
+        
+        <a href="food">
+            #food
+        </a>
+        
+        <br />
+    
+        
+        <a href="health">
+            #health
+        </a>
+        
+        <br />
+    
+        
+        <a href="libations">
+            #libations
+        </a>
+        
+        <br />
+    
+        
+        <a href="mathematics">
+            #mathematics
+        </a>
+        
+        <br />
+    
+        
+        <a href="music">
+            #music
+        </a>
+        
+        <br />
+    
+        
+        <a href="podcast">
+            #podcast
+        </a>
+        
+        <br />
+    
+        
+        <a href="politics">
+            #politics
+        </a>
+        
+        <br />
+    
+        
+        <a href="procurement">
+            #procurement
+        </a>
+        
+        <br />
+    
+        
+        <a href="productivity">
+            #productivity
+        </a>
+        
+        <br />
+    
+        
+        <a href="professional">
+            #professional
+        </a>
+        
+        <br />
+    
+        
+        <a href="psa">
+            #psa
+        </a>
+        
+        <br />
+    
+        
+        <a href="security">
+            #security
+        </a>
+        
+        <br />
+    
+        
+        <a href="society">
+            #society
+        </a>
+        
+        <br />
+    
+        
+        <a href="statecollege">
+            #statecollege
+        </a>
+        
+        <br />
+    
+        
+        <a href="sustainability">
+            #sustainability
+        </a>
+        
+        <br />
+    
+        
+        <a href="technology">
+            #technology
+        </a>
+        
+        <br />
+    
+        
+        <a href="travel">
+            #travel
+        </a>
+        
+        <br />
+    
+        
+        <a href="uber">
+            #uber
+        </a>
+        
+        <br />
+    
+</div>
+<div class="messages" id="fluid">
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-04 11:51:35</div>
+            <div class="msg">@zach has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-04 11:51:35</div>
+            <div class="msg">@zach set the channel purpose: Let’s talk art. Music, dance, sculpture, poetry, painting, drawing, photography, all the things.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-02-04 11:52:04</div>
+            <div class="msg">Cool kinetic sculptures: <a href="https://www.youtube.com/watch?time_continue=235&amp;v=1CNU3DQclGs">https://www.youtube.com/watch?time_continue=235&amp;v=1CNU3DQclGs</a><br /><br /><strong>Best compilation of Kinetic masterpieces by Anthony Howe.</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-07 12:15:39</div>
+            <div class="msg">@brandon has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-07 12:15:45</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=qV0I-iA5lJU">https://www.youtube.com/watch?v=qV0I-iA5lJU</a><br /><br /><strong>Local 58 - Contingency</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-02-07 12:16:18</div>
+            <div class="msg">@bgillespie has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-07 12:16:18</div>
+            <div class="msg">@bpl has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-07 12:16:18</div>
+            <div class="msg">@seekarete has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-08 20:52:16</div>
+            <div class="msg">as art... interesting. As a last ditch effort... if you can convince them all to commit suicide and they have fire arms why are they not dying in heroic resistance?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 20:54:09</div>
+            <div class="msg">because we must preserve the memory of liberty!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 20:54:17</div>
+            <div class="msg">America: unbeaten, unbroken</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 20:54:28</div>
+            <div class="msg">[assume the victory position]</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-08 21:00:01</div>
+            <div class="msg">enough suicidal people with guns ought to be able to at least take over the middle east and hold out for a significant period of time against ridiculously overwhelming forces...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 21:01:17</div>
+            <div class="msg">hmmm... hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 21:35:17</div>
+            <div class="msg">"If there is time... remember the 3 F's:"</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 21:35:22</div>
+            <div class="msg">• Front Lawn</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 21:35:26</div>
+            <div class="msg">• Face Up</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-02-08 21:35:30</div>
+            <div class="msg">• Feet Together</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-15 22:16:19</div>
+            <div class="msg"><a href="http://www.digitaltrends.com/home/microalgae-lamps-can-light-your-home-and-are-edible/#ixzz3dWGGpkpd">http://www.digitaltrends.com/home/microalgae-lamps-can-light-your-home-and-are-edible/#ixzz3dWGGpkpd</a><br /><br /><strong>Go green! These edible algae lamps could light your home</strong><br />Two designers have created a future-home display at th Museum of Contemporary Art that includes living algae-filled lamps that can be drained and eaten later.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-02-16 12:08:16</div>
+            <div class="msg">@bpl uploaded a file: <a href="https://gwusbdhdu.slack.com/files/bpl/F0MKASZEC/img_20160216_140653.jpg">Snow</a> and commented: Monona</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-19 14:12:46</div>
+            <div class="msg">Harper Lee died.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-02-19 16:27:00</div>
+            <div class="msg">And Umberto Eco too.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-02 15:23:27</div>
+            <div class="msg"><a href="http://www.bbc.com/news/magazine-35560458">http://www.bbc.com/news/magazine-35560458</a><br /><br /><strong>The man who made 'the worst video game in history' - BBC News</strong><br />The video game of ET has been blamed for destroying the tech company, Atari. Here the programmer, Howard Scott Warshaw, gives his personal account of the fiasco.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-02 20:41:32</div>
+            <div class="msg"><a href="http://www.gromm-it.com/">http://www.gromm-it.com/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-06 23:58:43</div>
+            <div class="msg">@seekarete, that's something verrrrry special.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-08 16:57:55</div>
+            <div class="msg"><a href="http://motherboard.vice.com/read/my-year-in-san-franciscos-2-million-secret-society-startup">http://motherboard.vice.com/read/my-year-in-san-franciscos-2-million-secret-society-startup</a><br /><br /><strong>My Year in San Francisco’s $2 Million Secret Society Startup</strong><br />The rise and fall of Latitude, an exclusive, for-profit underground society started by a wealthy backer, is a fable for modern Silicon Valley.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-08 16:58:00</div>
+            <div class="msg">xpost <em>#society</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 17:08:04</div>
+            <div class="msg">Started reading. This is the type of shit my sisters and I used to fantasize about setting up as kids. To much Myst and riven</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:07:57</div>
+            <div class="msg">Yeah. So basically the same issues as any secret or otherwise social club through the ages. Compounded in some cases by the mystery and the perceived importance, and by how expensive something with that kind of production value is</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:09:01</div>
+            <div class="msg">This is the type of shit that will get ridiculous if we move towards true post scarcity</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:09:53</div>
+            <div class="msg">As is most of us think about starting real groups for real purposes</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:10:30</div>
+            <div class="msg">Hard to make a secret society to take over/found a new type of educational institute</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:10:38</div>
+            <div class="msg">Kind of public</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:11:06</div>
+            <div class="msg">Unless your the x men and don't have to worry about student job placement rates.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:11:53</div>
+            <div class="msg">Still a beautiful piece of art. @zach thanks for sharing!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-08 18:12:11</div>
+            <div class="msg">I'm in when you want to build your own</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 19:13:29</div>
+            <div class="msg">@zach, @bpl - this is amazing, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-08 19:27:31</div>
+            <div class="msg">so many challenges, though</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:24:31</div>
+            <div class="msg">I think I have talked to @brandon about my idea for a coworking secret society</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:24:49</div>
+            <div class="msg">where you just pay a membership fee and there are card coded offices in every city for you to use</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:25:03</div>
+            <div class="msg">with excellent internet</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:25:15</div>
+            <div class="msg">and nice spaces</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:25:25</div>
+            <div class="msg">and the guarantee of quality people</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:25:29</div>
+            <div class="msg">since membership is not open</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:29:28</div>
+            <div class="msg">Was originally thinking of software engineers in particular, so it might be a really cool idea to have a software conceirge service to hook you up with people who have experience with particular technologies</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:29:50</div>
+            <div class="msg">Maybe people who are experts can pay their membership by volunteering their services</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-09 10:29:55</div>
+            <div class="msg">This should be in <em>#society</em></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-03-10 10:36:11</div>
+            <div class="msg">So.  Is this Art?  <a href="http://www.boredpanda.com/inceptionism-neural-network-deep-dream-art/">http://www.boredpanda.com/inceptionism-neural-network-deep-dream-art/</a><br /><br /><strong>Man Combines Random People’s Photos Using Neural Networks And The Results Are Amazing</strong><br />These bizarre images, created by users via Russian website Ostagram, are the product of an art technique known as Inceptionism, where images are combined using neural networks to generate a single mind-bending picture.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-10 11:21:13</div>
+            <div class="msg">Yes</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-10 11:23:09</div>
+            <div class="msg">I just took a ballet class for the first time and I want to talk about it! It made my back feel really good and I felt very light and airy. Is anyone else here a dancer? (I notice there are only 5 people here. Do we know if anyone in the salon is a dancer?)</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-10 12:01:17</div>
+            <div class="msg">unsure!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 13:22:41</div>
+            <div class="msg">In the same sense that Pollock is at I would say.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-10 13:23:19</div>
+            <div class="msg">I've done a bit of salsa recently but otherwise not so much</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/997f0b806705c939d44ccd1fe8a059e3.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-72.png"/>
+        <div class="message">
+            <div class="username">vadim</div>
+            <div class="time">2016-03-15 11:56:14</div>
+            <div class="msg">@vadim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-17 07:36:21</div>
+            <div class="msg">@melaniedrake and I watched Zodiac last night</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/5b5fa7bd103728ebd8aeea4a334f36ef.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png"/>
+        <div class="message">
+            <div class="username">melaniedrake</div>
+            <div class="time">2016-03-17 07:36:25</div>
+            <div class="msg">@melaniedrake has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-17 07:36:35</div>
+            <div class="msg">has anyone else seen it?  it's one of my favorite movies</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-03-17 12:36:38</div>
+            <div class="msg">I have not!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-17 18:41:06</div>
+            <div class="msg">The Mark Ruffalo/Jake Gyllenhaal one? I liked it. Was it actually shot in San Francisco?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-18 02:10:47</div>
+            <div class="msg">@seekarete: yep!  it was shot on-location</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-03-19 17:50:51</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=kbMAs2mOelc">https://www.youtube.com/watch?v=kbMAs2mOelc</a><br /><br /><strong>Automatacon 2016</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-25 18:49:33</div>
+            <div class="msg">@bpl uploaded a file: <https://gwusbdhdu.slack.com/files/bpl/F0VKRGJH3/img_20160325_204855.jpg|Egg sack></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-03-26 09:00:55</div>
+            <div class="msg">@bpl: what am I looking at?, hahah</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-26 09:02:39</div>
+            <div class="msg">A blurry shot of a debatably tasteful glass art installation at the local botanical garden.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-03-26 09:03:13</div>
+            <div class="msg">It looks like an egg sack more than the hoped for tropical fruit</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2015-09-04/10234106883_02fa1eb9e14ff53c78b3_72.jpg"/>
+        <div class="message">
+            <div class="username">bgillespie</div>
+            <div class="time">2016-04-10 10:52:37</div>
+            <div class="msg">It is truly the music of the spheres: <a href="http://www.bitlisten.com/">http://www.bitlisten.com/</a><br /><br /><strong>BitListen - Bitcoin Transaction Visualizer</strong><br />Realtime Bitcoin transaction visualizer. See and hear new transactions, trades and blocks as they occur.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-10 16:56:49</div>
+            <div class="msg">this reminds me of the Music of Wikipedia: <a href="http://listen.hatnote.com/#nowelcomes,en">http://listen.hatnote.com/#nowelcomes,en</a><br /><br /><strong>Hatnote Listen to Wikipedia</strong><br />Listen to recent changes on Wikipedia</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-24 02:13:31</div>
+            <div class="msg"><a href="http://www.sciencemag.org/news/2016/04/some-fairy-tales-may-be-6000-years-old">http://www.sciencemag.org/news/2016/04/some-fairy-tales-may-be-6000-years-old</a><br /><br /><strong>Some fairy tales may be 6000 years old</strong><br />Study traces history of some of our favorite folk stories</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-04-24 16:31:03</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=a9dsTmx7hus">https://www.youtube.com/watch?v=a9dsTmx7hus</a><br /><br /><strong>How to Make VR Porn | OOO with Brent Rose</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-24 21:23:44</div>
+            <div class="msg">Sit by the fire and tell the old tales... The hero and the journey and the lost love. The bitter bargain and sly gamble.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-04-24 21:24:46</div>
+            <div class="msg"><a href="http://tvtropes.org/">http://tvtropes.org/</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-03 22:01:28</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=DaH4W1rY9us">https://www.youtube.com/watch?v=DaH4W1rY9us</a><br /><br /><strong>Ben Howard - Oats In The Water</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-03 22:01:59</div>
+            <div class="msg">"great song", end comment.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-03 22:27:26</div>
+            <div class="msg">this month's playlist is coming together well: <a href="https://open.spotify.com/user/1266586855/playlist/2C83gHhSzkT1oewlZDNEAC">https://open.spotify.com/user/1266586855/playlist/2C83gHhSzkT1oewlZDNEAC</a><br /><br /><strong>|BC| 2016-05</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-16 07:35:28</div>
+            <div class="msg">&lt;@U15R7CDKK|diaghilev> has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-20 19:31:51</div>
+            <div class="msg">people can do some cool stuff with lego</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-20 19:31:52</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=NQZRy3nKwNQ">https://www.youtube.com/watch?v=NQZRy3nKwNQ</a><br /><br /><strong>LEGO Pop-up Himeji Castle (dai-tenshu) レゴで飛び出る姫路城(大天守)</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-21 12:27:10</div>
+            <div class="msg">The NYC dance parade is today!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-21 12:27:31</div>
+            <div class="msg">So I’m going to post this video of some of my all-time favorite choreography</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-21 12:27:32</div>
+            <div class="msg"><a href="https://www.youtube.com/watch?v=4vPdiqOFWs8&amp;list=PL358C4CA8BD7ACC11">https://www.youtube.com/watch?v=4vPdiqOFWs8&amp;list=PL358C4CA8BD7ACC11</a><br /><br /><strong>Elastic Heart - Sia ft. The Weeknd / Koharu Sugawara Choreography / URBAN DANCE CAMP</strong></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-26 11:17:47</div>
+            <div class="msg"><a href="https://huckberry.com/journal/posts/firewatch-campo-santo-huckberry-journal">https://huckberry.com/journal/posts/firewatch-campo-santo-huckberry-journal</a><br /><br /><strong>Firewatch</strong><br />When nature calls, we lock ourselves indoors and take an unforgettable walk through the woods with a video game</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-26 12:35:12</div>
+            <div class="msg">@seekarete: that looks gorgeous. have you played?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/82c73f8e97bd76d4b98d08b8dfa8d894.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0015-72.png"/>
+        <div class="message">
+            <div class="username">seekarete</div>
+            <div class="time">2016-05-26 12:39:51</div>
+            <div class="msg">Noooo. Since switching to chromebook I don't have a machine to play it.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-26 12:47:58</div>
+            <div class="msg">it plays on Linux, hmmm...</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-26 12:48:05</div>
+            <div class="msg">dangerous</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-26 19:27:57</div>
+            <div class="msg">it's, like</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-26 19:27:59</div>
+            <div class="msg">three hours long.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-26 19:28:00</div>
+            <div class="msg">maybe.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-03/39807023731_c2b2ec15b26af282fe9c_72.jpg"/>
+        <div class="message">
+            <div class="username">diaghilev</div>
+            <div class="time">2016-05-26 19:28:02</div>
+            <div class="msg">not that dangerous.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-26 21:56:26</div>
+            <div class="msg">that short? I'll check it out!</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/4c37c2b26e370054682e3212f87eb85e.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0013-72.png"/>
+        <div class="message">
+            <div class="username">zach</div>
+            <div class="time">2016-05-26 23:33:04</div>
+            <div class="msg"><a href="https://vimeo.com/166807261">https://vimeo.com/166807261</a><br /><br /><strong>HYPER-REALITY</strong><br />Hyper-Reality presents a provocative and kaleidoscopic new vision of the future, where physical and virtual realities have merged, and the city is saturated in media. If you are interested in supporting the project, sponsoring the next work or would like to find out more, please send a hello to <a href="mailto:info@km.cx">info@km.cx</a></p><br /><br /><p>by Keiichi Matsuda | <a href="http://km.cx">http://km.cx</a><br />more at <a href="http://hyper-reality.co">http://hyper-reality.co</a></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-27 05:48:29</div>
+            <div class="msg">That's.... disturbing</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-05-27 05:48:48</div>
+            <div class="msg">Good sci-fi</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-31 17:43:22</div>
+            <div class="msg">I've been having a good time on Soundcloud recently</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-02-03/20282900436_596d4523a3a244e5ce60_72.jpg"/>
+        <div class="message">
+            <div class="username">brandon</div>
+            <div class="time">2016-05-31 17:43:23</div>
+            <div class="msg"><a href="https://soundcloud.com/wearemanor/architecture">https://soundcloud.com/wearemanor/architecture</a><br /><br /><strong>Architecture by Manor</strong><br />Available to buy from iTunes - <br /><br /><a href="https://itunes.apple.com/au/album/architecture/id679501813?i=679501864">https://itunes.apple.com/au/album/architecture/id679501813?i=679501864</a></p><br /><br /><p>'Architecture' is the third single from Australian alt-pop duo Manor, comprising vocalist Caitlin Duff and multi-instrumentalist Nathaniel Morse.</p><br /><br /><p>Meticulously self-recorded in Melbourne at Elysian Fields, 'Architecture' was mixed by Ned Cooke (Dappled Cities, Swimwear) with additional production by Lee Groves (Goldfrapp, Elbow) before being mastered in Brooklyn by Joe Lambert (Toro Y Moi, The National.)</p><br /><br /><p>A compelling reverie characterized by horizonless rhythm, a charismatically psychedelic bass line and Duff's effortlessly layered-vocals atop Morse's swirling guitars, 'Architecture' marks Manor's last stand-alone release before that of their debut EP, slated for Australian summer 2013/14.</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-12 21:18:23</div>
+            <div class="msg">@bpl uploaded a file: <https://gwusbdhdu.slack.com/files/bpl/F1G7S5ZD2/img_20160612_163248846.jpg|Slack for Android Upload></div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src=""/>
+        <div class="message">
+            <div class="username">None</div>
+            <div class="time">2016-06-12 21:19:38</div>
+            <div class="msg">@seekarete commented on @bpl's file <https://gwusbdhdu.slack.com/files/bpl/F1G7S5ZD2/img_20160612_163248846.jpg|Slack for Android Upload>: Somewhere in Madison?</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://avatars.slack-edge.com/2016-05-24/45531432852_8497b77ff4b9a940d402_72.jpg"/>
+        <div class="message">
+            <div class="username">bpl</div>
+            <div class="time">2016-06-13 05:37:40</div>
+            <div class="msg">Yep cruising and in a kayak</div>
+        </div>
+    </div>
+    <br/>
+    
+    <div>
+        <img src="https://secure.gravatar.com/avatar/d8e11cf2deea38a7afaf3c3aa474b3f8.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-72.png"/>
+        <div class="message">
+            <div class="username">jim</div>
+            <div class="time">2016-06-13 13:46:55</div>
+            <div class="msg">@jim has joined the channel</div>
+        </div>
+    </div>
+    <br/>
+    
+</div>
+</body>
+</html>
