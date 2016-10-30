@@ -59,7 +59,7 @@
     this.velocity = typeof velocity !== 'undefined' ? velocity : {x : 1, y : 0};
     this.style = typeof style !== 'undefined' ? style : "rgba(200,0,0,0.5)";
     this.active = true;
-    this.boundary = typeof boundary !== 'undefined' ? boundary : 
+    this.boundary = typeof boundary !== 'undefined' ? boundary :
             {x : {lower : { value : 0,
                             iscollide : function(that) {return (that.position.x - that.size < that.boundary.x.lower.value)},
                             isout : function(that) {return (that.position.x + that.size < that.boundary.x.lower.value)},
@@ -113,7 +113,7 @@
       that.active = false;
     }
   }
-  
+
   function orbGen(n) {
     for (var i = 0; i < n; i++) {
       var orb = new Orb();
@@ -127,7 +127,7 @@
       orbs.push(orb);
     }
   }
-  
+
   function Frameclock() {
     this.tfps = 30;
     this.tinterval = function() {return 1000/this.tfps}; // in ms
@@ -142,7 +142,7 @@
       else {return false}
     }
   }
-  
+
   function init() {
     clk = new Frameclock();
     clk.update();
@@ -152,19 +152,19 @@
     canvas.height = 120; // set the canvas height
     document.getElementById("canvas").addEventListener("click", stopanimation);
     document.getElementById("cage").addEventListener("click", uncage);
-    
+
     orbs = [];
     orbGen(25);
     window.requestAnimationFrame(draw);
   }
-  
+
   function draw() {
     if (clk.refresh() && run) { // time to update the frame
       //console.error((clk.tnow()-clk.tlast)-clk.tinterval());
       var ctx = canvas.getContext("2d");  // get the context
       ctx.clearRect(0,0,canvas.width,canvas.height); // clear the canvas
       //ctx.save(); // save this pristine canvas state
-      
+
       for (var i=0; i < orbs.length; i++) {
         if (orbs[i].active) {
           ctx.beginPath();
@@ -209,6 +209,12 @@
                         <img src="img/icon-keybase.png" title="PGP keys!" style="width:32px;" /></a>
 
 		<br />
+
+		<div style="text-align:center;font-size:small;">
+		<a href="resume" style="color:white;" title="appraise me!">
+						fairly up-to-date resume
+		</a>
+		</div>
 
 <!-- BEGIN SECRET PAGES -->
 		<form name="secret_pages"
@@ -375,7 +381,7 @@
         XXX
       </span>
     </p>
-  </li> 
+  </li>
 -->
 
   <li class='data'>
