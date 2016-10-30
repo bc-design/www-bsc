@@ -1,3 +1,90 @@
+body {
+    font-family: "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    margin: 20px auto;
+    width: 770px;
+}
+
+h1 {
+    font-size: 2.0em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-transform: uppercase;
+    padding: 8px 0px 12px 0px;
+    margin: 0;
+}
+
+h2 {
+  font-size: 1.0em;
+  color: white;
+  background: black;
+  padding: 1px 0px 1px 15px;
+  margin: -5px 0px 0px 0px;
+}
+
+#contact {
+  margin: 0px 15px 0px 0px;
+  /* border: 2px solid black; */
+  color: white;
+  background: #eeeeee;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact a:link {
+  color: black;
+}
+
+.resume-item {
+  border-color: black;
+  border-style: solid;
+  border-width:  0px 0px 1px 0px;
+  margin: 5px 0px 5px 0px;
+}
+
+.resume-item .item-organization {
+  font-size: 0.9em;
+  color: #000000;
+  font-style: italic;
+}
+
+.resume-item .item-location {
+  font-size: 0.9em;
+  color: #000000;
+  float: right;
+  font-style: italic;
+  padding: 0px 20px 0px 0px;
+}
+
+.resume-item .item-duration {
+  float: right;
+  clear: right;
+  font-weight: bold;
+  padding: 0px 20px 0px 0px;
+}
+
+.resume-item .item-title {
+  font-weight: bold;
+  color: #000000;
+}
+
+.resume-item ul {
+  list-style-type: none;
+  font-size: 0.9em;
+  margin: 3px 0px 0px 0px;
+  padding: 0px 0px 3px 4em;
+  text-indent: -4em;
+}
+
+a:link {
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
 /* --------------------------------------------------------------
 
  Hartija Css Print  Framework
@@ -9,16 +96,15 @@ body {
 width:100% !important;
 margin:0 !important;
 padding:0 !important;
-line-height: 1.45;
 font-family: Garamond,"Times New Roman", serif;
 color: #000;
 background: none;
-font-size: 14pt; }
+font-size: 12pt; }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
 h1{font-size:19pt;}
-h2{font-size:17pt;}
+h2{font-size:17pt; color: #cccccc;}
 h3{font-size:15pt;}
 h4,h5,h6{font-size:14pt;}
 
@@ -35,7 +121,7 @@ a img { border: none; }
 
 /* Links */
 a:link, a:visited { background: transparent; font-weight: 700; text-decoration: underline;color:#333; }
-a:link[href^="http://"]:after, a[href^="http://"]:visited:after { content: " (" attr(href) ") "; font-size: 90%; }
+/*a:link[href^="http://"]:after, a[href^="http://"]:visited:after { content: " (" attr(href) ") "; font-size: 90%; } */
 
 abbr[title]:after { content: " (" attr(title) ")"; }
 
