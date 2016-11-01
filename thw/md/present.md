@@ -27,22 +27,37 @@ Brandon Curtis
 
 ---
 
-## Stuff I've Worked On
+### Destined for depravity
 
 ![hs](img/bc-hs.png)
-![rhodo](img/bc-rhodo.png)
+
+---
+
+### Allergic to adult supervision
+
 ![rockets](img/bc-rocket.png)
+
+---
+
+### Recovering Biologist
+
+![rhodo](img/bc-rhodo.png)
+
+---
+
+### Recovering SYNTHETIC Biologist
+
 ![zfp](img/bc-zfp.png)
 
 ---
 
-## Advanced Control for Plasma Processing
+### Advanced Control for Plasma Processing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7F2OqmqJBCw" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-## Messing Around
+### ...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rHfVr7ohois" frameborder="0" allowfullscreen></iframe>
 
