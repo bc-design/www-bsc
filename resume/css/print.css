@@ -1,7 +1,7 @@
 body {
     font-family: "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     margin: 20px auto;
-    width: 770px;
+    width: 775px;
 }
 
 h1 {
@@ -78,6 +78,12 @@ a {
   text-indent: -4em;
 }
 
+ul.bulleted  {
+  list-style-type: square !important;
+  padding: 0px 0px 3px 1em !important;
+  text-indent: 0em;
+}
+
 a:link {
   font-family: 'Lucida Console', Monaco, monospace;
   font-weight: bold;
@@ -97,14 +103,14 @@ width:100% !important;
 margin:0 !important;
 padding:0 !important;
 font-family: Garamond,"Times New Roman", serif;
-color: #000;
+color: #000000;
 background: none;
 font-size: 12pt; }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
 h1{font-size:19pt;}
-h2{font-size:17pt; color: #cccccc;}
+h2{font-size:17pt; color: #dddddd;}
 h3{font-size:15pt;}
 h4,h5,h6{font-size:14pt;}
 

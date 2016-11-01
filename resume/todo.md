@@ -4,10 +4,29 @@
 ### To Do
 
 + ~~add education section~~
-+ test print preview in several browser/OS combinations
-+ write a cover letter
++ ~~test print preview in several browser/OS combinations~~
++ ~~write a cover letter~~ (not doing this for Exponent)
 
 ### Carly
+
+Summary:
+
+    Infotech and SCC - add which research network?
+    I also run the IT for the university fellowship office and a couple other places
+    an intern for a while.  And on the side I've built about a hundred desktops and servers and I'm running a bunch of servers and web apps for a bunch of different organizations
+
+
+    i don't think you need to list the FE. it's not relevant since you will have a PhD
+    honestly, i think you could remove that to save space
+    the whole prof cert thing
+    I wavered on that, but then at the infosession they talked about how they'd pay for you to study and take that
+
+    switch Berkeley CA and University of... in the first entry in Research Exp
+    are you technically co-advised with graves / Clark?
+
+    list authors on the papers
+
+Full conversation:
 
     Conversation with carly.e.anderson@gmail.com at Fri 28 Oct 2016 04:43:33 PM PDT on brandon.curtis@gmail.com/ (jabber)
     (12:31:18 AM) BC: if you're bored, let me know if this (and/or its print preview) looks terrible in your OS/browser combo https://www.brandoncurtis.com/resume
@@ -138,6 +157,22 @@
 
 
 ### Melanie
+
+Summary:
+
+    does it work to bold the subtitles under 'subject matter expertise'?
+    the 'technical skills' section is also very block-of-text
+    it seems like each line is its own thing, though
+    maybe bullet points would make that more obvious
+    it is just visually overwhelming 
+    also you don't have your education on here
+    i don't think your gpa matters
+    your C2M block is present-tense still
+    i would also move your BIS blocks together
+    weird to have C2M listed between them
+    and the descriptions are a bit redundant/inconsistent
+
+Full conversation:
 
     (12:35:55 AM) Melanie Drake: it looks good
     (12:37:28 AM) Melanie Drake: does it work to bold the subtitles under 'subject matter expertise'?
