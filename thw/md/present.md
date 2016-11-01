@@ -16,9 +16,11 @@ WARNING: not a computer scientist.
 
 ## Vertical?
 
----
-
 Did it work?
+
+Oh yes, it worked!
+
+---
 
 ## Yet another Vertical
 
@@ -40,7 +42,5 @@ Assembled and tested in Atom
 
 ## The Big Reveal
 
-<script type="text/template">
 + appearing 1 <!-- .element: class="fragment" data-fragment-index="1" -->
 + appearing 2 <!-- .element: class="fragment" data-fragment-index="2" -->
-</script>
