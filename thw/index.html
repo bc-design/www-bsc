@@ -24,36 +24,66 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+
+
+
+
 				<section>Slide 1</section>
+
 				<section>Slide 2</section>
+
 				<section data-markdown>
 					## HELL YES A TITLE
 
 					+ list item
 					+ another list item
 					+ [here is a link](https://google.com/)
-
-						
 				</section>
+
+				<!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+				<section data-markdown="md/present.md" data-separator="------" data-separator-vertical="---"></section>
+
+
 			</div>
 		</div>
+
+
+
+
+
+
+
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
+		// Initial reveal.js and configure its settings
+
+
+
 		<script>
+
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				controls: true,
+				progress: true,
 				history: true,
+				center: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
+
 		</script>
+
 	</body>
 </html>
