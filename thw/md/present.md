@@ -1,8 +1,10 @@
-## The Hacker Within - Physical Computing
+# The Hacker Within
+
+## Physical Computing
 
 ##### or: how to fool people into learning more than they intended
 
-A dash of Physical Computing at UC Berkeley's *The Hacker Within*
+A dash of Physical Computing at UC Berkeley's *The Hacker Within* with Brandon Curtis
 
 ------
 
