@@ -16,6 +16,8 @@ WARNING: not a computer scientist.
 
 ## Vertical?
 
+---
+
 Did it work?
 
 ## Yet another Vertical
