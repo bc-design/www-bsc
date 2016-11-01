@@ -43,4 +43,5 @@ Assembled and tested in Atom
 ## The Big Reveal
 
 + appearing 1 <!-- .element: class="fragment" data-fragment-index="1" -->
++ appearing 3 <!-- .element: class="fragment" data-fragment-index="3" -->
 + appearing 2 <!-- .element: class="fragment" data-fragment-index="2" -->
