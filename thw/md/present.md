@@ -100,3 +100,17 @@ Assembled and tested in [Atom](https://atom.io/)
 + Can set [udev rules](https://www.brandoncurtis.com/files/arduino/50-arduino.rules) to e.g. always use /dev/arduino
 
 ------
+
+## Challenge #3 - Plot The Data
+
++ Newest versions of the IDE include a basic plotter
++ Fire up Python with Numpy and Matplotlib?
++ Can you timestamp your data?
++ Can you plot the data in real-time?
+
+------
+
+## Homework - Libraries
+
++ [PID Library](https://github.com/br3ttb/Arduino-PID-Library/) implements a process controller
++ RTC library, digital sensor libraries, etc!

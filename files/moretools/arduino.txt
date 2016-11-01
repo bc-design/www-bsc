@@ -1,0 +1,13 @@
+
+arduino --verify control_testbed_step_input.ino
+arduino-record --device arduino-mega --baud 57600 --show false --file "$HOME/temperature-desk.csv"
+python realtime-plot-from-file_lookback.py
+
+
+Using the Arduino CLI utility:
+https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc
+
+--preferences-file
+--port
+
+arduino --upload --preferences-file preferences-mega control_testbed_step_input/control_testbed_step_input.ino

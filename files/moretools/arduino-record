@@ -1,0 +1,80 @@
+#!/bin/bash
+
+# --device, the devicefile
+# --baud,   terminal baudrate (must match the device baudrate)
+# --file,   file to write incoming data
+# --show,   tail the file that is written to
+
+BAUD="9600" # default baudrate 9600
+DATAFILE="/tmp/arduino.csv" # default file, if none is specified
+SHOW="false"
+
+# things to do before this script exits
+function finish {
+    # run this before exiting
+    #if [[ -n "$!" ]]
+    #    then
+    #    kill "$!"
+    #fi
+    printf "\n%s\n" "command exited!"
+}
+trap finish EXIT
+
+# things to do when there is an error
+function error {
+    # run this when there is an error
+    #if [[ -n "$!" ]]
+    #    then
+    #    kill "$!"
+    #fi
+    printf "\n%s\n" "there was an error!"
+}
+trap error ERR
+
+while [[ "$#" -gt 1 ]]
+do
+key="$1"
+
+case "$key" in
+    --device)
+    DEVICE="$2"
+    shift
+    ;;
+    --baud)
+    BAUD="$2"
+    shift
+    ;;
+    --file)
+    DATAFILE="$2"
+    shift
+    ;;
+    --show)
+    SHOW="$2"
+    shift
+    ;;
+
+    *)
+        # unknown option
+    ;;
+esac
+shift
+done
+
+if [[ -z "$DEVICE" ]]
+    then
+    printf "\n%s\n" "No device specified!"
+    exit 1
+fi
+
+stty -F /dev/"$DEVICE" raw "$BAUD"
+touch "$DATAFILE"
+
+
+if [[ "$SHOW" = true ]]
+    then
+    printf "\n%s%s%s\n" "Logging to " "$DATAFILE" " and printing to STDOUT..."
+    cat /dev/"$DEVICE" | tee "$DATAFILE"
+else
+    printf "\n%s%s%s\n" "Logging silently to " "$DATAFILE" "..."
+    cat /dev/"$DEVICE" > "$DATAFILE"
+fi
