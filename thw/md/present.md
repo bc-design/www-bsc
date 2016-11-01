@@ -4,7 +4,7 @@
 
 ##### or: how to fool people into learning more than they intended
 
-A dash of Physical Computing at UC Berkeley's *The Hacker Within* with Brandon Curtis
+Brandon Curtis
 
 ------
 
@@ -29,10 +29,10 @@ Brandon Curtis
 
 ## Stuff I've Worked On
 
-| Stuff | More Stuff |
-|------------------------|-----------|
-| ![](img/bc-hs.png)     | ![](img/bc-rhodo.png) |
-| ![](img/bc-rocket.png) | ![](img/bc-zfp.png) |
+![hs](img/bc-hs.png)
+![rhodo](img/bc-rhodo.png)
+![rockets](img/bc-rocket.png)
+![zfp](img/bc-zfp.png)
 
 ---
 
