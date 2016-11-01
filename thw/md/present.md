@@ -1,17 +1,35 @@
-# The Hacker Within - Physical Computing
+## The Hacker Within - Physical Computing
 
-#### or: how to fool people into learning more than they intended
+##### or: how to fool people into learning more than they intended
 
 A presentation on Physical Computing at UC Berkeley's *The Hacker Within*
 
----
+------
 
 ## or: mostly a collection of asides
 
-This presentation is written in `reveal.js`
+WARNING: not a computer scientist.
 
-------
+![lots of salt](img/salt.jpg "Season To Taste")
+
+---
 
 ## Vertical?
 
 Did it work?
+
+## Yet another Vertical
+
++ list item
++ list item
++ [link to Google](https://www.google.com/)
+
+------
+
+## Brought to you by...
+
+This presentation is written in `reveal.js`
+
+Assembled and tested in Atom
+
+![atom text editor](img/atom.png)
