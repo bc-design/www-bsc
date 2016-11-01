@@ -33,3 +33,12 @@ This presentation is written in `reveal.js`
 Assembled and tested in Atom
 
 ![atom text editor](img/atom.png)
+
+------
+
+## The Big Reveal
+
+<script type="text/template">
++ appearing 1 <!-- .element: class="fragment" data-fragment-index="1" -->
++ appearing 2 <!-- .element: class="fragment" data-fragment-index="2" -->
+</script>
