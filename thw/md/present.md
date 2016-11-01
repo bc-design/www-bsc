@@ -6,7 +6,7 @@
 
 Brandon Curtis - [Follow Along](https://www.brandoncurtis.com/thw)
 
-[Presentation source and random files](https://www.github.com/brandoncurtis/thw-physicalcomputing)
+[Presentation source and random files](https://github.com/bc-design/www-bsc/tree/master/thw)
 
 ------
 
