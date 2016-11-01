@@ -1,7 +1,7 @@
 body {
     font-family: "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-    margin: 20px auto;
-    width: 770px;
+    margin: 0px auto;
+    width: 775px;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h2 {
   color: white;
   background: black;
   padding: 1px 0px 1px 15px;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 #contact {
@@ -25,8 +25,9 @@ h2 {
   /* border: 2px solid black; */
   color: white;
   background: #eeeeee;
-  padding: 7px;
+  padding: 4px;
   border-radius: 15px;
+  font-size: 0.8em;
 }
 
 a {
@@ -41,7 +42,7 @@ a {
   border-color: black;
   border-style: solid;
   border-width:  0px 0px 1px 0px;
-  margin: 5px 0px 5px 0px;
+  margin: 8px 0px 5px 0px;
 }
 
 .resume-item .item-organization {
@@ -74,8 +75,8 @@ a {
   list-style-type: none;
   font-size: 0.9em;
   margin: 6px 0px 0px 0px;
-  padding: 0px 0px 3px 4em;
-  text-indent: -4em;
+  padding: 0px 0px 3px 3em;
+  text-indent: -3em;
 }
 
 ul.bulleted  {
@@ -89,4 +90,8 @@ a:link {
   font-weight: bold;
   color: black;
   text-decoration: none;
+}
+
+span.big {
+  font-weight: bold;
 }
