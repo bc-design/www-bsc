@@ -4,7 +4,9 @@
 
 ##### or: how to fool people into learning more than they intended
 
-Brandon Curtis
+Brandon Curtis - [Follow Along](https://www.brandoncurtis.com/thw)
+
+[Presentation source and random files](https://www.github.com/brandoncurtis/thw-physicalcomputing)
 
 ------
 
@@ -67,28 +69,34 @@ Brandon Curtis
 
 This presentation is written in `reveal.js`
 
-Assembled and tested in Atom
+Assembled and tested in [Atom](https://atom.io/)
 
 ![atom text editor](img/atom.png)
-
----
-
-## The Big Reveal
-
-+ appearing 1 <!-- .element: class="fragment" data-fragment-index="1" -->
-+ appearing 3 <!-- .element: class="fragment" data-fragment-index="3" -->
-+ appearing 2 <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ------
 
 ## Challenge #1 - Get Code In
 
-Install [Arduino IDE](https://www.arduino.cc/en/Main/Software)
++ Install [Arduino IDE](https://www.arduino.cc/en/Main/Software) <!-- .element: class="fragment" data-fragment-index="1" -->
++ OR... install a command-line compile-and-upload tool <!-- .element: class="fragment" data-fragment-index="2" -->
++ Atom users: [arduino-upload package](https://atom.io/packages/arduino-upload) <!-- .element: class="fragment" data-fragment-index="3" -->
 
-OR... install a command-line compile-and-upload tool
+---
 
-Atom users: [arduino-upload package](https://atom.io/packages/arduino-upload)
+## What Code?
+
++ The Arduino IDE comes with lots of example code
++ I've provided two kinds of analog sensors
+  + [LM35DZ temperature sensor](http://www.ti.com/lit/ds/symlink/lm35.pdf)
+  + [Photoresistor](https://en.wikipedia.org/wiki/Photoresistor)
 
 ------
 
 ## Challenge #2 - Get Data Out
+
++ Must print the data over the USB-serial connection to a computer
++ Arduino IDE has a built-in 'serial monitor'
++ Unix-y folks: `cat /dev/ttyACM0`
++ Can set [udev rules](https://www.brandoncurtis.com/files/arduino/50-arduino.rules) to e.g. always use /dev/arduino
+
+------
