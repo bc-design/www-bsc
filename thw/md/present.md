@@ -2,7 +2,7 @@
 
 ##### or: how to fool people into learning more than they intended
 
-A presentation on Physical Computing at UC Berkeley's *The Hacker Within*
+A dash of Physical Computing at UC Berkeley's *The Hacker Within*
 
 ------
 
@@ -14,19 +14,35 @@ WARNING: not a computer scientist.
 
 ---
 
-## Vertical?
+## Who Am I?
 
-Did it work?
+Brandon Curtis
 
-Oh yes, it worked!
++ a very sleep-deprived chemical engineering grad student
++ supposed to be 'finished up in the lab' in December
++ passionate about open source software
++ interested in exploring low-cost open hardware/software in education
 
 ---
 
-## Yet another Vertical
+## Stuff I've Worked On
 
-+ list item
-+ list item
-+ [link to Google](https://www.google.com/)
+| Stuff | More Stuff |
+|------------------------|-----------|
+| ![](img/bc-hs.png)     | ![](img/bc-rhodo.png) |
+| ![](img/bc-rocket.png) | ![](img/bc-zfp.png) |
+
+---
+
+## Advanced Control for Plasma Processing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7F2OqmqJBCw" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## Messing Around
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rHfVr7ohois" frameborder="0" allowfullscreen></iframe>
 
 ------
 
@@ -38,10 +54,24 @@ Assembled and tested in Atom
 
 ![atom text editor](img/atom.png)
 
-------
+---
 
 ## The Big Reveal
 
 + appearing 1 <!-- .element: class="fragment" data-fragment-index="1" -->
 + appearing 3 <!-- .element: class="fragment" data-fragment-index="3" -->
 + appearing 2 <!-- .element: class="fragment" data-fragment-index="2" -->
+
+------
+
+## Challenge #1 - Get Code In
+
+Install [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+
+OR... install a command-line compile-and-upload tool
+
+Atom users: [arduino-upload package](https://atom.io/packages/arduino-upload)
+
+------
+
+## Challenge #2 - Get Data Out
