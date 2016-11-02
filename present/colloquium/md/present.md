@@ -7,7 +7,7 @@ by me
 
 ------
 
-# Motivations
+## Motivations
 
 + potential for plasma in medicine
 + device development - technology ahead of science
@@ -15,7 +15,7 @@ by me
 
 ------
 
-# Project Goals and Overview
+## Project Goals and Overview
 
 1. Metrology and actuation
 2. System characterization
@@ -28,7 +28,7 @@ by me
 
 ------
 
-# Fundamental Challenges
+## Fundamental Challenges
 
 + Dosage = multivariable (integral) measurements
 + Multiple timescales
@@ -43,7 +43,7 @@ by me
 
 ------
 
-# Device Design / Construction
+## Device Design / Construction
 
 Selection of geometry:
 
@@ -68,7 +68,7 @@ This work:
 
 ------
 
-# Metrology and Sensing - Electrical
+## Metrology and Sensing - Electrical
 
 Oscilloscope: time-resolved V and I
 
@@ -79,7 +79,7 @@ Oscilloscope: time-resolved V and I
 
 ------
 
-# Metrology and Sensing - Temperature
+## Metrology and Sensing - Temperature
 
 Gas temperature
 
@@ -96,7 +96,7 @@ Surface temperature
 
 ------
 
-# Metrology and Sensing - Chemistry
+## Metrology and Sensing - Chemistry
 
 + optical emission spectroscopy (OES)
 + total optical intensity
@@ -109,7 +109,7 @@ Surface temperature
 
 ------
 
-# Characterization - Surface Temperature
+## Characterization - Surface Temperature
 
 + Get system dynamics from open loop operation
 + Generate a model that describes relationship between measurable states, input sequence
@@ -126,7 +126,7 @@ Show automated pipeline for input-output mapping
 
 ------
 
-# Characterization - Power
+## Characterization - Power
 
 ![power vs voltage]()
 
@@ -138,7 +138,7 @@ say some stuff about operating range selection
 
 ------
 
-# Characterization - Optical Intensity
+## Characterization - Optical Intensity
 
 ![optical intensity vs voltage]()
 
@@ -150,7 +150,7 @@ Building system model (nonlinear vs. limited range linear)
 
 ------
 
-# Actuation and Control - Implementation Overview
+## Actuation and Control - Implementation Overview
 
 Diagram of measurement and control system connections
 
@@ -163,14 +163,14 @@ Desirable system features
 
 ------
 
-# Actuation and Control - Electrical Subsystem
+## Actuation and Control - Electrical Subsystem
 
 + applied voltage across device
 + applied frequency
 
 ------
 
-# Actuation and Control - Gas Handling
+## Actuation and Control - Gas Handling
 
 + gas flowrate
 + gas composition
@@ -179,7 +179,7 @@ Desirable system features
 
 ------
 
-# Control Algorithms
+## Control Algorithms
 
 Desirable algorithm features
 
@@ -193,14 +193,14 @@ PID lacks these features, but it's a place to start
 
 ------
 
-# Control Algorithms - PID Implementation
+## Control Algorithms - PID Implementation
 
 + Generate tunings, operating range from system model
 + Closed-loop dynamics
 
 ------
 
-# Ongoing Work
+## Ongoing Work
 
 + implementation of advanced control algorithms
   + QDMC
@@ -214,7 +214,7 @@ PID lacks these features, but it's a place to start
 
 ------
 
-# Acknowledgements
+## Acknowledgements
 
 + Labs
 + Collaborators
@@ -224,10 +224,6 @@ PID lacks these features, but it's a place to start
 
 ------
 
-# Advice
-
-------
-
-# Fun Photos
+## Fun Photos
 
 Note: here is a hidden note

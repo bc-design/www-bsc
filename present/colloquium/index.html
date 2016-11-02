@@ -141,6 +141,24 @@
 		    parallaxBackgroundHorizontal: null,
 		    parallaxBackgroundVertical: null
 
+				// The "normal" size of the presentation, aspect ratio will be preserved
+		    // when the presentation is scaled to fit different resolutions. Can be
+		    // specified using percentage units.
+		    width: 960,
+		    height: 700,
+
+		    // Factor of the display size that should remain empty around the content
+		    margin: 0.1,
+
+		    // Bounds for smallest/largest possible scale to apply to content
+		    minScale: 0.2,
+		    maxScale: 1.5
+
+				// Mathjax support
+				math: {
+	        mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+	        config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+		    },
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
@@ -150,10 +168,29 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/math/math.js', async: true }
 				]
+			});
+
+			// Custom keyboard shortcuts
+			Reveal.configure({
+			  keyboard: {
+			    //13: 'next', // go to the next slide when the ENTER key is pressed
+			    //27: function() {}, // do something custom when ESC is pressed
+			    //32: null // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
+			  }
 			});
 
 		</script>
 
 	</body>
 </html>
+
+<!-- REFERENCES
+
+Source repo: https://github.com/hakimel/reveal.js/
+Lots of configuration details: https://github.com/hakimel/reveal.js/
+
+
+
+REFERENCES -->
