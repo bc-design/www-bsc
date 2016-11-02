@@ -20,6 +20,14 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<style media="screen">
+		.slides {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -29,7 +37,9 @@
 				<!--  Content goes here, in <section> tags! -->
 
 				<!-- Use external markdown resource, separate slides by three hypthens; vertical slides by six hyphens -->
-				<section data-markdown="md/present.md" data-separator="^------" data-separator-vertical="^---"></section>
+				<section data-markdown="md/present.md" class="center"
+				data-separator="^------" data-separator-vertical="^---">
+				</section>
 
 
 				<!--  Close the content tags -->
@@ -144,15 +154,15 @@
 				// The "normal" size of the presentation, aspect ratio will be preserved
 		    // when the presentation is scaled to fit different resolutions. Can be
 		    // specified using percentage units.
-		    //width: 960,
-		    //height: 700,
+		    width: 1280,
+		    height: 720,
 
 		    // Factor of the display size that should remain empty around the content
-		    //margin: 0.1,
+		    margin: 0.0,
 
 		    // Bounds for smallest/largest possible scale to apply to content
 		    //minScale: 0.2,
-		    //maxScale: 1.5
+		    //maxScale: 1.5,
 
 				// Mathjax support
 				//math: {
