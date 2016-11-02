@@ -1,4 +1,4 @@
-## Realtime automation and control of atmospheric plasma devices
+# Realtime automation and control of atmospheric plasma devices
 
 Brandon Curtis
 
@@ -7,9 +7,9 @@ Brandon Curtis
 ![plasma photos]()
 
 ------
-<!-- .slide: style="text-align: left;"> -->
+<!-- .slide: style="text-align: left;" -->
 
-### Motivations
+## Motivations
 
 + potential for plasma in medicine
 + device development - technology ahead of science
@@ -18,7 +18,7 @@ Brandon Curtis
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Project Goals and Overview
+## Project Goals and Overview
 
 1. Metrology and actuation
 2. System characterization
@@ -32,7 +32,7 @@ Brandon Curtis
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Fundamental Challenges
+## Fundamental Challenges
 
 + Dosage = multivariable (integral) measurements
 + Multiple timescales
@@ -48,7 +48,7 @@ Brandon Curtis
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Device Design / Construction
+## Device Design / Construction
 
 Geometry selection:
 
@@ -71,7 +71,7 @@ This work:
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Metrology and Sensing - Electrical
+## Metrology and Sensing - Electrical
 
 Oscilloscope: time-resolved V and I
 
@@ -83,7 +83,7 @@ Oscilloscope: time-resolved V and I
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Metrology and Sensing - Temperature
+## Metrology and Sensing - Temperature
 
 Gas temperature
 
@@ -101,7 +101,7 @@ Surface temperature
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Metrology and Sensing - Chemistry
+## Metrology and Sensing - Chemistry
 
 + optical emission spectroscopy (OES)
 + total optical intensity
@@ -115,7 +115,7 @@ Surface temperature
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Characterization - Surface Temperature
+## Characterization - Surface Temperature
 
 + Get system dynamics from open loop operation
 + Generate a model that describes relationship between measurable states, input sequence
@@ -133,7 +133,7 @@ Show automated pipeline for input-output mapping
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Characterization - Power
+## Characterization - Power
 
 ![power vs voltage]()
 
@@ -146,7 +146,7 @@ Discuss operating range selection
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Characterization - Optical Intensity
+## Characterization - Optical Intensity
 
 ![optical intensity vs voltage]()
 
@@ -159,9 +159,9 @@ Building system model (nonlinear vs. linear w/linear range)
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Actuation and Control - Implementation Overview
+## Actuation and Control - Implementation Overview
 
-Diagram of measurement and control system connections
+![Diagram of measurement and control system connections]()
 
 Desirable system features
 
@@ -173,15 +173,17 @@ Desirable system features
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Actuation and Control - Electrical Subsystem
+## Actuation and Control - Electrical Subsystem
 
 + applied voltage across device
 + applied frequency
 
+![Diagram of function generator controller and amplifier]()
+
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Actuation and Control - Gas Handling
+## Actuation and Control - Gas Handling
 
 + gas flowrate
 + gas composition
@@ -191,7 +193,7 @@ Desirable system features
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Control Algorithms
+## Control Algorithms
 
 Desirable algorithm features
 
@@ -201,12 +203,12 @@ Desirable algorithm features
 + setpoint tracking / disturbance rejection
 + support for nonlinear models
 
-PID lacks these features, but it's a place to start
+PID lacks most of these features, but it's a place to start
 
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Control Algorithms - PID Implementation
+## Control Algorithms - PID Implementation
 
 + Generate tunings, operating range from system model
 + Closed-loop dynamics
@@ -214,7 +216,7 @@ PID lacks these features, but it's a place to start
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Ongoing Work
+## Ongoing Work
 
 + implementation of advanced control algorithms
   + QDMC
@@ -229,7 +231,7 @@ PID lacks these features, but it's a place to start
 ------
 <!-- .slide: style="text-align: left; position: absolute; top: 0; left: 0;" -->
 
-### Acknowledgements
+## Acknowledgements
 
 + Labs
 + Collaborators
@@ -240,6 +242,6 @@ PID lacks these features, but it's a place to start
 ------
 <!-- .slide: style="text-align: left;"> -->
 
-### Fun Photos
+## Fun Photos
 
 Note: here is a hidden note
