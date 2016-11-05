@@ -39,7 +39,7 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 10px;
   color: #fff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
@@ -68,7 +68,7 @@ body {
  * OTHER
  *********************************************/
 .reveal p {
-  margin: 20px 0;
+  margin: 20px 0 0 10px;
   line-height: 1.3; }
 
 /* Ensure certain elements are never larger than the slide itself */
@@ -90,7 +90,7 @@ body {
 .reveal ul {
   display: inline-block;
   text-align: left;
-  margin: 0 0 0 1em; }
+  margin: 0 0 0 3em; }
 
 .reveal ol {
   list-style-type: decimal; }
