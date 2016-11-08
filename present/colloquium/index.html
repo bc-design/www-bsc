@@ -23,14 +23,41 @@
 
 		<!-- Additional styling -->
 		<style>
-			.footer {
-			  position:absolute;
-			  bottom: -70%;
-			  left: 15%;
+			.slides section {
+				height: 100%;
 			}
+
+			.slides footer {
+				font: italic 0.7em sans-serif;
+				position: absolute;
+				bottom: 2em;
+			}
+
+			.slides figure {
+				display: inline-block;
+				text-align: center;
+				margin: auto;
+			}
+
+			.slides blockquote {
+				font-size: 0.8em;
+				text-align: justify;
+			}
+
+			.slides figcaption {
+				font: italic 0.7em arial;
+				color: #aaaaaa;
+			}
+
+			em {
+				color: #aa00aa;
+			}
+
 		</style>
 
 	</head>
+
+
 	<body>
 		<div class="reveal">
 			<div class="slides" >
@@ -38,6 +65,7 @@
 				<!--  Content goes here, in <section> tags! -->
 				<!--  Content goes here, in <section> tags! -->
 
+				<!--  TITLE SLIDE -->
 				<section data-background-color="#000000"
 					data-background-image="img/plasma-jet.gif"
 					data-background-size="80%"
@@ -54,26 +82,68 @@
 						CBE Colloquium<br/>2016-11-09
 					</h3>
 
-					<p class="footer">
+					<footer>
 						Advised by Dr. David Graves and Dr. Doug Clark
-					</p>
+					</footer>
 				</section>
 
-				<section style="text-align: left;">
+			  <!-- CLINICAL MOTIVATION -->
+				<section style="text-align: left; height:100%;">
 					<h2>Atmospheric Plasma Motivations</h1>
 					<ul style="text-align:left;">
 						<li>Potential for plasma in medicine</li>
+
+						<figure>
+							<blockquote>
+								"Chronic wounds, fungal skin and nail infections, and colonization with multidrug-resistant pathogens like Staphylococcus aureus (MRSA) often pose significant therapeutic and economical problems ... Our data suggest plasma as a possible new option in <em>the treatment of microbial, fungal, and parasitic dermal infections</em>."
+							</blockquote>
+
+							<figcaption>
+								&#x2014 "Plasma Medicine in Dermatology", Clinical Plasma Medicine, 2012
+							</figcaption>
+						</figure>
+
 						<li></li>
 						<li></li>
+						<footer>
+							DOI:10.1615/PlasmaMed.2014006217
+						</footer>
+
+						<aside class="notes">
+							reactive chemistry, photons, electric fields, thermal effects
+						</aside>
 				</section>
 
-				<!-- Use external markdown resource, separate slides by three hypthens; vertical slides by six hyphens -->
+				<section>
+					<h1>Plasma System Overview</h1>
+
+
+				</section>
+
+				<!-- OUTLINE FROM MARKDOWN -->
 				<section data-markdown="md/present.md"
 				data-separator="^------" data-separator-vertical="^---">
 				</section>
 
-				<section class="center" data-background-image="img/plasma-globe.gif">
-					<h1>Questions?</h1>
+				<section>
+					<h1>Enabled By This Work</h1>
+
+					This platform will allow a new level of automation and control of previously uncontrolled variables in experiments that explore the chemistry of these systems, and it can flexibly interface with advanced control systems to evaluate their performance on these systems
+					<aside class="notes">
+						Mesbah postdoc's multiple-model work with my dataset
+
+						Huge collection of libraries for interfacing with any device
+
+						Online measurements of chemistry, etch rate, biological effects...
+					</aside>
+
+				</section>
+
+				<!-- QUESTIONS -->
+				<section data-background-image="img/plasma-globe.gif">
+						<h1 style="position:absolute; top:40%; left:35%">
+							Questions?
+						</h1>
 				</section>
 
 
@@ -82,6 +152,25 @@
 				<!--  Close the content tags -->
 			</div>
 		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		<!--  Load and initialize reveal.js; configure its settings -->
 		<!--  Load and initialize reveal.js; configure its settings -->
@@ -235,7 +324,5 @@
 
 Source repo: https://github.com/hakimel/reveal.js/
 Lots of configuration details: https://github.com/hakimel/reveal.js/
-
-
 
 REFERENCES -->
