@@ -36,7 +36,7 @@
 			.slides figure {
 				display: inline-block;
 				text-align: center;
-				margin: auto;
+				margin: 0 auto 1em auto;
 			}
 
 			.slides blockquote {
@@ -50,7 +50,7 @@
 			}
 
 			em {
-				color: #aa00aa;
+				color: #dd00dd;
 			}
 
 		</style>
@@ -91,7 +91,7 @@
 				<section style="text-align: left; height:100%;">
 					<h2>Atmospheric Plasma Motivations</h1>
 					<ul style="text-align:left;">
-						<li>Potential for plasma in medicine</li>
+						<li>Plasma's potential in medicine</li>
 
 						<figure>
 							<blockquote>
@@ -99,14 +99,52 @@
 							</blockquote>
 
 							<figcaption>
-								&#x2014 "Plasma Medicine in Dermatology", Clinical Plasma Medicine, 2012
+								&#x2014 "Plasma Medicine in Dermatology", Clinical Plasma Medicine, 2012 [1]
 							</figcaption>
 						</figure>
+						<li>Plasma medical device implementation challenges</li>
 
-						<li></li>
+						if an atmospheric pressure plasma source may be useful for biomedical application should be
+
+						made using the following 10 questions:
+
+						1. Is the clinical efficacy proved?
+
+						2. Is the absence of undesirable local or systemic side
+
+						effects (mutagenic, carcinogenic, toxic effects; pains,
+
+						scars, pigmentation disorders) proved?
+
+						3. Is the medical effect reliable?
+
+						4. Is the medical effect well controllable?
+
+						5. Can a quick medical effect be realized?
+
+						6. Is it possible to exclude the development of resistances
+
+						when treating infectious diseases as well as co-treating
+
+						resident flora?
+
+						7. Is it possible to exclude inhibitory effects on normal
+
+						microbiological flora?
+
+						8. Is it cost-effective?
+
+						9. Is it sure that there are no alternative solutions with
+
+						what it could be done easier?
+
+						10. Will the plasma treatment be accepted both by pa-
+						tients and physicians?
+
+						<li>Lack of prior work in plasma device control</li>
 						<li></li>
 						<footer>
-							DOI:10.1615/PlasmaMed.2014006217
+							[1] DOI:10.1615/PlasmaMed.2014006217  [2] DOI:10.1051/epjap/2011100452
 						</footer>
 
 						<aside class="notes">
@@ -123,6 +161,18 @@
 				<!-- OUTLINE FROM MARKDOWN -->
 				<section data-markdown="md/present.md"
 				data-separator="^------" data-separator-vertical="^---">
+				</section>
+
+				<section>
+					<h1>Limitations of PID</h1>
+					<li>single-input, single-output</li>
+					<li>Only effective for linear models</li>
+					<aside class="notes">
+						Cannot support multi-component doses
+						adaptive PID and support for multiple inputs is ad-hoc
+						Poor support for integrating metrics of dosage
+						Only applicable to the linear operating range
+					</aside>
 				</section>
 
 				<section>
