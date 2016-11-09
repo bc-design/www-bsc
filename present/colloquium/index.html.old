@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!-- Additional styling -->
+		<style>
+			.slides section {
+				height: 100%;
+			}
+
+			.slides footer {
+				font: italic 0.7em sans-serif;
+				position: absolute;
+				bottom: 2em;
+			}
+
+			.slides figure {
+				display: inline-block;
+				text-align: center;
+				margin: 0 auto 1em auto;
+			}
+
+			.slides blockquote {
+				font-size: 0.8em;
+				text-align: justify;
+			}
+
+			.slides figcaption {
+				font: italic 0.7em arial;
+				color: #aaaaaa;
+			}
+
+			.reveal .slides img {
+				border: 3px solid white;
+			}
+
+			em {
+				color: #dd00dd;
+			}
+			</style>
+
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides" >
+				<!--  Content goes here, in <section> tags! -->
+				<!--  Content goes here, in <section> tags! -->
+				<!--  Content goes here, in <section> tags! -->
+
+				<!--  TITLE SLIDE -->
+				<section data-background-color="#000000"
+					data-background-image="img/plasma-jet.gif"
+					data-background-size="80%"
+					data-background-position="right">
+					<h1>
+						Automation and control of atmospheric plasma devices
+					</h1>
+
+					<h2 style="text-align: left; margin: 1em auto auto 4em;">
+						Brandon Curtis
+					</h2>
+
+					<h3 style="text-align: left; margin: 0em auto auto 5.7em;">
+						CBE Colloquium<br/>2016-11-09
+					</h3>
+
+					<footer>
+						Advised by Dr. David Graves and Dr. Doug Clark
+					</footer>
+				</section>
+
+			  <!-- CLINICAL MOTIVATION -->
+				<section style="text-align: left; height:100%;">
+					<h2>Atmospheric Plasma Motivations</h1>
+					<ul style="text-align:left;">
+						<li>Plasma's potential in medicine</li>
+
+						<figure>
+							<blockquote>
+								"Chronic wounds, fungal skin and nail infections, and colonization with multidrug-resistant pathogens like Staphylococcus aureus (MRSA) often pose significant therapeutic and economical problems ... Our data suggest plasma as a possible new option in <em>the treatment of microbial, fungal, and parasitic dermal infections</em>."
+							</blockquote>
+
+							<figcaption>
+								&#x2014 "Plasma Medicine in Dermatology", Clinical Plasma Medicine, 2012 [1]
+							</figcaption>
+						</figure>
+						<li>Plasma medical device implementation challenges</li>
+
+						if an atmospheric pressure plasma source may be useful for biomedical application should be
+
+						made using the following 10 questions:
+
+						1. Is the clinical efficacy proved?
+
+						2. Is the absence of undesirable local or systemic side
+
+						effects (mutagenic, carcinogenic, toxic effects; pains,
+
+						scars, pigmentation disorders) proved?
+
+						3. Is the medical effect reliable?
+
+						4. Is the medical effect well controllable?
+
+						5. Can a quick medical effect be realized?
+
+						6. Is it possible to exclude the development of resistances
+
+						when treating infectious diseases as well as co-treating
+
+						resident flora?
+
+						7. Is it possible to exclude inhibitory effects on normal
+
+						microbiological flora?
+
+						8. Is it cost-effective?
+
+						9. Is it sure that there are no alternative solutions with
+
+						what it could be done easier?
+
+						10. Will the plasma treatment be accepted both by pa-
+						tients and physicians?
+
+						<li>Lack of prior work in plasma device control</li>
+						<li></li>
+						<footer>
+							[1] DOI:10.1615/PlasmaMed.2014006217  [2] DOI:10.1051/epjap/2011100452
+						</footer>
+
+						<aside class="notes">
+							reactive chemistry, photons, electric fields, thermal effects
+						</aside>
+				</section>
+
+				<section>
+					<h1>Plasma System Overview</h1>
+
+					<img a="img/testbed.png" />
+
+					<img a="img/testbed-photo.png" />
+
+					<aside class="notes">
+						highlight the components and their functions
+					</aside>
+
+
+				</section>
+
+				<!-- OUTLINE FROM MARKDOWN -->
+				<section data-markdown="md/present.md" data-separator="^------" data-separator-vertical="^---"></section>
+
+				<section>
+					<h1>Limitations of PID</h1>
+					<li>single-input, single-output</li>
+					<li>Only effective for linear models</li>
+					<li>no systematic constraint handling</li>
+
+					<img href="img/statespace.png">
+					<img href="img/pid-constraint-violation.png">
+
+					<aside class="notes">
+						Cannot support multi-component doses
+						adaptive PID and support for multiple inputs is ad-hoc
+						Poor support for integrating metrics of dosage
+						Only applicable to the linear operating range
+					</aside>
+				</section>
+
+				<section>
+					<h1>Enabled By This Work</h1>
+
+					<ul>
+						<li>decoupling previously uncontrolled experimental variables</li>
+						<li>interface with advanced control systems to evaluate their performance on these systems</li>
+					</ul>
+
+					<img href="img/testbed.png" />
+
+					<aside class="notes">
+						Mesbah postdoc's multiple-model work with my dataset
+
+						Huge collection of libraries for interfacing with any device
+
+						Online measurements of chemistry, etch rate, biological effects...
+					</aside>
+
+				</section>
+
+				<section style="text-align: left;">
+
+					<figure style="float:right;text-align:right;margin: auto 10px 0px auto">
+						<img src="img/logo-ubuntu.jpg" style="width:150px;">
+						<img src="img/logo-lam.png" style="width:300px;"><br />
+						<img src="img/logo-arduino.png" style="width:125px;">
+						<img src="img/logo-nsf.png" style="width:155px;">
+						<img src="img/logo-doe.png" style="width:150px;"><br />
+					</figure>
+
+
+
+
+					<h2>Acknowledgements</h2>
+
+					<ul style="float:left;">
+						<li>Professors Graves, Clark, Mesbah</li>
+						<li>Professor Zdenko</li>
+						<li>Carly, Don</li>
+						<li>Undergrads: Connor, Sunil, Nico</li>
+						<li>Staff: Carlet Altamirano, Glass & Machine Shops</li>
+						<li>Linux, Python, and Arduino Communities</li>
+					</ul>
+
+
+
+					<figure style="float:left;">
+						<img src="img/lab-graveslab.jpg" style="width:500px;">
+						<img src="img/lab-clarklab.jpg" style="width:500px;">
+					</figure>
+
+
+
+
+
+				</section>
+
+				<!-- QUESTIONS -->
+				<section data-background-image="img/plasma-globe.gif">
+						<h1 style="position:absolute; top:40%; left:35%">
+							Questions?
+						</h1>
+				</section>
+
+
+				<!--  Close the content tags -->
+				<!--  Close the content tags -->
+				<!--  Close the content tags -->
+			</div>
+		</div>
+
+		<!--  Load and initialize reveal.js; configure its settings -->
+		<!--  Load and initialize reveal.js; configure its settings -->
+		<!--  Load and initialize reveal.js; configure its settings -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+
+				// Display controls in the bottom right corner
+		    controls: false,
+
+		    // Display a presentation progress bar
+		    progress: true,
+
+		    // Display the page number of the current slide
+		    slideNumber: true,
+
+		    // Push each slide change to the browser history
+		    history: true,
+
+		    // Enable keyboard shortcuts for navigation
+		    keyboard: true,
+
+		    // Enable the slide overview mode
+		    overview: true,
+
+		    // Vertical centering of slides
+		    center: false,
+
+		    // Enables touch navigation on devices with touch input
+		    touch: true,
+
+		    // Loop the presentation
+		    loop: false,
+
+		    // Change the presentation direction to be RTL
+		    rtl: false,
+
+		    // Randomizes the order of slides each time the presentation loads
+		    shuffle: false,
+
+		    // Turns fragments on and off globally
+		    fragments: true,
+
+		    // Flags if the presentation is running in an embedded mode,
+		    // i.e. contained within a limited portion of the screen
+		    embedded: false,
+
+		    // Flags if we should show a help overlay when the questionmark
+		    // key is pressed
+		    help: true,
+
+		    // Flags if speaker notes should be visible to all viewers
+		    showNotes: false,
+
+		    // Number of milliseconds between automatically proceeding to the
+		    // next slide, disabled when set to 0, this value can be overwritten
+		    // by using a data-autoslide attribute on your slides
+		    autoSlide: 0,
+
+		    // Stop auto-sliding after user input
+		    autoSlideStoppable: true,
+
+		    // Use this method for navigation when auto-sliding
+		    autoSlideMethod: Reveal.navigateNext,
+
+		    // Enable slide navigation via mouse wheel
+		    mouseWheel: false,
+
+		    // Hides the address bar on mobile devices
+		    hideAddressBar: true,
+
+		    // Opens links in an iframe preview overlay
+		    previewLinks: true,
+
+		    // Transition style
+		    transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+		    // Transition speed
+		    transitionSpeed: 'default', // default/fast/slow
+
+		    // Transition style for full page slide backgrounds
+		    backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+		    // Number of slides away from the current that are visible
+		    viewDistance: 3,
+
+		    // Parallax background image
+		    parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+		    // Parallax background size
+		    parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+		    // Number of pixels to move the parallax background per slide
+		    // - Calculated automatically unless specified
+		    // - Set to 0 to disable movement along an axis
+		    parallaxBackgroundHorizontal: null,
+		    parallaxBackgroundVertical: null,
+
+				// The "normal" size of the presentation, aspect ratio will be preserved
+		    // when the presentation is scaled to fit different resolutions. Can be
+		    // specified using percentage units.
+		    width: 1280,
+		    height: 720,
+
+		    // Factor of the display size that should remain empty around the content
+		    margin: 0.0,
+
+		    // Bounds for smallest/largest possible scale to apply to content
+		    //minScale: 0.2,
+		    //maxScale: 1.5,
+
+				// Mathjax support
+				//math: {
+	      //  mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+	      //  config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+		    //},
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+					//{ src: 'plugin/math/math.js', async: true }
+				]
+			});
+
+			// Custom keyboard shortcuts
+			//Reveal.configure({
+			//  keyboard: {
+			    //13: 'next', // go to the next slide when the ENTER key is pressed
+			    //27: function() {}, // do something custom when ESC is pressed
+			    //32: null // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
+			//  }
+			//});
+
+		</script>
+
+	</body>
+</html>
+
+<!-- REFERENCES
+
+Source repo: https://github.com/hakimel/reveal.js/
+Lots of configuration details: https://github.com/hakimel/reveal.js/
+
+REFERENCES -->
