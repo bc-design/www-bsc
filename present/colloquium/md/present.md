@@ -233,15 +233,38 @@ PID lacks most of these features, but it's a place to start
 
 ## Acknowledgements
 
-+ Labs
-+ Collaborators
-+ Admins
-+ Funding
-+ Organizations that helped me
+People
+
++ Professors Graves, Clark, Mesbah
++ Professor Zdenko
++ Carly, Don
++ Undergrads: Connor (2013), Sunil (2014), Nico (2015)
++ Carlet Altamirano
+
+![graveslab photo](img/graveslab-2016.jpg)
+
+![clarklab photo](img/clarklab.jpg)
+
+![nsf logo](img/nsf.png)
+
+![doe logo](img/doe.png)
+
+![lam logo](img/lam.png)
+
+![BIDS](img/bids.png)
+
+Open Source Projects
+
++ Linux
++ Python
++ Arduino
+
 
 ------
 <!-- .slide: style="text-align: left;"> -->
 
 ## Fun Photos
+
+Lots of pictures
 
 Note: here is a hidden note
