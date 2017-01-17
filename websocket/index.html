@@ -44,7 +44,7 @@ var PLOTWIDTH = 600;
 ws.onmessage = function(e){
     var loopStart = Date.now();
     line = e.data;
-    console.log("Incoming websocket data: " + line);
+    //console.log("Incoming websocket data: " + line);
     try {
         linedata = e.data.split(',');
         if (linedata.length == 2) {
@@ -53,13 +53,14 @@ ws.onmessage = function(e){
             if (firstRun && loopStart > runStart + runDelay) {
                 var startTime = dataArr[dataArr.length-1].split(',')[0]
                 console.log('data start time: ' + startTime);
-		console.log('current javascript time: ' + loopStart);
+		            console.log('current javascript time: ' + loopStart);
                 var msDuration = dataArr.length*MSPERPOINT;
                 console.log('ms duration of dataset: ' + msDuration);
                 var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
                     grid:{millisPerLine:60000,verticalSections: 10},
-					interpolation:'step',maxValue:PLOTMAX,minValue:PLOTMIN});
-                chart.addTimeSeries(mytimeline, { strokeStyle: 'rgba(0, 255, 0, 1)', fillStyle: 'rgba(0, 255, 0, 0.2)', lineWidth: 4 });
+                    interpolation:'step',maxValue:PLOTMAX,minValue:PLOTMIN});
+                chart.addTimeSeries(mytimeline, { strokeStyle: 'rgba(0, 255, 0, 1)',
+                    fillStyle: 'rgba(0, 255, 0, 0.2)', lineWidth: 4 });
                 chart.streamTo(document.getElementById("chart"), Date.now()-startTime-msDuration);
                 console.log('plotting started!');
                 firstRun = false;
