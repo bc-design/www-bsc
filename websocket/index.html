@@ -1,0 +1,104 @@
+<head>
+<script src="js/smoothie.js"></script>
+
+<script>
+// www.mysite.com/my_app.html?x=1234
+var GET = {};
+var query = window.location.search.substring(1).split("&");
+for (var i = 0, max = query.length; i < max; i++)
+{
+    if (query[i] === "") // check for trailing & with no param
+        continue;
+
+    var param = query[i].split("=");
+    GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
+}
+
+
+var ws = new WebSocket('ws://lcurtis-router.homenet.org:8801/');
+var dataArr = [];
+var MSPERPOINT = 1000;
+
+var NUMLINES = 500;
+if ( Number.isInteger(parseInt(GET.x)) ) {
+    NUMLINES = parseInt(GET.x);
+}
+
+var PLOTMAX = 25;
+if ( Number.isInteger(parseInt(GET.h)) ) {
+    PLOTMAX = parseInt(GET.h);
+}
+
+var PLOTMIN = 10;
+if ( Number.isInteger(parseInt(GET.l)) ) {
+    PLOTMIN = parseInt(GET.l);
+}
+
+var mytimeline = new TimeSeries();
+var firstRun = true;
+var runStart = Date.now();
+//var runDelay = NUMLINES*10;
+var runDelay = 1500+5*NUMLINES;
+var PLOTWIDTH = 600;
+
+
+
+ws.onmessage = function(e){
+    var loopStart = Date.now();
+    line = e.data;
+    console.log("Incoming websocket data: " + line);
+    try {
+        linedata = e.data.split(',');
+        if (linedata.length == 2) {
+            dataArr.unshift(e.data);
+            mytimeline.append(e.data.split(',')[0], e.data.split(',')[1]);
+            if (firstRun && loopStart > runStart + runDelay) {
+                var startTime = dataArr[dataArr.length-1].split(',')[0]
+                console.log('data start time: ' + startTime);
+		console.log('current javascript time: ' + loopStart);
+                var msDuration = dataArr.length*MSPERPOINT;
+                console.log('ms duration of dataset: ' + msDuration);
+                var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
+                    grid:{millisPerLine:60000,verticalSections: 10},
+					interpolation:'step',maxValue:PLOTMAX,minValue:PLOTMIN});
+                chart.addTimeSeries(mytimeline, { strokeStyle: 'rgba(0, 255, 0, 1)', fillStyle: 'rgba(0, 255, 0, 0.2)', lineWidth: 4 });
+                chart.streamTo(document.getElementById("chart"), Date.now()-startTime-msDuration);
+                console.log('plotting started!');
+                firstRun = false;
+            }
+        }
+    }
+
+    catch(err) {
+        console.log("error parsing websocket message: " + err.message);
+        console.log("Invalid data: " + e.data);
+    }
+
+    finally {
+        document.getElementById('mydata').innerHTML = dataArr.join('<br>');
+        if (dataArr.length > NUMLINES) {
+            dataArr.pop();
+            }
+    }
+}
+</script>
+</head>
+
+<body>
+<h1>Realtime Sensor Data with Websockets</h1>
+<div>
+    <p>Here is some data, streamed fresh from the pi3 websocket.
+    <p>Please wait a few seconds for lookback to complete!
+    <p>Change the lookback duration by changing the url: http://my-url?x=###, where ### is the number of datapoints to lookback.
+    <p>You can also change the graph max and min: http://my-url?x=500&l=15&h=20
+    </div>
+
+<div>
+    <canvas id="chart" width="600" height="300"></canvas>
+    </div>
+
+<div id="mydata">
+    </div>
+
+</body>
+
