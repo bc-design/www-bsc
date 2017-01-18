@@ -1,1 +1,10 @@
-last updated: Mon Jun 13 16:30:01 PDT 2016 <br />
+last updated: Tue Jan 17 22:45:01 PST 2017 
+
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext3       41G   25G   15G  63% /
+devtmpfs       devtmpfs  998M  4.0K  998M   1% /dev
+none           tmpfs     4.0K     0  4.0K   0% /sys/fs/cgroup
+none           tmpfs     200M  376K  200M   1% /run
+none           tmpfs     5.0M     0  5.0M   0% /run/lock
+none           tmpfs    1000M     0 1000M   0% /run/shm
+none           tmpfs     100M     0  100M   0% /run/user
