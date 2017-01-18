@@ -21,14 +21,14 @@ if ( Number.isInteger(parseInt(GET.lookback)) ) {
   NUMLINES = parseInt(parseFloat(GET.lookback)*60000/MSPERPOINT);
 }
 
-var PLOymax = 1000;
+var PLOTMAX = 1000;
 if ( Number.isInteger(parseInt(GET.ymax)) ) {
-  PLOymax = parseFloat(GET.ymax);
+  PLOTMAX = parseFloat(GET.ymax);
 }
 
-var PLOymin = 0;
+var PLOTMIN = 0;
 if ( Number.isInteger(parseInt(GET.ymin)) ) {
-  PLOymin = parseFloat(GET.ymin);
+  PLOTMIN = parseFloat(GET.ymin);
 }
 
 var PLOTWIDTH = 600;
@@ -40,11 +40,11 @@ var mytimeline = new TimeSeries();
 var mytimeline2 = new TimeSeries();
 
 var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
-    grid:{fillStyle:'#ffffff', millisPerLine:MILLISPERLINE,verticalSections: (PLOymax-PLOymin)/100},
+    grid:{fillStyle:'#ffffff', millisPerLine:MILLISPERLINE,verticalSections: (PLOTMAX-PLOTMIN)/100},
     labels:{fillStyle:'#000000', fontSize:16, precision:0},
     timestampFormatter: function(date) {
       function pad2(number) { return (number < 10 ? '0' : '') + number }
-      return pad2(date.getHours()) + ':' + pad2(date.geyminutes()) + ':' + pad2(date.getSeconds());
+      return pad2(date.getHours()) + ':' + pad2(date.getMinutes()) + ':' + pad2(date.getSeconds());
     },
     yMinFormatter: function(min, precision) {
       return parseFloat(min).toFixed(precision).toString();
@@ -52,7 +52,7 @@ var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
     yMaxFormatter: function(max, precision) {
       return parseFloat(max).toFixed(precision).toString();
     },
-    interpolation:'step',maxDataSetLength: NUMLINES,maxValue:PLOymax,minValue:PLOymin});
+    interpolation:'step',maxDataSetLength: NUMLINES,maxValue:PLOTMAX,minValue:PLOTMIN});
 
 chart.addTimeSeries(mytimeline, { strokeStyle: 'rgba(0, 255, 0, 1)',
     fillStyle: 'rgba(0, 255, 0, 0.3)', lineWidth: 4 });
