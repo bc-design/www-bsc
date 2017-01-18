@@ -6,97 +6,133 @@
 // www.mysite.com/my_app.html?x=1234
 var GET = {};
 var query = window.location.search.substring(1).split("&");
-for (var i = 0, max = query.length; i < max; i++)
-{
-    if (query[i] === "") // check for trailing & with no param
-        continue;
-
-    var param = query[i].split("=");
-    GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
+for (var i = 0, max = query.length; i < max; i++) {
+  if (query[i] === "") // check for trailing & with no param
+    continue;
+  var param = query[i].split("=");
+  GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
 }
 
 var ws = new WebSocket('ws://lcurtis-router.homenet.org:8801/');
 var dataArr = [];
 var MSPERPOINT = 5000;
 
-var NUMLINES = 500;
-if ( Number.isInteger(parseInt(GET.x)) ) {
-    NUMLINES = parseInt(GET.x);
+var NUMLINES = 600;
+if ( Number.isInteger(parseInt(GET.lookback)) ) {
+  NUMLINES = parseInt(parseFloat(GET.lookback)*60000/MSPERPOINT);
 }
 
 var PLOTMAX = 25;
-if ( Number.isInteger(parseInt(GET.h)) ) {
-    PLOTMAX = parseInt(GET.h);
+if ( Number.isInteger(parseInt(GET.tmax)) ) {
+  PLOTMAX = parseFloat(GET.tmax);
 }
 
 var PLOTMIN = 10;
-if ( Number.isInteger(parseInt(GET.l)) ) {
-    PLOTMIN = parseInt(GET.l);
+if ( Number.isInteger(parseInt(GET.tmin)) ) {
+  PLOTMIN = parseFloat(GET.tmin);
 }
 
-var mytimeline = new TimeSeries();
-var firstRun = true;
-var runStart = Date.now();
-//var runDelay = NUMLINES*10;
-var runDelay = 1500+5*NUMLINES;
 var PLOTWIDTH = 600;
+var PLOTHEIGHT = 300;
+var MILLISPERLINE = NUMLINES * MSPERPOINT / 5;
 
+// create the chart stuff
+var mytimeline = new TimeSeries();
+var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
+    grid:{millisPerLine:MILLISPERLINE,verticalSections: (PLOTMAX-PLOTMIN)},
+    labels:{fontSize:16,precision:0},
+    timestampFormatter: function(date) {
+      function pad2(number) { return (number < 10 ? '0' : '') + number }
+      return pad2(date.getHours()) + ':' + pad2(date.getMinutes()) + ':' + pad2(date.getSeconds());
+    },
+    yMinFormatter: function(min, precision) {
+      return parseFloat(min).toFixed(precision).toString() + String.fromCharCode(0x00b0) + "C";
+    },
+    yMaxFormatter: function(max, precision) {
+      return parseFloat(max).toFixed(precision).toString() + String.fromCharCode(0x00b0) + "C";
+    },
+    interpolation:'step',maxDataSetLength: NUMLINES,maxValue:PLOTMAX,minValue:PLOTMIN});
+
+chart.addTimeSeries(mytimeline, { strokeStyle: 'rgba(0, 255, 0, 1)',
+    fillStyle: 'rgba(0, 255, 0, 0.15)', lineWidth: 4 });
+
+var firstRun = true;
+var dataStartTime;
+var dataDuration;
+var chartDelay;
+var runStart = Date.now();
+var PLOTDELAY = 1000;
+
+function myLoading() {
+  console.log("Loading data...");
+  var canvas = document.getElementById("chart");
+  var context = canvas.getContext("2d");
+  context.fillStyle = "black";
+  context.font = "bold 48px Arial";
+  context.fillText("LOADING DATA", 100, 100);
+
+  if ( Number.isInteger(parseInt(GET.lookback)) ) {
+    document.getElementById("in_lookback").value = parseFloat(GET.lookback);
+  }
+
+  if ( Number.isInteger(parseInt(GET.tmin)) ) {
+    document.getElementById("in_tmin").value = parseInt(GET.tmin);
+  }
+
+  if ( Number.isInteger(parseInt(GET.tmax)) ) {
+    document.getElementById("in_tmax").value = parseInt(GET.tmax);
+  }
+}
+
+// put in the data for the chart
 ws.onmessage = function(e){
-    var loopStart = Date.now();
-    line = e.data;
-    //console.log("Incoming websocket data: " + line);
-    try {
-        linedata = e.data.split(',');
-        if (linedata.length == 2) {
-            dataArr.unshift(e.data);
-            mytimeline.append(e.data.split(',')[0], e.data.split(',')[1]);
-            if (firstRun && loopStart > runStart + runDelay) {
-                var startTime = dataArr[dataArr.length-1].split(',')[0]
-                console.log('data start time: ' + startTime);
-		            console.log('current javascript time: ' + loopStart);
-                var msDuration = dataArr.length*MSPERPOINT;
-                console.log('ms duration of dataset: ' + msDuration);
-                var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
-                    grid:{millisPerLine:60000,verticalSections: 10},
-                    interpolation:'step',maxValue:PLOTMAX,minValue:PLOTMIN});
-                chart.addTimeSeries(mytimeline, { strokeStyle: 'rgba(0, 255, 0, 1)',
-                    fillStyle: 'rgba(0, 255, 0, 0.2)', lineWidth: 4 });
-                chart.streamTo(document.getElementById("chart"), Date.now()-startTime-msDuration);
-                console.log('plotting started!');
-                firstRun = false;
-            }
-        }
-    }
+  var line = e.data.split(',');
+  if (line.length == 2) {
+    var ptTime = parseInt(line[0]);
+    var ptVal = parseFloat(line[1]);
+    mytimeline.append(ptTime, ptVal);
 
-    catch(err) {
-        console.log("error parsing websocket message: " + err.message);
-        console.log("Invalid data: " + e.data);
-    }
+    dataArr.unshift(line);
+    if (dataArr.length > NUMLINES) {
+        dataArr.pop();
+      }
 
-    finally {
-        document.getElementById('mydata').innerHTML = dataArr.join('<br>');
-        if (dataArr.length > NUMLINES) {
-            dataArr.pop();
-            }
+    if (firstRun && Date.now() - PLOTDELAY > runStart) {
+      dataStartTime = parseInt(dataArr[dataArr.length-1][0]);
+      dataDuration = ptTime-dataStartTime;
+      chartDelay = Date.now()-dataStartTime-dataDuration;
+      chart.streamTo(document.getElementById("chart"), chartDelay);
+      console.log("plotting started!");
+      firstRun = false;
     }
+  }
 }
 </script>
 </head>
 
-<body>
+<body onload="myLoading()">
 <h1>Realtime Sensor Data with Websockets</h1>
 <div>
-    <p>Here is some data, streamed fresh from the pi3 websocket.
-    <p>Please wait a few seconds for lookback to complete!
-    <p>Change the lookback duration by changing the url: http://my-url?x=###, where ### is the number of datapoints to lookback.
-    <p>You can also change the graph max and min: http://my-url?x=500&l=15&h=20
-    </div>
+    <p>Data, streamed fresh from the pi3 websocket.
+    <form style="width:250px;line-height: 1.5;border:4px solid black;padding:5px;">
+      Minutes to look back:
+        <input id="in_lookback" name="lookback" value="10" type="text"
+            size=5 style="float:right;"><br>
+      Minimum temperature:
+        <input id="in_tmin" name="tmin" value="10" type="text"
+            size=5 style="float:right;"><br>
+      Maximum temperature:
+        <input id="in_tmax" name="tmax" value="25" type="text"
+            size=5 style="float:right;"><br>
+      <div style="text-align:center;">
+        <input type="submit" value="Adjust View"
+            style="margin: 5px auto;font-weight:bold;">
+      </div>
+    </form>
+  </div>
 
-<div>
-    <canvas id="chart" width="600" height="300"></canvas>
-    </div>
-
-<div id="mydata">
+<div id="divchart">
+    <canvas id="chart" width="600" height="300" style="border: 4px solid black;"></canvas>
     </div>
 
 </body>
