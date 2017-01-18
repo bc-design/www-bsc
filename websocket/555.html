@@ -21,14 +21,14 @@ if ( Number.isInteger(parseInt(GET.lookback)) ) {
   NUMLINES = parseInt(parseFloat(GET.lookback)*60000/MSPERPOINT);
 }
 
-var PLOTMAX = 1000;
-if ( Number.isInteger(parseInt(GET.tmax)) ) {
-  PLOTMAX = parseFloat(GET.tmax);
+var PLOymax = 1000;
+if ( Number.isInteger(parseInt(GET.ymax)) ) {
+  PLOymax = parseFloat(GET.ymax);
 }
 
-var PLOTMIN = 0;
-if ( Number.isInteger(parseInt(GET.tmin)) ) {
-  PLOTMIN = parseFloat(GET.tmin);
+var PLOymin = 0;
+if ( Number.isInteger(parseInt(GET.ymin)) ) {
+  PLOymin = parseFloat(GET.ymin);
 }
 
 var PLOTWIDTH = 600;
@@ -40,11 +40,11 @@ var mytimeline = new TimeSeries();
 var mytimeline2 = new TimeSeries();
 
 var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
-    grid:{fillStyle:'#ffffff', millisPerLine:MILLISPERLINE,verticalSections: (PLOTMAX-PLOTMIN)/100},
+    grid:{fillStyle:'#ffffff', millisPerLine:MILLISPERLINE,verticalSections: (PLOymax-PLOymin)/100},
     labels:{fillStyle:'#000000', fontSize:16, precision:0},
     timestampFormatter: function(date) {
       function pad2(number) { return (number < 10 ? '0' : '') + number }
-      return pad2(date.getHours()) + ':' + pad2(date.getMinutes()) + ':' + pad2(date.getSeconds());
+      return pad2(date.getHours()) + ':' + pad2(date.geyminutes()) + ':' + pad2(date.getSeconds());
     },
     yMinFormatter: function(min, precision) {
       return parseFloat(min).toFixed(precision).toString();
@@ -52,7 +52,7 @@ var chart = new SmoothieChart({millisPerPixel:NUMLINES*MSPERPOINT/PLOTWIDTH,
     yMaxFormatter: function(max, precision) {
       return parseFloat(max).toFixed(precision).toString();
     },
-    interpolation:'step',maxDataSetLength: NUMLINES,maxValue:PLOTMAX,minValue:PLOTMIN});
+    interpolation:'step',maxDataSetLength: NUMLINES,maxValue:PLOymax,minValue:PLOymin});
 
 chart.addTimeSeries(mytimeline, { strokeStyle: 'rgba(0, 255, 0, 1)',
     fillStyle: 'rgba(0, 255, 0, 0.3)', lineWidth: 4 });
@@ -65,11 +65,11 @@ function myLoading() {
   if ( Number.isInteger(parseInt(GET.lookback)) ) {
     document.getElementById("in_lookback").value = parseFloat(GET.lookback);
   }
-  if ( Number.isInteger(parseInt(GET.tmin)) ) {
-    document.getElementById("in_tmin").value = parseInt(GET.tmin);
+  if ( Number.isInteger(parseInt(GET.ymin)) ) {
+    document.getElementById("in_ymin").value = parseInt(GET.ymin);
   }
-  if ( Number.isInteger(parseInt(GET.tmax)) ) {
-    document.getElementById("in_tmax").value = parseInt(GET.tmax);
+  if ( Number.isInteger(parseInt(GET.ymax)) ) {
+    document.getElementById("in_ymax").value = parseInt(GET.ymax);
   }
 }
 
@@ -103,11 +103,11 @@ ws.onmessage = function(e){
       Minutes to look back:
         <input id="in_lookback" name="lookback" value="0.25" type="text"
             size=5 style="float:right;"><br>
-      Minimum temperature:
-        <input id="in_tmin" name="tmin" value="0" type="text"
+      Minimum y-value:
+        <input id="in_ymin" name="ymin" value="0" type="text"
             size=5 style="float:right;"><br>
-      Maximum temperature:
-        <input id="in_tmax" name="tmax" value="1000" type="text"
+      Maximum y-value:
+        <input id="in_ymax" name="ymax" value="1000" type="text"
             size=5 style="float:right;"><br>
       <div style="text-align:center;">
         <input type="submit" value="Adjust View"
