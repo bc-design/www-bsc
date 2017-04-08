@@ -1,0 +1,59 @@
+<head>
+  <!-- <script src="js/smoothie.js"></script> -->
+  <!-- https://github.com/joewalnes/reconnecting-websocket -->
+  <!-- <script src="js/reconnecting-websocket.js"></script> -->
+
+  <script>
+  var ws = new WebSocket('ws://brandoncurtis.com:10015/');
+  // var ws = new ReconnectingWebSocket('ws://brandoncurtis.com:10015/');
+
+  ws.onmessage = function(e){
+    // called when a message arrives
+    var msg = e.data;
+    document.getElementById("msgs").innerHTML = msg;
+    console.log(msg);
+  }
+
+  function mysend() {
+    // sends messages from web interface to websocket server
+    console.log("pressed!");
+    var mymsg = document.getElementById("in_msg").value;
+    ws.send(mymsg);
+  }
+  </script>
+</head>
+
+<body onload="">
+  <h1>Fresh Data, Served Every 0.05 Seconds</h1>
+
+  <div>
+    <p>
+      Send messages to the Raspberry Pi in Graveslab!
+    </p>
+
+  	what's your name?
+  	<input id="in_msg" type="text">
+  	<button onclick=mysend()>SEND to WS Server</button>
+
+    <p>
+      Returned message from WS server: <span id="msgs"></span>
+    </p>
+
+    <!-- <object src="img/000.pgm" type="image/x-portable-graymap"></object> -->
+  </div>
+
+  <div id="divchart" style="position:relative;">
+    <div style="position:absolute; left:5px; top:5px; z-index:1;
+        color:white; font-weight:bold; font-family:sans-serif;
+        background-color:black;">
+      Current value: <span id="curVal"></span>
+    </div>
+
+    <div>
+      <canvas id="chart" width="600" height="300"
+          style="position:absolute; z-index:0; border: 4px solid black;">
+        </canvas>
+    </div>
+  </div>
+
+</body>
